@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contato — FFL Comércio de Óleos | Orcamento de Oleos Industriais</title>
+<meta name="description" content="Solicite cotacao de oleos hidraulicos, graxas e lubrificantes. WhatsApp: (11) 91501-1527. Atendemos toda SP.">
+<link rel="canonical" href="https://ffloleos.com.br/contato/">
+<meta property="og:title" content="Contato — FFL Comércio de Óleos | Orcamento de Oleos Industriais">
+<meta property="og:description" content="Solicite cotacao de oleos hidraulicos, graxas e lubrificantes. WhatsApp: (11) 91501-1527. Atendemos toda SP.">
+<meta property="og:url" content="https://ffloleos.com.br/contato/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://ffloleos.com.br/imagens/logo-ffl.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/imagens/logo-ffl.png">
+<link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a class="logo" href="/">
+      <img src="/imagens/logo-ffl.png" alt="FFL" height="48">
+      <div><div class="logo-texto">FFL <span>Comercio de Oleos</span></div><span class="logo-sub">Lubrificantes Industriais</span></div>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" onclick="document.querySelector('nav').classList.toggle('aberto')">&#9776;</button>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="/produtos/">Produtos</a>
+      <a href="/categorias/">Categorias</a>
+      <a href="/contato/" class="cta" aria-current="page">Solicitar cotacao</a>
+    </nav>
+  </div>
+</header>
+<main>
+<div class="pagina-topo"><div class="container">
+  <h1>Fale com a FFL</h1>
+  <p class="resumo">Atendimento rapido. Orcamento sem compromisso.</p>
+</div></div>
+<div class="container"><div class="conteudo">
+  <form onsubmit="enviarZap(event)">
+    <div><label>Nome*<input required name="nome"></label></div>
+    <div><label>Empresa<input name="empresa"></label></div>
+    <div><label>Telefone / WhatsApp*<input required name="fone"></label></div>
+    <div><label>Produto de interesse*<select name="produto">
+      <option value="">Selecione...</option>
+      <option value="Óleo Hidráulico ISO 32">Óleo Hidráulico ISO 32</option>
+      <option value="Óleo Hidráulico ISO 46">Óleo Hidráulico ISO 46</option>
+      <option value="Óleo Hidráulico ISO 68">Óleo Hidráulico ISO 68</option>
+      <option value="Óleo Hidráulico ISO 100">Óleo Hidráulico ISO 100</option>
+      <option value="Óleo para Engrenagens ISO VG 220">Óleo para Engrenagens ISO VG 220</option>
+      <option value="Óleo para Engrenagens ISO VG 460">Óleo para Engrenagens ISO VG 460</option>
+      <option value="Graxa Industrial MP2">Graxa Industrial MP2</option>
+      <option value="Graxa para Alta Temperatura">Graxa para Alta Temperatura</option>
+      <option value="Graxa Grafitada">Graxa Grafitada</option>
+      <option value="Óleo Solúvel para Corte">Óleo Solúvel para Corte</option>
+      <option value="Fluido de Corte Sintético">Fluido de Corte Sintético</option>
+      <option value="Óleo Protetivo Anticorrosivo">Óleo Protetivo Anticorrosivo</option>
+      <option value="Outro">Outro produto</option>
+    </select></label></div>
+    <div><label>Volume / Embalagem<select name="embalagem">
+      <option value="">Indiferente</option>
+      <option value="Balde 20L">Balde 20L</option>
+      <option value="Tambor 200L">Tambor 200L</option>
+      <option value="IBC 1000L">IBC 1000L</option>
+      <option value="Granel">Granel</option>
+    </select></label></div>
+    <div><label>Mensagem<textarea name="msg" placeholder="Especifique sua aplicacao, volume mensal estimado e prazo de entrega desejado."></textarea></label></div>
+    <button class="btn btn-destaque" type="submit">Enviar pelo WhatsApp</button>
+  </form>
+  <script>
+  function enviarZap(e) {
+    e.preventDefault();
+    var f = e.target;
+    var texto = 'Ola! Meu nome eh ' + f.nome.value;
+    if (f.empresa.value) texto += ", da empresa " + f.empresa.value;
+    texto += '. Produto: ' + (f.produto.value || 'nao especificado');
+    if (f.embalagem.value && f.embalagem.value !== 'Indiferente' && f.embalagem.value !== '') { texto += '. Embalagem: ' + f.embalagem.value; }
+    texto += '. Contato: ' + f.fone.value;
+    if (f.msg.value) texto += '. ' + f.msg.value;
+    window.open('https://wa.me/5511915011527?text=' + encodeURIComponent(texto), '_blank');
+  }
+  </script>
+  <div class="contato-direto">
+    <h2>Contato direto</h2>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511915011527">(11) 91501-1527</a></p>
+    <p><strong>E-mail:</strong> <a href="mailto:contato@ffloleos.com.br">contato@ffloleos.com.br</a></p>
+    <p><strong>Endereco:</strong> Rua Pedro Alvares Cabral, 480 - Vila Norma, Salto/SP - CEP 13327-896</p>
+    <p><strong>CNPJ:</strong> 53.161.141/0001-52</p>
+  </div>
+</div></div>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"FFL Comércio de Óleos","url":"https://ffloleos.com.br","telephone":"+55-5511915011527","email":"contato@ffloleos.com.br","address":{"@type":"PostalAddress","streetAddress":"Rua Pedro Alvares Cabral, 480","addressLocality":"Salto","addressRegion":"SP","postalCode":"13327-896","addressCountry":"BR"},"vatID":"53.161.141/0001-52"}</script></main>
+<div class="faixa-cta"><div class="container">
+  <h2>Solicite seu orcamento sem compromisso</h2>
+  <a class="btn" href="https://wa.me/5511915011527?text=Ola!%20Gostaria%20de%20receber%20uma%20cotacao%20de%20oleos%20industriais.">Falar pelo WhatsApp</a>
+</div></div>
+<footer>
+  <div class="container">
+    <div class="grid grid-4">
+      <div><h4>FFL Comercio de Oleos</h4><p style="font-size:.9rem">Lubrificantes industriais, oleos hidraulicos, graxas e fluidos especiais para todo o estado de Sao Paulo.</p></div>
+      <div><h4>Produtos</h4>
+        <a href="/produtos/oleo-hidraulico-iso-32/">Óleo Hidráulico ISO 32</a>
+        <a href="/produtos/oleo-hidraulico-iso-46/">Óleo Hidráulico ISO 46</a>
+        <a href="/produtos/oleo-hidraulico-iso-68/">Óleo Hidráulico ISO 68</a>
+        <a href="/produtos/oleo-engrenagens-iso-vg-220/">Óleo para Engrenagens ISO VG 220</a>
+        <a href="/produtos/oleo-engrenagens-iso-vg-460/">Óleo para Engrenagens ISO VG 460</a>
+        <a href="/produtos/graxa-industrial-mp2/">Graxa Industrial MP2</a>
+        <a href="/produtos/">Ver todos &rarr;</a>
+      </div>
+      <div><h4>Categorias</h4>
+        <a href="/categorias/oleos-hidraulicos/">Óleos Hidráulicos</a>
+        <a href="/categorias/oleos-para-engrenagens/">Óleos para Engrenagens</a>
+        <a href="/categorias/graxas-industriais/">Graxas Industriais</a>
+        <a href="/categorias/fluidos-de-corte/">Fluidos de Corte</a>
+        <a href="/categorias/oleos-protetivos/">Óleos Protetivos e Especiais</a>
+      </div>
+      <div><h4>Contato</h4>
+        <a href="https://wa.me/5511915011527?text=Ola!%20Gostaria%20de%20uma%20cotacao.">WhatsApp: (11) 91501-1527</a>
+        <a href="mailto:contato@ffloleos.com.br">contato@ffloleos.com.br</a>
+        <p style="font-size:.85rem;color:#b9c8d6;margin-top:8px">Rua Pedro Alvares Cabral, 480 - Vila Norma, Salto/SP - CEP 13327-896</p>
+      </div>
+    </div>
+    <div class="creditos">&copy; 2026 FFL Comércio de Óleos &mdash; CNPJ: 53.161.141/0001-52 &mdash; Rua Pedro Alvares Cabral, 480 - Salto/SP</div>
+  </div>
+</footer>
+<a class="zap-flutuante" href="https://wa.me/5511915011527?text=Ola!%20Gostaria%20de%20uma%20cotacao%20de%20oleos%20industriais." aria-label="Conversar no WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.5c1.2.5 2.5.7 3.8.7 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22.2c-1.2 0-2.4-.2-3.5-.7l-.7-.3-4.9.9 1-4.7-.3-.7c-.9-1.5-1.4-3.2-1.4-4.9 0-5.4 4.4-9.8 9.8-9.8s9.8 4.4 9.8 9.8-4.4 9.4-9.8 9.4zm5.4-7.1c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.2-.6-.4z"/></svg>
+</a>
+</body>
+</html>
