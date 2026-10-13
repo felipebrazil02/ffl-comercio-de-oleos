@@ -27,7 +27,7 @@ export function createPages({company,esc,arrow,button,home,posts,tags,fmtDate}) 
   const pages=[{url:'/',label:'Início',keyword:'óleos e lubrificantes industriais',title:'FFL Lubrificantes | Óleos e Lubrificantes Industriais',description:'Conheça a FFL Lubrificantes. Consulte orientações sobre óleos e lubrificantes industriais e prepare um pedido de orçamento para sua empresa.',content:home},
     {url:'/lubrificantes-industriais/',label:'Produtos',keyword:'lubrificantes industriais',title:'Lubrificantes industriais | Consulta de produtos — FFL',description:'Prepare sua consulta de lubrificantes industriais à FFL. Informe o produto ou a aplicação e reúna os requisitos técnicos para solicitar um orçamento.',content:catalog},
     {url:'/sobre/',label:'Sobre',keyword:'FFL Lubrificantes',title:'Sobre a FFL Lubrificantes | Aplicações industriais',description:'Conheça o espaço da FFL Lubrificantes dedicado a consultas sobre óleos e lubrificantes industriais. Saiba como preparar sua necessidade.',content:about},
-    {url:'/conteudos/',label:'Conteúdos',keyword:'orientações sobre lubrificantes industriais',title:'Conteúdos sobre lubrificantes industriais | FFL',description:'Orientações para cotar lubrificantes industriais e consultar fichas técnicas e de segurança, com referências documentais identificadas.',content:hub},
+    {url:'/conteudos/',label:'Conteúdos',keyword:'orientações sobre lubrificantes industriais',title:'Conteúdos sobre lubrificantes industriais | FFL',blogIndexable:posts.some(p=>p.indexable===true),description:'Orientações para cotar lubrificantes industriais e consultar fichas técnicas e de segurança, com referências documentais identificadas.',content:hub},
     {url:'/contato/',label:'Contato',keyword:'orçamento de lubrificantes industriais',title:'Contato e orçamento de lubrificantes industriais | FFL',description:'Prepare sua solicitação de orçamento à FFL Lubrificantes. Informe a empresa, o produto ou a aplicação, a quantidade estimada e a cidade de destino.',content:contact},
     ...posts.map(a=>{
       // Sumário só aparece quando há seções suficientes para justificar.
@@ -39,13 +39,13 @@ export function createPages({company,esc,arrow,button,home,posts,tags,fmtDate}) 
       const relacionados=posts.filter(p=>p.slug!==a.slug&&p.tags.some(t=>temasDoPost.has(t.slug))).slice(0,2);
       const relacionadosHtml=relacionados.length?`<section class="container section"><div class="section-heading"><div><h2>Continue por aqui</h2></div><a class="text-link" href="/conteudos/">Todos os conteúdos ${arrow}</a></div><div class="article-grid">${cards(relacionados)}</div></section>`:'';
       const meta=`<p class="article-meta">Publicado em <time datetime="${a.published}">${esc(fmtDate(a.published))}</time>${a.updated&&a.updated!==a.published?` · atualizado em <time datetime="${a.updated}">${esc(fmtDate(a.updated))}</time>`:''} · ${esc(a.read)}</p>`;
-      return {...a,label:a.title,keyword:a.title,parent:['/conteudos/','Conteúdos'],title:a.title+' | FFL',article:a,
+      return {...a,label:a.title,keyword:a.title,parent:['/conteudos/','Conteúdos'],title:a.title+' | FFL',article:a,blogIndexable:a.indexable===true,
         content:intro(a.eyebrow,esc(a.title),esc(a.summary))+`<section class="container article-layout"><article class="article-body">${meta}${tagChips(a.tagLinks)}${toc}${a.html}${fontes}<a class="text-link article-back" href="/conteudos/">Voltar para conteúdos ${arrow}</a></article>${callout}</section>${relacionadosHtml}`};
     }),
     ...tags.map(t=>{
       const doTema=posts.filter(p=>p.tags.some(x=>x.slug===t.slug));
       const Nome=t.name.charAt(0).toUpperCase()+t.name.slice(1);
-      return {url:t.url,label:Nome,parent:['/conteudos/','Conteúdos'],keyword:t.name,
+      return {url:t.url,label:Nome,parent:['/conteudos/','Conteúdos'],keyword:t.name,blogIndexable:doTema.some(p=>p.indexable===true),
         title:`${Nome}: conteúdos técnicos | FFL Lubrificantes`,
         description:`Conteúdos técnicos da FFL Lubrificantes sobre ${t.name} em lubrificação industrial: ${doTema.map(p=>p.title).join('; ')}.`.slice(0,157),
         content:intro('TEMA',esc(Nome),`${doTema.length} ${doTema.length===1?'publicação':'publicações'} sobre ${esc(t.name)}.`)+`<section class="container section">${tagChips(tags)}<div class="article-grid">${cards(doTema)}</div><div class="editorial-note"><span class="eyebrow dark">SOBRE ESTE TEMA</span><p>Esta página reúne o que já foi publicado sobre ${esc(t.name)}. Para uma consulta específica sobre o seu equipamento, <a href="/contato/#orcamento">prepare uma solicitação</a> com a aplicação e a especificação exigida.</p></div></section>`};

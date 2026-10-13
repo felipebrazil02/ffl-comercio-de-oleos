@@ -40,9 +40,37 @@ O build gera `dist/` e relatorios em `outputs/`, ambos ignorados pelo Git. O ser
 
 ## Estado do SEO e blog
 
-A base gera 47 paginas, das quais 33 comerciais entram no sitemap. O blog existente permanece noindex e fora do sitemap por decisao editorial. As paginas utilitarias tambem permanecem noindex.
+A base gera 63 paginas. Sao indexaveis 53: as 33 comerciais, o indice de conteudos,
+as 9 paginas de tema e os 10 artigos aprovados no lote 1. As paginas utilitarias
+(404, /obrigado/, /privacidade/) permanecem noindex.
 
-Nao habilite `blogPublicIndexing` globalmente sem revisar todos os artigos existentes. A publicacao seletiva e o agendamento ainda precisam ser implementados: o calendario solicitado pelo usuario nao esta automatizado nesta sincronizacao.
+A indexacao do blog e **por artigo**, definida no frontmatter:
+
+- `indexable: true` no artigo: sai do noindex e entra no sitemap.
+- Campo ausente: permanece noindex, fora do sitemap, sem depender de interruptor global.
+- O antigo `blogPublicIndexing` deixou de ser o controle, porque liberava o blog
+  inteiro de uma vez. Ele permanece em `data/company.json` apenas por
+  compatibilidade e nao tem mais efeito no build.
+
+O noindex por cabecalho tambem passou a ser por URL: `dist/_headers` gera uma regra
+`X-Robots-Tag` apenas para cada pagina sob `/conteudos/` que nao seja indexavel.
+
+Os 7 artigos anteriores a 2026-10-13 continuam noindex por decisao editorial: nao
+foram liberados automaticamente. Promover qualquer um deles exige revisao e
+`indexable: true` no frontmatter.
+
+Nao habilite indexacao global do blog. A publicacao seletiva esta implementada; o
+agendamento continua dependendo de execucao.
+
+## Operacao editorial
+
+- `editorial/calendario-30-dias.md`: 100 pautas com data, intencao de busca,
+  palavra-chave, pagina comercial relacionada, fontes previstas e slug.
+- `editorial/registro.md`: registro versionado do que foi efetivamente publicado,
+  com commit, deploy e resultado dos testes.
+
+Dia 1 do calendario: 2026-10-13. Dias 1 a 5: 10 artigos por dia. Do dia 6 ao 30:
+2 artigos por dia. Total do ciclo: 100 artigos.
 
 Preserve dominio canonico, dados comerciais confirmados, links internos, formulario e tratamento de falhas, fontes locais, imagens otimizadas, schema sem ofertas ficticias e respostas 404 reais.
 

@@ -1,0 +1,88 @@
+# Registro editorial — FFL Lubrificantes
+
+Registro versionado da operação. Uma nova execução deve lê-lo antes de publicar,
+para não duplicar artigos e para retomar apenas o que falta.
+
+## Operação
+
+- **Fuso horário:** America/Sao_Paulo (UTC−03:00)
+- **Dia 1 do calendário:** 2026-10-13
+- **Cadência:** dias 1–5 → 10 artigos/dia · dia 6 em diante → 2 artigos/dia
+- **Meta do ciclo de 30 dias:** 100 artigos (último dia: 2026-11-11)
+- **Repositório:** `felipebrazil02/ffl-comercio-de-oleos` · branch de produção `master`
+- **Netlify:** projeto `ffl-lubrificantes` · site ID `6bec1853-7aec-4d56-b4e7-17def5845ae1`
+  · domínio canônico `https://ffllubrificantes.com.br`
+- **Mecanismo de deploy:** manual (`netlify deploy --prod --dir dist`). O projeto
+  Netlify não tem repositório Git vinculado, então `git push` **não** publica.
+- **Indexação do blog:** por artigo, via `indexable: true` no frontmatter.
+
+## Lote 1 — 2026-10-13 (Dia 1)
+
+Planejados: 10 · Aprovados: 10 · Publicados: 10 · Pendentes: 0
+
+| ID | Slug | Status editorial | Indexável | Fontes |
+|---|---|---|---|---|
+| A01 | indice-de-viscosidade | aprovado | sim | ASTM D2270 · ISO 2909 |
+| A02 | iso-4406-codigo-de-contaminacao | aprovado | sim | ISO 4406 · ISO 4407 |
+| A03 | ponto-de-fluidez-e-ponto-de-nevoa | aprovado | sim | ASTM D97 · ASTM D2500 |
+| A04 | ensaio-de-quatro-esferas | aprovado | sim | ASTM D2783 · D2266 · D2596 |
+| A05 | base-da-graxa-litio-calcio-complexo | aprovado | sim | NLGI · ASTM D217 · DIN 51825 |
+| A06 | demulsibilidade-e-formacao-de-espuma | aprovado | sim | ASTM D1401 · D892 · ISO 6614 |
+| A07 | concentracao-e-ph-do-fluido-de-corte | aprovado | sim | ASTM D4627 · ISO 6743-7 · NIOSH |
+| A08 | armazenamento-de-lubrificantes | aprovado | sim | ISO 4406 · NLGI |
+| A09 | compatibilidade-com-vedacoes-e-tintas | aprovado | sim | ISO 6072 · ASTM D471 |
+| A10 | analise-de-oleo-em-tendencia | aprovado | sim | ASTM D5185 · D6304 · ISO 4406 |
+
+URLs publicadas (canônico `https://ffllubrificantes.com.br`):
+
+```
+/conteudos/indice-de-viscosidade/
+/conteudos/iso-4406-codigo-de-contaminacao/
+/conteudos/ponto-de-fluidez-e-ponto-de-nevoa/
+/conteudos/ensaio-de-quatro-esferas/
+/conteudos/base-da-graxa-litio-calcio-complexo/
+/conteudos/demulsibilidade-e-formacao-de-espuma/
+/conteudos/concentracao-e-ph-do-fluido-de-corte/
+/conteudos/armazenamento-de-lubrificantes/
+/conteudos/compatibilidade-com-vedacoes-e-tintas/
+/conteudos/analise-de-oleo-em-tendencia/
+```
+
+### Alterações técnicas do lote 1
+
+1. `scripts/build.mjs`: indexação do blog passou a ser **opt-in por artigo**
+   (`indexable: true`), em vez do interruptor global `blogPublicIndexing`.
+2. `scripts/build.mjs`: `X-Robots-Tag: noindex` passou a ser emitido **por URL**
+   em `dist/_headers`, somente para as páginas de `/conteudos/` não indexáveis.
+3. `src/content.mjs`: hub de conteúdos e páginas de tema passam a ser indexáveis
+   quando reúnem ao menos um artigo aprovado.
+4. `editorial/calendario-30-dias.md`: calendário de 100 pautas.
+5. Nenhuma URL existente foi alterada. Nenhum produto ou categoria foi tocado.
+
+### Testes do lote 1 (build local)
+
+- `npm run build` → 63 páginas geradas.
+- `npm run check` → 0 erros.
+- `node scripts/test-form.mjs` → 7 cenários aprovados.
+- Sitemap → 53 URLs (33 comerciais + 10 artigos + hub + 9 páginas de tema).
+- Canonical, `meta robots`, `Article` e `BreadcrumbList` conferidos nos 10 artigos.
+- Links internos: 0 quebrados.
+
+### Publicação do lote 1
+
+- Commit: _(preenchido após o commit)_
+- Deploy Netlify (produção): _(preenchido após o deploy)_
+- Preview testado: _(preenchido)_
+- Testes em produção: _(preenchido)_
+
+## Pendências
+
+1. **7 artigos anteriores a 2026-10-13 permanecem noindex.** Não foram liberados
+   automaticamente. Promover cada um exige revisão e `indexable: true`.
+2. **Agendamento.** O Hermes só executa cron com o aplicativo aberto; com ele
+   fechado, o dia é pulado. Alternativa durável: Windows Task Scheduler.
+3. **Integração GitHub ↔ Netlify não configurada** (deploy manual). Configurar
+   exigiria alterar ajustes do projeto Netlify — não feito nesta execução.
+4. **Search Console** não verificado nesta execução; nenhum dado de impressões,
+   cliques ou indexação foi lido.
+5. **A11 a A100** planejados no calendário, ainda não escritos.

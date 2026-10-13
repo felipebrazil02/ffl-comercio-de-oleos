@@ -76,7 +76,12 @@ for(const file of postFiles){
   for(const k of ['published','updated','consulted'])if(meta[k]&&!/^\d{4}-\d{2}-\d{2}$/.test(meta[k]))throw new Error(`${file}: ${k} precisa do formato AAAA-MM-DD`);
   if(meta.description.length<70||meta.description.length>160)throw new Error(`${file}: description com ${meta.description.length} caracteres (use 70 a 160)`);
   const {html,headings,words}=render(body);
-  posts.push({...meta,slug,url:`/conteudos/${slug}/`,html,headings,words,
+  // A indexação do blog é opt-in por artigo. Só o post que declarar
+  // `indexable: true` no frontmatter (e passar pela revisão editorial) sai do
+  // noindex e entra no sitemap. Os demais continuam fora da indexação, para não
+  // liberar automaticamente conteúdo antigo ou rascunho.
+  const indexable=/^(true|sim|1)$/i.test(String(meta.indexable||''));
+  posts.push({...meta,indexable,slug,url:`/conteudos/${slug}/`,html,headings,words,
     tags:(meta.tags||[]).map(t=>({name:t,slug:slugify(t),url:`/conteudos/tema/${slugify(t)}/`})),
     // 200 palavras por minuto, arredondado para cima, mínimo de 1.
     read:`${Math.max(1,Math.round(words/200))} min de leitura`});
@@ -99,7 +104,7 @@ const temasComPagina=new Set(tags.map(t=>t.slug));
 for(const p of posts)p.tagLinks=p.tags.filter(t=>temasComPagina.has(t.slug));
 
 const pages=improveCommercialPages(createPages({company,esc,arrow,button,home,posts,tags,fmtDate}),{company,esc,arrow,button});
-const canIndex=page=>company.publicIndexing&&!page.noindex&&(!page.url.startsWith('/conteudos/')||company.blogPublicIndexing===true);
+const canIndex=page=>company.publicIndexing&&!page.noindex&&(!page.url.startsWith('/conteudos/')||page.blogIndexable===true);
 if(new Set(pages.map(p=>p.url)).size!==pages.length)throw new Error('URLs duplicadas no catálogo.');
 
 // ---------------------------------------------------------------------------
@@ -203,10 +208,15 @@ ${posts.map(p=>`<item><title>${esc(p.title)}</title><link>${origin+p.url}</link>
 </rss>
 `);
 const indexable=pages.filter(canIndex);
+// Blog: o noindex por cabeçalho passa a ser por URL. Só os artigos aprovados
+// (e os índices que os reúnem) deixam de receber X-Robots-Tag; o restante
+// continua bloqueado também no HTTP, além do <meta name="robots">.
+const blogNoindexUrls=pages.filter(p=>p.url.startsWith('/conteudos/')&&!canIndex(p)).map(p=>p.url);
+const blogNoindexRules=blogNoindexUrls.flatMap(u=>[u,'  X-Robots-Tag: noindex, nofollow',u+'*','  X-Robots-Tag: noindex, nofollow']);
 await fs.writeFile('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${indexable.map(p=>`<url><loc>${esc(origin+p.url)}</loc></url>`).join('')}</urlset>`);
 await fs.writeFile('dist/robots.txt',`User-agent: *\nAllow: /\n${company.publicIndexing?`\nSitemap: ${origin}/sitemap.xml\n`:'# Ambiente de revisão: todas as páginas têm noindex; nenhum sitemap público é anunciado.\n'}`);
 // Assets com hash no nome podem ser imutáveis; favicon e licenças não têm hash.
-await fs.writeFile('dist/_headers',`/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n${!company.publicIndexing?'  X-Robots-Tag: noindex, nofollow\n':''}/404.html\n  X-Robots-Tag: noindex\n/obrigado/*\n  X-Robots-Tag: noindex, nofollow\n/privacidade/*\n  X-Robots-Tag: noindex, nofollow\n${company.blogPublicIndexing?'':'/conteudos/*\n  X-Robots-Tag: noindex, nofollow\n'}/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/assets/favicon.svg\n  Cache-Control: public, max-age=86400\n`);
+await fs.writeFile('dist/_headers',['/*','  X-Content-Type-Options: nosniff','  Referrer-Policy: strict-origin-when-cross-origin','  Permissions-Policy: camera=(), microphone=(), geolocation=()',...(!company.publicIndexing?['  X-Robots-Tag: noindex, nofollow']:[]),'/404.html','  X-Robots-Tag: noindex','/obrigado/*','  X-Robots-Tag: noindex, nofollow','/privacidade/*','  X-Robots-Tag: noindex, nofollow',...blogNoindexRules,'/assets/*','  Cache-Control: public, max-age=31536000, immutable','/assets/favicon.svg','  Cache-Control: public, max-age=86400'].join(String.fromCharCode(10))+String.fromCharCode(10));
 // URLs antigas (quando os produtos levavam o nome do fornecedor no slug).
 // O site nunca foi indexado, mas links já compartilhados continuam funcionando.
 const LEGADO={
