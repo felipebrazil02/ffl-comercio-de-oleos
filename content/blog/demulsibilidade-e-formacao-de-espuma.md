@@ -1,51 +1,49 @@
 ---
 title: "Demulsibilidade e espuma: o que a ficha técnica informa"
-description: Separação de água e tendência à formação de espuma influenciam o comportamento do óleo no sistema; entenda como esses ensaios são reportados.
+description: Entenda a diferença entre separação de água, espuma superficial e liberação de ar, e quais ensaios avaliam cada propriedade.
 eyebrow: ENSAIOS
-summary: Duas propriedades cujos números só fazem sentido quando lidos no contexto do sistema.
+summary: Separar água, controlar espuma e liberar ar disperso são propriedades diferentes do lubrificante.
 published: 2026-10-13
+updated: 2026-10-13
 tags: ensaios, hidráulica
-source: ASTM D1401 — demulsibilidade de óleos de petróleo | https://www.astm.org/d1401-20.html
-source: ASTM D892 — características de espuma de óleos lubrificantes | https://www.astm.org/d0892-18.html
-source: ISO 6614 — separação de água de óleos de petróleo | https://www.iso.org/standard/69895.html
+source: ASTM D1401 — escopo público do ensaio de separação de água | https://store.astm.org/d1401-21.html
+source: ASTM D892 — escopo público do ensaio de espuma | https://store.astm.org/standards/d892
+source: Pan American Lubricants — interpretação do ensaio de demulsibilidade | https://www.panamlubricants.com/wp-content/uploads/2017/11/Demulsibility-Test-p.pdf
+source: Savant Labs — diferença entre ASTM D3427 e ASTM D892 | https://www.savantlab.com/testing-highlights/air-separation-astm-d3427-air-release-testing/
 consulted: 2026-10-13
 indexable: true
 ---
 
-Demulsibilidade e espuma aparecem na mesma ficha técnica, mas respondem a perguntas diferentes. A demulsibilidade descreve a facilidade com que o óleo se separa da água; a espuma descreve o quanto o óleo retém ar. Nenhum dos dois números deve ser interpretado isoladamente: eles ganham sentido quando comparados ao requisito do equipamento e ao histórico do mesmo sistema.
+Demulsibilidade, espuma superficial e liberação de ar disperso não são sinônimos. Um resultado favorável em um ensaio não comprova desempenho nos demais.
 
-## Duas perguntas diferentes
+## Demulsibilidade: separação entre óleo e água
 
-Os dois ensaios tratam de fluidos que trabalham em contato com outro meio — água no primeiro caso, ar no segundo. Em um reservatório hidráulico, o óleo retorna agitado, com ar disperso e, em muitas instalações, com alguma água vinda de condensação ou de vazamento de trocador de calor. O que interessa ao sistema é a velocidade com que esses contaminantes saem do óleo.
+A ASTM D1401 avalia a capacidade de óleos e fluidos sintéticos de se separarem da água. Seu escopo contempla produtos novos e acompanhamento de óleos em serviço.
 
-É por isso que os resultados são expressos em função do tempo: não basta saber que o óleo se separa da água ou libera o ar, e sim em quanto tempo isso acontece nas condições do ensaio.
+Após a mistura nas condições do método, acompanham-se as fases de óleo, água e emulsão. O boletim da Pan American Lubricants apresenta o exemplo **40/40/0 (15)**: 40 mL de óleo, 40 mL de água e nenhuma emulsão remanescente, após 15 minutos. É um exemplo de leitura, não um limite universal de aprovação.
 
-## Demulsibilidade: o óleo solta a água?
+Registre método, temperatura, volumes e tempo. A adequação do método e da temperatura depende do fluido; confira essas condições antes de comparar resultados.
 
-A demulsibilidade é medida pela ASTM D1401 e pela ISO 6614. O procedimento mistura óleo e água sob agitação e acompanha, ao longo do tempo, quanto resta de óleo, de água e de emulsão ainda não separada. O resultado é reportado como três valores em progressão de tempo, na ordem óleo, água e emulsão — ou seja, a leitura indica não apenas se a separação ocorreu, mas em que momento do ensaio ela se completou.
+## Espuma: bolhas na superfície
 
-A relevância prática está em sistemas que veem água com frequência: condensação em reservatórios que respiram, vapor, lavagem de peças, vazamento em trocador. Nesses casos o fluido precisa soltar a água para que ela possa ser drenada pelo ponto mais baixo do reservatório. Um óleo que mantém a água em emulsão estável não a entrega para drenagem: a água circula junto com o óleo, prejudica a formação do filme lubrificante e favorece corrosão interna. Óleos hidráulicos formulados para essas instalações costumam trazer esse comportamento destacado na própria ficha, como se vê na linha de [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/).
+A ASTM D892 avalia tendência à formação de espuma e estabilidade da espuma. Seu escopo público indica temperaturas de 24 °C e 93,5 °C. Não é correto descrever suas sequências como três temperaturas diferentes.
 
-## Espuma: o ar sai do óleo?
+A leitura diz respeito às bolhas acumuladas na superfície. Confira sequência, unidade e momentos de observação; não interprete o resultado como o tempo necessário para retirar ar disperso dentro do óleo.
 
-A tendência à formação de espuma é medida pela ASTM D892, que avalia volume de espuma e tempo de colapso em três sequências conduzidas a temperaturas diferentes. A divisão em sequências existe justamente porque um óleo pode se comportar bem em uma faixa de temperatura e mal em outra — o que torna inválida a comparação entre o resultado de uma sequência e o de outra.
+Espuma excessiva pode contribuir para perda de lubrificação e transbordamento. O diagnóstico no equipamento exige mais do que um número de bancada.
 
-Espuma incomoda onde o óleo é agitado e retorna a um reservatório: o ar que não colapsa ocupa volume, atrapalha a leitura do nível, prejudica a resposta do sistema e pode afetar o bombeamento. Vale separar dois fenômenos que costumam ser confundidos:
+## Liberação de ar: bolhas dispersas no óleo
 
-> **Demulsibilidade e liberação de ar são coisas diferentes.** Separar água e separar ar são propriedades distintas, medidas por ensaios distintos. Um óleo com boa demulsibilidade não tem, por isso, boa liberação de ar — e vice-versa. Trate os dois resultados como informações separadas.
+A ASTM D3427 trata da separação do ar disperso na massa do lubrificante. Conforme a explicação do laboratório Savant Labs, mede-se o tempo necessário para que esse teor diminua até **0,2% em volume**, nas condições do ensaio.
 
-## Como usar esses números
+Pouca espuma superficial não garante liberação rápida das bolhas que circulam no interior do óleo. Essa distinção importa ao comparar fichas de [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/).
 
-O cuidado principal é não transformar um bom resultado de bancada em garantia de bom comportamento no equipamento. As condições do ensaio são controladas: óleo novo, quantidade definida de água ou de ar, temperatura de sequência. Um sistema que já opera com óleo oxidado, contaminado por particulado ou com entrada contínua de água não reproduz essas condições, e o número perde valor preditivo.
+## Como comparar as fichas
 
-Há ainda um segundo ponto: essas propriedades mudam com o envelhecimento do fluido e com a contaminação. Justamente por isso, o dado ganha utilidade quando é acompanhado em tendência — a mesma propriedade medida no mesmo ponto de coleta, ao longo do tempo. Um valor isolado diz pouco; a variação diz muito. É o mesmo princípio que vale para o conjunto dos ensaios de monitoramento, como discutido em [análise de óleo em tendência](/conteudos/analise-de-oleo-em-tendencia/).
+Confira qual propriedade está sendo medida, método, sequência, temperatura e unidade. Identifique se a amostra é de óleo novo ou em serviço e compare o resultado com o requisito do equipamento.
 
-> **Comparar exige condições iguais.** Resultados obtidos em sequências, tempos ou temperaturas diferentes não são comparáveis entre si, mesmo quando os números parecem próximos. Antes de julgar que um produto é melhor que outro, confirme que os dois valores vieram do mesmo método e das mesmas condições.
+A [análise de óleo ao longo do tempo](/conteudos/analise-de-oleo-em-tendencia/) ajuda a organizar o histórico, mas não torna equivalentes resultados de métodos diferentes.
 
-Quando o assunto é a limpeza do fluido, os resultados de demulsibilidade e espuma devem ser considerados em conjunto com a leitura de partículas sólidas — o [código de contaminação ISO 4406](/conteudos/iso-4406-codigo-de-contaminacao/) descreve outra dimensão do mesmo problema, e é o conjunto das três informações que desenha o estado do óleo.
+Para consultar um produto, informe equipamento, especificação exigida e quantidade ao [preparar sua solicitação](/contato/#orcamento).
 
-O limite de qualquer um desses números é o requisito da aplicação. Quem define o que o fluido precisa cumprir é o fabricante do equipamento, e a ficha técnica do produto informa o que aquele óleo específico declara em condições de ensaio definidas. Não existe valor universal de demulsibilidade ou de espuma que sirva para todo sistema.
-
-## O próximo passo
-
-Para avaliar um caso concreto, informe a aplicação, a especificação exigida pelo manual e a quantidade para [preparar sua solicitação](/contato/#orcamento).
+> **Correção técnica em 13/10/2026.** Separadas espuma e liberação de ar disperso; corrigida a descrição das temperaturas e dos resultados. Foram consultados escopos públicos e explicações técnicas, não o texto integral pago das normas.

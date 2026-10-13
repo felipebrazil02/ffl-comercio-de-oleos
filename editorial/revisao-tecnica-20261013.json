@@ -1,0 +1,14 @@
+{
+  "data": "2026-10-13",
+  "baseGit": "ad7a6a7",
+  "escopo": ["concentracao-e-ph-do-fluido-de-corte", "demulsibilidade-e-formacao-de-espuma", "armazenamento-de-lubrificantes"],
+  "correcoes": [
+    {"tema": "Refratômetro", "resultado": "Fator multiplicador, não divisor; Brix referenciado a sacarose; exemplo 4 × 1,5 = 6%; seguir convenção do produto/instrumento.", "fontes": ["https://www.masterfluids.com/na/en-us/technical-information/technical-bulletin.php?tbid=110", "https://www.atago.net/en/databook/databook-refractometer_correction.php"]},
+    {"tema": "pH e controle", "resultado": "pH não substitui teste microbiológico; removido prazo arbitrário de 28 dias e diagnósticos causais automáticos.", "fontes": ["https://www.hse.gov.uk/pubns/guidance/mw5.pdf", "https://content.govdelivery.com/accounts/UKHSE/bulletins/38a0a37"]},
+    {"tema": "Espuma", "resultado": "D892 separada de D3427; temperaturas 24 e 93,5 °C; ar disperso até 0,2% em volume; exemplo de leitura de D1401.", "fontes": ["https://store.astm.org/standards/d892", "https://store.astm.org/d1401-21.html", "https://www.savantlab.com/testing-highlights/air-separation-astm-d3427-air-release-testing/", "https://www.panamlubricants.com/wp-content/uploads/2017/11/Demulsibility-Test-p.pdf"]},
+    {"tema": "Armazenamento", "resultado": "Filtragem pode reduzir partículas; não garante recuperação química. Posição de tambores não substitui abrigo. FIFO não substitui validade.", "fontes": ["https://www.mobil.com/lubricants/-/media/project/wep/mobil/mobil-row-us-1/new-pdf/technical-topic---handling-storing-lubricants.pdf", "https://www.mobil.com/en/lubricants/for-businesses/services/onsite-services/lubrication-filtration", "https://www.mobil.com/en/lubricants/for-businesses/industrial/industrial-faqs/industrial-lubricant-storage-and-handling"]}
+  ],
+  "limites": "Revisão documental de fontes públicas; não houve aquisição/leitura integral das normas pagas, ensaio de laboratório ou certificação de produto. Links genéricos e referências que não sustentavam o texto foram substituídos. Outros artigos não foram auditados tecnicamente nesta etapa.",
+  "preservado": ["URLs", "datas de publicação", "indexação seletiva", "catálogo", "layout", "formulário"],
+  "transparencia": "Os três artigos receberam aviso visível de correção e updated em 2026-10-13, mesma data da publicação original."
+}
