@@ -1,0 +1,269 @@
+{
+  "data": "2026-10-13",
+  "baseGit": "a4fc213e23e54e0b4785b3cd20b34f0d4fb632dd",
+  "escopo": "14 artigos restantes; complementa revisao-tecnica-20261013.json",
+  "artigos": [
+    {
+      "slug": "analise-de-oleo-em-tendencia",
+      "resultado": "Histórico combinado com limites; amostra crítica pode exigir ação imediata; limitações de espectrometria, silício e TAN/TBN.",
+      "fontes": [
+        {
+          "titulo": "ASTM D5185 — escopo público e limitações da análise elementar",
+          "url": "https://store.astm.org/standards/d5185"
+        },
+        {
+          "titulo": "ASTM D6304 — determinação de água",
+          "url": "https://www.astm.org/d6304-20.html"
+        },
+        {
+          "titulo": "Mobil — interpretação dos resultados de análise",
+          "url": "https://www.mobil.com/en/lubricants/for-businesses/industrial/lubricant-expertise/resources/oil-analysis-result-interpretation"
+        },
+        {
+          "titulo": "Mobil — fundamentos da análise de lubrificantes",
+          "url": "https://www.mobil.com/lubricants/-/media/project/wep/mobil/mobil-row-us-1/mobil-lubricant-analysis-pages/pdf/mla-fundamentals-guide.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "base-da-graxa-litio-calcio-complexo",
+      "resultado": "Distinção óleo-base/espessante; nem todo espessante é sabão; ponto de gota não é limite de serviço; compatibilidade entre produtos.",
+      "fontes": [
+        {
+          "titulo": "Mobil — guia de aplicação de graxas industriais",
+          "url": "https://www.mobil.com/industrial/~/media/files/global/us/industrial/tech-topics/industrial-grease-lubricant-application-guide.pdf"
+        },
+        {
+          "titulo": "ASTM D2265 — escopo público do ensaio de ponto de gota",
+          "url": "https://store.astm.org/standards/d2265"
+        },
+        {
+          "titulo": "SKF — mecanismos de lubrificação e limites térmicos",
+          "url": "https://evolution.skf.com/us/grease-lubrication-mechanisms-in-rolling-bearing-systems/"
+        },
+        {
+          "titulo": "ASTM D6185 — compatibilidade",
+          "url": "https://store.astm.org/standards/d6185"
+        }
+      ]
+    },
+    {
+      "slug": "compatibilidade-com-vedacoes-e-tintas",
+      "resultado": "Removida garantia de troca por família; correção EPDM/HFC; ficha pode não conter tabela; ensaio não prova compatibilidade de toda a máquina.",
+      "fontes": [
+        {
+          "titulo": "Parker — O-Ring Handbook, materiais e compatibilidade",
+          "url": "https://www.parker.com/content/dam/Parker-com/Literature/Praedifa/Catalogs/Catalog_O-Ring-Handbook_PTD5705-EN.pdf"
+        },
+        {
+          "titulo": "ASTM D471 — escopo público do efeito de líquidos em borrachas",
+          "url": "https://store.astm.org/standards/d471"
+        }
+      ]
+    },
+    {
+      "slug": "ensaio-de-quatro-esferas",
+      "resultado": "Incluída D4172; separadas D2266, D2783 e D2596; índice carga-desgaste e carga de solda; limites da extrapolação.",
+      "fontes": [
+        {
+          "titulo": "ASTM D4172 — escopo público do método",
+          "url": "https://store.astm.org/standards/d4172"
+        },
+        {
+          "titulo": "ASTM D2266 — escopo público do método",
+          "url": "https://store.astm.org/standards/d2266"
+        },
+        {
+          "titulo": "ASTM D2783 — escopo público do método",
+          "url": "https://store.astm.org/standards/d2783"
+        },
+        {
+          "titulo": "ASTM D2596 — escopo público do método",
+          "url": "https://store.astm.org/standards/d2596"
+        }
+      ]
+    },
+    {
+      "slug": "indice-de-viscosidade",
+      "resultado": "Cálculo 40/100 °C sem comparação física de óleos; IV acima de 100; não extrapolar para frio intenso.",
+      "fontes": [
+        {
+          "titulo": "ASTM D2270 — escopo público do cálculo de IV",
+          "url": "https://store.astm.org/standards/d2270"
+        },
+        {
+          "titulo": "Mobil DTE 10 Excel — IV e estabilidade ao cisalhamento",
+          "url": "https://www.mobil.com/en/lubricants/for-businesses/industrial/lubricants/products/products/mobil-dte-10-excel-22"
+        }
+      ]
+    },
+    {
+      "slug": "iso-4406-codigo-de-contaminacao",
+      "resultado": "Cumulatividade, µm(c), classes e não contagem exata; correção da referência ISO para 79716.",
+      "fontes": [
+        {
+          "titulo": "ISO 4406 — identificação da norma",
+          "url": "https://www.iso.org/standard/79716.html"
+        },
+        {
+          "titulo": "Parker — interpretação dos códigos ISO 4406",
+          "url": "https://www.parker.com/content/dam/Parker-com/Literature/Hydraulic-Filter-Division-Europe/Websphere-Literature/FDCB805UK-.pdf"
+        },
+        {
+          "titulo": "Chevron — sistemas de classificação de limpeza",
+          "url": "https://latinamerica.chevronlubricants.com/content/dam/external/isoclean/en_us/sales-material/all-other/Tech_Bulletin_Lube_Cleanliness_Alice_Hale.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "ponto-de-fluidez-e-ponto-de-nevoa",
+      "resultado": "Menor temperatura de escoamento no ensaio; não garante bombeabilidade; escopo D2500 e relevância além da partida.",
+      "fontes": [
+        {
+          "titulo": "ASTM D97 — escopo público do ponto de fluidez",
+          "url": "https://store.astm.org/standards/d97"
+        },
+        {
+          "titulo": "ASTM D2500 — escopo público do ponto de névoa",
+          "url": "https://store.astm.org/standards/d2500"
+        },
+        {
+          "titulo": "SKF — lubrificação em baixas temperaturas",
+          "url": "https://evolution.skf.com/us/low-temperatures/"
+        },
+        {
+          "titulo": "ASTM D2270 — temperaturas usadas no índice de viscosidade",
+          "url": "https://store.astm.org/standards/d2270"
+        }
+      ]
+    },
+    {
+      "slug": "din-51524-hl-hlp-hvlp",
+      "resultado": "Requisitos não são receita de aditivos ou autorização de substituição; removidos prazo de falha e alegação de filtro remover toda água.",
+      "fontes": [
+        {
+          "titulo": "DIN 51524-1 — HL, página pública",
+          "url": "https://www.dinmedia.de/de/norm/din-51524-1/272262589"
+        },
+        {
+          "titulo": "DIN 51524-2 — HLP, página pública",
+          "url": "https://www.dinmedia.de/de/norm/din-51524-2/272262662"
+        },
+        {
+          "titulo": "DIN 51524-3 — HVLP, página pública",
+          "url": "https://www.dinmedia.de/en/standard/din-51524-3/272262707"
+        },
+        {
+          "titulo": "Mobil DTE 10 Excel — características e especificações",
+          "url": "https://www.mobil.com/en/lubricants/for-businesses/industrial/lubricants/products/products/mobil-dte-10-excel-22"
+        }
+      ]
+    },
+    {
+      "slug": "oleo-de-corte-integral-ou-emulsionavel",
+      "resultado": "Retiradas concentração, rendimento, custos e superioridade universais; pH não substitui avaliação microbiológica.",
+      "fontes": [
+        {
+          "titulo": "Master Fluid Solutions — seleção de fluidos de corte e retificação",
+          "url": "https://pdocs.masterfluids.com/mcc/docs/db-docs/technical-articles/selectin.pdf"
+        },
+        {
+          "titulo": "Master Fluid Solutions — óleos integrais e aplicações",
+          "url": "https://www.masterfluids.com/na/en-us/products/show-category.php?catid=c1c"
+        },
+        {
+          "titulo": "HSE MW5 — controle da qualidade de fluidos de usinagem",
+          "url": "https://www.hse.gov.uk/pubns/guidance/mw5.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "oleo-para-compressor-de-parafuso",
+      "resultado": "Removidos rotores sempre sem contato, desprezo do desgaste, vida determinada pela base e regra universal de 10 °C.",
+      "fontes": [
+        {
+          "titulo": "Atlas Copco — funções e degradação do óleo de compressor",
+          "url": "https://www.atlascopco.com/en-us/construction-equipment/service/fluids-and-lubricants-portfolio/compressor-oil"
+        },
+        {
+          "titulo": "Atlas Copco — escolha do óleo para compressor",
+          "url": "https://www.atlascopco.com/en-uk/compressors/customerbenefit/choose-the-right-oil-for-your-compressor"
+        },
+        {
+          "titulo": "Mobil Rarus SHC 1020 — aplicações e limitações de mistura",
+          "url": "https://www.mobil.com/en/lubricants/for-businesses/industrial/lubricants/product-series/mobil-rarus-shc-1020-series"
+        }
+      ]
+    },
+    {
+      "slug": "como-ler-um-grau-iso-vg",
+      "resultado": "Valor nominal, lacunas entre graus; SAE J300 vs J306; referência ISO 3448 corrigida.",
+      "fontes": [
+        {
+          "titulo": "ISO 3448 — classificação de viscosidade industrial",
+          "url": "https://www.iso.org/standard/8774.html"
+        },
+        {
+          "titulo": "FUCHS — tabelas e distinção entre classificações SAE",
+          "url": "https://www.fuchs.com/es/es/productos/programa-de-productos/lubricantes-de-automocion/actualidad-automocion/tablas-de-viscosidades/"
+        }
+      ]
+    },
+    {
+      "slug": "nlgi-consistencia-de-graxas",
+      "resultado": "Consistência não garante bombeabilidade ou desempenho; mistura pode endurecer; mesmo espessante não comprova compatibilidade.",
+      "fontes": [
+        {
+          "titulo": "ASTM D217 — escopo público da penetração de graxas",
+          "url": "https://store.astm.org/standards/d217"
+        },
+        {
+          "titulo": "Mobil — guia de aplicação de graxas",
+          "url": "https://www.mobil.com/industrial/~/media/files/global/us/industrial/tech-topics/industrial-grease-lubricant-application-guide.pdf"
+        },
+        {
+          "titulo": "SKF — mecanismos de lubrificação e bombeabilidade",
+          "url": "https://evolution.skf.com/us/grease-lubrication-mechanisms-in-rolling-bearing-systems/"
+        },
+        {
+          "titulo": "ASTM D6185 — compatibilidade",
+          "url": "https://store.astm.org/standards/d6185"
+        }
+      ]
+    },
+    {
+      "slug": "ficha-tecnica-e-ficha-de-seguranca",
+      "resultado": "Conteúdo consistente; reforçada vigência de aprovações por produto e grau.",
+      "fontes": [
+        {
+          "titulo": "Mobil — exemplo de ficha técnica e propriedades típicas",
+          "url": "https://www.mobil.com/en-us/industrial/pds/gl-xx-mobil-dte-20-series"
+        },
+        {
+          "titulo": "Shell — finalidade e consulta de fichas de segurança",
+          "url": "https://www.shell.com/business-customers/chemicals/safe-product-handling-and-transportation/chemicals-safety-data-sheets.html"
+        }
+      ]
+    },
+    {
+      "slug": "informacoes-para-cotar-lubrificante",
+      "resultado": "Conteúdo consistente; cotação não constitui autorização técnica de substituição.",
+      "fontes": [
+        {
+          "titulo": "Mobil — lubrificantes para engrenagens",
+          "url": "https://www.mobil.com/en/sap/business/industrial-lubricants-by-application/gears"
+        }
+      ]
+    }
+  ],
+  "limites": "Revisão documental, sem certificação, ensaio de laboratório ou leitura integral de normas pagas. Foram consultados escopos públicos e documentos técnicos dos fabricantes. Não se transferiram aprovações de uma linha a todo o catálogo.",
+  "preservado": [
+    "17 URLs de artigos",
+    "datas originais de publicação",
+    "10 artigos indexáveis e 7 noindex",
+    "layout",
+    "catálogo",
+    "formulário"
+  ],
+  "validacao": "Build, check, formulário, português, regressões técnicas e verificação HTTP de 63 rotas antes/depois da publicação."
+}

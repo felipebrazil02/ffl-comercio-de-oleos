@@ -1,64 +1,49 @@
 ---
 title: Óleo de corte integral ou emulsionável?
-description: A escolha entre fluido de corte integral e emulsionável depende de refrigerar ou lubrificar. Veja os critérios, os custos ocultos e o que informar na cotação.
+description: Compare fluidos de corte integrais e emulsionáveis pela operação, pelo material, pelas exigências da máquina e pelo controle do fluido em uso.
 eyebrow: USINAGEM
-summary: Dois fluidos que resolvem problemas opostos, e como saber qual deles é o seu.
+summary: Lubricidade, refrigeração e controle precisam ser avaliados na operação real.
 published: 2026-10-06
+updated: 2026-10-13
 tags: usinagem, seleção
-source: ISO 6743-7 — classificação de fluidos para usinagem de metais | https://www.iso.org/
-consulted: 2026-10-06
+consulted: 2026-10-13
+source: Master Fluid Solutions — seleção de fluidos de corte e retificação | https://pdocs.masterfluids.com/mcc/docs/db-docs/technical-articles/selectin.pdf
+source: Master Fluid Solutions — óleos integrais e aplicações | https://www.masterfluids.com/na/en-us/products/show-category.php?catid=c1c
+source: HSE MW5 — controle da qualidade de fluidos de usinagem | https://www.hse.gov.uk/pubns/guidance/mw5.pdf
 ---
 
-A pergunta parece de preço, mas é de física. Fluido de corte integral e fluido emulsionável existem porque a usinagem gera dois problemas distintos — atrito e calor — e nenhum produto resolve os dois com a mesma eficiência.
+Fluidos de corte ajudam a lubrificar e refrigerar. A escolha entre integral e emulsionável depende da operação, do material, da ferramenta e da máquina — não apenas do preço ou da velocidade de corte.
 
-## O que cada um faz melhor
+## Diferenças de aplicação
 
-O **integral** é um óleo aplicado puro, sem diluição. Por ser óleo, forma filme lubrificante com facilidade: reduz atrito entre a ferramenta e o cavaco, melhora o acabamento e prolonga a vida da aresta de corte. O que ele não faz bem é retirar calor.
+O **integral** é usado sem diluição em água. Sua formulação pode favorecer lubricidade e acabamento em determinadas operações, mas ele também participa da remoção de calor.
 
-O **emulsionável** é um concentrado diluído em água, normalmente entre 5% e 10%. Quem refrigera, nesse caso, é a água — e a água tem capacidade térmica cerca de quatro vezes maior que a do óleo mineral. Em compensação, o filme lubrificante da emulsão é muito mais fraco que o do óleo puro.
+O **emulsionável** forma uma emulsão com água. A água contribui para a refrigeração; a formulação fornece proteção e lubricidade. Não é correto afirmar que toda emulsão tem filme “muito mais fraco” ou que não atende a cortes severos.
 
-> **A regra prática segue a velocidade de corte.** Operações lentas e severas, em que o atrito domina, tendem ao integral. Operações rápidas, em que o calor domina, tendem ao emulsionável.
+Semissintéticos e sintéticos miscíveis em água ampliam as opções. A classificação, por si, não garante transparência, estabilidade ou desempenho superior.
 
-## Onde cada um costuma aparecer
+## Não há concentração universal
 
-Operações que normalmente pedem **integral**: brochamento, abertura de roscas, geração de engrenagens, furação profunda, alargamento de precisão e usinagem de materiais de difícil corte. São casos em que a ferramenta trabalha sob pressão alta e velocidade baixa, e em que o acabamento é crítico.
+Use a faixa recomendada para o produto e a operação. Evite adotar 5% ou 10% como receita geral, ou presumir um rendimento fixo para todo concentrado.
 
-Operações que normalmente pedem **emulsionável**: torneamento e fresamento em alta velocidade, serramento, furação convencional e retificação. São casos em que o volume de calor gerado é o fator limitante da produtividade.
+O controle deve seguir a orientação do fornecedor. No refratômetro, a leitura precisa do fator próprio do produto, quando aplicável. Veja [concentração e pH do fluido de corte](/conteudos/concentracao-e-ph-do-fluido-de-corte/) para os limites dessa medição.
 
-## O custo que não aparece na cotação
+## Compare custo de uso, não apenas litro
 
-Comparar os dois pelo preço do litro leva a conclusões erradas, porque eles têm estruturas de custo diferentes.
+Um orçamento útil deve considerar consumo real, reposição, ferramentas, acabamento, paradas, tratamento e destinação do fluido usado. Não existe uma relação universal de preço ou vida de tanque entre integral e emulsionável.
 
-O integral é mais caro por litro, mas vai puro para a máquina e tem vida longa no reservatório. Não cria ambiente para crescimento microbiológico, porque não tem água. Em contrapartida, gera mais névoa, exige atenção ao ponto de fulgor e arrasta mais produto junto com o cavaco.
+Como roteiro de comparação, registre as mesmas condições nos testes: material, ferramenta, parâmetros de corte, volume do sistema e critérios de aceitação. Não atribua ao fluido uma mudança de resultado causada por outra alteração no processo.
 
-O emulsionável custa menos por litro de concentrado e ainda rende de dez a vinte vezes em volume diluído. Só que a emulsão é um sistema vivo, e manter isso funcionando tem custo próprio:
+## Controle do tanque e exposição
 
-- **Concentração** precisa ser medida — com refratômetro, não a olho. Diluída demais, perde lubricidade e proteção anticorrosiva; concentrada demais, irrita a pele e desperdiça produto.
-- **pH** precisa ficar na faixa indicada pelo fabricante. Queda de pH costuma ser o primeiro sinal de contaminação microbiológica.
-- **Óleo estranho** vazado de guias e fusos flutua sobre a emulsão, bloqueia a troca de oxigênio e acelera a degradação. Precisa ser removido.
-- **Vida do tanque** é finita. Quando a emulsão vira, o custo não é só o do fluido novo: é a parada, a limpeza do sistema e o descarte.
+Fluidos aquosos requerem acompanhamento de concentração, pH e condição microbiológica conforme o programa de controle. **pH não substitui avaliação microbiológica.** Remova contaminantes conforme o procedimento definido; não corrija o tanque com aditivos ou biocidas improvisados.
 
-## Saúde e descarte entram na decisão
-
-Esse ponto costuma ser decidido fora da engenharia, mas restringe as opções antes de qualquer critério técnico. A névoa de óleo integral e o contato dérmico prolongado com emulsão exigem, cada qual, medidas específicas de controle. O descarte de emulsão usada é regulado e normalmente mais caro que o de óleo integral, porque é preciso separar fases antes de destinar.
-
-Se a planta já tem um procedimento estabelecido para um dos dois caminhos, mudar de tipo significa mudar também o processo de manuseio, monitoramento e descarte — e isso pesa mais que a diferença de preço por litro.
-
-## E os semissintéticos?
-
-Entre os dois extremos existe uma faixa intermediária: fluidos semissintéticos, com menos óleo mineral e mais aditivos solúveis, e fluidos sintéticos, sem óleo mineral. Eles buscam combinar refrigeração com alguma lubricidade, e tendem a formar emulsões mais estáveis e transparentes — o que facilita enxergar a peça durante o corte.
-
-Não são uma categoria "melhor": são outro ponto da mesma curva entre refrigerar e lubrificar, com suas próprias exigências de controle.
+Óleo integral não deve ser descrito como imune a contaminação: entrada de água e outros materiais precisa ser investigada. Consulte a ficha de segurança e os controles de exposição da instalação para ambos os tipos. Este artigo não define procedimento de tratamento ou descarte.
 
 ## O que informar ao cotar
 
-Para uma proposta útil, quatro dados resolvem a maior parte dos casos:
+Envie operação, material e liga, ferramenta, parâmetros, equipamento, produto atual e motivo da troca. Confirme restrições de compatibilidade antes de testar.
 
-1. A operação — torneamento, fresamento, furação, retificação, rosqueamento.
-2. O material usinado, incluindo se há alumínio, magnésio ou ligas sensíveis.
-3. A severidade: velocidade de corte, profundidade e se o acabamento é crítico.
-4. O que está em uso hoje e por que você quer mudar.
+Consulte os [óleos de corte e usinagem](/lubrificantes-industriais/oleos-de-corte-e-usinagem/) e [prepare sua solicitação](/contato/#orcamento) com essas informações.
 
-Os [óleos de corte, usinagem e estampagem](/lubrificantes-industriais/oleos-de-corte-e-usinagem/) deste catálogo trazem, em cada página, se o produto é integral ou emulsionável e as restrições declaradas de aplicação — inclusive exclusões expressas de determinados metais, que precisam ser verificadas antes de qualquer teste.
-
-Se o nome comercial do produto atual não estiver à mão, [descrever a operação já basta](/conteudos/informacoes-para-cotar-lubrificante/) para começar.
+> **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. As páginas públicas das normas não substituem seus textos completos nem o manual do equipamento.

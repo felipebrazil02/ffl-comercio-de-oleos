@@ -4,10 +4,13 @@ description: O que os graus NLGI 000 a 6 medem, por que NLGI 2 é o mais comum e
 eyebrow: FUNDAMENTOS
 summary: A escala que classifica graxas, e o dado que ela deliberadamente não informa.
 published: 2026-10-06
+updated: 2026-10-13
 tags: graxas, seleção, viscosidade
-source: NLGI — classificação de consistência de graxas lubrificantes | https://www.nlgi.org/
-source: ASTM D217 — ensaio de penetração trabalhada em graxas | https://www.astm.org/
-consulted: 2026-10-06
+consulted: 2026-10-13
+source: ASTM D217 — escopo público da penetração de graxas | https://store.astm.org/standards/d217
+source: ASTM D6185 — avaliação da compatibilidade entre graxas | https://store.astm.org/standards/d6185
+source: Mobil — guia de aplicação de graxas | https://www.mobil.com/industrial/~/media/files/global/us/industrial/tech-topics/industrial-grease-lubricant-application-guide.pdf
+source: SKF — mecanismos de lubrificação e bombeabilidade | https://evolution.skf.com/us/grease-lubrication-mechanisms-in-rolling-bearing-systems/
 ---
 
 Quase toda graxa é vendida com um número ao lado do nome: NLGI 2, NLGI 1, NLGI 00. Esse número descreve uma coisa só — o quão firme a graxa é — e muita gente o interpreta como se fosse viscosidade. Não é.
@@ -28,31 +31,29 @@ Quanto mais o cone afunda, mais mole é a graxa. A faixa medida determina o grau
 - NLGI 5 — 130 a 160
 - NLGI 6 — 85 a 115 (bloco firme)
 
-Repare que as faixas são todas de 30 unidades, separadas por intervalos de 15. A escala é regular de propósito: foi construída para que dois laboratórios diferentes cheguem ao mesmo grau para a mesma amostra.
+As faixas classificam a penetração obtida no método padronizado. Como qualquer ensaio, a medição tem precisão limitada; a classificação não garante resultados idênticos entre laboratórios.
 
 > **Número maior significa graxa mais dura.** É o inverso do que a intuição sugere a quem está acostumado com óleo, onde o número do grau ISO cresce junto com a espessura do fluido, mas descreve escoamento, não firmeza.
 
-## Por que NLGI 2 virou o padrão
+## Como o grau entra na seleção
 
-O grau 2 domina a lubrificação de rolamentos por um motivo prático: é firme o bastante para permanecer no ponto de aplicação sem escorrer, e mole o bastante para o rolamento conseguir movimentá-la e formar filme.
-
-Graus mais moles — 0 e 00 — aparecem onde a graxa precisa ser bombeada por longas linhas em sistemas centralizados, ou em temperaturas baixas, nas quais um grau 2 ficaria duro demais para chegar ao ponto. Graus mais firmes — 3 e acima — aparecem em aplicações verticais, com vibração intensa ou risco de a graxa ser expulsa do alojamento.
+NLGI 2 é encontrado em muitas aplicações de rolamentos, mas não é uma escolha universal. Sistemas centralizados podem exigir consistências diferentes conforme linhas, temperatura e equipamento. Bombeabilidade não pode ser deduzida apenas do grau NLGI: confirme o produto e os limites do sistema.
 
 ## O dado que o NLGI não informa
 
-Aqui está o ponto que mais causa erro de seleção: **a consistência não diz nada sobre a capacidade de lubrificar**.
+Aqui está o ponto que mais causa erro de seleção: **a consistência sozinha não determina a capacidade de lubrificar**.
 
-Uma graxa é, essencialmente, um óleo retido em uma estrutura de espessante. Quem forma o filme lubrificante entre as superfícies é o óleo-base, não o espessante. E a viscosidade desse óleo-base é um dado separado, publicado em centistokes (cSt) a 40 °C, exatamente como em [qualquer grau ISO VG](/conteudos/como-ler-um-grau-iso-vg/).
+Uma graxa é, essencialmente, um óleo retido em uma estrutura de espessante. Quem forma o filme lubrificante entre as superfícies é o óleo-base, não o espessante. E a viscosidade desse óleo-base é um dado separado, publicado em centistokes (cSt) a 40 °C, uma propriedade diferente da consistência, explicada em [como ler o ISO VG](/conteudos/como-ler-um-grau-iso-vg/).
 
 Duas graxas NLGI 2 podem ter óleos-base de viscosidade muito diferente — uma com ISO VG 100, outra com ISO VG 460 — e se comportar de maneira completamente distinta no mesmo rolamento. Para selecionar corretamente, a viscosidade do óleo-base precisa ser comparada com a exigida pela rotação, pela carga e pela temperatura do mancal.
 
 ## O espessante importa tanto quanto o grau
 
-O terceiro dado da ficha é o tipo de espessante: lítio, lítio complexo, cálcio, cálcio sulfonato, poliureia, alumínio complexo, argila. Ele define a faixa de temperatura útil, a resistência à lavagem por água e — o que mais gera problema na prática — **a compatibilidade com a graxa que já está no ponto**.
+O terceiro dado da ficha é o tipo de espessante: lítio, lítio complexo, cálcio, cálcio sulfonato, poliureia, alumínio complexo, argila. Ele influencia essas propriedades junto com o óleo-base e os aditivos. A faixa de serviço, a resistência à água e a compatibilidade devem ser verificadas para o produto completo.
 
-Misturar espessantes incompatíveis pode amolecer a mistura a ponto de ela escorrer para fora do alojamento, deixando o mancal sem lubrificação. O efeito costuma aparecer semanas depois da troca, quando ninguém mais associa a falha à mudança de produto.
+Misturas incompatíveis podem amolecer ou endurecer e alterar outras propriedades. Não há prazo universal para esses efeitos aparecerem. Mesmo espessantes iguais não garantem compatibilidade entre produtos.
 
-> **Na troca de tipo de espessante, o procedimento usual é limpar e purgar.** Reengraxar por cima, contando com a saída natural da graxa anterior, só é seguro quando a compatibilidade entre os dois espessantes está confirmada.
+> **Confirme a conversão com os fabricantes.** Tabelas de espessantes são apenas triagem. Limpeza, remoção ou purga devem seguir o procedimento do equipamento; não se deve reengraxar indiscriminadamente nem presumir que toda a carga antiga será removida.
 
 ## Como pedir uma graxa
 
@@ -66,3 +67,5 @@ Uma solicitação completa traz quatro informações, e nenhuma delas sozinha re
 Nas [graxas industriais e para chassis](/lubrificantes-industriais/graxas-industriais/) deste catálogo, cada página traz o espessante e a faixa de temperatura exatamente como a documentação técnica os apresenta. Onde o grau NLGI não é explicitado na origem, isso está registrado na própria página, em vez de ser preenchido por estimativa — e vale confirmá-lo na ficha técnica antes de comparar com a graxa em uso.
 
 Se ainda não sabe qual produto pedir, [descreva a aplicação](/conteudos/informacoes-para-cotar-lubrificante/): equipamento, ponto de lubrificação e condição de trabalho já estreitam bastante as opções.
+
+> **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. As páginas públicas das normas não substituem seus textos completos nem o manual do equipamento.

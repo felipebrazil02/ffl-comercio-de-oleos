@@ -4,11 +4,11 @@ description: Entenda a função da ficha técnica e da ficha de segurança e qua
 eyebrow: DOCUMENTAÇÃO TÉCNICA
 summary: Entenda o papel de cada documento e o que conferir antes de comparar produtos.
 published: 2026-09-10
-updated: 2026-09-30
+updated: 2026-10-13
 tags: documentação, seleção
+consulted: 2026-10-13
 source: Mobil — exemplo de ficha técnica e propriedades típicas | https://www.mobil.com/en-us/industrial/pds/gl-xx-mobil-dte-20-series
 source: Shell — finalidade e consulta de fichas de segurança | https://www.shell.com/business-customers/chemicals/safe-product-handling-and-transportation/chemicals-safety-data-sheets.html
-consulted: 2026-09-10
 ---
 
 Os documentos se complementam. Um ajuda a entender as características e aplicações declaradas; o outro orienta sobre perigos e cuidados no uso.
@@ -16,6 +16,8 @@ Os documentos se complementam. Um ajuda a entender as características e aplica�
 ## O que observar na ficha técnica
 
 Confira o nome completo do produto, o grau e a versão do documento. Leia as aplicações indicadas, as propriedades e as especificações declaradas pelo fabricante.
+
+Confira se aprovações e documentos continuam vigentes para o produto e o grau exatos. Não transfira a aprovação de um integrante de uma linha para todos os demais.
 
 Observe a diferença entre uma aprovação, o atendimento a determinada especificação e um valor típico de ensaio. Essas informações não têm necessariamente o mesmo significado e devem ser comparadas com o requisito do equipamento.
 
@@ -40,3 +42,5 @@ A ficha técnica não substitui a ficha de segurança. Nenhum dos documentos dev
 ## Onde os números entram nessa leitura
 
 Boa parte do que a ficha técnica apresenta é numérico: grau de viscosidade, índice de viscosidade, ponto de fulgor, ponto de fluidez. Saber [o que um grau ISO VG significa](/conteudos/como-ler-um-grau-iso-vg/) ajuda a interpretar essa tabela em vez de apenas comparar números entre produtos.
+
+> **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. Revisão pontual; os critérios gerais foram mantidos e a necessidade de confirmação técnica foi reforçada.

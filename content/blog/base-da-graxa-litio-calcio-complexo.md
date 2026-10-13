@@ -1,64 +1,52 @@
 ---
-title: "Graxa de lítio, cálcio ou complexo: como escolher a base"
-description: As bases de sabão mudam resistência à água, temperatura e compatibilidade entre graxas. Veja o que cada uma resolve e o que precisa ser confirmado.
+title: "Graxa de lítio, cálcio ou complexo: como escolher"
+description: Entenda a diferença entre espessante, óleo-base e grau NLGI, os limites do ponto de gota e os cuidados ao substituir uma graxa.
 eyebrow: GRAXAS
-summary: O tipo de sabão define comportamento, não desempenho — e misturar bases tem regras.
+summary: Espessante, óleo-base e aditivos precisam ser avaliados em conjunto.
 published: 2026-10-13
+updated: 2026-10-13
 tags: graxas, seleção
-source: NLGI — guia de graxas lubrificantes | https://www.nlgi.org/
-source: ASTM D217 — penetração trabalhada em graxas | https://www.astm.org/d0217-21.html
-source: DIN 51825 — classificação de graxas lubrificantes | https://www.din.de/
 consulted: 2026-10-13
 indexable: true
+source: Mobil — guia de aplicação de graxas industriais | https://www.mobil.com/industrial/~/media/files/global/us/industrial/tech-topics/industrial-grease-lubricant-application-guide.pdf
+source: ASTM D2265 — escopo público do ensaio de ponto de gota | https://store.astm.org/standards/d2265
+source: SKF — mecanismos de lubrificação e limites térmicos | https://evolution.skf.com/us/grease-lubrication-mechanisms-in-rolling-bearing-systems/
+source: ASTM D6185 — avaliação da compatibilidade entre graxas | https://store.astm.org/standards/d6185
 ---
 
-O tipo de espessante — o "sabão" da graxa — não decide se uma graxa é melhor ou pior. Ele decide como a graxa se comporta: resistência à água, faixa de temperatura de trabalho e o que acontece quando duas graxas diferentes se encontram no mesmo ponto de lubrificação. Escolher entre lítio, cálcio ou um complexo começa pelo manual do equipamento, não pelo rótulo.
+Lítio, cálcio e complexo de lítio identificam **tipos de espessante**, não o óleo-base. Uma graxa reúne óleo-base, espessante e aditivos; a escolha depende da formulação completa e do equipamento.
 
-## O que a base decide
+## Espessante não é óleo-base
 
-Uma graxa é óleo-base mais espessante mais aditivos. Quem lubrifica de fato é o óleo-base; o espessante funciona como uma estrutura que segura esse óleo no lugar e o libera aos poucos, formando e reabastecendo o filme entre as superfícies em movimento.
+O óleo-base pode ser mineral ou sintético e tem viscosidade própria. O espessante forma a estrutura que retém e libera óleo. Nem todo espessante é sabão: poliureia e argila são exemplos de famílias diferentes dos sabões metálicos.
 
-É o tipo de espessante que dá à graxa suas características mais visíveis na prática:
+O [grau NLGI](/conteudos/nlgi-consistencia-de-graxas/) informa uma faixa de consistência. Duas graxas NLGI 2 pertencem à mesma faixa no ensaio, mas não têm necessariamente penetração idêntica, igual bombeabilidade ou o mesmo comportamento em serviço.
 
-- **Resistência à água** — quanto a graxa suporta ser lavada ou emulsionada por água sem perder estrutura.
-- **Faixa de temperatura** — em que faixas de trabalho o espessante se mantém estável em vez de amolecer, escorrer ou endurecer.
-- **Compatibilidade** — o que ocorre quando ela é colocada em contato com outra graxa de espessante diferente.
+## Como comparar as famílias
 
-Vale separar dois conceitos que costumam se confundir. A **consistência não é a base**. A consistência descreve a firmeza da graxa, medida pelo grau NLGI — e isso é assunto de [outro artigo, sobre a escala NLGI](/conteudos/nlgi-consistencia-de-graxas/). A base descreve a química do espessante. Uma graxa NLGI 2 de lítio e outra NLGI 2 de um espessante diferente têm a mesma firmeza e comportamento distinto no mesmo ponto.
+Não use apenas o nome do espessante como tabela de desempenho. Cálcio simples, complexo de cálcio e sulfonato de cálcio complexo não são designações intercambiáveis. O mesmo cuidado vale para lítio e complexo de lítio.
 
-## As famílias mais comuns
+O guia de aplicação da Mobil apresenta produtos com diferentes espessantes, viscosidades de óleo-base e graus NLGI. Essa separação é importante: escolher uma família não determina automaticamente as outras propriedades.
 
-As famílias que aparecem com mais frequência na indústria, com as tendências que os fabricantes costumam declarar — sempre como tendência, nunca como regra universal:
+Monte a comparação com os dados publicados de cada produto:
 
-- **Sabão de cálcio** — boa resistência à água; faixa de temperatura em geral mais estreita que a de um complexo de lítio.
-- **Sabão de lítio** — uso geral muito difundido, com comportamento intermediário diante de água.
-- **Complexo de lítio** — faixa de temperatura em geral mais ampla e boa estabilidade; é uma escolha comum quando se quer mais margem térmica.
-- **Complexo de cálcio** — combina resistência à água com faixa de temperatura mais ampla que o cálcio simples.
-- **Espessantes sem sabão** (por exemplo, poliureia e argila) — a poliureia é frequentemente escolhida para rolamentos em temperatura elevada.
+- espessante e tipo de óleo-base;
+- viscosidade do óleo-base na temperatura indicada;
+- grau NLGI;
+- faixa de temperatura recomendada;
+- ensaios de resistência à água, corrosão e carga pertinentes à aplicação;
+- aprovações ou requisitos exigidos pelo fabricante do equipamento.
 
-Essas são descrições de comportamento esperado, divulgadas pelos próprios fabricantes. Elas não substituem a leitura da ficha técnica nem o requisito do equipamento.
+## Ponto de gota não é temperatura máxima de uso
 
-## Misturar graxas de bases diferentes
+O ponto de gota é um resultado obtido sob condições padronizadas. **Não equivale à temperatura máxima de operação contínua.** A seleção também depende da vida da graxa, da oxidação e das condições do rolamento. Use a faixa de serviço declarada e os critérios do fabricante, não uma margem improvisada abaixo do ponto de gota.
 
-Este é o ponto que mais gera problemas na planta e que exige cuidado com afirmações genéricas.
+## Mistura exige avaliação dos produtos
 
-> **Compatibilidade de mistura é caso a caso.** Bases diferentes podem amolecer ou endurecer a mistura, mas não existe uma resposta universal de "pode" ou "não pode" válida para todas as combinações. A compatibilidade entre duas graxas precisa ser confirmada na documentação do fabricante — e, na dúvida, a prática recomendada é remover a graxa antiga antes de aplicar a nova.
+Ter o mesmo espessante não garante compatibilidade; ter espessantes diferentes também não prova incompatibilidade. Óleo-base, aditivos e proporção da mistura interferem. Tabelas gerais servem como triagem, não como autorização de troca.
 
-Reengraxar por cima, contando com a saída natural da graxa anterior, só faz sentido quando a compatibilidade está documentada. Quando não está, limpar e purgar o ponto é o caminho que evita surpresa.
+Peça confirmação para os dois produtos exatos e um procedimento de conversão aprovado. Limpeza, remoção ou purga devem respeitar o equipamento; não force graxa indiscriminadamente, pois o excesso também pode prejudicar a operação.
 
-## O que conferir antes de escolher
+Para consultar [graxas industriais](/lubrificantes-industriais/graxas-industriais/), informe o produto atual, ponto de aplicação, carga, rotação, temperatura e presença de água. Com esses dados, [prepare sua solicitação](/contato/#orcamento).
 
-A base sozinha não define desempenho. Antes de decidir, reúna o conjunto:
-
-- **O que exige o manual do equipamento** — temperatura de operação, carga, rotação, presença de água e ponto de relubrificação. Essa é a fonte primária da decisão.
-- **Viscosidade do óleo-base** — é o que efetivamente forma o filme; uma base com o mesmo sabão pode vir com óleos de viscosidades muito diferentes.
-- **Aditivos** — os de extrema pressão (EP) e os anticorrosivos influenciam o desempenho sob carga e nas condições do ambiente.
-- **Ponto de gota** — a temperatura em que a estrutura da graxa se rompe; acompanha a discussão sobre faixa térmica.
-- **Dados declarados na documentação** — espessante, grau NLGI e faixa de temperatura vêm da ficha técnica, não de estimativa.
-- **Requisitos do produto** — o que entra na comparação está descrito na [ficha técnica e ficha de segurança](/conteudos/ficha-tecnica-e-ficha-de-seguranca/).
-
-O limite é sempre o mesmo: a escolha parte do manual do equipamento e da documentação do produto. Nenhuma família de espessante é resposta pronta para toda aplicação. Se a dúvida for qual graxa pedir, [descreva a aplicação e a condição de trabalho](/conteudos/informacoes-para-cotar-lubrificante/) — equipamento, ponto de lubrificação e ambiente já estreitam bastante as opções — ou consulte diretamente as [graxas industriais](/lubrificantes-industriais/graxas-industriais/) disponíveis.
-
-## O próximo passo
-
-Informe a aplicação, o tipo de espessante em uso hoje, a temperatura de trabalho e a presença de água no ponto, além da quantidade necessária, para [preparar sua solicitação de graxa](/contato/#orcamento). Com esses dados é possível comparar as bases e confirmar na documentação o que a sua aplicação exige.
+> **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. As páginas públicas das normas não substituem seus textos completos nem o manual do equipamento.

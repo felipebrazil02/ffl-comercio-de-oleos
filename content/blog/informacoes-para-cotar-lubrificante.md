@@ -4,10 +4,10 @@ description: Veja quais dados do equipamento, especificações e informações c
 eyebrow: GUIA DE COTAÇÃO
 summary: Um roteiro prático para organizar a aplicação, as especificações e a quantidade desejada.
 published: 2026-09-10
-updated: 2026-09-30
+updated: 2026-10-13
 tags: cotação, seleção
+consulted: 2026-10-13
 source: Mobil — lubrificantes para engrenagens | https://www.mobil.com/en/sap/business/industrial-lubricants-by-application/gears
-consulted: 2026-09-10
 ---
 
 Quanto mais clara a necessidade, mais objetiva pode ser a consulta comercial. Comece pelo equipamento e organize as informações abaixo.
@@ -38,10 +38,14 @@ Esses dados organizam a consulta; a disponibilidade de produtos, embalagens e at
 
 ## 4. Quando a especificação não está disponível
 
-Descreva o que você sabe sobre o equipamento. Procure o manual ou a documentação de manutenção. Evite afirmar compatibilidade ou substituir um produto com base somente no nome, na aparência ou na viscosidade.
+Descreva o que você sabe sobre o equipamento. Procure o manual ou a documentação de manutenção. Uma alternativa comercial só deve ser aplicada depois da confirmação técnica pertinente; a cotação não é, por si, uma autorização de substituição.
+
+Evite afirmar compatibilidade ou substituir um produto com base somente no nome, na aparência ou na viscosidade.
 
 O formulário da FFL permite começar pela aplicação, mesmo quando você ainda não tem o nome comercial do produto.
 
 ## Referência técnica
 
 Os critérios gerais de seleção foram conferidos na orientação técnica da Mobil sobre lubrificantes para engrenagens. A lista de dados comerciais é uma orientação editorial para preparar a consulta.
+
+> **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. Revisão pontual; os critérios gerais foram mantidos e a necessidade de confirmação técnica foi reforçada.

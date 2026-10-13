@@ -4,55 +4,46 @@ description: Como ponto de fluidez e ponto de névoa são medidos e em quais sit
 eyebrow: FUNDAMENTOS
 summary: Duas temperaturas medidas em laboratório que só mudam a decisão em aplicações específicas.
 published: 2026-10-13
+updated: 2026-10-13
 tags: fundamentos, viscosidade
-source: ASTM D97 — ponto de fluidez de produtos de petróleo | https://www.astm.org/d0097-17br20.html
-source: ASTM D2500 — ponto de névoa de produtos de petróleo | https://www.astm.org/d2500-17a.html
 consulted: 2026-10-13
 indexable: true
+source: ASTM D97 — escopo público do ponto de fluidez | https://store.astm.org/standards/d97
+source: ASTM D2500 — escopo público do ponto de névoa | https://store.astm.org/standards/d2500
+source: SKF — lubrificação em baixas temperaturas | https://evolution.skf.com/us/low-temperatures/
+source: ASTM D2270 — temperaturas usadas no índice de viscosidade | https://store.astm.org/standards/d2270
 ---
 
-Ponto de névoa e ponto de fluidez indicam duas temperaturas: aquela em que o óleo começa a ficar turvo e aquela em que ele deixa de escoar nas condições do ensaio. São resultados de laboratório, medidos em aparelhagem normalizada. Na prática, eles só mudam a escolha de um lubrificante quando o equipamento realmente precisa partir frio — e nunca substituem a especificação exigida pelo fabricante.
+Ponto de fluidez e ponto de névoa ajudam a avaliar comportamento em baixa temperatura, mas descrevem fenômenos diferentes. São resultados de laboratório, não temperaturas mínimas garantidas para qualquer máquina.
 
-## Dois ensaios, duas temperaturas
+## Ponto de fluidez: movimento nas condições do ensaio
 
-O **ponto de névoa**, medido pela ASTM D2500, é a temperatura em que os primeiros cristais de cera começam a aparecer e o óleo perde a transparência. Ele descreve uma mudança de aparência. Não diz, por si, que o óleo parou de escoar.
+O ponto de fluidez indica a menor temperatura de escoamento observada conforme o procedimento aplicável. A ASTM D97 é uma referência para produtos de petróleo. **Não é simplesmente a temperatura em que o óleo deixa de fluir**, nem um limite universal de bombeamento.
 
-O **ponto de fluidez**, medido pela ASTM D97, é a menor temperatura em que o óleo ainda escoa sob as condições do ensaio. Detalhe que muita gente esquece: o resultado é reportado alguns graus acima da temperatura em que nenhum movimento é observado. Existe, portanto, uma margem embutida no próprio número publicado na ficha.
+Ao comparar fichas, confira método e condições. Resultados de métodos automáticos alternativos não devem ser tratados como ASTM D97 sem essa identificação.
 
-Os dois ensaios têm protocolo, equipamento e critério de leitura próprios. Isso significa que comparar o ponto de fluidez de dois produtos só é coerente quando os dois números vêm do mesmo método. Um valor isolado, retirado de uma ficha e confrontado com um valor de outra origem, não sustenta decisão.
+## Ponto de névoa: aparecimento de cristais
 
-> **Ensaio, não promessa.** As duas temperaturas descrevem o comportamento do óleo nas condições padronizadas do ensaio. Não são uma previsão de como ele vai se comportar dentro de um circuito real, com bomba, linha, filtro e ponto de partida específicos.
+O ponto de névoa está associado ao aparecimento de turvação por cristais de cera durante o resfriamento nas condições do ensaio. A ASTM D2500 tem limitações de aplicação, incluindo requisitos de transparência da amostra. Não presuma que o método se aplica indistintamente a todo lubrificante.
 
-## O que o ponto de fluidez não garante
+A turvação não significa necessariamente que o fluido parou de escoar. Sua relevância pode envolver filtração, armazenamento e circulação, além da partida a frio.
 
-O erro mais comum é tratar ponto de fluidez como sinônimo de capacidade de bombeamento a frio. Não é.
+## Por que escoar não significa bombear adequadamente
 
-Um óleo pode escoar no ensaio e ainda assim ser difícil de bombear. O que pesa na partida é a **viscosidade na temperatura real de operação** — junto com o diâmetro da linha de sucção, a perda de carga do circuito e o tipo de bomba. Um fluido que passa no ensaio a determinada temperatura pode chegar à bomba grosso demais naquela mesma temperatura, dependendo da instalação.
+Um óleo ainda móvel pode estar viscoso demais para a bomba ou para a alimentação do ponto lubrificado. A escolha depende da temperatura real, da viscosidade nessa condição e dos limites do equipamento.
 
-Por isso, ao avaliar partida a frio, vale olhar a viscosidade na temperatura mínima de operação e não apenas o ponto de fluidez. O [índice de viscosidade](/conteudos/indice-de-viscosidade/) ajuda a entender quão rápido a viscosidade cai conforme a temperatura sobe, e é uma informação mais útil para prever comportamento em faixa ampla de temperatura.
+O [índice de viscosidade](/conteudos/indice-de-viscosidade/) não substitui os dados necessários para frio intenso. Ele é calculado a partir de 40 °C e 100 °C, não de um ensaio de partida na temperatura mínima da instalação.
 
-Também é preciso lembrar o que esses ensaios não medem: nível de aditivação, resistência à oxidação, separação de água, proteção contra corrosão e compatibilidade com vedações ficam fora. Dois óleos com o mesmo ponto de fluidez podem se comportar de forma bem diferente no sistema, porque a composição do óleo-base e o pacote de aditivos entram na conta.
+## Não classifique somente pela família da base
 
-Sobre composição, o que se pode dizer de forma segura é que bases **parafínicas** tendem a apresentar ponto de névoa e ponto de fluidez mais altos, enquanto bases **naftênicas** e **sintéticas**, em geral, apresentam valores mais baixos. Melhoradores de índice de viscosidade e depressores de ponto de fluidez também influenciam o resultado. São tendências declaradas pelos fabricantes, não regras universais — e o efeito de um depressor é sobre o comportamento do ensaio, não uma mudança da natureza do óleo-base. Confirme o número na documentação do produto em uso.
+Evite concluir que todo óleo sintético terá desempenho superior a frio ou atribuir o resultado apenas a um aditivo. Consulte o produto e o grau exatos: a formulação completa influencia as propriedades publicadas.
 
-## Quando isso muda a escolha
+Para uma comparação útil, reúna a temperatura mínima prevista, os períodos de parada, os limites de partida e os dados do fluido. Se faltar informação, solicite confirmação ao fabricante, em vez de criar uma margem genérica abaixo ou acima do ponto de fluidez.
 
-Essas duas temperaturas passam a pesar quando o óleo precisa estar frio e, ainda assim, fluir e ser bombeado. Situações típicas:
+## O que enviar na consulta
 
-- óleos hidráulicos e de redutores em ambiente frio;
-- partidas a frio, com o equipamento parado por horas ou por toda a noite;
-- equipamentos instalados ao ar livre, sem proteção térmica;
-- armazenamento em área não aquecida;
-- circuitos que ficam longos períodos parados no inverno.
+Informe equipamento, grau e especificação exigidos, temperatura mínima, produto atual e condições de armazenamento. A [ficha técnica](/conteudos/ficha-tecnica-e-ficha-de-seguranca/) deve ser lida junto ao manual.
 
-Em contrapartida, em sistema fechado, instalado em ambiente aquecido e operando continuamente acima de determinada temperatura, o ponto de fluidez costuma importar pouco. Nesse cenário, quem decide o desempenho é a viscosidade em operação, e a atenção se volta para o grau e para o pacote de aditivos.
+Veja os [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) ou [prepare sua solicitação](/contato/#orcamento) com esses dados.
 
-> **Comece pelo requisito.** A temperatura mínima de operação e a especificação do fluido são definidas pelo fabricante do equipamento. O rótulo e a ficha técnica apenas informam o resultado do ensaio. A escolha parte do grau exigido — veja [como ler um grau ISO VG](/conteudos/como-ler-um-grau-iso-vg/) — e da especificação; o ponto de fluidez entra como dado complementar, não como critério de seleção.
-
-Onde esse dado é mais consultado é justamente em hidráulica, em redutores expostos ao tempo e em equipamentos que ficam parados por longos períodos. Nesses casos, vale levar a temperatura mínima real de partida para a conversa com o fornecedor, junto com a [linha de óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) ou de [óleos para engrenagens](/lubrificantes-industriais/oleos-para-engrenagens/) aplicável ao equipamento.
-
-## O próximo passo
-
-Ponto de fluidez e ponto de névoa são informações úteis quando lidos no contexto certo: temperatura mínima de operação, tipo de bomba, tempo de parada e especificação exigida. Fora desse contexto, dois números de laboratório decidem pouco.
-
-Se a sua aplicação trabalha em ambiente frio ou fica parada por longos períodos, informe a aplicação, a temperatura mínima de partida, a especificação exigida e a quantidade para [preparar sua solicitação](/contato/#orcamento).
+> **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. As páginas públicas das normas não substituem seus textos completos nem o manual do equipamento.

@@ -2,57 +2,46 @@
 title: "Índice de viscosidade: o que ele mede e não garante"
 description: O que o índice de viscosidade descreve, como é calculado pela ASTM D2270 e por que ele não substitui a especificação do fabricante.
 eyebrow: FUNDAMENTOS
-summary: A curva que mostra o quanto a viscosidade cai com a temperatura — e o limite desse número.
+summary: O IV descreve a relação viscosidade-temperatura, sem substituir os requisitos da aplicação.
 published: 2026-10-13
+updated: 2026-10-13
 tags: fundamentos, viscosidade
-source: ASTM D2270 — cálculo do índice de viscosidade | https://www.astm.org/d2270-10r16.html
-source: ISO 2909 — índice de viscosidade a partir da viscosidade cinemática | https://www.iso.org/standard/45282.html
 consulted: 2026-10-13
 indexable: true
+source: ASTM D2270 — escopo público do cálculo de IV | https://store.astm.org/standards/d2270
+source: Mobil DTE 10 Excel — IV e estabilidade ao cisalhamento | https://www.mobil.com/en/lubricants/for-businesses/industrial/lubricants/products/products/mobil-dte-10-excel-22
 ---
 
-O índice de viscosidade é um número que descreve uma única coisa: o quanto a viscosidade de um óleo cai quando a temperatura sobe. Ele não diz nada sobre a qualidade do produto, sobre o nível de aditivação nem sobre a proteção que o óleo vai oferecer ao equipamento. Serve para comparar o formato da curva de dois fluidos, e só isso. Entender esse limite é o que evita usar o IV como se fosse um selo de qualidade.
+O índice de viscosidade, ou IV, descreve a variação relativa da viscosidade com a temperatura. É uma propriedade útil na seleção, mas **não é uma nota geral de qualidade** nem comprova que um óleo atende ao equipamento.
 
-## O que o número mede
+## Como o IV é calculado
 
-O índice de viscosidade é um valor adimensional calculado a partir de duas medições de viscosidade cinemática: uma a 40 °C e outra a 100 °C. O procedimento é normalizado pela ASTM D2270 e pela ISO 2909. A partir desses dois pontos, o cálculo compara o comportamento do óleo com o de dois óleos de referência — um de cadeia parafínica, cuja viscosidade varia pouco, e um de cadeia naftênica, cuja viscosidade varia muito.
+A ASTM D2270 usa as viscosidades cinemáticas a 40 °C e a 100 °C. O cálculo emprega relações e valores de referência normalizados; não exige ensaiar fisicamente dois óleos de referência ao lado de cada amostra.
 
-Quanto mais próximo o óleo estiver do comportamento do referencial parafínico, maior o resultado. Na prática, isso se traduz em duas leituras:
+Valores acima de 100 são possíveis. Em termos gerais, um IV maior representa menor redução relativa da viscosidade com o aquecimento entre as temperaturas consideradas. Isso não permite reconstruir com exatidão toda a curva do produto, especialmente em temperaturas muito baixas.
 
-- **IV alto** significa curva mais plana, ou seja, a viscosidade muda menos ao longo da faixa de temperatura;
-- **IV baixo** significa curva mais inclinada, com queda mais acentuada quando esquenta.
+## IV e ISO VG são dados diferentes
 
-É importante não confundir esse número com o grau de viscosidade. O grau ISO VG descreve a faixa de viscosidade a 40 °C — é uma medida de espessura naquela temperatura de referência. O IV descreve o formato da curva. Dois óleos podem ter exatamente o mesmo ISO VG e índices de viscosidade bem diferentes, e é aí que a distinção passa a ter efeito prático. Para relembrar como a escala ISO VG é construída, vale revisar [como ler um grau ISO VG](/conteudos/como-ler-um-grau-iso-vg/).
+O [grau ISO VG](/conteudos/como-ler-um-grau-iso-vg/) identifica uma faixa de viscosidade a 40 °C. O IV usa também a medição a 100 °C. Assim, dois produtos ISO VG 46 podem ter valores diferentes a 100 °C e índices distintos.
 
-> **Faixas típicas.** Os fabricantes costumam declarar IV em faixas distintas conforme o tipo de óleo-base, e é comum encontrar valores diferentes entre produtos do mesmo grau. Como esses valores variam de formulação para formulação, o número que vale é o da ficha do produto analisado — não uma referência genérica.
+Para comparar candidatos, anote separadamente o grau, as duas viscosidades publicadas e o IV. Não conclua que um óleo é sempre mais viscoso que outro apenas porque seu IV é maior.
 
-## O que ele não garante
+## O que precisa ser conferido à parte
 
-O índice de viscosidade mede comportamento físico, não desempenho. Ele **não informa**:
+O IV não comprova proteção antidesgaste, resistência à oxidação, separação de água, liberação de ar ou compatibilidade com vedações. Também não substitui ensaios de baixa temperatura.
 
-- o nível e o tipo de aditivação, incluindo aditivos antidesgaste e de extrema pressão;
-- a resistência à oxidação e a tendência de formação de borra e verniz;
-- a capacidade de separar água e de liberar ar rapidamente;
-- a proteção contra corrosão;
-- a compatibilidade com vedações, mangueiras e revestimentos;
-- o ponto de fluidez nem o comportamento na partida a frio.
+Formulação e estabilidade ao cisalhamento precisam ser avaliadas separadamente. A documentação da linha Mobil DTE 10 Excel, por exemplo, publica alto IV e estabilidade ao cisalhamento como características distintas. Isso não autoriza extrapolar o mesmo desempenho para qualquer produto com IV parecido.
 
-Por isso, dois óleos com o mesmo grau ISO VG e o mesmo índice de viscosidade podem se comportar de maneira bastante diferente no mesmo equipamento. O tipo de óleo-base e o pacote de aditivos contribuem para essa diferença — elementos que o IV não enxerga.
+## Aplicação em temperaturas variáveis
 
-Um ponto merece atenção. Um IV muito elevado pode ser obtido, entre outros caminhos, com o uso de melhoradores de índice de viscosidade. Isso não é bom nem ruim por si: é uma escolha de formulação. O que muda é o comportamento do fluido com o uso, porque esses componentes podem sofrer cisalhamento ao longo da vida do óleo, e o efeito disso depende da formulação e da aplicação.
+Em sistemas expostos a variações térmicas, peça ao fabricante os limites de viscosidade permitidos na partida e em regime. Compare esses limites com os dados do fluido na temperatura real.
 
-> **Mesmo IV, óleos diferentes.** Comparar dois produtos apenas pelo número do índice de viscosidade é comparar um único recorte. A especificação exigida, o tipo de base e os aditivos entram na decisão e não aparecem no cálculo.
+Para frio intenso, não extrapole apenas o IV: consulte viscosidade a frio, bombeabilidade e [ponto de fluidez](/conteudos/ponto-de-fluidez-e-ponto-de-nevoa/) conforme a aplicação. Um ponto de fluidez baixo também não resolve sozinho essa avaliação.
 
-## Quando o IV realmente pesa
+## Roteiro para selecionar
 
-O índice de viscosidade ganha relevância quando o sistema trabalha em uma faixa ampla de temperatura. Ambientes expostos, equipamentos que operam frios na partida e quentes em regime, circuitos que ficam parados em área não aquecida — nesses casos, uma curva mais plana ajuda a prever como a viscosidade se comporta nas duas pontas.
+Comece pelo manual, identifique a especificação e reúna as condições de operação. Depois compare a [ficha técnica](/conteudos/ficha-tecnica-e-ficha-de-seguranca/) dos produtos admitidos. Na ausência de dados para a temperatura de uso, peça orientação técnica antes da substituição.
 
-Em sistemas que operam dentro de uma faixa estreita de temperatura, com controle térmico e regime constante, o índice de viscosidade costuma pesar menos na escolha. A decisão continua sendo guiada pelo grau exigido e pelo comportamento nessa temperatura.
+Para consultar [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/), [envie equipamento, temperaturas e especificação exigida](/contato/#orcamento).
 
-O caminho correto de seleção é sempre o mesmo: partir do **grau de viscosidade e da especificação exigida pelo manual do equipamento**. O índice de viscosidade entra depois, como informação complementar, para avaliar o comportamento em faixa ampla de temperatura. Ele não decide a escolha sozinho — e não substitui o requisito do fabricante nem os ensaios de desempenho que constam na documentação do produto, como os apresentados na [ficha técnica e na ficha de segurança](/conteudos/ficha-tecnica-e-ficha-de-seguranca/).
-
-Essa lógica vale igualmente para sistemas hidráulicos e para redutores. Em [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/), o índice de viscosidade aparece na ficha ao lado da classe de desempenho, mas é a especificação da máquina que define o que pode ser usado. Da mesma forma, em [óleos para engrenagens](/lubrificantes-industriais/oleos-para-engrenagens/), o nível de aditivação exigido pesa mais do que o valor do IV isolado.
-
-## O próximo passo
-
-O índice de viscosidade é um dado de partida útil, mas ele só ganha sentido junto com o grau, a especificação e a aplicação. Se o objetivo é substituir um produto ou definir o que atende a um equipamento específico, informe a aplicação, a especificação exigida e a quantidade para [preparar sua solicitação](/contato/#orcamento).
+> **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. As páginas públicas das normas não substituem seus textos completos nem o manual do equipamento.
