@@ -5,6 +5,7 @@ eyebrow: USINAGEM
 summary: Lubricidade, refrigeração e controle precisam ser avaliados na operação real.
 published: 2026-10-06
 updated: 2026-10-13
+indexable: true
 tags: usinagem, seleção
 consulted: 2026-10-13
 source: Master Fluid Solutions — seleção de fluidos de corte e retificação | https://pdocs.masterfluids.com/mcc/docs/db-docs/technical-articles/selectin.pdf

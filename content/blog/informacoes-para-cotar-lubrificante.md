@@ -5,6 +5,7 @@ eyebrow: GUIA DE COTAÇÃO
 summary: Um roteiro prático para organizar a aplicação, as especificações e a quantidade desejada.
 published: 2026-09-10
 updated: 2026-10-13
+indexable: true
 tags: cotação, seleção
 consulted: 2026-10-13
 source: Mobil — lubrificantes para engrenagens | https://www.mobil.com/en/sap/business/industrial-lubricants-by-application/gears

@@ -5,6 +5,7 @@ eyebrow: COMPRESSORES
 summary: Manual, viscosidade, desempenho e procedimento de troca devem ser avaliados juntos.
 published: 2026-10-06
 updated: 2026-10-13
+indexable: true
 tags: compressores, normas, seleção
 consulted: 2026-10-13
 source: Atlas Copco — funções e degradação do óleo de compressor | https://www.atlascopco.com/en-us/construction-equipment/service/fluids-and-lubricants-portfolio/compressor-oil

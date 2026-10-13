@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-13",
+  "baseCommit": "07988b668d74ef7912154a42d237b418d43e1aa0",
+  "released": [
+    "como-ler-um-grau-iso-vg",
+    "din-51524-hl-hlp-hvlp",
+    "ficha-tecnica-e-ficha-de-seguranca",
+    "informacoes-para-cotar-lubrificante",
+    "nlgi-consistencia-de-graxas",
+    "oleo-de-corte-integral-ou-emulsionavel",
+    "oleo-para-compressor-de-parafuso"
+  ],
+  "reason": "Revisão técnica e editorial concluída; autorização explícita para indexação.",
+  "sitemapUrls": 60,
+  "redirects": [
+    {
+      "from": "/blog",
+      "to": "/conteudos/",
+      "reason": "Índice editorial equivalente"
+    },
+    {
+      "from": "/post/a-importância-da-análise-de-óleo-para-a-manutenção-preditiva-de-equipamentos-industriais",
+      "to": "/conteudos/analise-de-oleo-em-tendencia/",
+      "reason": "Mesmo tema e finalidade: análise de óleo na manutenção"
+    }
+  ],
+  "retained404": [
+    "/post/principais-aplicações-do-óleo-industrial-e-automotivo-e-coleta-de-óleo-lubrificante-usado",
+    "/post/diferença-entre-óleo-mineral-e-sintético-qual-escolher-para-o-seu-veículo-ou-empresa"
+  ],
+  "notes": "Sem redirecionamento amplo de /post/*; utilitários continuam noindex. Correção de concordância no artigo ISO VG. Datas originais mantidas."
+}

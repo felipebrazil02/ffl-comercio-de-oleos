@@ -5,6 +5,7 @@ eyebrow: FUNDAMENTOS
 summary: A classificação que aparece em quase todo óleo industrial, explicada pela norma que a define.
 published: 2026-09-30
 updated: 2026-10-13
+indexable: true
 tags: seleção, viscosidade
 consulted: 2026-10-13
 source: ISO 3448 — classificação de viscosidade industrial | https://www.iso.org/standard/8774.html
@@ -15,7 +16,7 @@ ISO VG 46 não é um nome comercial nem uma faixa aproximada. É uma classifica�
 
 ## O que o número significa
 
-O número de um grau ISO VG é a **valor nominal central da faixa de viscosidade cinemática a 40 °C**, medida em mm²/s — a unidade também conhecida como centistokes (cSt). Um ISO VG 46 tem viscosidade nominal de 46 mm²/s a 40 °C.
+O número de um grau ISO VG representa o **valor nominal central da faixa de viscosidade cinemática a 40 °C**, expresso em mm²/s — a unidade também conhecida como centistokes (cSt). Um ISO VG 46 tem viscosidade nominal de 46 mm²/s a 40 °C.
 
 A classificação vem da ISO 3448, que define cada grau como uma faixa de ±10% em torno desse valor central. Na prática:
 

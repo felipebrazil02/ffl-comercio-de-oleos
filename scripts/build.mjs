@@ -218,7 +218,7 @@ await fs.writeFile('dist/robots.txt',`User-agent: *\nAllow: /\n${company.publicI
 // Assets com hash no nome podem ser imutáveis; favicon e licenças não têm hash.
 await fs.writeFile('dist/_headers',['/*','  X-Content-Type-Options: nosniff','  Referrer-Policy: strict-origin-when-cross-origin','  Permissions-Policy: camera=(), microphone=(), geolocation=()',...(!company.publicIndexing?['  X-Robots-Tag: noindex, nofollow']:[]),'/404.html','  X-Robots-Tag: noindex','/obrigado/*','  X-Robots-Tag: noindex, nofollow','/privacidade/*','  X-Robots-Tag: noindex, nofollow',...blogNoindexRules,'/assets/*','  Cache-Control: public, max-age=31536000, immutable','/assets/favicon.svg','  Cache-Control: public, max-age=86400'].join(String.fromCharCode(10))+String.fromCharCode(10));
 // URLs antigas (quando os produtos levavam o nome do fornecedor no slug).
-// O site nunca foi indexado, mas links já compartilhados continuam funcionando.
+// Preserve links compartilhados para produtos da arquitetura anterior.
 const LEGADO={
   'falub-hs-68-220-aw':'oleo-hidraulico-aw-68-220/oleos-hidraulicos',
   'falub-hs-10-46-aw':'oleo-hidraulico-aw-10-46/oleos-hidraulicos',
@@ -246,7 +246,13 @@ const redirects=Object.entries(LEGADO).map(([antigo,novo])=>{
   const [slug,cat]=novo.split('/');
   return `/lubrificantes-industriais/${cat}/${antigo}/  /lubrificantes-industriais/${cat}/${slug}/  301`;
 }).join('\n');
-await fs.writeFile('dist/_redirects',`/index.html / 301!\n# Slugs antigos, de quando o nome do fornecedor compunha a URL.\n${redirects}\n`);
+// Somente URLs com conteúdo equivalente: não redirecionar todo /post/*.
+const editorialRedirects = [
+  ['/blog', '/conteudos/'],
+  ['/post/a-importância-da-análise-de-óleo-para-a-manutenção-preditiva-de-equipamentos-industriais', '/conteudos/analise-de-oleo-em-tendencia/'],
+].flatMap(([oldPath, target]) => [...new Set([oldPath, encodeURI(oldPath)])]
+  .flatMap(path => [`${path} ${target} 301!`, `${path}/ ${target} 301!`])).join('\n');
+await fs.writeFile('dist/_redirects',`/index.html / 301!\n# Conteúdo editorial equivalente da arquitetura anterior.\n${editorialRedirects}\n# Slugs antigos, de quando o nome do fornecedor compunha a URL.\n${redirects}\n`);
 await fs.mkdir('outputs',{recursive:true});
 await fs.writeFile('outputs/mapa-seo.csv','\ufeffURL;Palavra-chave (hipótese);Title;Meta description;Indexação\n'+indexable.map(p=>[p.url,p.keyword,p.title,p.description,company.publicIndexing?'indexável':'noindex — revisão privada'].map(s=>'"'+String(s).replace(/"/g,'""')+'"').join(';')).join('\n'));
 await fs.writeFile('outputs/rotas.json',JSON.stringify(pages.map(p=>({url:p.url,title:p.title,description:p.description,noindex:!canIndex(p),utility:!!p.noindex})),null,2));

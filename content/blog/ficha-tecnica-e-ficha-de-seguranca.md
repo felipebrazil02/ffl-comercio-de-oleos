@@ -5,6 +5,7 @@ eyebrow: DOCUMENTAÇÃO TÉCNICA
 summary: Entenda o papel de cada documento e o que conferir antes de comparar produtos.
 published: 2026-09-10
 updated: 2026-10-13
+indexable: true
 tags: documentação, seleção
 consulted: 2026-10-13
 source: Mobil — exemplo de ficha técnica e propriedades típicas | https://www.mobil.com/en-us/industrial/pds/gl-xx-mobil-dte-20-series

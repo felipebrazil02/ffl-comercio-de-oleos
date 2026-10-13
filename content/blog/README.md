@@ -24,6 +24,7 @@ Vai entre `---` no topo do arquivo.
 | `eyebrow` | sim | Rótulo em maiúsculas acima do título (ex.: `NORMAS`) |
 | `published` | sim | `AAAA-MM-DD` |
 | `updated` | não | `AAAA-MM-DD`. Preencha ao revisar um post já publicado |
+| `indexable` | não | `true` somente após revisão editorial. Sem isso, o artigo recebe noindex e fica fora do sitemap |
 | `tags` | não | Separadas por vírgula |
 | `source` | não | `Rótulo | URL`. Pode repetir a linha para várias fontes |
 | `consulted` | não | `AAAA-MM-DD` da consulta às fontes |

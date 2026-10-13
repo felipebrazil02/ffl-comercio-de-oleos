@@ -5,6 +5,7 @@ eyebrow: FUNDAMENTOS
 summary: A escala que classifica graxas, e o dado que ela deliberadamente não informa.
 published: 2026-10-06
 updated: 2026-10-13
+indexable: true
 tags: graxas, seleção, viscosidade
 consulted: 2026-10-13
 source: ASTM D217 — escopo público da penetração de graxas | https://store.astm.org/standards/d217

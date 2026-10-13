@@ -5,6 +5,7 @@ eyebrow: NORMAS
 summary: A norma que quase todo manual de sistema hidráulico cita, e o que cada designação exige do fluido.
 published: 2026-09-30
 updated: 2026-10-13
+indexable: true
 tags: hidráulica, normas, seleção
 consulted: 2026-10-13
 source: DIN 51524-1 — HL, página pública | https://www.dinmedia.de/de/norm/din-51524-1/272262589
