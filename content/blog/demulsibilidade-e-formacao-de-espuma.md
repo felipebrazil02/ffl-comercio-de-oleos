@@ -12,7 +12,7 @@ consulted: 2026-10-13
 indexable: true
 ---
 
-Demulsibilidade e espuma aparecem na mesma ficha técnica, mas respondem a perguntas diferentes. A demulsibilidade descreve a facilidade com que o óleo se separa da água; a espuma descreve o quanto o óleo retém ar. Nenhum dos dois números se lê bem isolado: eles ganham sentido quando comparados ao requisito do equipamento e ao histórico do mesmo sistema.
+Demulsibilidade e espuma aparecem na mesma ficha técnica, mas respondem a perguntas diferentes. A demulsibilidade descreve a facilidade com que o óleo se separa da água; a espuma descreve o quanto o óleo retém ar. Nenhum dos dois números deve ser interpretado isoladamente: eles ganham sentido quando comparados ao requisito do equipamento e ao histórico do mesmo sistema.
 
 ## Duas perguntas diferentes
 
@@ -42,7 +42,7 @@ Há ainda um segundo ponto: essas propriedades mudam com o envelhecimento do flu
 
 > **Comparar exige condições iguais.** Resultados obtidos em sequências, tempos ou temperaturas diferentes não são comparáveis entre si, mesmo quando os números parecem próximos. Antes de julgar que um produto é melhor que outro, confirme que os dois valores vieram do mesmo método e das mesmas condições.
 
-Quando o assunto é a limpeza do fluido, os resultados de demulsibilidade e espuma andam junto com a leitura de partículas sólidas — o [código de contaminação ISO 4406](/conteudos/iso-4406-codigo-de-contaminacao/) descreve outra dimensão do mesmo problema, e é o conjunto das três informações que desenha o estado do óleo.
+Quando o assunto é a limpeza do fluido, os resultados de demulsibilidade e espuma devem ser considerados em conjunto com a leitura de partículas sólidas — o [código de contaminação ISO 4406](/conteudos/iso-4406-codigo-de-contaminacao/) descreve outra dimensão do mesmo problema, e é o conjunto das três informações que desenha o estado do óleo.
 
 O limite de qualquer um desses números é o requisito da aplicação. Quem define o que o fluido precisa cumprir é o fabricante do equipamento, e a ficha técnica do produto informa o que aquele óleo específico declara em condições de ensaio definidas. Não existe valor universal de demulsibilidade ou de espuma que sirva para todo sistema.
 

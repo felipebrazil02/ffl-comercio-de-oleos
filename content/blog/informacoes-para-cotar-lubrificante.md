@@ -22,7 +22,7 @@ Uma solicitação como "óleo para o redutor do transportador, conforme a especi
 
 Se já utiliza um lubrificante, anote o nome completo e o grau do produto. Consulte a ficha técnica e a recomendação do fabricante do equipamento. Para avaliar alternativas, essas referências precisam ser conferidas em conjunto.
 
-> **A viscosidade não conta a história toda.** Óleo base, aditivos, aplicação e condições de operação também influenciam a seleção. Um mesmo grau de viscosidade não comprova equivalência entre produtos.
+> **A viscosidade não conta a história toda.** Óleo-base, aditivos, aplicação e condições de operação também influenciam a seleção. Um mesmo grau de viscosidade não comprova equivalência entre produtos.
 
 Se o seu caso é um sistema hidráulico, o grau costuma vir acompanhado de uma exigência de norma — veja [como ler as designações HL, HLP e HVLP](/conteudos/din-51524-hl-hlp-hvlp/) antes de comparar produtos.
 

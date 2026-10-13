@@ -30,7 +30,7 @@ Quanto mais o cone afunda, mais mole é a graxa. A faixa medida determina o grau
 
 Repare que as faixas são todas de 30 unidades, separadas por intervalos de 15. A escala é regular de propósito: foi construída para que dois laboratórios diferentes cheguem ao mesmo grau para a mesma amostra.
 
-> **Número maior significa graxa mais dura.** É o inverso do que a intuição sugere a quem está acostumado com óleo, onde o número do grau ISO cresce junto com a espessura do fluido mas descreve escoamento, não firmeza.
+> **Número maior significa graxa mais dura.** É o inverso do que a intuição sugere a quem está acostumado com óleo, onde o número do grau ISO cresce junto com a espessura do fluido, mas descreve escoamento, não firmeza.
 
 ## Por que NLGI 2 virou o padrão
 
@@ -42,9 +42,9 @@ Graus mais moles — 0 e 00 — aparecem onde a graxa precisa ser bombeada por l
 
 Aqui está o ponto que mais causa erro de seleção: **a consistência não diz nada sobre a capacidade de lubrificar**.
 
-Uma graxa é, essencialmente, um óleo retido em uma estrutura de espessante. Quem forma o filme lubrificante entre as superfícies é o óleo base, não o espessante. E a viscosidade desse óleo base é um dado separado, publicado em cStokes a 40 °C, exatamente como em [qualquer grau ISO VG](/conteudos/como-ler-um-grau-iso-vg/).
+Uma graxa é, essencialmente, um óleo retido em uma estrutura de espessante. Quem forma o filme lubrificante entre as superfícies é o óleo-base, não o espessante. E a viscosidade desse óleo-base é um dado separado, publicado em centistokes (cSt) a 40 °C, exatamente como em [qualquer grau ISO VG](/conteudos/como-ler-um-grau-iso-vg/).
 
-Duas graxas NLGI 2 podem ter óleos base de viscosidade muito diferente — uma com ISO VG 100, outra com ISO VG 460 — e se comportarem de maneira completamente distinta no mesmo rolamento. Para selecionar corretamente, a viscosidade do óleo base precisa ser comparada com a exigida pela rotação, pela carga e pela temperatura do mancal.
+Duas graxas NLGI 2 podem ter óleos-base de viscosidade muito diferente — uma com ISO VG 100, outra com ISO VG 460 — e se comportar de maneira completamente distinta no mesmo rolamento. Para selecionar corretamente, a viscosidade do óleo-base precisa ser comparada com a exigida pela rotação, pela carga e pela temperatura do mancal.
 
 ## O espessante importa tanto quanto o grau
 
@@ -59,7 +59,7 @@ Misturar espessantes incompatíveis pode amolecer a mistura a ponto de ela escor
 Uma solicitação completa traz quatro informações, e nenhuma delas sozinha resolve:
 
 1. O grau NLGI exigido pelo equipamento ou pelo sistema de aplicação.
-2. A viscosidade do óleo base adequada à rotação, à carga e à temperatura.
+2. A viscosidade do óleo-base adequada à rotação, à carga e à temperatura.
 3. O tipo de espessante — ou, no mínimo, qual graxa está em uso hoje.
 4. As condições do ponto: temperatura de trabalho, presença de água, carga de choque.
 

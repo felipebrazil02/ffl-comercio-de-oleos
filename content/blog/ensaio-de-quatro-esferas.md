@@ -38,7 +38,7 @@ Repare no detalhe: D2266 e D2596 são ensaios diferentes, sobre o mesmo tipo de 
 
 Um valor de carga de solda mais alto ou uma cicatriz menor indica que, naquelas condições específicas de bancada, aquele lubrificante resistiu melhor. Isso é uma informação real, mas ela não se converte automaticamente em melhor desempenho em campo.
 
-Três motivos explicam por que:
+Três motivos explicam essa limitação:
 
 1. **As condições de ensaio são arbitrárias em relação à aplicação.** Trocar a carga, o tempo ou a temperatura invalida a comparação direta entre dois números retirados de fichas diferentes. Duas fichas só são comparáveis quando os parâmetros de ensaio são os mesmos — e isso nem sempre está declarado com clareza.
 2. **Contato pontual não representa contato de engrenagem.** O ensaio trabalha com um ponto de contato entre esferas. Uma engrenagem trabalha com linha de contato, escorregamento relativo e carregamento cíclico. São regimes tribológicos diferentes.
@@ -48,7 +48,7 @@ Três motivos explicam por que:
 
 A escolha de um óleo EP para engrenagem ou de uma graxa EP parte da **especificação exigida pelo fabricante do equipamento**. É ela que define o nível de aditivação necessário, o grau de viscosidade e a família de produto aceita para aquele redutor, aquele rolamento ou aquele conjunto.
 
-Os ensaios de quatro esferas são úteis como **dado complementar**: servem para caracterizar o produto e compará-lo com outros lidos sob as mesmas condições. Não substituem a especificação, não substituem a aprovação e não substituem o histórico de campo.
+Os ensaios de quatro esferas são úteis como **dado complementar**: servem para caracterizar o produto e compará-lo com outros produtos avaliados sob as mesmas condições. Não substituem a especificação, não substituem a aprovação e não substituem o histórico de campo.
 
 Na prática, ajuda pensar em duas camadas:
 

@@ -29,7 +29,7 @@ Operações que normalmente pedem **emulsionável**: torneamento e fresamento em
 
 Comparar os dois pelo preço do litro leva a conclusões erradas, porque eles têm estruturas de custo diferentes.
 
-O integral é mais caro por litro, mas vai puro para a máquina e tem vida longa no reservatório. Não cria ambiente para crescimento microbiológico, porque não tem água. Em contrapartida, gera mais névoa, exige atenção a ponto de fulgor e arrasta mais produto junto com o cavaco.
+O integral é mais caro por litro, mas vai puro para a máquina e tem vida longa no reservatório. Não cria ambiente para crescimento microbiológico, porque não tem água. Em contrapartida, gera mais névoa, exige atenção ao ponto de fulgor e arrasta mais produto junto com o cavaco.
 
 O emulsionável custa menos por litro de concentrado e ainda rende de dez a vinte vezes em volume diluído. Só que a emulsão é um sistema vivo, e manter isso funcionando tem custo próprio:
 
@@ -40,7 +40,7 @@ O emulsionável custa menos por litro de concentrado e ainda rende de dez a vint
 
 ## Saúde e descarte entram na decisão
 
-Esse ponto costuma ser decidido fora da engenharia, mas restringe as opções antes de qualquer critério técnico. A névoa de óleo integral e o contato dérmico prolongado com emulsão têm cada um suas exigências de controle. O descarte de emulsão usada é regulado e normalmente mais caro que o de óleo integral, porque é preciso separar fases antes de destinar.
+Esse ponto costuma ser decidido fora da engenharia, mas restringe as opções antes de qualquer critério técnico. A névoa de óleo integral e o contato dérmico prolongado com emulsão exigem, cada qual, medidas específicas de controle. O descarte de emulsão usada é regulado e normalmente mais caro que o de óleo integral, porque é preciso separar fases antes de destinar.
 
 Se a planta já tem um procedimento estabelecido para um dos dois caminhos, mudar de tipo significa mudar também o processo de manuseio, monitoramento e descarte — e isso pesa mais que a diferença de preço por litro.
 

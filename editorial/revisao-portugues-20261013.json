@@ -1,0 +1,26 @@
+{
+  "data": "2026-10-13",
+  "baseGit": "6944bfc",
+  "deployAnterior": "6ace2e5eed3e0d79c44d2d51",
+  "deployRevisado": "6ace323da54b7db74c391b6f",
+  "escopo": "Revisão linguística das fontes de todas as 63 páginas, incluindo 17 artigos, catálogo, textos institucionais, metadados e mensagens do formulário.",
+  "ajustesTextuais": 66,
+  "arquivosDeConteudoAlterados": 19,
+  "categorias": ["concordância", "regência", "flexão verbal", "pontuação", "ortografia de termos compostos", "clareza"],
+  "exemplos": [
+    {"antes": "O que sua operação precisa?", "depois": "De que sua operação precisa?", "tipo": "regência"},
+    {"antes": "costumam aparecer junto", "depois": "costumam aparecer juntos", "tipo": "concordância"},
+    {"antes": "cerca de o dobro", "depois": "cerca do dobro", "tipo": "contração"},
+    {"antes": "o produto efetivamente se declara", "depois": "o produto declara atender", "tipo": "construção verbal"},
+    {"antes": "óleo base", "depois": "óleo-base", "tipo": "padronização ortográfica"},
+    {"antes": "A aplicação principal declarada é sistemas hidráulicos e circulatórios.", "depois": "Aplicação principal declarada: sistemas hidráulicos e circulatórios.", "tipo": "template com concordância variável"}
+  ],
+  "preservado": ["URLs", "53 URLs do sitemap", "robots.txt", "política de indexação seletiva", "especificações técnicas", "dados comerciais", "datas originais dos artigos", "formulário", "layout"],
+  "validacao": {"paginas": 63, "linksERecursosLocais": 1768, "objetosEstruturados": 170, "cenariosFormulario": 7, "regressoesLinguisticas": 8},
+  "limites": "Revisão de português, não certificação técnica dos artigos. Ajustes de estilo não representam necessariamente erros gramaticais.",
+  "pendenciasParaRevisaoTecnicaSeparada": [
+    {"artigo": "concentracao-e-ph-do-fluido-de-corte", "verificar": "Definição da escala Brix e operação matemática do fator do refratômetro na documentação do fabricante."},
+    {"artigo": "demulsibilidade-e-formacao-de-espuma", "verificar": "Distinção entre formação/estabilidade de espuma e liberação de ar."},
+    {"artigo": "armazenamento-de-lubrificantes", "verificar": "Afirmações absolutas sobre impossibilidade de recuperar a limpeza após contaminação."}
+  ]
+}

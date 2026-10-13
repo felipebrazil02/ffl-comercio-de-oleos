@@ -48,7 +48,7 @@ Os números de intervalo variam muito entre fabricantes e condições, e por iss
 
 ## Misturar bases é o risco subestimado
 
-Completar nível com um produto de base diferente é a causa de falha mais frequente e mais evitável nessa aplicação.
+Completar o nível com um produto de base diferente é a causa de falha mais frequente e mais evitável nessa aplicação.
 
 Misturas de PAO com óleo mineral, ou de qualquer sintético com um éster de outra formulação, podem reduzir a estabilidade do conjunto, formar depósitos ou atacar vedações e tintas internas que estavam compatíveis com o fluido original. A mistura muitas vezes parece normal no visor por bastante tempo — o problema aparece no separador e nas vedações.
 

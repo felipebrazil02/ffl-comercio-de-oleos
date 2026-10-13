@@ -31,7 +31,7 @@ O caminho inverso — usar HVLP onde se pede HLP — costuma ser aceitável do p
 
 Na prática do mercado circulam designações que não correspondem exatamente às três partes da norma. A mais comum é **HLPD** (ou H-LPD), em que o "D" indica característica detergente-dispersante: o fluido mantém contaminantes e água em suspensão em vez de deixá-los decantar.
 
-Isso é útil em equipamentos sujeitos a entrada de água ou a particulado fino, porque o contaminante segue para o filtro em vez de se acumular no reservatório. Mas é uma característica adicional, não um degrau acima do HVLP. Quando encontrar essa sigla em um catálogo, vale conferir na ficha técnica a qual parte da DIN 51524 o produto efetivamente se declara.
+Isso é útil em equipamentos sujeitos a entrada de água ou a particulado fino, porque o contaminante segue para o filtro em vez de se acumular no reservatório. Mas é uma característica adicional, não um degrau acima do HVLP. Quando encontrar essa sigla em um catálogo, vale conferir na ficha técnica a qual parte da DIN 51524 o produto declara atender.
 
 ## Viscosidade e norma são critérios separados
 

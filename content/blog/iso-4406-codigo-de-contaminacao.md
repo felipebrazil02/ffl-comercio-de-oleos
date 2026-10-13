@@ -11,7 +11,7 @@ consulted: 2026-10-13
 indexable: true
 ---
 
-O código ISO 4406 é uma forma padronizada de escrever quanta partícula sólida existe em uma amostra de óleo. Ele aparece como três números separados por barra, no formato `18/16/13`. Cada número descreve uma faixa de tamanho diferente, e é essa separação que dá utilidade ao código: um óleo pode estar limpo em partículas grandes e sujo em partículas pequenas, ou o contrário.
+O código ISO 4406 é uma forma padronizada de escrever quantas partículas sólidas existem em uma amostra de óleo. Ele aparece como três números separados por barra, no formato `18/16/13`. Cada número descreve uma faixa de tamanho diferente, e é essa separação que dá utilidade ao código: um óleo pode estar limpo em partículas grandes e sujo em partículas pequenas, ou o contrário.
 
 ## O que os três números contam
 
@@ -25,15 +25,15 @@ Isso significa que `18/16/13` não é uma contagem de partículas totais. É a l
 
 Como toda partícula que passa pelo critério de 14 µm também é maior que 6 µm e maior que 4 µm, os números são naturalmente decrescentes ou iguais. Um código em que o último número é maior que o primeiro indica erro de leitura ou de digitação.
 
-A leitura mais direta de um código como `18/16/13` é esta: existe mais partícula pequena do que partícula grande, o que é o esperado em qualquer sistema real. O que chama atenção em uma análise não é a relação entre os números, mas a comparação do conjunto com o histórico daquele mesmo ponto de coleta.
+A leitura mais direta de um código como `18/16/13` é esta: existem mais partículas pequenas do que grandes, o que é o esperado em qualquer sistema real. O que chama atenção em uma análise não é a relação entre os números, mas a comparação do conjunto com o histórico daquele mesmo ponto de coleta.
 
 ## Por que o número é um degrau, não uma contagem
 
-Cada número do código é o expoente de uma escala logarítmica, não um número de partículas. O código ISO 4406 atribui degraus de 1 a 28 e mais, e cada degrau representa cerca de o dobro de partículas do degrau anterior.
+Cada número do código é o expoente de uma escala logarítmica, não um número de partículas. O código ISO 4406 atribui degraus de 1 a 28 e mais, e cada degrau representa cerca do dobro de partículas do degrau anterior.
 
 Na prática, isso quer dizer que subir de 18 para 19 é aproximadamente dobrar a quantidade de partículas naquela faixa. Subir de 16 para 20 é um salto muito maior do que a diferença de quatro unidades sugere à primeira vista. Ler o código como se fosse uma contagem linear leva a conclusões erradas sobre a gravidade da mudança.
 
-> **Escala logarítmica.** Cada degrau do código corresponde a cerca de o dobro de partículas. Uma diferença de dois números é uma diferença de aproximadamente quatro vezes, não de duas unidades.
+> **Escala logarítmica.** Cada degrau do código corresponde a cerca do dobro de partículas. Uma diferença de dois números é uma diferença de aproximadamente quatro vezes, não de duas unidades.
 
 É por isso que um laudo de análise deve ser lido em conjunto com o número anterior do mesmo ponto. "16/14/11" isolado não diz se o sistema piorou ou melhorou. A mesma leitura, comparada à amostra anterior daquele equipamento, diz.
 
@@ -54,7 +54,7 @@ Além disso, o método de contagem altera o resultado. A contagem por microscopi
 
 O número do código só ganha sentido quando confrontado com duas referências: o que o fabricante do equipamento exige e o histórico daquele componente.
 
-O fabricante do componente define o código de limpeza aceitável para o sistema. Esse é o alvo. Um valor lido sem esse requisito não permite dizer se o óleo está adequado ou não, porque a exigência varia bastante entre um sistema hidráulico sensível e um redutor robusto. Sistemas hidráulicos costumam aparecer entre os mais sensíveis a partícula, o que explica por que a limpeza é tratada com tanto cuidado nessa família — vale conhecer os [óleos hidráulicos e suas aplicações](/lubrificantes-industriais/oleos-hidraulicos/).
+O fabricante do componente define o código de limpeza aceitável para o sistema. Esse é o alvo. Um valor lido sem esse requisito não permite dizer se o óleo está adequado ou não, porque a exigência varia bastante entre um sistema hidráulico sensível e um redutor robusto. Sistemas hidráulicos costumam aparecer entre os mais sensíveis à presença de partículas, o que explica por que a limpeza é tratada com tanto cuidado nessa família — vale conhecer os [óleos hidráulicos e suas aplicações](/lubrificantes-industriais/oleos-hidraulicos/).
 
 O segundo pilar é a tendência. A leitura faz sentido quando comparada à amostra anterior do mesmo ponto. É essa comparação que revela piora ou estabilidade, e é exatamente o raciocínio de acompanhar o [laudo de análise em tendência](/conteudos/analise-de-oleo-em-tendencia/).
 

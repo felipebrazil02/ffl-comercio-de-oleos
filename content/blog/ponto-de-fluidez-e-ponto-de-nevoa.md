@@ -31,9 +31,9 @@ Um óleo pode escoar no ensaio e ainda assim ser difícil de bombear. O que pesa
 
 Por isso, ao avaliar partida a frio, vale olhar a viscosidade na temperatura mínima de operação e não apenas o ponto de fluidez. O [índice de viscosidade](/conteudos/indice-de-viscosidade/) ajuda a entender quão rápido a viscosidade cai conforme a temperatura sobe, e é uma informação mais útil para prever comportamento em faixa ampla de temperatura.
 
-Também é preciso lembrar o que esses ensaios não medem: nível de aditivação, resistência à oxidação, separação de água, proteção contra corrosão e compatibilidade com vedações ficam fora. Dois óleos com o mesmo ponto de fluidez podem se comportar de forma bem diferente no sistema, porque a composição do óleo base e o pacote de aditivos entram na conta.
+Também é preciso lembrar o que esses ensaios não medem: nível de aditivação, resistência à oxidação, separação de água, proteção contra corrosão e compatibilidade com vedações ficam fora. Dois óleos com o mesmo ponto de fluidez podem se comportar de forma bem diferente no sistema, porque a composição do óleo-base e o pacote de aditivos entram na conta.
 
-Sobre composição, o que se pode dizer de forma segura é que bases **parafínicas** tendem a apresentar ponto de névoa e ponto de fluidez mais altos, enquanto bases **naftênicas** e **sintéticas**, em geral, apresentam valores mais baixos. Melhoradores de índice de viscosidade e depressores de ponto de fluidez também influenciam o resultado. São tendências declaradas pelos fabricantes, não regras universais — e o efeito de um depressor é sobre o comportamento do ensaio, não uma mudança da natureza do óleo base. Confirme o número na documentação do produto em uso.
+Sobre composição, o que se pode dizer de forma segura é que bases **parafínicas** tendem a apresentar ponto de névoa e ponto de fluidez mais altos, enquanto bases **naftênicas** e **sintéticas**, em geral, apresentam valores mais baixos. Melhoradores de índice de viscosidade e depressores de ponto de fluidez também influenciam o resultado. São tendências declaradas pelos fabricantes, não regras universais — e o efeito de um depressor é sobre o comportamento do ensaio, não uma mudança da natureza do óleo-base. Confirme o número na documentação do produto em uso.
 
 ## Quando isso muda a escolha
 
@@ -53,6 +53,6 @@ Onde esse dado é mais consultado é justamente em hidráulica, em redutores exp
 
 ## O próximo passo
 
-Ponto de fluidez e ponto de névoa são informação útil quando lidos no contexto certo: temperatura mínima de operação, tipo de bomba, tempo de parada e especificação exigida. Fora desse contexto, dois números de laboratório decidem pouco.
+Ponto de fluidez e ponto de névoa são informações úteis quando lidos no contexto certo: temperatura mínima de operação, tipo de bomba, tempo de parada e especificação exigida. Fora desse contexto, dois números de laboratório decidem pouco.
 
 Se a sua aplicação trabalha em ambiente frio ou fica parada por longos períodos, informe a aplicação, a temperatura mínima de partida, a especificação exigida e a quantidade para [preparar sua solicitação](/contato/#orcamento).

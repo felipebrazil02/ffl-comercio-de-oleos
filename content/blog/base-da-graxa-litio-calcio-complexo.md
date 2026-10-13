@@ -16,7 +16,7 @@ O tipo de espessante — o "sabão" da graxa — não decide se uma graxa é mel
 
 ## O que a base decide
 
-Uma graxa é óleo base mais espessante mais aditivos. Quem lubrifica de fato é o óleo base; o espessante funciona como uma estrutura que segura esse óleo no lugar e o libera aos poucos, formando e reabastecendo o filme entre as superfícies em movimento.
+Uma graxa é óleo-base mais espessante mais aditivos. Quem lubrifica de fato é o óleo-base; o espessante funciona como uma estrutura que segura esse óleo no lugar e o libera aos poucos, formando e reabastecendo o filme entre as superfícies em movimento.
 
 É o tipo de espessante que dá à graxa suas características mais visíveis na prática:
 
@@ -34,13 +34,13 @@ As famílias que aparecem com mais frequência na indústria, com as tendências
 - **Sabão de lítio** — uso geral muito difundido, com comportamento intermediário diante de água.
 - **Complexo de lítio** — faixa de temperatura em geral mais ampla e boa estabilidade; é uma escolha comum quando se quer mais margem térmica.
 - **Complexo de cálcio** — combina resistência à água com faixa de temperatura mais ampla que o cálcio simples.
-- **Espessantes sem sabão** (por exemplo poliureia e argila) — a poliureia é frequentemente escolhida para rolamentos em temperatura elevada.
+- **Espessantes sem sabão** (por exemplo, poliureia e argila) — a poliureia é frequentemente escolhida para rolamentos em temperatura elevada.
 
 Essas são descrições de comportamento esperado, divulgadas pelos próprios fabricantes. Elas não substituem a leitura da ficha técnica nem o requisito do equipamento.
 
 ## Misturar graxas de bases diferentes
 
-Este é o ponto que mais gera problema na planta, e onde é preciso cuidado com afirmações genéricas.
+Este é o ponto que mais gera problemas na planta e que exige cuidado com afirmações genéricas.
 
 > **Compatibilidade de mistura é caso a caso.** Bases diferentes podem amolecer ou endurecer a mistura, mas não existe uma resposta universal de "pode" ou "não pode" válida para todas as combinações. A compatibilidade entre duas graxas precisa ser confirmada na documentação do fabricante — e, na dúvida, a prática recomendada é remover a graxa antiga antes de aplicar a nova.
 
@@ -51,8 +51,8 @@ Reengraxar por cima, contando com a saída natural da graxa anterior, só faz se
 A base sozinha não define desempenho. Antes de decidir, reúna o conjunto:
 
 - **O que exige o manual do equipamento** — temperatura de operação, carga, rotação, presença de água e ponto de relubrificação. Essa é a fonte primária da decisão.
-- **Viscosidade do óleo base** — é o que efetivamente forma o filme; uma base com o mesmo sabão pode vir com óleos de viscosidades muito diferentes.
-- **Aditivos** — carga extrema-pressão (EP) e anticorrosivos mudam o desempenho para carga e ambiente.
+- **Viscosidade do óleo-base** — é o que efetivamente forma o filme; uma base com o mesmo sabão pode vir com óleos de viscosidades muito diferentes.
+- **Aditivos** — os de extrema pressão (EP) e os anticorrosivos influenciam o desempenho sob carga e nas condições do ambiente.
 - **Ponto de gota** — a temperatura em que a estrutura da graxa se rompe; acompanha a discussão sobre faixa térmica.
 - **Dados declarados na documentação** — espessante, grau NLGI e faixa de temperatura vêm da ficha técnica, não de estimativa.
 - **Requisitos do produto** — o que entra na comparação está descrito na [ficha técnica e ficha de segurança](/conteudos/ficha-tecnica-e-ficha-de-seguranca/).

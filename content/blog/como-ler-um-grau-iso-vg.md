@@ -21,7 +21,7 @@ A classificação vem da ISO 3448, que define cada grau como uma faixa de ±10% 
 - ISO VG 68 aceita de 61,2 a 74,8 mm²/s.
 - ISO VG 32 aceita de 28,8 a 35,2 mm²/s.
 
-Dois óleos ISO VG 46 de fabricantes diferentes podem, portanto, ter viscosidades diferentes e ainda assim estarem corretos. Se a sua aplicação é sensível a isso, o valor a comparar é o da ficha técnica, não o do rótulo.
+Dois óleos ISO VG 46 de fabricantes diferentes podem, portanto, ter viscosidades diferentes e ainda assim estar corretos. Se a sua aplicação é sensível a isso, o valor a comparar é o da ficha técnica, não o do rótulo.
 
 ## Por que os graus saltam de 32 para 46
 

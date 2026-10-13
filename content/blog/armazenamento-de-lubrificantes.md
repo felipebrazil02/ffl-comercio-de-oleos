@@ -15,7 +15,7 @@ Boa parte da sujeira que chega ao equipamento não nasce do desgaste nem do ambi
 
 ## A contaminação costuma entrar antes
 
-O raciocínio é simples e costuma ser ignorado: limpeza se perde fácil e se recupera caro. Um óleo que chega contaminado ao reservatório leva a sujeira para dentro do sistema, e nenhum filtro compensa manuseio ruim na origem. Filtro trabalha com o que circula; a partícula que entrou junto com o volume de reposição vai encontrar caminho para o componente crítico antes de ser capturada.
+O raciocínio é simples e costuma ser ignorado: a limpeza se perde facilmente, e recuperá-la custa caro. Um óleo que chega contaminado ao reservatório leva a sujeira para dentro do sistema, e nenhum filtro compensa manuseio ruim na origem. Filtro trabalha com o que circula; a partícula que entrou junto com o volume de reposição vai encontrar caminho para o componente crítico antes de ser capturada.
 
 Por isso o controle de entrada de contaminante é tratado como prioridade, não como detalhe de arrumação. O [código ISO 4406](/conteudos/iso-4406-codigo-de-contaminacao/) descreve o nível de partículas de um óleo, mas medir não limpa nada: o código só melhora se a causa for corrigida. E a causa, muitas vezes, é uma embalagem mal fechada no pátio.
 
@@ -37,7 +37,7 @@ Temperatura e exposição também contam. Evitar sol direto, chuva e oscilação
 
 Contêiner separado por produto, com identificação visível, é o mínimo. Reaproveitar o mesmo recipiente para produtos diferentes é uma das formas mais comuns de contaminar um óleo com outro — e de perder a rastreabilidade quando aparece um problema.
 
-Girar o estoque pelo que entrou primeiro (FIFO) evita envelhecimento silencioso no fundo do almoxarifado. Guardar por lote ajuda a rastrear depois: se um equipamento apresenta comportamento estranho, o lote do produto usado é a primeira informação a cruzar, e é ela que permite [acompanhar a análise de óleo em tendência](/conteudos/analise-de-oleo-em-tendencia/) em vez de olhar um laudo isolado.
+Girar o estoque pelo que entrou primeiro (FIFO) evita envelhecimento silencioso no fundo do almoxarifado. Guardar por lote ajuda a rastrear depois: se um equipamento apresenta comportamento estranho, o lote do produto usado é a primeira informação a ser cruzada, e é ela que permite [acompanhar a análise de óleo em tendência](/conteudos/analise-de-oleo-em-tendencia/) em vez de olhar um laudo isolado.
 
 Vale lembrar que a [linha completa de lubrificantes industriais](/lubrificantes-industriais/) abrange produtos com exigências de conservação diferentes entre si — óleo hidráulico, óleo de processo e graxa não respondem do mesmo jeito ao tempo parado.
 
@@ -45,7 +45,7 @@ Vale lembrar que a [linha completa de lubrificantes industriais](/lubrificantes-
 
 A graxa é mais sensível à contaminação porque não circula por filtro. O que entra na embalagem vai direto para o ponto de lubrificação.
 
-Por isso: manter a embalagem fechada, usar bomba ou espátula limpa e dedicada ao produto, e nunca reutilizar graxa que caiu no chão ou que sobrou de uma aplicação. A superfície exposta no balde é justamente onde ficam poeira e resíduo.
+Por isso: manter a embalagem fechada, usar uma bomba ou uma espátula limpa e dedicada ao produto e nunca reutilizar graxa que caiu no chão ou que sobrou de uma aplicação. A superfície exposta no balde é justamente onde ficam poeira e resíduo.
 
 > **Validade.** Prazo de estoque e condições de armazenamento são específicos de cada produto e estão declarados na ficha técnica. Não existe prazo universal de estoque — o que vale para um óleo pode não valer para outro.
 

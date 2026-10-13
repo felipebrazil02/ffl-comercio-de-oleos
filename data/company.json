@@ -57,7 +57,7 @@
       "title": "Óleo para compressor de ar | FFL Lubrificantes",
       "description": "Lubrificação de compressores de parafuso, palheta e pistão.",
       "metaDescription": "Óleo para compressores de ar de parafuso, palheta e pistão, com indicação também para circuitos hidráulicos e mancais. Solicite orçamento à FFL.",
-      "selection": "Compressores de parafuso, palheta e pistão trabalham em regimes térmicos distintos. Estabilidade à oxidação e o intervalo de troca recomendado pelo fabricante pesam mais do que a viscosidade isolada.",
+      "selection": "Compressores de parafuso, palheta e pistão trabalham em regimes térmicos distintos. A estabilidade à oxidação e o intervalo de troca recomendado pelo fabricante pesam mais do que a viscosidade isolada.",
       "faq": [
         {
           "question": "Posso usar um óleo hidráulico no compressor?",
@@ -713,7 +713,7 @@
       "name": "Graxa de lítio EP",
       "category": "graxas-industriais",
       "description": "Graxa de sabão de lítio com extrema pressão, para uso contínuo até 130 °C e picos de 150 °C.",
-      "metaDescription": "Graxa de lítio EP para rolamentos, prensas, britadores, guindastes e máquinas agrícolas, até 130 °C contínuos. Peça orçamento à FFL Lubrificantes.",
+      "metaDescription": "Graxa de lítio EP para rolamentos, prensas, britadores, guindastes e máquinas agrícolas, para uso contínuo até 130 °C. Peça orçamento à FFL Lubrificantes.",
       "applications": "Indicada para peças sob pressão elevada e deslizamento pesado, mancais de rolamento, máquinas de papel, prensas, britadores, guindastes e máquinas agrícolas.",
       "application": "Graxas industriais e agrícolas",
       "specRows": [
@@ -778,7 +778,7 @@
       "category": "graxas-industriais",
       "description": "Graxa grafitada para desgaste intenso e contato com água, com 5%, 10% ou 25% de grafite.",
       "metaDescription": "Graxa grafitada para pontos de desgaste intenso e contato com água, com teor de grafite de 5%, 10% ou 25%. Solicite orçamento à FFL Lubrificantes.",
-      "applications": "Indicada para pontos sujeitos a desgaste intenso, contato com água ou ambas as condições, sob temperaturas moderadas.",
+      "applications": "Indicada para pontos sujeitos a desgaste intenso, contato com água ou a ambas as condições, sob temperaturas moderadas.",
       "application": "Graxas para desgaste elevado e presença de água",
       "specRows": [
         [
@@ -787,7 +787,7 @@
         ],
         [
           "Características publicadas",
-          "Grafite: 5%, 10% ou 25%, conforme trabalho"
+          "Grafite: 5%, 10% ou 25%, conforme o trabalho"
         ],
         [
           "Espessante",

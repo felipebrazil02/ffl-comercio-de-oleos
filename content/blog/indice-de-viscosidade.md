@@ -24,7 +24,7 @@ Quanto mais próximo o óleo estiver do comportamento do referencial parafínico
 
 É importante não confundir esse número com o grau de viscosidade. O grau ISO VG descreve a faixa de viscosidade a 40 °C — é uma medida de espessura naquela temperatura de referência. O IV descreve o formato da curva. Dois óleos podem ter exatamente o mesmo ISO VG e índices de viscosidade bem diferentes, e é aí que a distinção passa a ter efeito prático. Para relembrar como a escala ISO VG é construída, vale revisar [como ler um grau ISO VG](/conteudos/como-ler-um-grau-iso-vg/).
 
-> **Faixas típicas.** Os fabricantes costumam declarar IV em faixas distintas conforme o tipo de óleo base, e é comum encontrar valores diferentes entre produtos do mesmo grau. Como esses valores variam de formulação para formulação, o número que vale é o da ficha do produto analisado — não uma referência genérica.
+> **Faixas típicas.** Os fabricantes costumam declarar IV em faixas distintas conforme o tipo de óleo-base, e é comum encontrar valores diferentes entre produtos do mesmo grau. Como esses valores variam de formulação para formulação, o número que vale é o da ficha do produto analisado — não uma referência genérica.
 
 ## O que ele não garante
 
@@ -37,7 +37,7 @@ O índice de viscosidade mede comportamento físico, não desempenho. Ele **não
 - a compatibilidade com vedações, mangueiras e revestimentos;
 - o ponto de fluidez nem o comportamento na partida a frio.
 
-Por isso, dois óleos com o mesmo grau ISO VG e o mesmo índice de viscosidade podem se comportar de maneira bastante diferente no mesmo equipamento. O que entra nessa diferença é o tipo de óleo base e o pacote de aditivos — elementos que o IV não enxerga.
+Por isso, dois óleos com o mesmo grau ISO VG e o mesmo índice de viscosidade podem se comportar de maneira bastante diferente no mesmo equipamento. O tipo de óleo-base e o pacote de aditivos contribuem para essa diferença — elementos que o IV não enxerga.
 
 Um ponto merece atenção. Um IV muito elevado pode ser obtido, entre outros caminhos, com o uso de melhoradores de índice de viscosidade. Isso não é bom nem ruim por si: é uma escolha de formulação. O que muda é o comportamento do fluido com o uso, porque esses componentes podem sofrer cisalhamento ao longo da vida do óleo, e o efeito disso depende da formulação e da aplicação.
 

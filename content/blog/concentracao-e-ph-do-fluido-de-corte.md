@@ -50,13 +50,13 @@ Os dois casos reforçam a mesma ideia: repor concentrado para "recuperar o núme
 
 ## O que registrar na bancada
 
-Medir antes e depois de corrigir serve para pouco. O que orienta decisão é **planilha com histórico**: data, concentração real (já com o fator aplicado), pH, aspecto, volume de concentrado adicionado, volume de água de reposição e qualquer ocorrência — troca de lote, limpeza de tanque, reclamação de peça enferrujada, odor.
+Medir antes e depois de corrigir serve para pouco. O que orienta a decisão é **uma planilha com histórico**: data, concentração real (já com o fator aplicado), pH, aspecto, volume de concentrado adicionado, volume de água de reposição e qualquer ocorrência — troca de lote, limpeza de tanque, reclamação de peça enferrujada, odor.
 
 Uma leitura isolada não diz se o tanque está estável ou em queda. Vinte e oito dias de registros dizem.
 
 Os limites são claros. **Concentração-alvo, faixa de pH adequada, fator de correção do refratômetro e periodicidade de medição vêm do fabricante do fluido**, registrados na ficha técnica do produto, e variam de formulação para formulação e com o tipo de operação, material usinado e qualidade da água disponível. Não existe número universal que sirva para todas as emulsões.
 
-Também vale reforçar o básico de segurança: névoa de fluido, contato prolongado com a pele e conservação da emulsão exigem as medidas de controle indicadas na ficha de segurança do produto — ventilação, exaustão, EPI e higiene de pele. Isso está detalhado em [ficha técnica e ficha de segurança](/conteudos/ficha-tecnica-e-ficha-de-seguranca/), com o que conferir em cada documento.
+Também vale reforçar o básico de segurança: névoa de fluido, contato prolongado com a pele e conservação da emulsão exigem as medidas de controle indicadas na ficha de segurança do produto — ventilação, exaustão, EPI e higiene da pele. Isso está detalhado em [ficha técnica e ficha de segurança](/conteudos/ficha-tecnica-e-ficha-de-seguranca/), com o que conferir em cada documento.
 
 Para quem ainda está decidindo entre fluido integral e emulsionável, a comparação entre as duas famílias está em [óleo de corte integral ou emulsionável](/conteudos/oleo-de-corte-integral-ou-emulsionavel/), e as opções de linha estão em [óleos de corte e usinagem](/lubrificantes-industriais/oleos-de-corte-e-usinagem/).
 
