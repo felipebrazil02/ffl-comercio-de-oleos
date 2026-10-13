@@ -70,10 +70,35 @@ URLs publicadas (canônico `https://ffllubrificantes.com.br`):
 
 ### Publicação do lote 1
 
-- Commit: _(preenchido após o commit)_
-- Deploy Netlify (produção): _(preenchido após o deploy)_
-- Preview testado: _(preenchido)_
-- Testes em produção: _(preenchido)_
+- **Commit:** `40d88d0` — "Blog: indexacao por artigo e lote 1 (10 artigos)"
+- **Branch:** `seo/blog-lote1-20261013`
+- **Deploy de preview (Netlify):** `6ace2dc7e809252dddcfbfa8`
+- **Deploy de produção (Netlify):** `6ace2e5eed3e0d79c44d2d51` · `https://ffllubrificantes.com.br`
+- **Promovido para produção:** sim, em 2026-10-13
+
+### Verificação em produção (2026-10-13)
+
+| Verificação | Resultado |
+|---|---|
+| 10 artigos do lote | HTTP 200, H1 único, `Article` + `BreadcrumbList` + `citation` |
+| `meta robots` dos 10 artigos | `index, follow` |
+| `X-Robots-Tag` dos 10 artigos | ausente |
+| `meta robots` do hub e das páginas de tema | `index, follow` |
+| 7 artigos antigos | `noindex, nofollow` na meta **e** no cabeçalho |
+| Sitemap | 53 URLs · 20 de blog · 33 comerciais preservadas |
+| Canonical dos 10 artigos | absoluto em `https://ffllubrificantes.com.br` |
+| `robots.txt` | `Allow: /` + `Sitemap:` do domínio principal |
+| URL inexistente | 404 real |
+| `/index.html` | 301 para `/` |
+| `www` e `http` | 301 |
+| Home, catálogo, categoria, produto, sobre, contato | HTTP 200 |
+| Formulário | detectado pelo Netlify Forms (`form-name=orcamento`); nenhum lead fictício enviado |
+| WhatsApp | `wa.me/5511915011527` presente |
+| E-mail comercial | `contato@ffloleos.com.br` — **não alterado** |
+
+Observação: em deploy de preview o Netlify aplica `X-Robots-Tag: noindex` em todo o
+site por padrão. A verificação de indexação acima foi feita no domínio de produção,
+onde esse cabeçalho do preview não existe.
 
 ## Pendências
 
