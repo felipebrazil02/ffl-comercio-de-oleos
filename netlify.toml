@@ -1,43 +1,6 @@
 [build]
-  command = "node build.mjs"
-  publish = "public"
+  command = "npm run build"
+  publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "22"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-
-[[headers]]
-  for = "/imagens/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.png"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/estilo.css"
-  [headers.values]
-    Cache-Control = "public, max-age=86400"
-
-[[redirects]]
-  from = "/produtos"
-  to = "/produtos/"
-  status = 301
-
-[[redirects]]
-  from = "/categorias"
-  to = "/categorias/"
-  status = 301
-
-[[redirects]]
-  from = "/contato"
-  to = "/contato/"
-  status = 301
+  NODE_VERSION = "20"

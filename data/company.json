@@ -1,0 +1,806 @@
+{
+  "name": "FFL Lubrificantes",
+  "businessType": "Comércio de óleos e lubrificantes industriais",
+  "city": "Salto",
+  "state": "SP",
+  "regions": ["Estado de São Paulo"],
+  "whatsapp": "5511915011527",
+  "email": "contato@ffloleos.com.br",
+  "phone": "+5511915011527",
+  "address": null,
+  "hours": null,
+  "sameAs": [],
+  "domain": "https://ffllubrificantes.com.br",
+  "history": null,
+  "differentials": [],
+  "formEndpoint": "netlify",
+  "publicIndexing": true,
+  "blogPublicIndexing": false,
+  "categories": [
+    {
+      "slug": "oleos-hidraulicos",
+      "name": "Óleos hidráulicos e para ferramentas pneumáticas",
+      "title": "Óleos hidráulicos AW e HLP | FFL Lubrificantes",
+      "description": "Fluidos antidesgaste para sistemas hidráulicos e circulatórios, marteletes e perfuratrizes.",
+      "metaDescription": "Óleos hidráulicos AW e HLP para sistemas circulatórios, marteletes e perfuratrizes de rocha. Veja graus e especificações e solicite orçamento à FFL.",
+      "selection": "Parta do grau indicado pelo fabricante do equipamento e das exigências de antidesgaste, demulsibilidade e filtrabilidade. Sistemas com contaminação por água ou temperatura elevada restringem as opções, e a norma DIN 51524 é a referência mais citada nos manuais.",
+      "faq": [
+        {
+          "question": "Qual a diferença entre um óleo AW e um HLP?",
+          "answer": "AW indica aditivação antidesgaste. HLP é a designação DIN para óleos hidráulicos com aditivos antioxidantes, anticorrosivos e antidesgaste. Um produto pode atender às duas descrições; confirme na ficha técnica qual norma é declarada."
+        },
+        {
+          "question": "Os números 10, 22, 32, 46, 68, 100, 150 e 220 são graus ISO?",
+          "answer": "São os graus publicados pelo fabricante para cada família. A documentação de origem nem sempre os identifica expressamente como ISO VG. Confirme a correspondência na ficha técnica antes de substituir o produto em uso."
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "slug": "oleos-para-engrenagens",
+      "name": "Óleos para engrenagens e lubrificação industrial geral",
+      "title": "Óleos para engrenagens EP | FFL Lubrificantes",
+      "description": "Óleos de extrema pressão para redutores, mancais planos e circuitos de circulação.",
+      "metaDescription": "Óleos de extrema pressão para redutores, caixas de engrenagem, mancais planos e circuitos de circulação industrial. Veja os graus e peça orçamento à FFL.",
+      "selection": "Cargas elevadas e choque mecânico costumam exigir aditivação de extrema pressão. O grau adequado depende da rotação, da temperatura de operação e do tipo de engrenamento, informação que consta do manual do redutor.",
+      "faq": [
+        {
+          "question": "Quando um óleo de extrema pressão é necessário?",
+          "answer": "Quando o contato entre dentes ou superfícies ocorre sob carga alta o suficiente para romper o filme lubrificante. A indicação vem do fabricante do equipamento; usar EP onde não é exigido não traz ganho automático."
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "slug": "oleos-para-compressores",
+      "name": "Óleos para compressores de ar",
+      "title": "Óleo para compressor de ar | FFL Lubrificantes",
+      "description": "Lubrificação de compressores de parafuso, palheta e pistão.",
+      "metaDescription": "Óleo para compressores de ar de parafuso, palheta e pistão, com indicação também para circuitos hidráulicos e mancais. Solicite orçamento à FFL.",
+      "selection": "Compressores de parafuso, palheta e pistão trabalham em regimes térmicos distintos. Estabilidade à oxidação e o intervalo de troca recomendado pelo fabricante pesam mais do que a viscosidade isolada.",
+      "faq": [
+        {
+          "question": "Posso usar um óleo hidráulico no compressor?",
+          "answer": "Alguns produtos declaram as duas aplicações, mas isso precisa estar na ficha técnica. Compressores expõem o óleo a temperatura e oxidação maiores; a substituição sem confirmação documental pode encurtar o intervalo de troca."
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "slug": "oleos-de-corte-e-usinagem",
+      "name": "Óleos de corte, usinagem e estampagem",
+      "title": "Óleos de corte e usinagem | FFL Lubrificantes",
+      "description": "Fluidos integrais e emulsionáveis para usinagem, perfuração, estampagem e conformação.",
+      "metaDescription": "Óleos de corte integrais e emulsionáveis para torneamento, fresamento, furação, estampagem e conformação de metais. Consulte a FFL Lubrificantes.",
+      "selection": "A escolha entre fluido integral e emulsionável depende do material usinado, da severidade da operação e da prioridade entre refrigeração e lubrificação. Requisitos de saúde ocupacional e de descarte da planta também restringem as opções.",
+      "faq": [
+        {
+          "question": "Qual a diferença entre óleo de corte integral e emulsionável?",
+          "answer": "O integral é aplicado puro e prioriza lubrificação. O emulsionável é diluído em água e prioriza refrigeração. Operações severas de baixa velocidade tendem ao integral; operações de alta velocidade que geram muito calor tendem ao emulsionável."
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "slug": "oleos-termicos-e-tratamento-termico",
+      "name": "Óleos térmicos e para tratamento térmico",
+      "title": "Óleo térmico e de têmpera | FFL Lubrificantes",
+      "description": "Transferência de calor em circuitos fechados e têmpera de ligas de aço.",
+      "metaDescription": "Óleos para transferência de calor em circuitos fechados e para têmpera de ligas de aço. Veja as condições declaradas e solicite orçamento à FFL.",
+      "selection": "Em transferência de calor, a temperatura máxima de filme e o histórico térmico do fluido são determinantes, e a troca costuma seguir análise periódica em vez de prazo fixo. Em têmpera, a velocidade de resfriamento é a característica crítica.",
+      "faq": [
+        {
+          "question": "Óleo térmico tem prazo de troca fixo?",
+          "answer": "Normalmente não. A prática usual é acompanhar o fluido por análise periódica, observando degradação e formação de produtos de craqueamento, em vez de trocar por tempo decorrido."
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "slug": "oleos-de-processo-e-especialidades",
+      "name": "Óleos de processo e especialidades",
+      "title": "Óleos de processo industrial | FFL Lubrificantes",
+      "description": "Isolamento elétrico, calibração de injetores, formulação, proteção anticorrosiva e manutenção de armamentos.",
+      "metaDescription": "Óleos de processo e especialidades: isolante para transformadores, calibração de injetores, formulação, proteção anticorrosiva e armamentos. Consulte a FFL.",
+      "selection": "São produtos de aplicação específica, em que a indicação publicada descreve o processo antes da viscosidade. Confirme a compatibilidade com o processo e os requisitos internos da planta antes de substituir um produto em uso.",
+      "faq": [
+        {
+          "question": "Estes produtos têm grau ISO definido?",
+          "answer": "Em vários deles o número que aparece na designação integra o nome comercial e não é apresentado como grau ISO na documentação de origem. Confirme na ficha técnica antes de tratar o número como viscosidade."
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "slug": "graxas-industriais",
+      "name": "Graxas industriais e para chassis",
+      "title": "Graxas industriais | FFL Lubrificantes",
+      "description": "Graxas de lítio, cálcio e grafitadas para rolamentos, mancais, chassis e ambientes com água.",
+      "metaDescription": "Graxas de lítio EP, de cálcio e grafitadas para rolamentos, mancais de deslizamento, pinos de chassis e pontos expostos à água. Peça orçamento à FFL.",
+      "selection": "Além da consistência, importam o tipo de espessante, a faixa de temperatura de trabalho e a compatibilidade com a graxa já presente no ponto. Espessantes diferentes nem sempre são compatíveis entre si.",
+      "faq": [
+        {
+          "question": "Posso misturar graxas de espessantes diferentes?",
+          "answer": "Não sem verificação. Misturar espessantes incompatíveis pode amolecer a mistura e provocar perda de lubrificação. Ao trocar de tipo, o procedimento usual é limpar o ponto e purgar a graxa anterior."
+        },
+        {
+          "question": "As graxas têm classificação NLGI declarada?",
+          "answer": "A documentação de origem não explicita o grau NLGI destes produtos. A consistência precisa ser confirmada na ficha técnica antes de comparar com a graxa atualmente utilizada."
+        }
+      ],
+      "confirmed": true
+    },
+    {
+      "slug": "oleos-basicos",
+      "name": "Óleos básicos",
+      "title": "Óleos básicos | FFL Lubrificantes",
+      "description": "Óleos básicos disponíveis para consulta, sem aplicação individual detalhada na documentação de origem.",
+      "metaDescription": "Óleos básicos para consulta: Spindle, Neutro Médio e Neutro Pesado. Informe o processo e o requisito técnico para a FFL Lubrificantes avaliar.",
+      "selection": "A documentação de origem nomeia estes óleos básicos em conjunto, sem indicar aplicação ou viscosidade individual. Para uma consulta, descreva o processo e o requisito técnico pretendido.",
+      "faq": [
+        {
+          "question": "Por que estes produtos não têm página própria?",
+          "answer": "Porque não há aplicação, viscosidade nem especificação publicadas para cada um deles individualmente. Publicar páginas separadas sem esse conteúdo não ajudaria você nem seria honesto com a informação disponível."
+        }
+      ],
+      "confirmed": true,
+      "listOnly": [
+        {
+          "name": "Óleo Spindle",
+          "note": "Incluído em bloco coletivo e repetido no modal; sem cartão individual. A linha informa produtos próprios e fabricação para terceiros."
+        },
+        {
+          "name": "Óleo Neutro Médio",
+          "note": "Incluído em bloco coletivo e repetido no modal; sem cartão individual. A linha informa produtos próprios e fabricação para terceiros."
+        },
+        {
+          "name": "Óleo Neutro Pesado",
+          "note": "Incluído em bloco coletivo e repetido no modal; sem cartão individual. A linha informa produtos próprios e fabricação para terceiros."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "slug": "oleo-hidraulico-aw-68-220",
+      "name": "Óleo hidráulico AW 68, 100, 150 e 220",
+      "category": "oleos-hidraulicos",
+      "description": "Óleo hidráulico antidesgaste para sistemas circulatórios sob pressão severa e temperatura moderada.",
+      "metaDescription": "Óleo hidráulico antidesgaste nos graus 68, 100, 150 e 220, para sistemas circulatórios sob pressão severa. Veja as aplicações e peça orçamento à FFL.",
+      "applications": "Indicado para sistemas hidráulicos e circulatórios industriais e veiculares que operam sob pressão severa, em regime de temperatura moderada.",
+      "application": "Sistemas hidráulicos e circulatórios",
+      "specRows": [
+        [
+          "Designação",
+          "HS 68, 100, 150, 220 AW"
+        ],
+        [
+          "Graus publicados",
+          "68, 100, 150 e 220"
+        ],
+        [
+          "Especificações declaradas",
+          "antidesgaste AW"
+        ],
+        [
+          "Base",
+          "Mineral parafínica"
+        ],
+        [
+          "Aplicação principal",
+          "Sistemas hidráulicos e circulatórios"
+        ]
+      ],
+      "specifications": [
+        "antidesgaste AW"
+      ],
+      "note": "O texto não identifica expressamente os números como graus ISO.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-hidraulico-aw-10-46",
+      "name": "Óleo hidráulico AW 10, 22, 32 e 46",
+      "category": "oleos-hidraulicos",
+      "description": "Óleo hidráulico antidesgaste para sistemas sob pressão severa e temperatura elevada, com DIN 51524 parte 3 declarada.",
+      "metaDescription": "Óleo hidráulico antidesgaste nos graus 10, 22, 32 e 46, com DIN 51524 parte 3 declarada. Veja as especificações e solicite orçamento à FFL Lubrificantes.",
+      "applications": "Indicado para sistemas hidráulicos e circulatórios industriais e veiculares que operam sob pressão severa e temperatura elevada.",
+      "application": "Sistemas hidráulicos e circulatórios",
+      "specRows": [
+        [
+          "Designação",
+          "HS 10, 22, 32, 46 AW"
+        ],
+        [
+          "Graus publicados",
+          "10, 22, 32 e 46"
+        ],
+        [
+          "Especificações declaradas",
+          "AW; NAS 10; ISO-HM; tipo H-LPD; DIN 51524 parte 3 H-LPD; VICKERS; CINCINNATI MILACRON; DENISON; REXROTH"
+        ],
+        [
+          "Base",
+          "Mineral"
+        ],
+        [
+          "Aplicação principal",
+          "Sistemas hidráulicos e circulatórios"
+        ]
+      ],
+      "specifications": [
+        "AW",
+        "NAS 10",
+        "ISO-HM",
+        "tipo H-LPD",
+        "DIN 51524 parte 3 H-LPD",
+        "VICKERS",
+        "CINCINNATI MILACRON",
+        "DENISON",
+        "REXROTH"
+      ],
+      "note": "Códigos preservados como publicados; marcas sem códigos específicos não foram tratadas como homologações.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-para-ferramentas-pneumaticas",
+      "name": "Óleo para ferramentas pneumáticas",
+      "category": "oleos-hidraulicos",
+      "description": "Óleo para marteletes, perfuratrizes de rocha e mancais expostos à umidade, com indicação hidráulica HLP.",
+      "metaDescription": "Óleo para ferramentas pneumáticas, marteletes e perfuratrizes de rocha nos graus 68, 100 e 220, com indicação hidráulica HLP. Peça orçamento à FFL.",
+      "applications": "Indicado para ferramentas pneumáticas em geral, marteletes, perfuratrizes de rocha e mancais expostos à umidade. A documentação de origem registra ainda indicação para uso hidráulico do tipo HLP.",
+      "application": "Ferramentas pneumáticas e perfuratrizes",
+      "specRows": [
+        [
+          "Designação",
+          "FPM 68, 100 e 220"
+        ],
+        [
+          "Graus publicados",
+          "68, 100 e 220"
+        ],
+        [
+          "Especificações declaradas",
+          "fluido hidráulico tipo HLP"
+        ],
+        [
+          "Base",
+          "Mineral parafínica de primeiro refino"
+        ],
+        [
+          "Aplicação principal",
+          "Ferramentas pneumáticas e perfuratrizes"
+        ]
+      ],
+      "specifications": [
+        "fluido hidráulico tipo HLP"
+      ],
+      "note": "O texto não identifica expressamente os números como graus ISO.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-ep-lubrificacao-geral-10-32",
+      "name": "Óleo EP para lubrificação geral 10 a 32",
+      "category": "oleos-para-engrenagens",
+      "description": "Óleo de extrema pressão para lubrificação geral de máquinas e equipamentos, nos graus leves.",
+      "metaDescription": "Óleo de extrema pressão nos graus 10, 22 e 32, para lubrificação geral de máquinas e equipamentos. Veja as informações técnicas e consulte a FFL.",
+      "applications": "Indicado para a lubrificação geral de máquinas e equipamentos cuja condição de trabalho exija aditivação de extrema pressão.",
+      "application": "Lubrificação industrial geral",
+      "specRows": [
+        [
+          "Designação",
+          "LG EP 10, 22 e 32"
+        ],
+        [
+          "Graus publicados",
+          "10, 22 e 32"
+        ],
+        [
+          "Especificações declaradas",
+          "extrema pressão (EP)"
+        ],
+        [
+          "Base",
+          "Mineral"
+        ],
+        [
+          "Aplicação principal",
+          "Lubrificação industrial geral"
+        ]
+      ],
+      "specifications": [
+        "extrema pressão (EP)"
+      ],
+      "note": "O texto não identifica expressamente os números como graus ISO.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-ep-para-redutores-150-680",
+      "name": "Óleo EP para redutores 150 a 680",
+      "category": "oleos-para-engrenagens",
+      "description": "Óleo de extrema pressão para caixas redutoras, mancais planos e circuitos de circulação.",
+      "metaDescription": "Óleo de extrema pressão nos graus 150, 220, 320, 460 e 680, para caixas redutoras, mancais planos e circuitos de circulação. Peça orçamento à FFL.",
+      "applications": "Indicado para caixas redutoras, circuitos de circulação, mancais planos e máquinas que exijam aditivação de extrema pressão.",
+      "application": "Lubrificação industrial geral",
+      "specRows": [
+        [
+          "Designação",
+          "LG EP 150, 220, 320, 460 e 680"
+        ],
+        [
+          "Graus publicados",
+          "150, 220, 320, 460 e 680"
+        ],
+        [
+          "Especificações declaradas",
+          "extrema pressão (EP)"
+        ],
+        [
+          "Base",
+          "Mineral parafínica de primeiro refino"
+        ],
+        [
+          "Aplicação principal",
+          "Lubrificação industrial geral"
+        ]
+      ],
+      "specifications": [
+        "extrema pressão (EP)"
+      ],
+      "note": "O texto não identifica expressamente os números como graus ISO.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-para-compressor-de-ar",
+      "name": "Óleo para compressor de ar 150",
+      "category": "oleos-para-compressores",
+      "description": "Óleo para compressores de parafuso, palheta e pistão, com indicação também para circuitos hidráulicos e mancais.",
+      "metaDescription": "Óleo 150 para compressores de parafuso, palheta e pistão, com uso declarado também em circuitos hidráulicos e mancais de deslizamento. Peça orçamento.",
+      "applications": "Indicado para compressores de ar dos tipos parafuso, palheta e pistão. A documentação de origem registra ainda uso em circuitos hidráulicos e de circulação, mancais de deslizamento e lubrificação geral sob pressão severa e temperatura moderada, inclusive em equipamentos sujeitos a contaminação por água.",
+      "application": "Compressores de ar",
+      "specRows": [
+        [
+          "Designação",
+          "Compressor HS 150"
+        ],
+        [
+          "Base",
+          "Mineral"
+        ],
+        [
+          "Aplicação principal",
+          "Compressores de ar"
+        ]
+      ],
+      "note": "O site também menciona equipamentos com contaminação por água. Não explicita grau ISO.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-de-corte-emulsionavel",
+      "name": "Óleo de corte emulsionável",
+      "category": "oleos-de-corte-e-usinagem",
+      "description": "Óleo de corte emulsionável para usinagem em que a prioridade é o resfriamento.",
+      "metaDescription": "Óleo de corte emulsionável para furação, torneamento, fresagem, aplainamento e alargamento, com prioridade de resfriamento. Consulte a FFL Lubrificantes.",
+      "applications": "Indicado para operações de usinagem em que a prioridade é o resfriamento: furação, aplainamento, torneamento, fresagem, corte a frio e alargamento. A documentação de origem registra ainda uso em fibras, couros, sistemas hidráulicos e trocadores de calor, e exclui expressamente a aplicação em magnésio.",
+      "application": "Corte e usinagem de metais",
+      "specRows": [
+        [
+          "Designação",
+          "Sol E 37"
+        ],
+        [
+          "Características publicadas",
+          "Óleo de corte emulsionável"
+        ],
+        [
+          "Base",
+          "Mineral naftênica"
+        ],
+        [
+          "Aplicação principal",
+          "Corte e usinagem de metais"
+        ]
+      ],
+      "note": "Exclusão expressa de magnésio na aplicação em metais.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-de-corte-integral-2020",
+      "name": "Óleo de corte integral 2020",
+      "category": "oleos-de-corte-e-usinagem",
+      "description": "Óleo de corte integral para usinagem e perfuração de materiais ferrosos e não ferrosos.",
+      "metaDescription": "Óleo de corte integral para usinagem e perfuração de materiais ferrosos e não ferrosos. Veja as informações publicadas e peça orçamento à FFL.",
+      "applications": "Indicado para operações de usinagem e perfuração em materiais ferrosos e não ferrosos, aplicado puro, sem diluição em água.",
+      "application": "Corte e usinagem de metais",
+      "specRows": [
+        [
+          "Designação",
+          "Cortex 2020"
+        ],
+        [
+          "Características publicadas",
+          "Óleo de corte integral"
+        ],
+        [
+          "Base",
+          "Mineral"
+        ],
+        [
+          "Aplicação principal",
+          "Corte e usinagem de metais"
+        ]
+      ],
+      "note": "2020 é parte da denominação; a página não informa viscosidade.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-de-corte-integral-32",
+      "name": "Óleo de corte integral 32",
+      "category": "oleos-de-corte-e-usinagem",
+      "description": "Óleo de corte integral para usinagem e perfuração de materiais ferrosos e não ferrosos.",
+      "metaDescription": "Óleo de corte integral 32 para usinagem e perfuração de materiais ferrosos e não ferrosos. Consulte as informações técnicas e fale com a FFL.",
+      "applications": "Indicado para operações de usinagem e perfuração em materiais ferrosos e não ferrosos, aplicado puro, sem diluição em água.",
+      "application": "Corte e usinagem de metais",
+      "specRows": [
+        [
+          "Designação",
+          "Cortex 32"
+        ],
+        [
+          "Características publicadas",
+          "Óleo de corte integral"
+        ],
+        [
+          "Base",
+          "Mineral"
+        ],
+        [
+          "Aplicação principal",
+          "Corte e usinagem de metais"
+        ]
+      ],
+      "note": "O número 32 integra a denominação; a página não explicita grau ISO.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-para-estampagem-e-conformacao",
+      "name": "Óleo para estampagem e conformação 68",
+      "category": "oleos-de-corte-e-usinagem",
+      "description": "Óleo para estampagem, conformação e usinagem de materiais ferrosos e não ferrosos.",
+      "metaDescription": "Óleo para estampagem, conformação e usinagem de materiais ferrosos e não ferrosos. Veja a indicação declarada e solicite orçamento à FFL.",
+      "applications": "Indicado para operações de estampagem, conformação e usinagem em materiais ferrosos e não ferrosos.",
+      "application": "Estampagem e conformação de metais",
+      "specRows": [
+        [
+          "Designação",
+          "Stamp 68"
+        ],
+        [
+          "Base",
+          "Mineral"
+        ],
+        [
+          "Aplicação principal",
+          "Estampagem e conformação de metais"
+        ]
+      ],
+      "note": "O número 68 integra a denominação; a página não explicita grau ISO.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-termico-circuito-fechado",
+      "name": "Óleo térmico para circuito fechado",
+      "category": "oleos-termicos-e-tratamento-termico",
+      "description": "Fluido de transferência térmica para circuitos fechados, com temperatura máxima declarada de 320 °C.",
+      "metaDescription": "Óleo térmico para circuitos fechados de transferência de calor, com temperatura máxima declarada de 320 °C. Veja as condições e peça orçamento à FFL.",
+      "applications": "Indicado para circuitos fechados de transferência de calor equipados com tanque de expansão selado e atmosfera de gás inerte.",
+      "application": "Transferência de calor",
+      "specRows": [
+        [
+          "Designação",
+          "Therm-E"
+        ],
+        [
+          "Características publicadas",
+          "Temperatura máxima declarada: 320 °C"
+        ],
+        [
+          "Aplicação principal",
+          "Transferência de calor"
+        ]
+      ],
+      "note": "Condições do sistema fechado fazem parte da indicação publicada.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-para-tempera-de-aco",
+      "name": "Óleo para têmpera de aço",
+      "category": "oleos-termicos-e-tratamento-termico",
+      "description": "Óleo de baixa viscosidade para têmpera de ligas de aço.",
+      "metaDescription": "Óleo de baixa viscosidade para têmpera de ligas de aço em tratamento térmico. Veja as informações publicadas e solicite um orçamento à FFL.",
+      "applications": "Indicado para a têmpera de ligas de aço, etapa em que a velocidade de resfriamento é a característica determinante.",
+      "application": "Tratamento térmico de metais",
+      "specRows": [
+        [
+          "Designação",
+          "Temp"
+        ],
+        [
+          "Características publicadas",
+          "Baixa viscosidade, sem grau numérico declarado"
+        ],
+        [
+          "Base",
+          "Mineral"
+        ],
+        [
+          "Aplicação principal",
+          "Tratamento térmico de metais"
+        ]
+      ],
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-isolante-para-transformadores",
+      "name": "Óleo isolante para transformadores",
+      "category": "oleos-de-processo-e-especialidades",
+      "description": "Óleo mineral naftênico isolante para transformadores.",
+      "metaDescription": "Óleo mineral naftênico isolante para transformadores elétricos. Consulte as informações técnicas publicadas e fale com a FFL Lubrificantes.",
+      "applications": "Indicado como fluido isolante em transformadores elétricos.",
+      "application": "Isolamento elétrico de transformadores",
+      "specRows": [
+        [
+          "Designação",
+          "Transf A"
+        ],
+        [
+          "Base",
+          "Mineral naftênica"
+        ],
+        [
+          "Aplicação principal",
+          "Isolamento elétrico de transformadores"
+        ]
+      ],
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "fluido-para-calibracao-de-injetores",
+      "name": "Fluido para calibração de injetores",
+      "category": "oleos-de-processo-e-especialidades",
+      "description": "Fluido de baixa viscosidade para calibração e armazenamento de injetores de combustível diesel.",
+      "metaDescription": "Fluido de baixa viscosidade para calibração e armazenamento de injetores de combustível diesel. Veja a indicação e solicite orçamento à FFL.",
+      "applications": "Indicado para bancadas de calibração de injetores de combustível diesel e para o armazenamento desses componentes.",
+      "application": "Calibração de injetores diesel",
+      "specRows": [
+        [
+          "Designação",
+          "Calibra 4113"
+        ],
+        [
+          "Características publicadas",
+          "Baixa viscosidade, sem grau numérico declarado"
+        ],
+        [
+          "Base",
+          "Mineral"
+        ],
+        [
+          "Aplicação principal",
+          "Calibração de injetores diesel"
+        ]
+      ],
+      "note": "4113 aparece como parte do nome; nenhuma norma é explicitada.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-parafinico-de-processo-56",
+      "name": "Óleo parafínico de processo 56",
+      "category": "oleos-de-processo-e-especialidades",
+      "description": "Óleo mineral parafínico para as indústrias de borracha, química e têxtil, além de tratamento térmico e formulação.",
+      "metaDescription": "Óleo mineral parafínico de processo para as indústrias de borracha, química e têxtil, tratamento térmico e formulação. Consulte a FFL Lubrificantes.",
+      "applications": "Indicado como óleo de processo nas indústrias de borracha, química e têxtil, em tratamento térmico e na formulação de lubrificantes.",
+      "application": "Processos industriais e formulação",
+      "specRows": [
+        [
+          "Designação",
+          "FBX 56"
+        ],
+        [
+          "Base",
+          "Mineral parafínica"
+        ],
+        [
+          "Aplicação principal",
+          "Processos industriais e formulação"
+        ]
+      ],
+      "note": "O número 56 integra a denominação; não foi convertido em viscosidade.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-parafinico-para-formulacao-100",
+      "name": "Óleo parafínico para formulação 100",
+      "category": "oleos-de-processo-e-especialidades",
+      "description": "Óleo mineral parafínico para formulação de lubrificantes, plastificação de resinas e beneficiamento têxtil.",
+      "metaDescription": "Óleo mineral parafínico para formulação de lubrificantes, plastificação de resinas e borrachas e beneficiamento têxtil. Peça orçamento à FFL.",
+      "applications": "Indicado para a formulação de lubrificantes, a plastificação de resinas, plásticos e borrachas, o beneficiamento têxtil e o tratamento térmico de metais.",
+      "application": "Processos industriais e formulação",
+      "specRows": [
+        [
+          "Designação",
+          "FB 100"
+        ],
+        [
+          "Base",
+          "Mineral parafínica"
+        ],
+        [
+          "Aplicação principal",
+          "Processos industriais e formulação"
+        ]
+      ],
+      "note": "O número 100 integra a denominação; a página não explicita grau ISO.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "protetivo-anticorrosivo-para-chassis",
+      "name": "Protetivo anticorrosivo para chassis",
+      "category": "oleos-de-processo-e-especialidades",
+      "description": "Protetivo anticorrosivo para chassis e superfícies metálicas em ambientes úmidos e litorâneos.",
+      "metaDescription": "Protetivo anticorrosivo para chassis e superfícies metálicas, indicado para ambientes úmidos e litorâneos. Veja a aplicação e consulte a FFL.",
+      "applications": "Indicado para a proteção de chassis e outras superfícies metálicas contra corrosão e intempéries, com aplicação direta, sem diluição. A documentação de origem destaca o uso em ambientes úmidos e litorâneos.",
+      "application": "Proteção anticorrosiva de metais",
+      "specRows": [
+        [
+          "Designação",
+          "Protetivo"
+        ],
+        [
+          "Características publicadas",
+          "Aplicação sem diluição em chassis"
+        ],
+        [
+          "Base",
+          "Óleos minerais parafínicos e óleo de mamona"
+        ],
+        [
+          "Aplicação principal",
+          "Proteção anticorrosiva de metais"
+        ]
+      ],
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "oleo-para-limpeza-de-armamentos",
+      "name": "Óleo para limpeza de armamentos",
+      "category": "oleos-de-processo-e-especialidades",
+      "description": "Produto para limpeza, lubrificação e proteção de armamentos e preservação de peças no armazenamento.",
+      "metaDescription": "Produto para limpeza, lubrificação e proteção de armamentos, preservação de peças metálicas e tratamento de couro. Consulte a FFL Lubrificantes.",
+      "applications": "Indicado para a limpeza, a lubrificação e a proteção de armamentos, além da preservação de peças metálicas em armazenamento. A documentação de origem registra ainda uso como tratamento amaciante de couro.",
+      "application": "Limpeza e proteção de armamentos",
+      "specRows": [
+        [
+          "Designação",
+          "Arm"
+        ],
+        [
+          "Aplicação principal",
+          "Limpeza e proteção de armamentos"
+        ]
+      ],
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "confirmed": true
+    },
+    {
+      "slug": "graxa-de-litio-ep",
+      "name": "Graxa de lítio EP",
+      "category": "graxas-industriais",
+      "description": "Graxa de sabão de lítio com extrema pressão, para uso contínuo até 130 °C e picos de 150 °C.",
+      "metaDescription": "Graxa de lítio EP para rolamentos, prensas, britadores, guindastes e máquinas agrícolas, até 130 °C contínuos. Peça orçamento à FFL Lubrificantes.",
+      "applications": "Indicada para peças sob pressão elevada e deslizamento pesado, mancais de rolamento, máquinas de papel, prensas, britadores, guindastes e máquinas agrícolas.",
+      "application": "Graxas industriais e agrícolas",
+      "specRows": [
+        [
+          "Designação",
+          "Graxa Lithium EP1"
+        ],
+        [
+          "Características publicadas",
+          "Uso contínuo até 130 °C; picos de 150 °C. Aditivos antioxidantes e de extrema pressão; resistência ao desgaste e à lavagem por água"
+        ],
+        [
+          "Espessante",
+          "Sabão de lítio"
+        ],
+        [
+          "Aplicação principal",
+          "Graxas industriais e agrícolas"
+        ]
+      ],
+      "note": "NLGI não explicitado.",
+      "source": "https://www.falub.com.br/graxas",
+      "confirmed": true
+    },
+    {
+      "slug": "graxa-de-calcio-para-chassis",
+      "name": "Graxa de cálcio para chassis",
+      "category": "graxas-industriais",
+      "description": "Graxa de sabão de cálcio para pinos de chassis e mancais de deslizamento, até 70 °C. Há também a versão vermelha.",
+      "metaDescription": "Graxa de sabão de cálcio para pinos de chassis e mancais de deslizamento, até 70 °C. Há também a versão vermelha. Consulte a FFL Lubrificantes.",
+      "applications": "Indicada para pinos de chassis e mancais de deslizamento que operam em temperatura moderada.",
+      "application": "Graxas para chassis e mancais",
+      "specRows": [
+        [
+          "Designação",
+          "Graxa Chassis 2"
+        ],
+        [
+          "Características publicadas",
+          "Temperatura de trabalho até 70 °C"
+        ],
+        [
+          "Espessante",
+          "Óleos minerais parafínicos; sabão de cálcio; aditivos"
+        ],
+        [
+          "Aplicação principal",
+          "Graxas para chassis e mancais"
+        ]
+      ],
+      "note": "A documentação de origem publica dois cadastros de descrição idêntica, diferenciados pela cor. Grau NLGI não explicitado.",
+      "variants": [
+        "Graxa de cálcio para chassis",
+        "Graxa de cálcio para chassis — versão vermelha"
+      ],
+      "source": "https://www.falub.com.br/graxas",
+      "confirmed": true
+    },
+    {
+      "slug": "graxa-grafitada",
+      "name": "Graxa grafitada",
+      "category": "graxas-industriais",
+      "description": "Graxa grafitada para desgaste intenso e contato com água, com 5%, 10% ou 25% de grafite.",
+      "metaDescription": "Graxa grafitada para pontos de desgaste intenso e contato com água, com teor de grafite de 5%, 10% ou 25%. Solicite orçamento à FFL Lubrificantes.",
+      "applications": "Indicada para pontos sujeitos a desgaste intenso, contato com água ou ambas as condições, sob temperaturas moderadas.",
+      "application": "Graxas para desgaste elevado e presença de água",
+      "specRows": [
+        [
+          "Designação",
+          "Graxa Grafit"
+        ],
+        [
+          "Características publicadas",
+          "Grafite: 5%, 10% ou 25%, conforme trabalho"
+        ],
+        [
+          "Espessante",
+          "Óleos minerais parafínicos; sabão de cálcio; grafite; aditivos"
+        ],
+        [
+          "Aplicação principal",
+          "Graxas para desgaste elevado e presença de água"
+        ]
+      ],
+      "note": "Limite térmico não quantificado; NLGI não explicitado.",
+      "source": "https://www.falub.com.br/graxas",
+      "confirmed": true
+    }
+  ]
+}
