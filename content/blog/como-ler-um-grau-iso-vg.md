@@ -4,7 +4,7 @@ description: O que significa ISO VG 46, por que os graus saltam de 32 para 46 e 
 eyebrow: FUNDAMENTOS
 summary: A classificação que aparece em quase todo óleo industrial, explicada pela norma que a define.
 published: 2026-09-30
-updated: 2026-10-13
+updated: 2026-10-15
 indexable: true
 tags: seleção, viscosidade
 consulted: 2026-10-13
@@ -44,7 +44,7 @@ Três classificações convivem no mesmo catálogo e medem coisas diferentes:
 - **SAE J300** — classificação de viscosidade de óleos de motor, com critérios a quente e, nos graus “W”, a frio. Para óleos de engrenagens automotivas, a referência é **SAE J306**. Não se aplica J300 indistintamente a toda transmissão. Um SAE 10W-40 não equivale a um grau ISO VG de mesmo número.
 - **NLGI** — graxas. Não mede viscosidade, e sim consistência, pela penetração trabalhada a 25 °C. NLGI 2 é a consistência mais comum em rolamentos.
 
-Comparar diretamente um número SAE com um número ISO pode levar a uma seleção incorreta. São escalas independentes, com temperaturas de referência e métodos de ensaio distintos.
+Comparar diretamente um número SAE com um número ISO pode levar a uma seleção incorreta. São escalas independentes, com temperaturas de referência e métodos de ensaio distintos. Para graxas, veja [como interpretar a consistência NLGI](/conteudos/nlgi-consistencia-de-graxas/); para a variação da viscosidade com a temperatura, consulte o artigo sobre [índice de viscosidade](/conteudos/indice-de-viscosidade/).
 
 ## Quando o número do produto não é um grau ISO
 

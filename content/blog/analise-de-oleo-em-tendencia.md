@@ -4,7 +4,7 @@ description: Um resultado de análise de óleo ganha sentido quando comparado ao
 eyebrow: MANUTENÇÃO
 summary: Histórico, limites e condições de coleta devem ser avaliados em conjunto.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: ensaios, manutenção
 consulted: 2026-10-13
 indexable: true
@@ -44,6 +44,6 @@ Amostras de fundo podem ser úteis para investigar sedimentos, mas não devem se
 
 Priorize alarmes, confira possíveis erros de coleta e discuta resultados com manutenção e laboratório. Repetir a coleta pode esclarecer uma dúvida, mas não deve adiar uma medida de segurança necessária.
 
-Antes de trocar, filtrar ou completar, confirme o requisito do equipamento e a [documentação do produto](/conteudos/ficha-tecnica-e-ficha-de-seguranca/). Para uma consulta comercial, [informe aplicação, especificação e quantidade](/contato/#orcamento).
+Antes de trocar, filtrar ou completar, confirme o requisito do equipamento e a [documentação do produto](/conteudos/ficha-tecnica-e-ficha-de-seguranca/). Se a avaliação indicar uma troca, consulte o [catálogo de lubrificantes industriais](/lubrificantes-industriais/) pela aplicação. Para solicitar uma cotação, [informe aplicação, especificação e quantidade](/contato/#orcamento); o laudo não determina sozinho qual produto deve substituir o atual.
 
 > **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. As páginas públicas das normas não substituem seus textos completos nem o manual do equipamento.

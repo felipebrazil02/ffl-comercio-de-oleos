@@ -4,7 +4,7 @@ description: Compare fluidos de corte integrais e emulsionáveis pela operação
 eyebrow: USINAGEM
 summary: Lubricidade, refrigeração e controle precisam ser avaliados na operação real.
 published: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-15
 indexable: true
 tags: usinagem, seleção
 consulted: 2026-10-13
@@ -43,7 +43,7 @@ Fluidos aquosos requerem acompanhamento de concentração, pH e condição micro
 
 ## O que informar ao cotar
 
-Envie operação, material e liga, ferramenta, parâmetros, equipamento, produto atual e motivo da troca. Confirme restrições de compatibilidade antes de testar.
+Envie operação, material e liga, ferramenta, parâmetros, equipamento, produto atual e motivo da troca. Confirme restrições de compatibilidade antes de testar. O roteiro de [informações para cotar um lubrificante industrial](/conteudos/informacoes-para-cotar-lubrificante/) complementa esses dados com quantidade, embalagem e cidade de destino.
 
 Consulte os [óleos de corte e usinagem](/lubrificantes-industriais/oleos-de-corte-e-usinagem/) e [prepare sua solicitação](/contato/#orcamento) com essas informações.
 

@@ -4,7 +4,7 @@ description: Entenda a diferença entre espessante, óleo-base e grau NLGI, os l
 eyebrow: GRAXAS
 summary: Espessante, óleo-base e aditivos precisam ser avaliados em conjunto.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: graxas, seleção
 consulted: 2026-10-13
 indexable: true
@@ -36,6 +36,8 @@ Monte a comparação com os dados publicados de cada produto:
 - faixa de temperatura recomendada;
 - ensaios de resistência à água, corrosão e carga pertinentes à aplicação;
 - aprovações ou requisitos exigidos pelo fabricante do equipamento.
+
+Para entender os resultados de desgaste e extrema pressão publicados na ficha, consulte o guia sobre [ensaios de quatro esferas para óleos e graxas](/conteudos/ensaio-de-quatro-esferas/). Compare apenas métodos e condições equivalentes.
 
 ## Ponto de gota não é temperatura máxima de uso
 

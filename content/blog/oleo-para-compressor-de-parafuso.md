@@ -4,7 +4,7 @@ description: Veja como conferir o óleo de um compressor de parafuso pelo manual
 eyebrow: COMPRESSORES
 summary: Manual, viscosidade, desempenho e procedimento de troca devem ser avaliados juntos.
 published: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-15
 indexable: true
 tags: compressores, normas, seleção
 consulted: 2026-10-13
@@ -25,7 +25,7 @@ Identifique fabricante, modelo, número de série e recomendação do manual. Co
 
 Calor, oxigênio e contaminantes podem favorecer degradação e depósitos. A Atlas Copco relaciona a vida do óleo às condições de operação e ao fluido apropriado.
 
-Não aplique a regra de que cada aumento de 10 °C necessariamente reduz o intervalo pela metade. O prazo depende do produto, do equipamento e do regime. Respeite os limites de horas e de tempo do fabricante; análise de óleo pode complementar, mas não altera automaticamente o plano aprovado.
+Não aplique a regra de que cada aumento de 10 °C necessariamente reduz o intervalo pela metade. O prazo depende do produto, do equipamento e do regime. Respeite os limites de horas e de tempo do fabricante; a [análise de óleo em tendência](/conteudos/analise-de-oleo-em-tendencia/) pode complementar o acompanhamento, mas não altera automaticamente o plano aprovado.
 
 ## Norma não substitui indicação de aplicação
 

@@ -4,7 +4,7 @@ description: Cuidados com armazenamento, tambores, identificação e filtragem p
 eyebrow: BOAS PRÁTICAS
 summary: Prevenir contaminação e tratar um óleo contaminado são tarefas diferentes; nenhuma dispensa a avaliação do produto.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: boas práticas, contaminação
 source: Mobil — manuseio e armazenamento de lubrificantes | https://www.mobil.com/lubricants/-/media/project/wep/mobil/mobil-row-us-1/new-pdf/technical-topic---handling-storing-lubricants.pdf
 source: Mobil — filtragem para controle de partículas | https://www.mobil.com/en/lubricants/for-businesses/services/onsite-services/lubrication-filtration
@@ -19,7 +19,7 @@ Armazenamento e transferência podem introduzir contaminantes antes de o lubrifi
 
 A Mobil descreve sistemas de filtragem em circuito auxiliar para reduzir partículas em óleos. Estava incorreta, portanto, a afirmação de que nenhuma etapa posterior poderia recuperar a limpeza perdida.
 
-Isso não garante a recuperação de qualquer produto. Uma solução destinada a partículas não comprova, por si só, a correção de mistura com outro lubrificante ou degradação química. É preciso identificar o contaminante e avaliar o óleo.
+Isso não garante a recuperação de qualquer produto. Uma solução destinada a partículas não comprova, por si só, a correção de mistura com outro lubrificante ou degradação química. É preciso identificar o contaminante e avaliar o óleo. Entenda o que o [código de contaminação ISO 4406](/conteudos/iso-4406-codigo-de-contaminacao/) informa antes de interpretar uma medição de partículas como avaliação completa do produto.
 
 Em caso de suspeita, separe a embalagem e solicite avaliação antes do uso. Aparência transparente não comprova adequação ao equipamento.
 

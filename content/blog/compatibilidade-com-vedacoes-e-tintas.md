@@ -4,7 +4,7 @@ description: Trocar de fluido hidráulico pode afetar vedações, mangueiras e t
 eyebrow: SELEÇÃO
 summary: Viscosidade igual não garante que o novo fluido seja compatível com os elastômeros do sistema.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: seleção, hidráulica
 consulted: 2026-10-13
 indexable: true
@@ -31,6 +31,8 @@ Pergunte quais materiais foram testados, em qual fluido, por quanto tempo e a qu
 Uma avaliação de elastômero não comprova, por extensão, compatibilidade com revestimentos, adesivos, mangueiras ou elementos filtrantes. Inclua na consulta os materiais efetivamente molhados pelo fluido e peça confirmação ao fabricante desses componentes ou do equipamento.
 
 Nem toda ficha técnica contém uma tabela de compatibilidade. Quando a informação não estiver publicada, solicite uma orientação técnica específica; ausência de restrição não significa aprovação.
+
+Em sistemas hidráulicos, a [classificação DIN 51524: HL, HLP e HVLP](/conteudos/din-51524-hl-hlp-hvlp/) ajuda a interpretar requisitos de desempenho. Ela não substitui a confirmação de compatibilidade com os materiais da máquina.
 
 ## Antes da substituição
 

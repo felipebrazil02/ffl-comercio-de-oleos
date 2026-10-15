@@ -4,7 +4,7 @@ description: Como os ensaios de quatro esferas medem carga de solda e diâmetro 
 eyebrow: ENSAIOS
 summary: Os números que costumam aparecer na ficha de um óleo EP — e o limite deles.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: ensaios, normas
 consulted: 2026-10-13
 indexable: true
@@ -49,6 +49,8 @@ Os escopos públicos da ASTM alertam para a necessidade de avaliar a correlaçã
 
 Use o resultado como complemento ao manual e à [ficha técnica](/conteudos/ficha-tecnica-e-ficha-de-seguranca/). Para [óleos de engrenagens](/lubrificantes-industriais/oleos-para-engrenagens/) e [graxas industriais](/lubrificantes-industriais/graxas-industriais/), a seleção começa pelos requisitos da aplicação.
 
-Informe equipamento, especificação, produto atual e quantidade para [preparar sua solicitação](/contato/#orcamento).
+Se a comparação envolve graxas, confira também [espessante, óleo-base e critérios de seleção](/conteudos/base-da-graxa-litio-calcio-complexo/). Um resultado EP não resolve esses outros requisitos.
+
+Informe equipamento, especificação, produto atual e quantidade para [solicitar uma cotação de lubrificante](/contato/#orcamento).
 
 > **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. As páginas públicas das normas não substituem seus textos completos nem o manual do equipamento.

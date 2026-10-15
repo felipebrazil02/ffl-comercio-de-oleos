@@ -4,7 +4,7 @@ description: Como interpretar a leitura do refratômetro, aplicar o fator do fab
 eyebrow: USINAGEM
 summary: Leitura em Brix, concentração e pH são dados diferentes; aprenda a interpretar cada um.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: usinagem, seleção
 source: Master Fluid Solutions — boletim técnico 110, concentração e fator Brix | https://www.masterfluids.com/na/en-us/technical-information/technical-bulletin.php?tbid=110
 source: ATAGO — escala Brix e referência de sacarose | https://www.atago.net/en/databook/databook-refractometer_correction.php
@@ -45,6 +45,8 @@ A orientação MW5 recomenda acompanhar concentração, pH, temperatura, aparên
 Registre data, produto, leitura, fator, concentração calculada e intervenções. Medir antes e depois de corrigir é útil; manter o histórico ajuda a avaliar a evolução. Não existe um prazo universal de 28 dias que garanta um diagnóstico.
 
 Defina limites e periodicidade com o fornecedor e o responsável técnico. As orientações britânicas citadas são referências de boas práticas, não uma declaração de conformidade com a legislação brasileira.
+
+Se a dúvida ainda é qual família de fluido avaliar, leia a comparação entre [óleo de corte integral e emulsionável](/conteudos/oleo-de-corte-integral-ou-emulsionavel/). O controle da concentração é uma etapa diferente da seleção do produto.
 
 ## Para consultar um produto
 

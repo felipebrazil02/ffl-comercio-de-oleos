@@ -4,7 +4,7 @@ description: Como ponto de fluidez e ponto de névoa são medidos e em quais sit
 eyebrow: FUNDAMENTOS
 summary: Duas temperaturas medidas em laboratório que só mudam a decisão em aplicações específicas.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: fundamentos, viscosidade
 consulted: 2026-10-13
 indexable: true
@@ -42,7 +42,7 @@ Para uma comparação útil, reúna a temperatura mínima prevista, os períodos
 
 ## O que enviar na consulta
 
-Informe equipamento, grau e especificação exigidos, temperatura mínima, produto atual e condições de armazenamento. A [ficha técnica](/conteudos/ficha-tecnica-e-ficha-de-seguranca/) deve ser lida junto ao manual.
+Informe equipamento, grau e especificação exigidos, temperatura mínima, produto atual e condições de armazenamento. A [ficha técnica](/conteudos/ficha-tecnica-e-ficha-de-seguranca/) deve ser lida junto ao manual. Para os cuidados com embalagens e estoque, consulte o guia de [armazenamento de lubrificantes](/conteudos/armazenamento-de-lubrificantes/).
 
 Veja os [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) ou [prepare sua solicitação](/contato/#orcamento) com esses dados.
 

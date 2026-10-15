@@ -4,7 +4,7 @@ description: Entenda a diferença entre separação de água, espuma superficial
 eyebrow: ENSAIOS
 summary: Separar água, controlar espuma e liberar ar disperso são propriedades diferentes do lubrificante.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: ensaios, hidráulica
 source: ASTM D1401 — escopo público do ensaio de separação de água | https://store.astm.org/d1401-21.html
 source: ASTM D892 — escopo público do ensaio de espuma | https://store.astm.org/standards/d892
@@ -40,7 +40,7 @@ Pouca espuma superficial não garante liberação rápida das bolhas que circula
 
 ## Como comparar as fichas
 
-Confira qual propriedade está sendo medida, método, sequência, temperatura e unidade. Identifique se a amostra é de óleo novo ou em serviço e compare o resultado com o requisito do equipamento.
+Confira qual propriedade está sendo medida, método, sequência, temperatura e unidade. Identifique se a amostra é de óleo novo ou em serviço e compare o resultado com o requisito do equipamento. O guia de [leitura da ficha técnica e da ficha de segurança](/conteudos/ficha-tecnica-e-ficha-de-seguranca/) explica o papel de cada documento nessa consulta.
 
 A [análise de óleo ao longo do tempo](/conteudos/analise-de-oleo-em-tendencia/) ajuda a organizar o histórico, mas não torna equivalentes resultados de métodos diferentes.
 

@@ -8,6 +8,7 @@ Depois rode:
 ```
 npm run build
 npm run check
+npm run test:editorial-links
 ```
 
 O `check` falha se algo estiver fora do padrão. Só publique com ele passando.
@@ -85,3 +86,12 @@ página aparece sozinha.
 - **Um assunto por post.** Dois assuntos num texto só competem entre si.
 - **Cite a fonte.** É o padrão editorial do site e sustenta a credibilidade
   técnica das páginas.
+
+## Links editoriais
+
+- Use links no corpo do texto para a categoria comercial pertinente. Em artigos gerais, prefira o catálogo; não force uma categoria sem relação com o assunto.
+- Inclua artigos complementares quando ajudarem a leitura. Use textos de link descritivos e contexto, sem encadear palavras-chave ou repetir o mesmo destino desnecessariamente.
+- Vincule também o artigo novo a partir de um texto existente e relacionado, para que ele não dependa apenas da listagem e dos cartões automáticos.
+- Não apresente um link comercial como recomendação técnica, prova de equivalência ou garantia de estoque. Marcas citadas nas fontes não são necessariamente comercializadas pela FFL.
+- Preserve URLs publicadas. Atualize `updated` ao alterar o conteúdo; só altere `consulted` se consultar novamente as fontes técnicas.
+- Depois do build, `test:editorial-links` verifica os destinos, âncoras, links renderizados e caminhos contextuais entre os artigos e o catálogo.

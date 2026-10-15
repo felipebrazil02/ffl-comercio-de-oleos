@@ -4,7 +4,7 @@ description: O que os três números do código ISO 4406 contam, como se relacio
 eyebrow: CONTAMINAÇÃO
 summary: Três classes de concentração obtidas de contagens cumulativas de partículas.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: contaminação, fundamentos
 consulted: 2026-10-13
 indexable: true
@@ -45,6 +45,6 @@ O alvo vem dos requisitos do equipamento e de seus componentes. Não existe um �
 
 Se houver piora, investigue entrada externa, geração interna de partículas, filtração e procedimento de amostragem. Trocar o óleo sem identificar a causa pode não resolver.
 
-Boas práticas de [armazenamento e transferência](/conteudos/armazenamento-de-lubrificantes/) ajudam a evitar contaminação. Para consultar o lubrificante, [informe equipamento, especificação, código exigido e quantidade](/contato/#orcamento).
+Boas práticas de [armazenamento e transferência](/conteudos/armazenamento-de-lubrificantes/) ajudam a evitar contaminação. Se a consulta é para um sistema hidráulico, veja a linha de [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) e confirme o requisito de limpeza separadamente: a categoria comercial não garante um código ISO 4406. Ao [solicitar a cotação](/contato/#orcamento), informe equipamento, especificação, código exigido e quantidade.
 
 > **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. As páginas públicas das normas não substituem seus textos completos nem o manual do equipamento.

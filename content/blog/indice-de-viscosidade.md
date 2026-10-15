@@ -4,7 +4,7 @@ description: O que o índice de viscosidade descreve, como é calculado pela AST
 eyebrow: FUNDAMENTOS
 summary: O IV descreve a relação viscosidade-temperatura, sem substituir os requisitos da aplicação.
 published: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-15
 tags: fundamentos, viscosidade
 consulted: 2026-10-13
 indexable: true
@@ -28,7 +28,7 @@ Para comparar candidatos, anote separadamente o grau, as duas viscosidades publi
 
 ## O que precisa ser conferido à parte
 
-O IV não comprova proteção antidesgaste, resistência à oxidação, separação de água, liberação de ar ou compatibilidade com vedações. Também não substitui ensaios de baixa temperatura.
+O IV não comprova proteção antidesgaste, resistência à oxidação, separação de água, liberação de ar ou compatibilidade com vedações. Também não substitui ensaios de baixa temperatura. Para interpretar propriedades relacionadas à água e ao ar, veja [demulsibilidade, formação de espuma e liberação de ar](/conteudos/demulsibilidade-e-formacao-de-espuma/).
 
 Formulação e estabilidade ao cisalhamento precisam ser avaliadas separadamente. A documentação da linha Mobil DTE 10 Excel, por exemplo, publica alto IV e estabilidade ao cisalhamento como características distintas. Isso não autoriza extrapolar o mesmo desempenho para qualquer produto com IV parecido.
 

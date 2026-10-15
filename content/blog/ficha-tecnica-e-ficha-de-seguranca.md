@@ -4,7 +4,7 @@ description: Entenda a função da ficha técnica e da ficha de segurança e qua
 eyebrow: DOCUMENTAÇÃO TÉCNICA
 summary: Entenda o papel de cada documento e o que conferir antes de comparar produtos.
 published: 2026-09-10
-updated: 2026-10-13
+updated: 2026-10-15
 indexable: true
 tags: documentação, seleção
 consulted: 2026-10-13
@@ -40,8 +40,14 @@ Esse documento também orienta a resposta a situações de exposição ou incide
 
 A ficha técnica não substitui a ficha de segurança. Nenhum dos documentos deve ser usado isoladamente para presumir compatibilidade ou equivalência com outro produto.
 
+Para organizar os cuidados com embalagens e estoque, consulte também as orientações de [armazenamento de lubrificantes](/conteudos/armazenamento-de-lubrificantes/), sempre junto à documentação do produto.
+
 ## Onde os números entram nessa leitura
 
 Boa parte do que a ficha técnica apresenta é numérico: grau de viscosidade, índice de viscosidade, ponto de fulgor, ponto de fluidez. Saber [o que um grau ISO VG significa](/conteudos/como-ler-um-grau-iso-vg/) ajuda a interpretar essa tabela em vez de apenas comparar números entre produtos.
+
+## Da documentação à consulta de produto
+
+Use o [catálogo de lubrificantes industriais](/lubrificantes-industriais/) para localizar a linha correspondente à aplicação. Reúna o nome completo, o grau e a especificação exigida no manual antes de [solicitar uma cotação à FFL](/contato/#orcamento). A documentação das fontes deste artigo é ilustrativa e não comprova disponibilidade comercial dessas marcas.
 
 > **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. Revisão pontual; os critérios gerais foram mantidos e a necessidade de confirmação técnica foi reforçada.

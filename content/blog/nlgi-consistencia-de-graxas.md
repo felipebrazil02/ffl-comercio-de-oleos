@@ -4,7 +4,7 @@ description: O que os graus NLGI 000 a 6 medem, por que NLGI 2 é o mais comum e
 eyebrow: FUNDAMENTOS
 summary: A escala que classifica graxas, e o dado que ela deliberadamente não informa.
 published: 2026-10-06
-updated: 2026-10-13
+updated: 2026-10-15
 indexable: true
 tags: graxas, seleção, viscosidade
 consulted: 2026-10-13
@@ -52,7 +52,7 @@ Duas graxas NLGI 2 podem ter óleos-base de viscosidade muito diferente — uma 
 
 O terceiro dado da ficha é o tipo de espessante: lítio, lítio complexo, cálcio, cálcio sulfonato, poliureia, alumínio complexo, argila. Ele influencia essas propriedades junto com o óleo-base e os aditivos. A faixa de serviço, a resistência à água e a compatibilidade devem ser verificadas para o produto completo.
 
-Misturas incompatíveis podem amolecer ou endurecer e alterar outras propriedades. Não há prazo universal para esses efeitos aparecerem. Mesmo espessantes iguais não garantem compatibilidade entre produtos.
+Misturas incompatíveis podem amolecer ou endurecer e alterar outras propriedades. Não há prazo universal para esses efeitos aparecerem. Mesmo espessantes iguais não garantem compatibilidade entre produtos. O guia sobre [graxas de lítio, cálcio e complexos](/conteudos/base-da-graxa-litio-calcio-complexo/) detalha os critérios que devem acompanhar a leitura do grau NLGI.
 
 > **Confirme a conversão com os fabricantes.** Tabelas de espessantes são apenas triagem. Limpeza, remoção ou purga devem seguir o procedimento do equipamento; não se deve reengraxar indiscriminadamente nem presumir que toda a carga antiga será removida.
 

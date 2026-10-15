@@ -4,7 +4,7 @@ description: Entenda os requisitos associados a HL, HLP e HVLP na DIN 51524 e po
 eyebrow: NORMAS
 summary: A norma que quase todo manual de sistema hidráulico cita, e o que cada designação exige do fluido.
 published: 2026-09-30
-updated: 2026-10-13
+updated: 2026-10-15
 indexable: true
 tags: hidráulica, normas, seleção
 consulted: 2026-10-13
@@ -48,6 +48,8 @@ Não deduza que característica detergente ou dispersante autorize entrada de á
 
 Uma declaração de atendimento também não é necessariamente uma aprovação formal do fabricante da máquina. Compare os termos usados na [ficha técnica](/conteudos/ficha-tecnica-e-ficha-de-seguranca/).
 
-Para consultar [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/), informe equipamento, grau, parte da norma e produto atual.
+Antes de uma substituição, confira também a [compatibilidade do fluido com vedações e materiais do sistema](/conteudos/compatibilidade-com-vedacoes-e-tintas/).
+
+Para consultar [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/), informe equipamento, grau, parte da norma e produto atual ao [solicitar um orçamento à FFL](/contato/#orcamento).
 
 > **Revisão técnica — 13/10/2026.** Conteúdo conferido com as fontes listadas abaixo. As páginas públicas das normas não substituem seus textos completos nem o manual do equipamento.
