@@ -1,0 +1,29 @@
+{
+  "reviewedAt": "2026-10-16",
+  "baseCommit": "722867360104d55c6379b25106f8c73dcb107c7e",
+  "property": "sc-domain:ffllubrificantes.com.br",
+  "searchType": "Web",
+  "selectedPeriod": "3 meses",
+  "availableDates": ["2026-10-08", "2026-10-14"],
+  "baseline": [
+    {"path": "/lubrificantes-industriais/oleos-hidraulicos/", "impressions": 5, "clicks": 0, "averagePosition": 7.4, "visibleQueries": []},
+    {"path": "/lubrificantes-industriais/graxas-industriais/", "impressions": 3, "clicks": 0, "averagePosition": 59.3, "visibleQueries": [{"query": "graxa industrial", "impressions": 2, "clicks": 0}]},
+    {"path": "/lubrificantes-industriais/oleos-de-corte-e-usinagem/", "impressions": 1, "clicks": 0, "averagePosition": 5, "visibleQueries": []},
+    {"path": "/conteudos/como-ler-um-grau-iso-vg/", "impressions": 8, "clicks": 0, "averagePosition": 7.8, "visibleQueries": []}
+  ],
+  "limitations": "Consultas vazias significam que o relatório filtrado não exibiu termos, não ausência de impressões. Amostra insuficiente para atribuir CTR zero aos títulos. Apenas graxa industrial foi observada como consulta específica destas páginas; demais ajustes são hipóteses editoriais.",
+  "changes": [
+    "Títulos e descrições específicos; localização e cobertura confirmadas nas categorias.",
+    "Checklists de cotação, links contextuais e WhatsApp com mensagem da categoria, sem envio automático.",
+    "FAQ de corte alinhada ao artigo revisado: sem regra universal por velocidade ou superioridade de um tipo de fluido.",
+    "ISO VG: resposta inicial direta, comparação 32/46/68 e aviso contra substituição automática; ressalva dos graus baixos arredondados conferida na tabela FUCHS.",
+    "URLs, canonical, data original de publicação e controles de indexação preservados.",
+    "Dez artigos do commit remoto incorporados sem alteração de conteúdo."
+  ],
+  "sourcesChecked": [
+    "https://www.iso.org/standard/8774.html",
+    "https://www.fuchs.com/es/es/productos/programa-de-productos/lubricantes-de-automocion/actualidad-automocion/tablas-de-viscosidades/"
+  ],
+  "validation": ["build", "test-seo-prioridades", "test-links-editoriais", "test-liberacao-blog", "check", "test-form"],
+  "publication": "Alterações locais; publicação não executada nesta revisão. Comparar os períodos após a publicação e o novo rastreamento, sem atribuir causalidade a uma amostra pequena."
+}

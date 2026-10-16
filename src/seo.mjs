@@ -2,8 +2,34 @@
 export function improveCommercialPages(pages,{company,esc,arrow,button}){
   const categories=company.categories.filter(c=>c.confirmed);
   const contact=`<p><a href="tel:${esc(company.phone)}">(11) 91501-1527</a> · <a href="mailto:${esc(company.email)}">${esc(company.email)}</a></p><p>Salto/SP · Atendimento em todo o estado de São Paulo.</p>`;
+  // Conteúdo específico das categorias prioritárias; sem presumir estoque ou equivalência.
+  const buyingGuides={
+    'oleos-hidraulicos':{
+      heading:'Como consultar o óleo hidráulico para seu equipamento',
+      items:['Informe o fabricante e o modelo do equipamento e o grau de viscosidade exigido no manual.','Inclua a especificação de desempenho requerida e o nome completo do óleo em uso.','Indique a quantidade e a cidade de destino para consultar disponibilidade, embalagens e condições de fornecimento.'],
+      links:[['como-ler-um-grau-iso-vg','Entenda os graus ISO VG 32, 46 e 68'],['din-51524-hl-hlp-hvlp','Compare as classes HL, HLP e HVLP']]
+    },
+    'graxas-industriais':{
+      heading:'Qual graxa industrial consultar para cada ponto?',
+      items:['Identifique o ponto de lubrificação: rolamento, mancal, pino ou outro componente. Confira a aplicação publicada no cartão de cada produto.','Informe temperatura, carga, rotação e presença de água, além da graxa atualmente utilizada.','Envie o grau NLGI e demais requisitos do manual, quando disponíveis. Não deduza a consistência pela cor nem pelo número no nome comercial.'],
+      links:[['nlgi-consistencia-de-graxas','Entenda o grau NLGI das graxas'],['base-da-graxa-litio-calcio-complexo','Conheça os espessantes e os cuidados com a mistura']]
+    },
+    'oleos-de-corte-e-usinagem':{
+      heading:'O que informar para cotar óleo de corte',
+      items:['Descreva o material usinado e a operação: torneamento, fresamento, furação ou outro processo.','Informe a máquina, o produto em uso e se o processo utiliza fluido integral ou diluído em água. Para emulsionáveis, inclua a concentração recomendada pelo fabricante.','Informe o volume necessário e a cidade de destino. Aplicação, disponibilidade e embalagem precisam ser confirmadas na cotação.'],
+      links:[['oleo-de-corte-integral-ou-emulsionavel','Compare óleo de corte integral e emulsionável'],['concentracao-e-ph-do-fluido-de-corte','Veja os cuidados com concentração e pH']]
+    }
+  };
   for(const page of pages){
     if(page.url.startsWith('/conteudos/'))continue;
+    const guide=buyingGuides[page.category?.slug];
+    if(guide){
+      const c=page.category;
+      const quotationUrl=`/contato/?produto=${encodeURIComponent(c.name)}#orcamento`;
+      const waUrl=`https://wa.me/${company.whatsapp}?text=${encodeURIComponent('Olá! Gostaria de solicitar cotação: '+c.name+'.')}`;
+      const section=`<section class="container section article-body" aria-labelledby="consulta-categoria"><h2 id="consulta-categoria">${esc(guide.heading)}</h2><ul>${guide.items.map(item=>`<li>${esc(item)}</li>`).join('')}</ul><p>A FFL está em Salto/SP e atende todo o estado de São Paulo. Preço, prazo, disponibilidade e embalagens são confirmados na proposta.</p>${button('Solicitar cotação desta linha',quotationUrl,'dark-button')} <a class="text-link" href="${esc(waUrl)}">Consultar pelo WhatsApp ${arrow}</a><h2>Guias para preparar sua consulta</h2><ul>${guide.links.map(([slug,label])=>`<li><a href="/conteudos/${slug}/">${esc(label)}</a></li>`).join('')}</ul></section>`;
+      page.content+=section;
+    }
     if(page.url==='/'){
       page.title='Lubrificantes industriais em São Paulo | FFL';
       page.description='Óleos hidráulicos, graxas e lubrificantes industriais. FFL em Salto/SP, com atendimento em todo o estado de São Paulo. Consulte as linhas e peça orçamento.';

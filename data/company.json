@@ -20,9 +20,9 @@
     {
       "slug": "oleos-hidraulicos",
       "name": "Óleos hidráulicos e para ferramentas pneumáticas",
-      "title": "Óleos hidráulicos AW e HLP | FFL Lubrificantes",
-      "description": "Fluidos antidesgaste para sistemas hidráulicos e circulatórios, marteletes e perfuratrizes.",
-      "metaDescription": "Óleos hidráulicos AW e HLP para sistemas circulatórios, marteletes e perfuratrizes de rocha. Veja graus e especificações e solicite orçamento à FFL.",
+      "title": "Óleos hidráulicos AW e HLP em SP | FFL Lubrificantes",
+      "description": "Consulte óleos hidráulicos antidesgaste e produtos para ferramentas pneumáticas. Compare as aplicações de cada linha e solicite cotação à FFL, em Salto/SP, com atendimento em todo o estado de São Paulo.",
+      "metaDescription": "Consulte óleos hidráulicos AW e HLP, graus e aplicações. FFL em Salto/SP, com atendimento em todo o estado de São Paulo. Solicite cotação.",
       "selection": "Parta do grau indicado pelo fabricante do equipamento e das exigências de antidesgaste, demulsibilidade e filtrabilidade. Sistemas com contaminação por água ou temperatura elevada restringem as opções, e a norma DIN 51524 é a referência mais citada nos manuais.",
       "faq": [
         {
@@ -69,14 +69,14 @@
     {
       "slug": "oleos-de-corte-e-usinagem",
       "name": "Óleos de corte, usinagem e estampagem",
-      "title": "Óleos de corte e usinagem | FFL Lubrificantes",
-      "description": "Fluidos integrais e emulsionáveis para usinagem, perfuração, estampagem e conformação.",
-      "metaDescription": "Óleos de corte integrais e emulsionáveis para torneamento, fresamento, furação, estampagem e conformação de metais. Consulte a FFL Lubrificantes.",
+      "title": "Óleo de corte integral e emulsionável em SP | FFL",
+      "description": "Óleos de corte integrais e emulsionáveis para consulta, além de produtos para estampagem e conformação. Informe o material e a operação à FFL, em Salto/SP, com atendimento em todo o estado de São Paulo.",
+      "metaDescription": "Óleos de corte integrais e emulsionáveis para usinagem. Compare aplicações e solicite cotação à FFL, em Salto, com atendimento em todo o estado de SP.",
       "selection": "A escolha entre fluido integral e emulsionável depende do material usinado, da severidade da operação e da prioridade entre refrigeração e lubrificação. Requisitos de saúde ocupacional e de descarte da planta também restringem as opções.",
       "faq": [
         {
           "question": "Qual a diferença entre óleo de corte integral e emulsionável?",
-          "answer": "O integral é aplicado puro e prioriza lubrificação. O emulsionável é diluído em água e prioriza refrigeração. Operações severas de baixa velocidade tendem ao integral; operações de alta velocidade que geram muito calor tendem ao emulsionável."
+          "answer": "O integral é usado sem diluição em água. O emulsionável é preparado com água na concentração indicada pelo fabricante. A escolha depende do material, da operação e dos requisitos da máquina; não existe um tipo melhor para todas as aplicações."
         }
       ],
       "confirmed": true
@@ -114,9 +114,9 @@
     {
       "slug": "graxas-industriais",
       "name": "Graxas industriais e para chassis",
-      "title": "Graxas industriais | FFL Lubrificantes",
-      "description": "Graxas de lítio, cálcio e grafitadas para rolamentos, mancais, chassis e ambientes com água.",
-      "metaDescription": "Graxas de lítio EP, de cálcio e grafitadas para rolamentos, mancais de deslizamento, pinos de chassis e pontos expostos à água. Peça orçamento à FFL.",
+      "title": "Graxas industriais: lítio EP, cálcio e grafitada | FFL",
+      "description": "Procura graxa industrial para rolamentos, mancais ou pinos? Consulte as linhas de lítio EP, cálcio e grafitada e confira a aplicação de cada produto. A FFL está em Salto/SP e atende todo o estado de São Paulo.",
+      "metaDescription": "Graxas industriais de lítio EP, cálcio e grafitadas. Consulte aplicações e solicite cotação à FFL em Salto/SP, com atendimento em todo o estado.",
       "selection": "Além da consistência, importam o tipo de espessante, a faixa de temperatura de trabalho e a compatibilidade com a graxa já presente no ponto. Espessantes diferentes nem sempre são compatíveis entre si.",
       "faq": [
         {
