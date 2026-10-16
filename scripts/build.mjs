@@ -46,6 +46,7 @@ let css=await fs.readFile('src/site.css','utf8');
 for(const f of fontFiles)css=css.replaceAll(`/assets/${f}`,assetMap[f]);
 await emit('site.css',Buffer.from(css));
 await emit('site.js',await fs.readFile('src/site.js'));
+await emit('analytics.js',await fs.readFile('src/analytics.js'));
 const favicon='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="10" fill="#101f31"/><text x="9" y="44" fill="#d8f35c" font-family="Arial,sans-serif" font-weight="900" font-style="italic" font-size="39">ffl</text></svg>';
 await passthrough_write('favicon.svg',favicon);
 async function passthrough_write(name,content){await fs.writeFile(path.join('dist/assets',name),content);assetMap[name]=`/assets/${name}`;}
@@ -188,6 +189,7 @@ for(const page of pages){
     `<link rel="stylesheet" href="${A('site.css')}">`,
     `<script type="application/ld+json">${JSON.stringify(structured).replace(/</g,'\\u003c')}</script>`,
     `<script src="${A('site.js')}" defer></script>`,
+    `<script src="${A('analytics.js')}" defer></script>`,
   ].filter(Boolean).join('');
   const html=`<!doctype html><html lang="pt-BR"><head>${head}</head><body>${header(page.url)}<main id="conteudo">${breadcrumb}${page.content}</main>${actualFooter}</body></html>`;
   const file=page.url==='/404.html'?'dist/404.html':path.join('dist',page.url,'index.html');await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,html);
