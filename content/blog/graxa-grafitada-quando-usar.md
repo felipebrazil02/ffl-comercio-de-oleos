@@ -16,7 +16,7 @@ A graxa grafitada carrega grafite como aditivo sólido. A cor escura é apenas u
 
 ## O que o grafite faz
 
-Aditivos sólidos, como grafite e dissulfeto de molibdênio, atuam quando a película de óleo é rompida. Em carga elevada, velocidade baixa e dificuldade de formar filme fluido, essas partículas ajudam a reduzir o contato metal com metal. É um mecanismo diferente do dos aditivos antidesgaste dissolvidos no óleo, que dependem de reação química na superfície.
+Aditivos sólidos, como grafite e dissulfeto de molibdênio, atuam quando a película de óleo é rompida. Em carga elevada, velocidade baixa e dificuldade de formar filme fluido, essas partículas ajudam a reduzir o contato metal com metal. É um mecanismo diferente do dos aditivos antidesgaste dissolvidos no óleo, que dependem de reação química na superfície. A lógica da aditivação de extrema pressão está em [graxa EP ou graxa comum: qual o rolamento pede](/conteudos/graxa-ep-ou-comum/).
 
 Por atuar como sólido, o grafite não se degrada da mesma forma que um aditivo químico e pode permanecer no ponto de aplicação mesmo quando a base de óleo é perdida em parte.
 

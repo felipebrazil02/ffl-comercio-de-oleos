@@ -16,7 +16,7 @@ A sigla EP, de extrema pressão, indica que a graxa leva aditivação para lidar
 
 ## O que a aditivação EP faz
 
-Aditivos de extrema pressão atuam quando a película de óleo não sustenta a carga e o contato metal com metal se aproxima. Nessas condições de filme limite, o aditivo reage com a superfície e forma uma camada que reduz o atrito e o desgaste. É um mecanismo de ação química, diferente do dos aditivos sólidos, que atuam como partículas.
+Aditivos de extrema pressão atuam quando a película de óleo não sustenta a carga e o contato metal com metal se aproxima. Nessas condições de filme limite, o aditivo reage com a superfície e forma uma camada que reduz o atrito e o desgaste. É um mecanismo de ação química, diferente do dos aditivos sólidos, que atuam como partículas. O comportamento dos aditivos sólidos é o tema de [graxa grafitada: quando o grafite ajuda de verdade](/conteudos/graxa-grafitada-quando-usar/).
 
 ## Quando a exigência aparece
 

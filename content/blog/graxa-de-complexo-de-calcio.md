@@ -18,11 +18,11 @@ A graxa de complexo de cálcio pertence à família dos sabões metálicos, mas 
 
 O cálcio simples tem boa resistência à água, mas uma faixa de temperatura relativamente estreita. Acima de certa temperatura, o espessante amolece e a graxa perde estrutura, o que costuma aparecer como vazamento e perda de lubrificação. O complexo de cálcio foi desenvolvido para manter parte da resistência à água e, ao mesmo tempo, operar em faixas térmicas mais altas.
 
-Essa diferença não transforma o complexo de cálcio em graxa universal. Ele continua sendo uma escolha entre outras, e a decisão depende da aplicação. O assunto geral das famílias de espessante está em [lítio, cálcio e complexo: como escolher a base](/conteudos/base-da-graxa-litio-calcio-complexo/).
+Essa diferença não transforma o complexo de cálcio em graxa universal. Ele continua sendo uma escolha entre outras, e a decisão depende da aplicação. O assunto geral das famílias de espessante está em [lítio, cálcio e complexo: como escolher a base](/conteudos/base-da-graxa-litio-calcio-complexo/). Outra família com comportamento térmico distinto é a de [graxa de poliureia](/conteudos/graxa-de-poliureia/), que usa um espessante orgânico em vez de sabão metálico.
 
 ## Onde o complexo de cálcio é considerado
 
-A combinação de resistência à água com faixa térmica mais ampla costuma ser procurada em pontos sujeitos a respingos, vapor e lavagem, mas que também operam aquecidos. Mancais, articulações e pontos de lubrificação em ambientes úmidos são exemplos em que a característica de resistência à água pesa. Em chassis e pontos com exposição a água, há linhas específicas como a de [graxa de cálcio para chassis](/lubrificantes-industriais/graxas-industriais/graxa-de-calcio-para-chassis/).
+A combinação de resistência à água com faixa térmica mais ampla costuma ser procurada em pontos sujeitos a respingos, vapor e lavagem, mas que também operam aquecidos. Mancais, articulações e pontos de lubrificação em ambientes úmidos são exemplos em que a característica de resistência à água pesa. Em chassis e pontos com exposição a água, há linhas específicas como a de [graxa de cálcio para chassis](/lubrificantes-industriais/graxas-industriais/graxa-de-calcio-para-chassis/). Em ambientes de alimento e bebida, o requisito adicional é o de contato incidental, tratado em [graxa grau alimentício: o que significa NSF H1](/conteudos/graxa-contato-ocasional-alimento/).
 
 A escolha correta parte da temperatura contínua, da presença de água e do método de aplicação. Resistência à água declarada em ensaio não elimina a necessidade de conferir o comportamento na temperatura real de operação.
 
