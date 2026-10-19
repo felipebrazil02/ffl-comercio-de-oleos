@@ -100,6 +100,54 @@ Observação: em deploy de preview o Netlify aplica `X-Robots-Tag: noindex` em t
 site por padrão. A verificação de indexação acima foi feita no domínio de produção,
 onde esse cabeçalho do preview não existe.
 
+## Lotes 2 a 4 (registro consolidado)
+
+Os lotes 2 a 4 foram publicados em commits anteriores. O detalhamento por artigo
+não foi transcrito neste registro na época; os commits são a referência:
+
+| Lote | Conteúdo | Artigos | Commit |
+|---|---|---|---|
+| 2 | Hidráulica industrial (A11–A20) | 10 | `7228673` |
+| 3 | Graxas industriais (A21–A30) | 10 | `3d8075e` |
+| 4 | Usinagem (A31–A32) e ajuste de links internos | 2 | `1b9c4ad` |
+
+## Lote 5 — 2026-10-19 (Dia 7)
+
+Pendentes no início da execução: 2 na fila (A33, A34). Aprovados e publicados: 2.
+
+| ID | Slug | Fontes | URL |
+|---|---|---|---|
+| A33 | fluido-de-corte-espumando | ISO 6743-7 · HSE COSHH MW5 · OSHA | `/conteudos/fluido-de-corte-espumando/` |
+| A34 | corrosao-pecas-ferro-fundido | ASTM D4627 · ISO 6743-7 · HSE COSHH MW5 | `/conteudos/corrosao-pecas-ferro-fundido/` |
+
+### Testes do lote 5 (build local)
+
+- `npm run build` → 89 páginas geradas.
+- `npm run check` → 0 erros · 2.856 links/ativos locais · 246 objetos de schema.
+- `node scripts/test-form.mjs` → 7 cenários aprovados.
+- Títulos: 55 e 54 caracteres (limite 62).
+- Contagem de palavras: 950 e 933 (faixa 600–1200).
+
+### Publicação do lote 5
+
+- **Commit dos artigos:** `6009f09` — "Blog: lote 5 usinagem (A33, A34)"
+- **Branch:** `master` (commit direto, push `1b9c4ad..6009f09`)
+- **Deploy de preview (Netlify):** `6ad5f9219eb42f2ec96f9e87`
+- **Deploy de produção (Netlify):** `6ad5f93419ff12512be171c4`
+
+### Verificação em produção (2026-10-19)
+
+| Verificação | Resultado |
+|---|---|
+| A33 e A34 | HTTP 200 |
+| `meta robots` | `index, follow` nos dois |
+| `X-Robots-Tag` | ausente nos dois |
+| Canonical | absoluto em `https://ffllubrificantes.com.br` |
+| Schema | `Article` + `BreadcrumbList` presentes nos dois |
+| Sitemap | 86 URLs · ambos os artigos presentes · 33 URLs não-`/conteudos/` preservadas |
+| URL inexistente | 404 real |
+| Home, catálogo, sobre, contato, 2 categorias | HTTP 200 |
+
 ## Pendências
 
 1. **7 artigos anteriores a 2026-10-13 permanecem noindex.** Não foram liberados
@@ -110,4 +158,4 @@ onde esse cabeçalho do preview não existe.
    exigiria alterar ajustes do projeto Netlify — não feito nesta execução.
 4. **Search Console** não verificado nesta execução; nenhum dado de impressões,
    cliques ou indexação foi lido.
-5. **A11 a A100** planejados no calendário, ainda não escritos.
+5. **A35 a A100** planejados no calendário, ainda não escritos (66 pautas pendentes).
