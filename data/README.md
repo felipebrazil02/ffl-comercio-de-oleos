@@ -29,4 +29,4 @@ Ao remover uma página anteriormente publicada, remova também o HTML correspond
 
 `dist/assets/`: imagem conceitual em WebP e fontes WOFF2 locais; mantenha os arquivos no controle de versão. A arte não representa instalações ou produtos da empresa. O logotipo tipográfico é uma proposta visual até o recebimento do original.
 
-O JSON-LD Organization usa apenas dados existentes. Product é gerado somente para produtos confirmados, sem marcações comerciais inventadas. LocalBusiness não foi usado.
+O JSON-LD Organization usa apenas dados existentes. O catálogo sob orçamento não emite Product: não há ofertas com preços públicos nem avaliações elegíveis. Não invente preços ou avaliações para habilitar resultados enriquecidos. BreadcrumbList permanece nas páginas. LocalBusiness não foi usado. Orientações específicas de consulta ficam em `src/product-consultation.mjs`, com base nos dados confirmados; não representam novas homologações ou equivalências.

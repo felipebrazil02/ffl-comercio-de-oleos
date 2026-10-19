@@ -141,16 +141,10 @@ for(const page of pages){
       ...(a.sources?.length?{citation:a.sources.map(s=>({'@type':'CreativeWork',name:s.label,url:s.url}))}:{}),
       mainEntityOfPage:{'@type':'WebPage','@id':origin+page.url}});
   }
-  if(page.product){
-    const p=page.product;
-    // Sem brand/manufacturer: o site não declara quem fabrica, e atribuir isso
-    // à FFL seria uma afirmação que não se sustenta. `source` fica só nos dados,
-    // para rastreio interno da procedência — não é publicado.
-    structured.push({'@context':'https://schema.org','@type':'Product',name:p.name,description:p.description,
-      category:p.application||undefined,url:origin+page.url,
-      ...(p.specRows?.length?{additionalProperty:p.specRows.map(([name,value])=>({'@type':'PropertyValue',name,value}))}:{})});
-  }
-  // FAQ das categorias também vira rich result.
+  // Catálogo sob orçamento, sem ofertas públicas nem avaliações de produto.
+  // Não emitir Product incompleto para snippets nem inventar preço/avaliação.
+  // Organization, WebSite e BreadcrumbList continuam descrevendo estas páginas.
+  // FAQ sem promessa de elegibilidade para resultados enriquecidos.
   if(page.category?.faq?.length)structured.push({'@context':'https://schema.org','@type':'FAQPage','@id':origin+page.url+'#faq',mainEntity:page.category.faq.map(f=>({'@type':'Question',name:f.question,acceptedAnswer:{'@type':'Answer',text:f.answer}}))});
   if(page.serviceArea){
     structured.push({'@context':'https://schema.org','@type':'Service','@id':origin+page.url+'#service',name:'Comércio e distribuição de lubrificantes industriais em São Paulo',serviceType:'Comércio e distribuição de óleos e lubrificantes industriais',provider:{'@id':origin+'/#organization'},areaServed:{'@type':'AdministrativeArea',name:'Estado de São Paulo'},availableChannel:{'@type':'ServiceChannel',serviceUrl:origin+'/contato/',servicePhone:company.phone}});

@@ -1,5 +1,6 @@
 // Enriquecimento comercial somente com dados confirmados do catálogo.
 // Relações editoriais explícitas: um artigo não comprova adequação do produto.
+import {productConsultation} from './product-consultation.mjs';
 const guides = {
   'oleos-hidraulicos': ['din-51524-hl-hlp-hvlp', 'como-ler-um-grau-iso-vg'],
   'oleos-para-engrenagens': ['como-ler-um-grau-iso-vg', 'ensaio-de-quatro-esferas'],
@@ -19,7 +20,9 @@ const productGuides = {
   'graxa-de-calcio-para-chassis': ['base-da-graxa-litio-calcio-complexo', 'nlgi-consistencia-de-graxas']
 };
 const articleProducts = {
-  'como-ler-um-grau-iso-vg': ['oleo-hidraulico-aw-10-46', 'oleo-ep-para-redutores-150-680'],
+  'como-ler-um-grau-iso-vg': ['oleo-hidraulico-aw-10-46', 'oleo-hidraulico-aw-68-220', 'oleo-ep-para-redutores-150-680'],
+  'din-51524-hl-hlp-hvlp': ['oleo-hidraulico-aw-10-46', 'oleo-hidraulico-aw-68-220'],
+  'oleo-hidraulico-hm': ['oleo-hidraulico-aw-10-46'],
   'oleo-de-corte-integral-ou-emulsionavel': ['oleo-de-corte-emulsionavel', 'oleo-de-corte-integral-32'],
   'oleo-de-corte-integral-familias': ['oleo-de-corte-integral-2020', 'oleo-de-corte-integral-32'],
   'concentracao-e-ph-do-fluido-de-corte': ['oleo-de-corte-emulsionavel'],
@@ -39,6 +42,13 @@ export function enrichCatalog(pages, {company, esc}) {
   const url = p => `/lubrificantes-industriais/${p.category}/${p.slug}/`;
   const row = (p, label) => p.specRows?.find(([key]) => key === label)?.[1];
   for (const page of pages) {
+    if (page.url === '/lubrificantes-industriais/') {
+      const groups = company.categories.filter(c => c.confirmed).map(c => {
+        const items = products.filter(p => p.category === c.slug);
+        return `<div><h3><a href="/lubrificantes-industriais/${esc(c.slug)}/">${esc(c.name)}</a></h3>${items.length ? `<ul>${items.map(p => `<li><a href="${url(p)}">${esc(p.name)}</a></li>`).join('')}</ul>` : '<p>Consulte as referências disponíveis na página desta linha.</p>'}</div>`;
+      }).join('');
+      page.content += `<section class="container section article-body catalog-directory"><h2>Encontre o produto pelo nome</h2><p>Já conhece a referência? Acesse os dados de cada produto abaixo. Para escolher pela aplicação, consulte a respectiva linha; a presença no catálogo não confirma estoque nem compatibilidade com seu equipamento.</p><div class="catalog-grid">${groups}</div></section>`;
+    }
     if (page.category) {
       for (const p of products.filter(p => p.category === page.category.slug)) {
         const details = ['Graus publicados', 'Base'].map(label => {
@@ -50,6 +60,11 @@ export function enrichCatalog(pages, {company, esc}) {
     }
     if (page.product) {
       const p = page.product;
+      const questions = productConsultation[p.slug];
+      if (questions) {
+        const detail = `<section class="product-questions"><h2>Dúvidas para especificar este produto</h2>${questions.map(([q,a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}</section>`;
+        page.content = page.content.replace('<h2>Como especificar na sua solicitação</h2>', detail + '<h2>Como especificar na sua solicitação</h2>');
+      }
       const links = (productGuides[p.slug] || guides[p.category] || []).map(slug => {
         const article = articles.get(slug);
         if (!article) throw new Error(`Guia inexistente ou não indexável: ${slug}`);

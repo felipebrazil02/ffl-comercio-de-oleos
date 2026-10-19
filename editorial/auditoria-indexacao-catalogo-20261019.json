@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-19",
+  "scope": "Inspeção individual no Search Console de 31 URLs comerciais: catálogo, 8 categorias, 21 produtos e página regional. Diagnóstico, sem alterações em produção ou pedidos de indexação.",
+  "baseUrl": "https://ffllubrificantes.com.br",
+  "summary": {"inspected":31,"indexed":5,"notIndexed":26,"discoveredNotIndexed":14,"unknownToGoogle":12,"indexedProducts":0,"totalProducts":21},
+  "reportCaveat": "Relatório agregado mostra atualização em 11/10/2026, 6 indexadas e 32 excluídas. A lista abaixo prioriza a inspeção individual de 19/10; existem divergências entre os relatórios. Não interpretar desconhecida como URL inexistente no site.",
+  "indexed": [
+    "/lubrificantes-industriais/",
+    "/lubrificantes-industriais/oleos-hidraulicos/",
+    "/lubrificantes-industriais/oleos-de-corte-e-usinagem/",
+    "/lubrificantes-industriais/graxas-industriais/",
+    "/lubrificantes-industriais-em-sao-paulo/"
+  ],
+  "unknownToGoogle": [
+    "/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-aw-68-220/",
+    "/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-aw-10-46/",
+    "/lubrificantes-industriais/oleos-para-engrenagens/oleo-ep-para-redutores-150-680/",
+    "/lubrificantes-industriais/oleos-para-compressores/",
+    "/lubrificantes-industriais/oleos-de-corte-e-usinagem/oleo-de-corte-emulsionavel/",
+    "/lubrificantes-industriais/oleos-de-corte-e-usinagem/oleo-de-corte-integral-2020/",
+    "/lubrificantes-industriais/oleos-de-corte-e-usinagem/oleo-de-corte-integral-32/",
+    "/lubrificantes-industriais/oleos-termicos-e-tratamento-termico/oleo-para-tempera-de-aco/",
+    "/lubrificantes-industriais/oleos-de-processo-e-especialidades/",
+    "/lubrificantes-industriais/oleos-de-processo-e-especialidades/fluido-para-calibracao-de-injetores/",
+    "/lubrificantes-industriais/oleos-de-processo-e-especialidades/oleo-parafinico-para-formulacao-100/",
+    "/lubrificantes-industriais/oleos-de-processo-e-especialidades/oleo-para-limpeza-de-armamentos/"
+  ],
+  "discoveredNotIndexed": [
+    "/lubrificantes-industriais/oleos-hidraulicos/oleo-para-ferramentas-pneumaticas/",
+    "/lubrificantes-industriais/oleos-para-engrenagens/",
+    "/lubrificantes-industriais/oleos-para-engrenagens/oleo-ep-lubrificacao-geral-10-32/",
+    "/lubrificantes-industriais/oleos-para-compressores/oleo-para-compressor-de-ar/",
+    "/lubrificantes-industriais/oleos-de-corte-e-usinagem/oleo-para-estampagem-e-conformacao/",
+    "/lubrificantes-industriais/oleos-termicos-e-tratamento-termico/",
+    "/lubrificantes-industriais/oleos-termicos-e-tratamento-termico/oleo-termico-circuito-fechado/",
+    "/lubrificantes-industriais/oleos-de-processo-e-especialidades/oleo-isolante-para-transformadores/",
+    "/lubrificantes-industriais/oleos-de-processo-e-especialidades/oleo-parafinico-de-processo-56/",
+    "/lubrificantes-industriais/oleos-de-processo-e-especialidades/protetivo-anticorrosivo-para-chassis/",
+    "/lubrificantes-industriais/graxas-industriais/graxa-de-litio-ep/",
+    "/lubrificantes-industriais/graxas-industriais/graxa-de-calcio-para-chassis/",
+    "/lubrificantes-industriais/graxas-industriais/graxa-grafitada/",
+    "/lubrificantes-industriais/oleos-basicos/"
+  ],
+  "technicalChecks": {
+    "production": "31/31: HTTP 200, sem redirecionamento, meta robots index follow, sem X-Robots-Tag, canonical autorreferente correto; todas no sitemap público. Robots permite rastreamento.",
+    "sitemap": "Processado no Search Console em 19/10/2026, 88 URLs encontradas; sitemap público também contém 88 URLs. Cadastro antigo www de 2025 permanece com 0 páginas, sem evidência de bloqueio causado por ele.",
+    "liveGoogleTest": "AW 10–46 em 19/10/2026 às 14:02: disponível para o Google, é possível indexar a página. Snippet Product inválido: especifique offers, review ou aggregateRating. Breadcrumb válido. Teste não equivale à indexação.",
+    "schema": "Os 21 objetos Product no build local não possuem offers, review ou aggregateRating. Apenas AW 10–46 foi validado ao vivo no Google nesta auditoria. Inaptidão para rich results não é bloqueio de indexação orgânica.",
+    "links": "Varredura dos HTMLs das 88 URLs do sitemap: nenhuma página comercial sem link de entrada. Protetivo para chassis e limpeza de armamentos recebem link de apenas 1 página cada; térmico, têmpera, compressor e EP geral recebem de 2 páginas. Contagem por página de origem, não quantidade total de links; não é métrica de autoridade."
+  },
+  "historical404": [
+    {"path":"/post/a-importância-da-análise-de-óleo-para-a-manutenção-preditiva-de-equipamentos-industriais","current":"www redireciona ao domínio principal e ao artigo /conteudos/analise-de-oleo-em-tendencia/, final 200; relatório antigo"},
+    {"path":"/post/principais-aplicações-do-óleo-industrial-e-automotivo-e-coleta-de-óleo-lubrificante-usado","current":"404 após normalização do domínio; fora do catálogo. Sem equivalência comprovada, não redirecionar genericamente à home."}
+  ],
+  "recommendations": [
+    "Priorizar descoberta e rastreamento dos produtos comerciais antes de aumentar volume editorial. Não há bloqueio técnico geral confirmado, e o motivo exato da priorização do Google não é demonstrado pelos dados.",
+    "Reforçar links contextuais relevantes desde páginas já indexadas para produtos prioritários e categorias pendentes; preservar URLs e não criar links artificiais de aplicações incompatíveis.",
+    "Revisar conteúdo específico e documentação real dos produtos prioritários: AW, corte emulsionável/integral, graxas e redutores. Não atribuir ausência de indexação a conteúdo ruim sem evidência.",
+    "Revisar estratégia Product para catálogo sob consulta: só adicionar oferta com preço real ou avaliações reais e elegíveis. Sem esses dados, manter marcação descritiva conscientemente ou removê-la, preservando Breadcrumb e Organization; não preencher preço zero nem criar avaliações para apagar alerta.",
+    "Depois das melhorias, testar páginas prioritárias e solicitar indexação seletivamente quando a cota permitir. Não reenviar sitemap processado repetidamente nem prometer prazo ou inclusão."
+  ],
+  "sources": ["https://developers.google.com/search/docs/crawling-indexing/links-crawlable","https://developers.google.com/search/docs/appearance/structured-data/product-snippet"]
+}
