@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-19",
+  "status": "Revisão concluída; correções aprovadas pelo usuário para publicação em 2026-10-19",
+  "searchConsole": {
+    "property": "sc-domain:ffllubrificantes.com.br",
+    "selectedPeriodDays": 28,
+    "visibleDataRange": ["2026-10-08", "2026-10-17"],
+    "impressions": 174,
+    "clicks": 1,
+    "ctrPercent": 0.6,
+    "averagePosition": 10.8,
+    "pages": [
+      {"slug": "como-ler-um-grau-iso-vg", "impressions": 44, "clicks": 1, "averagePosition": 8.2, "visibleQuery": "diferença entre óleo 46 e 68", "queryImpressions": 1},
+      {"slug": "din-51524-hl-hlp-hvlp", "impressions": 26, "clicks": 0, "averagePosition": 8.5, "visibleQuery": "din 51524", "queryImpressions": 2},
+      {"slug": "nlgi-consistencia-de-graxas", "impressions": 9, "clicks": 0, "averagePosition": 9.1, "visibleQuery": "nlgi", "queryImpressions": 2}
+    ],
+    "decision": "Preservar os títulos de ISO VG, DIN e NLGI: correspondem às consultas e a amostra é insuficiente para diagnosticar falha de CTR. Não direcionar conteúdo a troca de óleo, serviço não prestado.",
+    "caveat": "Consultas visíveis não somam as impressões totais das páginas. Os dados antecedem as últimas alterações do site. Não atribuir resultados a mudanças ainda não rastreadas."
+  },
+  "overlap": {
+    "articlesScreened": 41,
+    "pairsCompared": 820,
+    "screeningMethod": "Interseção de sequências de quatro palavras, normalizadas, dividida pelo menor conjunto. Apenas triagem lexical, não diagnóstico de canibalização.",
+    "closestPair": ["graxa-alta-temperatura-limites", "ponto-de-gota-da-graxa"],
+    "decision": "Manter URLs. Diferenciar interpretação do ensaio de seleção para uso a quente; reduzir repetição e incluir ligação recíproca. Diferenciar classificação ISO de óleo integral da comparação integral versus emulsionável.",
+    "titlesChangedForEditorialClarityNotQueryVolume": {
+      "oleo-de-corte-integral-familias": "Óleo de corte integral: classificação ISO 6743-7",
+      "oleo-de-corte-integral-ou-emulsionavel": "Óleo de corte integral ou emulsionável: diferenças"
+    },
+    "merges": [],
+    "redirects": [],
+    "otherDistinctIntentsReviewed": [
+      "HM versus HV versus DIN: classificação, comportamento térmico e norma",
+      "ISO VG versus índice de viscosidade: grau versus variação com temperatura",
+      "Quantidade de graxa versus rolamento aquecendo: dosagem versus diagnóstico",
+      "Graxa EP versus grafitada: aditivação EP versus aditivo sólido",
+      "Poliureia versus linha centralizada: espessante versus sistema de aplicação"
+    ]
+  },
+  "mobile": {
+    "method": "PageSpeed Insights / Lighthouse 13.5.0, Moto G Power emulado, 4G lento, carregamento inicial",
+    "fieldData": "Sem dados suficientes de usuários reais no PSI e no Search Console; não afirmar aprovação de Core Web Vitals ou INP.",
+    "results": [
+      {"page": "/", "performance": 100, "accessibility": 100, "seo": 100, "lcpSeconds": 1.4, "tbtMs": 0, "cls": 0.001, "report": "https://pagespeed.web.dev/analysis/https-ffllubrificantes-com-br/9nek39vzn8?form_factor=mobile"},
+      {"page": "/conteudos/como-ler-um-grau-iso-vg/", "performance": 100, "accessibility": 95, "seo": 100, "lcpSeconds": 1.1, "tbtMs": 0, "cls": 0, "report": "https://pagespeed.web.dev/analysis/https-ffllubrificantes-com-br-conteudos-como-ler-um-grau-iso-vg/b2883cjgqj?form_factor=mobile"},
+      {"page": "/lubrificantes-industriais/oleos-hidraulicos/", "performance": 100, "accessibility": 100, "seo": 100, "lcpSeconds": 1.2, "tbtMs": 0, "cls": 0, "report": "https://pagespeed.web.dev/analysis/https-ffllubrificantes-com-br-lubrificantes-industriais-oleos-hidraulicos/kic16205za?form_factor=mobile"}
+    ],
+    "localFix": "Cor de .article-meta alterada de #6b7a8d para #546176: contraste sobre branco de 4,38:1 para 6,27:1. Não atribuir uma nova nota Lighthouse sem retestar após publicação.",
+    "minorOpportunities": "Imagem da home: economia estimada de 15 KiB. CSS bloqueante: estimativa de 120–140 ms nas amostras. Sem alteração estrutural diante do desempenho medido."
+  },
+  "validation": ["build: 91 páginas", "check: sem erros", "test:catalog: aprovado", "test:editorial-links: aprovado, 126 links editoriais, sem órfãos contextuais", "test-seo-prioridades: aprovado"]
+}

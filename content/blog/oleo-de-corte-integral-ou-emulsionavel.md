@@ -1,10 +1,10 @@
 ---
-title: Óleo de corte integral ou emulsionável?
+title: Óleo de corte integral ou emulsionável: diferenças
 description: Compare fluidos de corte integrais e emulsionáveis pela operação, pelo material, pelas exigências da máquina e pelo controle do fluido em uso.
 eyebrow: USINAGEM
 summary: Lubricidade, refrigeração e controle precisam ser avaliados na operação real.
 published: 2026-10-06
-updated: 2026-10-15
+updated: 2026-10-19
 indexable: true
 tags: usinagem, seleção
 consulted: 2026-10-13
@@ -14,6 +14,8 @@ source: HSE MW5 — controle da qualidade de fluidos de usinagem | https://www.h
 ---
 
 Fluidos de corte ajudam a lubrificar e refrigerar. A escolha entre integral e emulsionável depende da operação, do material, da ferramenta e da máquina — não apenas do preço ou da velocidade de corte.
+
+O foco desta comparação é a forma de uso e o controle de cada tipo de fluido. Para interpretar as siglas de classificação dos integrais, consulte o guia de [óleo de corte integral na ISO 6743-7](/conteudos/oleo-de-corte-integral-familias/).
 
 ## Diferenças de aplicação
 

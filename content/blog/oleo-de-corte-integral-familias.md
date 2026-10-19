@@ -1,9 +1,10 @@
 ---
-title: "Óleo de corte integral: famílias de fluidos de usinagem"
+title: "Óleo de corte integral: classificação ISO 6743-7"
 description: Os óleos de corte integrais se separam por tipo de base e por aditivação EP. Entenda as divisões da ISO 6743-7 e quando cada uma é indicada.
 eyebrow: USINAGEM
 summary: A norma separa os fluidos não miscíveis em água por caráter do aditivo e severidade da operação.
 published: 2026-10-18
+updated: 2026-10-19
 tags: usinagem, seleção
 source: ISO 6743-7:1986 — Lubricants, industrial oils and related products (class L), Part 7: Family M (Metalworking) | https://www.iso.org/standard/13216.html
 source: iTeh Standards — ISO 6743-7:1986, estrutura de classificação da família M | https://standards.iteh.ai/catalog/standards/iso/87fb0d48-04e6-426b-9e04-f33ac4e1b272/iso-6743-7-1986
@@ -13,6 +14,8 @@ indexable: true
 ---
 
 Óleo de corte integral é o fluido de usinagem usado sem diluição em água. A palavra "integral" descreve a forma de uso, não um único produto: sob esse nome convivem óleos minerais simples e formulações com aditivos de extrema pressão. A norma que organiza essa variedade é a ISO 6743-7, parte da classificação de lubrificantes da família M.
+
+Este guia trata da classificação dos fluidos integrais. Se a sua dúvida é qual rota de uso avaliar, comece pela comparação entre [óleo de corte integral e emulsionável](/conteudos/oleo-de-corte-integral-ou-emulsionavel/).
 
 ## O que "integral" significa na prática
 

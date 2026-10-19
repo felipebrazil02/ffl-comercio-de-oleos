@@ -4,6 +4,7 @@ description: "O ponto de gota mede a temperatura em que a graxa perde estrutura 
 eyebrow: GRAXAS
 summary: "Ponto de gota descreve uma condição de laboratório; temperatura de serviço é outro dado."
 published: 2026-10-17
+updated: 2026-10-19
 tags: graxas, ensaios, fundamentos
 source: ASTM D2265 — ponto de gota de graxas lubrificantes | https://store.astm.org/standards/d2265
 source: DIN 51825 — graxas lubrificantes K e requisitos de classificação | https://www.din.de/
@@ -26,11 +27,11 @@ A confusão mais comum é tratar o ponto de gota como teto de operação. A temp
 
 A leitura correta separa dois conceitos: o ponto de gota caracteriza o material em laboratório, e a faixa de serviço descreve o uso recomendado. Tratar um pelo outro leva a superestimar o limite real.
 
-## Relação com o óleo-base e com o espessante
+## Qual dado da ficha você está comparando?
 
-O espessante define o ponto de gota, mas quem sofre primeiro com o calor costuma ser o óleo-base, que oxida e perde propriedades. Por isso, duas graxas com pontos de gota parecidos podem ter vidas muito diferentes na mesma temperatura, se os óleos-base forem distintos.
+Registre o método de ensaio junto com o resultado, sem misturar ponto de gota, faixa de serviço e temperatura de pico. Esses campos respondem a perguntas diferentes. O [grau NLGI](/conteudos/nlgi-consistencia-de-graxas/) também é separado: classifica consistência, não resistência ao calor.
 
-A consistência também importa, mas não substitui o dado térmico. O [grau NLGI](/conteudos/nlgi-consistencia-de-graxas/) informa a faixa de penetração, não a resistência ao calor.
+Para selecionar uma graxa em uma aplicação quente, prossiga para [graxa para alta temperatura: faixa contínua, pico e relubrificação](/conteudos/graxa-alta-temperatura-limites/). Aqui, o foco é interpretar o ensaio, não definir a temperatura admissível do equipamento.
 
 ## Como usar o dado na prática
 
@@ -40,6 +41,6 @@ Quando a temperatura for a variável crítica, vale acompanhar a condição da g
 
 ## O que informar ao cotar
 
-Para avaliar uma graxa por critério térmico, informe a temperatura contínua e a temperatura de pico do ponto de aplicação, a rotação e o componente. A linha de [graxas industriais](/lubrificantes-industriais/graxas-industriais/) reúne os produtos com as faixas declaradas. Com esses dados, [prepare sua solicitação](/contato/#orcamento) indicando também a graxa em uso e a quantidade.
+Ao consultar um valor de ponto de gota, informe o produto exato, o método citado e a revisão da ficha técnica. Se a consulta também envolver seleção, acrescente componente e condições de operação. Consulte as [graxas industriais](/lubrificantes-industriais/graxas-industriais/) e [prepare sua solicitação](/contato/#orcamento) sem transformar o resultado do ensaio em temperatura máxima de uso.
 
 > **Revisão técnica — 17/10/2026.** Conteúdo conferido com as fontes listadas. As páginas públicas das normas não substituem seus textos completos nem as recomendações do fabricante do equipamento.

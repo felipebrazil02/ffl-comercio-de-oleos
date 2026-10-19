@@ -4,6 +4,7 @@ description: "Temperatura de pico e temperatura contínua não são a mesma cois
 eyebrow: GRAXAS
 summary: "A ficha separa faixa contínua e temperatura de pico; ponto de gota não é o limite de uso."
 published: 2026-10-17
+updated: 2026-10-19
 tags: graxas, seleção, ensaios
 source: DIN 51825 — graxas lubrificantes K e classificação térmica | https://www.din.de/
 source: ASTM D2265 — ponto de gota de graxas lubrificantes | https://store.astm.org/standards/d2265
@@ -13,6 +14,8 @@ indexable: true
 ---
 
 Aplicações quentes, como fornos, estufas e secadores, exigem mais do que uma graxa resistente. Exigem a leitura correta dos dados térmicos da ficha, porque a temperatura que o produto suporta por pouco tempo não é a mesma que ele suporta em regime contínuo.
+
+Este guia organiza os critérios de uso em temperatura elevada. Para entender especificamente o resultado do ensaio, consulte [o que o ponto de gota da graxa informa](/conteudos/ponto-de-gota-da-graxa/).
 
 ## Faixa contínua e temperatura de pico
 
