@@ -33,6 +33,7 @@ O build gera `dist/` e relatorios em `outputs/`, ambos ignorados pelo Git. O ser
 - `scripts/build.mjs`: build, templates, metadados, sitemap, headers e redirects.
 - `src/content.mjs`: paginas e templates de conteudo.
 - `src/seo.mjs`: melhorias das paginas comerciais e links internos.
+- `src/catalog-seo.mjs`: dados resumidos dos produtos, transparência comercial e relações explícitas entre guias e produtos. Valide com `npm run test:catalog`.
 - `src/site.js`: interacoes e formulario.
 - `src/site.css`: estilos.
 - `src/assets/` e `src/static/`: arquivos originais dos assets.

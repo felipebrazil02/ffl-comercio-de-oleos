@@ -29,3 +29,7 @@
 .analytics-consent button:last-child{background:#fff;color:#101f31}
 .analytics-preferences{display:block;margin:16px auto;padding:10px;background:transparent;color:inherit;border:1px solid currentColor;cursor:pointer;font:inherit}
 @media (max-width:700px){.post-toc{padding:18px 20px}}
+.catalog-fact{display:block;font-size:14px;line-height:1.6;margin:0 0 10px;color:var(--ink)}
+.article-publisher{font-size:14px;line-height:1.7}
+.article-catalog{margin-top:32px;padding-top:24px;border-top:1px solid var(--line,#dfe4ea)}
+.catalog-reference a,.company-transparency a{overflow-wrap:anywhere}

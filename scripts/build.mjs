@@ -3,6 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {createPages} from '../src/content.mjs';
 import {improveCommercialPages} from '../src/seo.mjs';
+import {enrichCatalog} from '../src/catalog-seo.mjs';
 import {render,parseFrontmatter,slugify} from '../src/markdown.mjs';
 const company=JSON.parse(await fs.readFile('data/company.json','utf8'));
 const previewOrigin='https://ffl-lubrificantes.netlify.app';
@@ -104,7 +105,7 @@ const tags=[...new Map(posts.flatMap(p=>p.tags).map(t=>[t.slug,t])).values()]
 const temasComPagina=new Set(tags.map(t=>t.slug));
 for(const p of posts)p.tagLinks=p.tags.filter(t=>temasComPagina.has(t.slug));
 
-const pages=improveCommercialPages(createPages({company,esc,arrow,button,home,posts,tags,fmtDate}),{company,esc,arrow,button});
+const pages=enrichCatalog(improveCommercialPages(createPages({company,esc,arrow,button,home,posts,tags,fmtDate}),{company,esc,arrow,button}),{company,esc});
 const canIndex=page=>company.publicIndexing&&!page.noindex&&(!page.url.startsWith('/conteudos/')||page.blogIndexable===true);
 if(new Set(pages.map(p=>p.url)).size!==pages.length)throw new Error('URLs duplicadas no catálogo.');
 
