@@ -1,6 +1,17 @@
 export function createPages({company,esc,arrow,button,home,posts,tags,fmtDate}) {
   const intro=(label,title,description)=>`<section class="page-intro"><div class="container"><div class="eyebrow dark">${label}</div><h1>${title}</h1><p>${description}</p></div></section>`;
-  const callout=`<aside class="article-callout"><h3>Da leitura à solicitação</h3><p>Reúna os dados do equipamento e a quantidade desejada para preparar seu orçamento.</p>${button('Preparar orçamento','/contato/#orcamento','dark-button')}</aside>`;
+  const commercialDestination=article=>{
+    const tags=new Set(article.tags.map(tag=>tag.slug));
+    if(tags.has('hidraulica'))return ['/lubrificantes-industriais/oleos-hidraulicos/','óleos hidráulicos'];
+    if(tags.has('graxas'))return ['/lubrificantes-industriais/graxas-industriais/','graxas industriais'];
+    if(tags.has('usinagem'))return ['/lubrificantes-industriais/oleos-de-corte-e-usinagem/','óleos de corte e usinagem'];
+    if(tags.has('compressores'))return ['/lubrificantes-industriais/oleos-para-compressores/','óleos para compressores'];
+    return ['/lubrificantes-industriais/','lubrificantes industriais'];
+  };
+  const callout=article=>{
+    const [url,label]=commercialDestination(article);
+    return `<aside class="article-callout"><span class="small-label">PRÓXIMO PASSO</span><h3>Leve o requisito para a cotação</h3><p>Consulte a linha de ${esc(label)} e reúna aplicação, especificação, quantidade e cidade de destino.</p>${button('Consultar a linha',url,'dark-button')}<a class="text-link" href="/contato/?produto=${encodeURIComponent(article.title)}#orcamento">Solicitar orçamento ${arrow}</a></aside>`;
+  };
   // Gráficos dos cartões: dois traçados que alternam conforme a posição.
   const cardGraphics=['<svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="21" y="12" width="39" height="56"/><path d="M30 29h21M30 39h21M30 49h13M30 59h17"/><path d="M16 19H11v56h40v-4"/></svg>','<svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M16 17h27l10 10v38H16zM43 17v11h10M25 39h19M25 47h19M25 55h11M57 21h7v51H28v-3"/></svg>'];
   const cards=list=>list.map((a,i)=>`<a class="article-card" href="${a.url}"><div class="article-graphic graphic-${i%2}" aria-hidden="true"><span>${esc(String(i+1).padStart(2,'0'))} / ${esc(a.eyebrow)}</span>${cardGraphics[i%2]}</div><div class="article-card-body"><div class="eyebrow dark">${esc(a.eyebrow)}</div><h3>${esc(a.title)}</h3><p>${esc(a.summary)}</p><div class="card-bottom"><span>${esc(a.read)}</span>${arrow}</div></div></a>`).join('');
@@ -40,7 +51,7 @@ export function createPages({company,esc,arrow,button,home,posts,tags,fmtDate}) 
       const relacionadosHtml=relacionados.length?`<section class="container section"><div class="section-heading"><div><h2>Continue por aqui</h2></div><a class="text-link" href="/conteudos/">Todos os conteúdos ${arrow}</a></div><div class="article-grid">${cards(relacionados)}</div></section>`:'';
       const meta=`<p class="article-meta">Publicado em <time datetime="${a.published}">${esc(fmtDate(a.published))}</time>${a.updated&&a.updated!==a.published?` · atualizado em <time datetime="${a.updated}">${esc(fmtDate(a.updated))}</time>`:''} · ${esc(a.read)}</p>`;
       return {...a,label:a.title,keyword:a.title,parent:['/conteudos/','Conteúdos'],title:a.title+' | FFL',article:a,blogIndexable:a.indexable===true,
-        content:intro(a.eyebrow,esc(a.title),esc(a.summary))+`<section class="container article-layout"><article class="article-body">${meta}${tagChips(a.tagLinks)}${toc}${a.html}${fontes}<a class="text-link article-back" href="/conteudos/">Voltar para conteúdos ${arrow}</a></article>${callout}</section>${relacionadosHtml}`};
+        content:intro(a.eyebrow,esc(a.title),esc(a.summary))+`<section class="container article-layout"><article class="article-body">${meta}${tagChips(a.tagLinks)}${toc}${a.html}${fontes}<a class="text-link article-back" href="/conteudos/">Voltar para conteúdos ${arrow}</a></article>${callout(a)}</section>${relacionadosHtml}`};
     }),
     ...tags.map(t=>{
       const doTema=posts.filter(p=>p.tags.some(x=>x.slug===t.slug));

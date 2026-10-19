@@ -48,6 +48,8 @@ Defina limites e periodicidade com o fornecedor e o responsável técnico. As or
 
 Se a dúvida ainda é qual família de fluido avaliar, leia a comparação entre [óleo de corte integral e emulsionável](/conteudos/oleo-de-corte-integral-ou-emulsionavel/). O controle da concentração é uma etapa diferente da seleção do produto.
 
+Quando o sintoma principal é excesso de aeração no tanque, consulte também o diagnóstico de [fluido de corte espumando](/conteudos/fluido-de-corte-espumando/), porque concentração, qualidade da água, entrada de ar e contaminação precisam ser verificados separadamente.
+
 ## Para consultar um produto
 
 Leia a [ficha técnica e a ficha de segurança](/conteudos/ficha-tecnica-e-ficha-de-seguranca/). Informe material usinado, operação, equipamento, produto atual e quantidade ao [preparar sua solicitação](/contato/#orcamento). Consulte também as [linhas de óleos de corte](/lubrificantes-industriais/oleos-de-corte-e-usinagem/).

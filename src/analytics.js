@@ -47,11 +47,12 @@
   (document.querySelector('footer') || document.body).append(settings);
   window.addEventListener('ffl:analytics',e=>{
     if (!production || !consent || !started) return;
-    const events = {quote_accepted:'generate_lead',whatsapp_click:'whatsapp_click',phone_click:'phone_click'};
+    const events = {quote_accepted:'generate_lead',whatsapp_click:'whatsapp_click',phone_click:'phone_click',email_click:'email_click'};
     const event = events[e.detail?.event];
     if (!event) return;
-    gtag('event',event,{contact_method:event==='generate_lead'?'form':event==='whatsapp_click'?'whatsapp':'phone',page_location:safeUrl(location.href)});
+    gtag('event',event,{contact_method:event==='generate_lead'?'form':event==='whatsapp_click'?'whatsapp':event==='phone_click'?'phone':'email',page_location:safeUrl(location.href)});
   });
   document.querySelectorAll('a[href^="tel:"]').forEach(a=>a.addEventListener('click',()=>window.dispatchEvent(new CustomEvent('ffl:analytics',{detail:{event:'phone_click'}}))));
+  document.querySelectorAll('a[href^="mailto:"]').forEach(a=>a.addEventListener('click',()=>window.dispatchEvent(new CustomEvent('ffl:analytics',{detail:{event:'email_click'}}))));
   start();
 })();

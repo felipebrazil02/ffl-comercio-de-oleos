@@ -50,6 +50,8 @@ Duas observações evitam erros comuns. A primeira: a sigla descreve o caráter 
 
 Por isso, o ponto de partida continua sendo o manual do equipamento, o material usinado e o tipo de operação — corte aberto ou corte fechado, por exemplo. A sigla ajuda a comparar produtos que já passaram por essa triagem.
 
+Em materiais sensíveis, a escolha incorreta do pacote de aditivos também pode contribuir para manchas ou ataque superficial. O guia sobre [corrosão em peças de ferro fundido](/conteudos/corrosao-pecas-ferro-fundido/) mostra como separar a seleção do fluido de outras causas do processo.
+
 ## Quando a emulsão é o caminho
 
 Se a operação pede refrigeração mais intensa ou o sistema já trabalha com fluido miscível em água, a classificação relevante é outra. Um sinal de que o tanque precisa de atenção é a [emulsão que separa água](/conteudos/emulsao-separando-agua/), que costuma apontar para água de preparo, concentração ou contaminação.
