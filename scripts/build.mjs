@@ -182,7 +182,7 @@ for(const page of pages){
     '<meta property="og:image:type" content="image/jpeg">',
     '<meta property="og:image:alt" content="FFL Lubrificantes — óleos e lubrificantes industriais.">',
     isArticle?`<meta property="article:published_time" content="${page.article.published}">`:'',
-    isArticle?`<meta property="article:modified_time" content="${page.article.modified||page.article.published}">`:'',
+    isArticle?`<meta property="article:modified_time" content="${page.article.updated||page.article.published}">`:'',
     '<meta name="twitter:card" content="summary_large_image">',
     `<meta name="twitter:title" content="${esc(page.title)}">`,
     `<meta name="twitter:description" content="${esc(page.description)}">`,
@@ -258,7 +258,7 @@ const editorialRedirects = [
   ['/post/a-importância-da-análise-de-óleo-para-a-manutenção-preditiva-de-equipamentos-industriais', '/conteudos/analise-de-oleo-em-tendencia/'],
 ].flatMap(([oldPath, target]) => [...new Set([oldPath, encodeURI(oldPath)])]
   .flatMap(path => [`${path} ${target} 301!`, `${path}/ ${target} 301!`])).join('\n');
-await fs.writeFile('dist/_redirects',`/index.html / 301!\n# Conteúdo editorial equivalente da arquitetura anterior.\n${editorialRedirects}\n# Slugs antigos, de quando o nome do fornecedor compunha a URL.\n${redirects}\n`);
+await fs.writeFile('dist/_redirects',`https://ffl-lubrificantes.netlify.app/* ${origin}/:splat 301!\nhttp://ffl-lubrificantes.netlify.app/* ${origin}/:splat 301!\n/index.html / 301!\n# Conteúdo editorial equivalente da arquitetura anterior.\n${editorialRedirects}\n# Slugs antigos, de quando o nome do fornecedor compunha a URL.\n${redirects}\n`);
 await fs.mkdir('outputs',{recursive:true});
 await fs.writeFile('outputs/mapa-seo.csv','\ufeffURL;Palavra-chave (hipótese);Title;Meta description;Indexação\n'+indexable.map(p=>[p.url,p.keyword,p.title,p.description,company.publicIndexing?'indexável':'noindex — revisão privada'].map(s=>'"'+String(s).replace(/"/g,'""')+'"').join(';')).join('\n'));
 await fs.writeFile('outputs/rotas.json',JSON.stringify(pages.map(p=>({url:p.url,title:p.title,description:p.description,noindex:!canIndex(p),utility:!!p.noindex})),null,2));

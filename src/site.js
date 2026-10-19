@@ -8,7 +8,7 @@ const track=(event,channel)=>{
   window.dispatchEvent(new CustomEvent('ffl:analytics',{detail:payload}));
   if(Array.isArray(window.dataLayer))window.dataLayer.push(payload);
 };
-document.querySelectorAll('.whatsapp-link').forEach(a=>a.addEventListener('click',()=>track('whatsapp_click','whatsapp')));
+document.querySelectorAll('a[href^="https://wa.me/"]').forEach(a=>a.addEventListener('click',()=>track('whatsapp_click','whatsapp')));
 const form=document.querySelector('#quote-form');
 if(form){
   const fields=['name','company','contact','product','location'];
