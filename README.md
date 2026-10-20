@@ -34,6 +34,7 @@ O build gera `dist/` e relatorios em `outputs/`, ambos ignorados pelo Git. O ser
 - `src/content.mjs`: paginas e templates de conteudo.
 - `src/seo.mjs`: melhorias das paginas comerciais e links internos.
 - `src/catalog-seo.mjs`: dados resumidos dos produtos, transparência comercial e relações explícitas entre guias e produtos. Valide com `npm run test:catalog`.
+- Os caminhos contextuais para o protetivo de chassis e o óleo para limpeza de armamentos são verificados com `npm run test:specialty-links`: links no corpo dos artigos, distinção de aplicações e destinos indexáveis.
 - `src/product-search-content.mjs`: conteúdo e metadados das páginas comerciais prioritárias. Valide URLs, hierarquia e contexto dos pedidos com `npm run test:products`.
 - `src/site.js`: interacoes e formulario.
 - `src/site.css`: estilos.

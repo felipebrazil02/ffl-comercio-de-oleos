@@ -15,6 +15,8 @@ const productGuides = {
   'oleo-de-corte-integral-2020': ['oleo-de-corte-integral-familias', 'oleo-de-corte-integral-ou-emulsionavel'],
   'oleo-de-corte-integral-32': ['oleo-de-corte-integral-familias', 'oleo-de-corte-integral-ou-emulsionavel'],
   'oleo-para-estampagem-e-conformacao': ['ficha-tecnica-e-ficha-de-seguranca', 'informacoes-para-cotar-lubrificante'],
+  'protetivo-anticorrosivo-para-chassis': ['ficha-tecnica-e-ficha-de-seguranca', 'informacoes-para-cotar-lubrificante'],
+  'oleo-para-limpeza-de-armamentos': ['ficha-tecnica-e-ficha-de-seguranca', 'informacoes-para-cotar-lubrificante'],
   'graxa-grafitada': ['graxa-grafitada-quando-usar', 'nlgi-consistencia-de-graxas'],
   'graxa-de-litio-ep': ['graxa-ep-ou-comum', 'base-da-graxa-litio-calcio-complexo'],
   'graxa-de-calcio-para-chassis': ['base-da-graxa-litio-calcio-complexo', 'nlgi-consistencia-de-graxas']
@@ -60,6 +62,10 @@ export function enrichCatalog(pages, {company, esc}) {
     }
     if (page.product) {
       const p = page.product;
+      if (p.slug === 'graxa-de-calcio-para-chassis') {
+        const distinction = '<div class="reading-note product-application-navigation"><strong>Proteção da superfície ou lubrificação do ponto?</strong><p>Esta graxa é apresentada para pinos de chassis e mancais de deslizamento. Se a sua necessidade é proteger chassis e superfícies metálicas contra corrosão, consulte o <a href="/lubrificantes-industriais/oleos-de-processo-e-especialidades/protetivo-anticorrosivo-para-chassis/">protetivo anticorrosivo para chassis</a> e confira a aplicação na documentação.</p><p>São finalidades distintas: não trate o protetivo como substituto automático da graxa em um ponto de lubrificação.</p></div>';
+        page.content = page.content.replace('<h2>Aplicações declaradas</h2>', distinction + '<h2>Aplicações declaradas</h2>');
+      }
       if (p.slug === 'oleo-hidraulico-aw-68-220') {
         const link = '<div class="reading-note product-range-navigation"><strong>Procura especificamente o óleo hidráulico 68?</strong><p>Consulte a <a href="/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/">página do óleo hidráulico 68 AW</a>, com critérios de seleção e dados para orçamento. Esta página reúne a linha com as opções 68, 100, 150 e 220.</p></div>';
         page.content = page.content.replace('<h2>Aplicações declaradas</h2>', link + '<h2>Aplicações declaradas</h2>');

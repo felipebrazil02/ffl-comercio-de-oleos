@@ -4,7 +4,7 @@ description: Entenda a função da ficha técnica e da ficha de segurança e qua
 eyebrow: DOCUMENTAÇÃO TÉCNICA
 summary: Entenda o papel de cada documento e o que conferir antes de comparar produtos.
 published: 2026-09-10
-updated: 2026-10-15
+updated: 2026-10-20
 indexable: true
 tags: documentação, seleção
 consulted: 2026-10-13
@@ -39,6 +39,8 @@ Esse documento também orienta a resposta a situações de exposição ou incide
 5. Consulte a ficha de segurança para os cuidados de uso e armazenamento.
 
 A ficha técnica não substitui a ficha de segurança. Nenhum dos documentos deve ser usado isoladamente para presumir compatibilidade ou equivalência com outro produto.
+
+Em uma especialidade como o [óleo para limpeza de armamentos](/lubrificantes-industriais/oleos-de-processo-e-especialidades/oleo-para-limpeza-de-armamentos/), confira a finalidade declarada e solicite os documentos atuais do produto exato. Uma indicação específica para armamentos não autoriza seu uso em qualquer limpeza ou lubrificação industrial.
 
 Para organizar os cuidados com embalagens e estoque, consulte também as orientações de [armazenamento de lubrificantes](/conteudos/armazenamento-de-lubrificantes/), sempre junto à documentação do produto.
 

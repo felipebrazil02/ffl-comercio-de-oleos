@@ -4,7 +4,7 @@ description: Veja quais dados do equipamento, especificações e informações c
 eyebrow: GUIA DE COTAÇÃO
 summary: Um roteiro prático para organizar a aplicação, as especificações e a quantidade desejada.
 published: 2026-09-10
-updated: 2026-10-15
+updated: 2026-10-20
 indexable: true
 tags: cotação, seleção
 consulted: 2026-10-13
@@ -18,6 +18,10 @@ Quanto mais clara a necessidade, mais objetiva pode ser a consulta comercial. Co
 Informe o tipo de equipamento, o fabricante, o modelo e a função do lubrificante. Quando disponíveis, descreva as condições de operação e as exigências registradas no manual.
 
 Uma solicitação como "óleo para o redutor do transportador, conforme a especificação indicada no manual" oferece um ponto de partida mais útil do que apenas "óleo industrial". Nesse caso, a linha de [óleos para engrenagens e redutores](/lubrificantes-industriais/oleos-para-engrenagens/) é o ponto de partida para consultar os produtos, sem presumir que todos atendam ao equipamento.
+
+Se a consulta é para proteção de chassis e superfícies metálicas, veja o [protetivo anticorrosivo para chassis](/lubrificantes-industriais/oleos-de-processo-e-especialidades/protetivo-anticorrosivo-para-chassis/). Informe a superfície, o ambiente de exposição e o produto em uso. Essa finalidade é diferente da lubrificação de pinos e mancais com graxa.
+
+Para uma aplicação específica, como o [óleo para limpeza de armamentos](/lubrificantes-industriais/oleos-de-processo-e-especialidades/oleo-para-limpeza-de-armamentos/), informe a identificação do equipamento, a finalidade da consulta e a referência já utilizada. O nome do produto não comprova compatibilidade com qualquer material ou acabamento.
 
 ## 2. Reúna as referências técnicas
 
