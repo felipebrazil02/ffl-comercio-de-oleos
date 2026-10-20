@@ -1,6 +1,9 @@
 // Melhorias comerciais; textos e política de revisão do blog permanecem separados.
 export function improveCommercialPages(pages,{company,esc,arrow,button}){
   const categories=company.categories.filter(c=>c.confirmed);
+  const oil68=company.products.find(p=>p.confirmed&&p.slug==='oleo-hidraulico-68');
+  const oil68Url=oil68?`/lubrificantes-industriais/${oil68.category}/${oil68.slug}/`:null;
+  const oil68Feature=oil68?`<section class="container oil-feature" aria-labelledby="oleo-68-destaque"><div><span class="small-label">ÓLEO HIDRÁULICO · CONSULTA COMERCIAL</span><h2 id="oleo-68-destaque">Óleo hidráulico 68 AW</h2><p>Base mineral parafínica, com aditivação antidesgaste, para sistemas hidráulicos e de circulação. Consulte os dados da referência e peça uma proposta para sua operação.</p><p>FFL em Salto/SP, com atendimento em todo o estado de São Paulo. Embalagem, disponibilidade e prazo são confirmados na cotação.</p></div><div class="oil-feature-actions">${button('Conhecer o óleo hidráulico 68',oil68Url,'dark-button')}<a class="text-link" href="/contato/?produto=${encodeURIComponent(oil68.name)}#orcamento">Solicitar orçamento do 68 ${arrow}</a></div></section>`:'';
   const contact=`<p><a href="tel:${esc(company.phone)}">(11) 91501-1527</a> · <a href="mailto:${esc(company.email)}">${esc(company.email)}</a></p><p>Salto/SP · Atendimento em todo o estado de São Paulo.</p>`;
   // Conteúdo específico das categorias prioritárias; sem presumir estoque ou equivalência.
   const buyingGuides={
@@ -47,6 +50,10 @@ export function improveCommercialPages(pages,{company,esc,arrow,button}){
   };
   for(const page of pages){
     if(page.url.startsWith('/conteudos/'))continue;
+    if(page.category?.slug==='oleos-hidraulicos'&&oil68){
+      const featured=`<div class="reading-note hydraulic-focus"><strong>Já procura óleo hidráulico 68?</strong><p>Acesse os dados do <a href="${oil68Url}">óleo hidráulico 68 AW mineral</a>, confira os critérios de seleção e solicite preço e condições de fornecimento. Para comparar outros graus, consulte os produtos da linha abaixo.</p></div>`;
+      page.content=page.content.replace('<h2>Aplicações e seleção</h2>',featured+'<h2>Aplicações e seleção</h2>');
+    }
     const guide=buyingGuides[page.category?.slug];
     if(guide){
       const c=page.category;
@@ -60,7 +67,7 @@ export function improveCommercialPages(pages,{company,esc,arrow,button}){
       page.description='Óleos hidráulicos, graxas e lubrificantes industriais. FFL em Salto/SP, com atendimento em todo o estado de São Paulo. Consulte as linhas e peça orçamento.';
       page.content=page.content.replace('Encontre o caminho para a lubrificação da sua operação. Informe a aplicação, a especificação e a quantidade para solicitar uma cotação.','Óleos hidráulicos, graxas e lubrificantes para a sua operação. Estamos em Salto/SP e atendemos todo o estado de São Paulo. Consulte as linhas e solicite uma cotação.');
       const lines=`<section class="section container home-catalog" aria-labelledby="linhas-title"><div class="section-heading"><div><div class="eyebrow dark">CATÁLOGO INDUSTRIAL</div><h2 id="linhas-title">Encontre a linha<br>para sua aplicação.</h2></div><p>Consulte aplicações e especificações. Preço, disponibilidade e embalagens são confirmados no orçamento.</p></div><div class="catalog-grid">${categories.map(c=>`<a class="catalog-card" href="/lubrificantes-industriais/${esc(c.slug)}/"><h3>${esc(c.name)}</h3><p>${esc(c.description)}</p><span class="text-link">Consultar linha ${arrow}</span></a>`).join('')}</div></section>`;
-      page.content=page.content.replace('<section class="section container">',lines+'<section class="section container">');
+      page.content=page.content.replace('<section class="section container">',oil68Feature+lines+'<section class="section container">');
       const trust=`<section class="service-proof"><div class="container"><div><span class="small-label">ATENDIMENTO COMERCIAL</span><strong>Comércio e distribuição</strong><p>A FFL fornece lubrificantes industriais e não realiza troca de óleo.</p></div><div><span class="small-label">COBERTURA</span><strong>Salto e estado de São Paulo</strong><p>Consulte disponibilidade, embalagem e condições para sua cidade.</p></div><div><span class="small-label">CANAIS DIRETOS</span><strong>Formulário, WhatsApp e e-mail</strong><p>Escolha o canal e informe os dados da aplicação.</p></div></div></section>`;
       page.content=page.content.replace('<section class="contact-banner">',trust+'<section class="contact-banner">');
     }

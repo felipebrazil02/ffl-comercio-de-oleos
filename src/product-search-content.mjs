@@ -2,40 +2,66 @@
 // As especificações de cada versão devem ser confirmadas na documentação atual.
 export const productSearchContent = {
   'oleo-hidraulico-68': {
-    title: 'Óleo hidráulico 68 AW: aplicações e orçamento | FFL',
-    description: 'Consulte óleo hidráulico 68 AW para sistemas hidráulicos e de circulação. Veja critérios de seleção e solicite uma cotação à FFL Lubrificantes.',
+    title: 'Óleo hidráulico 68 AW mineral: cotação em SP | FFL',
+    description: 'Óleo hidráulico 68 AW mineral para sistemas hidráulicos e de circulação. Consulte preço e fornecimento com a FFL, em Salto, para todo o estado de SP.',
     sections: [
       {
+        id: 'aplicacao',
+        navLabel: 'Aplicação',
         heading: 'Para que serve o óleo hidráulico 68 AW?',
         paragraphs: [
-          'A referência HS 68 AW é um óleo mineral parafínico com aditivação antidesgaste, apresentado para sistemas hidráulicos e de circulação industriais e veiculares. Sua descrição contempla trabalho sob pressão severa e temperatura moderada.',
-          'Para avaliar o fornecimento, identifique o equipamento e a recomendação do manual. A aplicação declarada ajuda a iniciar a consulta, mas a escolha exige conferir a especificação completa do lubrificante e as condições reais de operação.'
+          'O óleo hidráulico 68 AW desta consulta é a referência HS 68 AW, de base mineral parafínica e com aditivação antidesgaste. Sua aplicação declarada é em sistemas hidráulicos e de circulação industriais e veiculares, sob pressão severa e temperatura moderada.',
+          'AW vem de antiwear, ou antidesgaste: descreve a função da aditivação, não o grau de viscosidade. A seleção para uma máquina depende também dos requisitos do manual e da ficha técnica da versão ofertada; a indicação hidráulica não é uma aprovação para todo equipamento.'
         ]
       },
       {
-        heading: 'Como comparar o óleo 68 com outros graus',
+        id: 'viscosidade',
+        navLabel: '68, AW e ISO VG',
+        heading: 'Óleo 68, AW e ISO VG 68: o que conferir',
         paragraphs: [
-          'O número 68 faz parte da designação publicada. Antes da compra, solicite a ficha técnica para confirmar a viscosidade e sua classificação. A designação comercial, isoladamente, não comprova ISO VG 68, atendimento à DIN 51524 ou aprovação de um fabricante de máquinas.',
-          'Se o equipamento pede outro grau, consulte as demais referências da linha. A temperatura de operação e os requisitos do circuito precisam ser considerados antes de qualquer substituição. Os guias ajudam a interpretar essas informações na documentação.'
+          'Na classificação ISO VG, 68 identifica uma faixa de viscosidade cinemática medida a 40 °C. Essa temperatura é a referência da medição, não um limite de operação do óleo nem uma recomendação de temperatura para a máquina.',
+          'No cadastro desta referência, 68 integra a designação publicada. Confirme a classificação ISO VG na ficha técnica antes da compra. A indicação AW, sozinha, também não comprova atendimento à DIN 51524-2 HLP, à ISO HM ou a uma homologação do fabricante do equipamento.'
         ],
         links: [
-          {url: '/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-aw-68-220/', label: 'Consultar a linha hidráulica AW 68, 100, 150 e 220'},
-          {url: '/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-aw-10-46/', label: 'Consultar os óleos hidráulicos AW 10, 22, 32 e 46'},
-          {url: '/conteudos/como-ler-um-grau-iso-vg/', label: 'Entender a classificação ISO VG'}
+          {url: '/conteudos/como-ler-um-grau-iso-vg/', label: 'Ver as faixas ISO VG 32, 46 e 68 a 40 °C'},
+          {url: '/conteudos/din-51524-hl-hlp-hvlp/', label: 'Entender a diferença entre AW e as classes da DIN 51524'}
         ]
       },
       {
-        heading: 'Cotação de óleo hidráulico 68 com a FFL',
+        id: 'comparacao',
+        navLabel: '46 ou 68?',
+        heading: 'Qual a diferença entre óleo hidráulico 46 e 68?',
         paragraphs: [
-          'A FFL atende consultas comerciais em Salto e no estado de São Paulo. Envie a referência desejada, a quantidade e a cidade de entrega. Inclua o modelo do equipamento e, se possível, a identificação do óleo em uso ou o trecho correspondente do manual.',
-          'Esses dados permitem conferir a opção ofertada e organizar a proposta. Embalagens, disponibilidade, condições de entrega e documentação serão confirmadas no atendimento.'
+          'Quando ambos têm classificação ISO VG confirmada, o 68 corresponde a uma faixa de viscosidade maior que o 46 a 40 °C. Isso não significa que seja melhor para qualquer máquina. Não altere o grau para compensar aquecimento ou desgaste sem diagnóstico e orientação do fabricante.',
+          'Para substituição ou reposição, confira grau, classe de desempenho, base e compatibilidade com o fluido em uso. O mesmo número no rótulo não comprova equivalência nem autoriza misturar produtos.'
+        ],
+        links: [
+          {url: '/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-aw-10-46/', label: 'Consultar as opções hidráulicas AW 10, 22, 32 e 46'},
+          {url: '/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-aw-68-220/', label: 'Comparar as opções da linha AW 68, 100, 150 e 220'}
+        ]
+      },
+      {
+        id: 'cotacao',
+        navLabel: 'Preço e orçamento',
+        heading: 'Preço e orçamento de óleo hidráulico 68 em São Paulo',
+        paragraphs: [
+          'Solicite à FFL uma cotação da referência desejada. Atendemos em Salto/SP e em todo o estado de São Paulo. Para preparar a proposta, envie:'
+        ],
+        items: [
+          'Quantidade em litros e embalagem desejada.',
+          'Cidade de entrega e identificação da empresa.',
+          'Fabricante e modelo do equipamento, requisito do manual e nome do óleo em uso, quando disponíveis.'
+        ],
+        links: [
+          {url: '/contato/?produto=%C3%93leo%20hidr%C3%A1ulico%2068%20AW#orcamento', label: 'Pedir preço e condições para óleo hidráulico 68 AW'}
         ]
       }
     ],
     questions: [
-      ['Óleo hidráulico 68 pode substituir o 46?', 'A substituição não deve ser decidida apenas pelo número. Confira a viscosidade e a especificação exigidas no manual, a documentação dos dois produtos e a orientação do fabricante do equipamento.'],
+      ['Qual é o preço do óleo hidráulico 68?', 'O preço é informado na proposta, com a identificação do produto, quantidade, embalagem e cidade de destino. Envie esses dados para consultar disponibilidade, prazo e condições de fornecimento. Não há preço ou estoque confirmado nesta página.'],
+      ['Quais embalagens posso cotar?', 'Informe o volume e a embalagem de que precisa, inclusive se procura balde ou tambor. As opções efetivamente disponíveis e o volume de cada embalagem serão confirmados pela FFL na proposta.'],
       ['O óleo hidráulico 68 desta página é sintético?', 'A referência HS 68 AW é apresentada com base mineral parafínica. Se sua aplicação exige outra base, informe essa condição na cotação.'],
-      ['Posso completar o reservatório com este óleo?', 'Identifique primeiro o produto já utilizado e confirme a compatibilidade e o procedimento aceito para o equipamento. O nome óleo hidráulico 68 não comprova que dois fluidos possam ser misturados.']
+      ['Óleo hidráulico 68 AW é a mesma coisa que HLP 68?', 'Não conclua isso apenas pela sigla AW. HLP se refere a requisitos da DIN 51524-2; o grau de viscosidade é outro critério. Confira a declaração de atendimento na ficha técnica da versão ofertada e os requisitos do equipamento.']
     ]
   },
   'oleo-para-compressor-de-ar': {

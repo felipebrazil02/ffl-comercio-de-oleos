@@ -1,63 +1,68 @@
 ---
 title: "Ensaio de bomba de palhetas: o que o número diz"
-description: O ensaio de bomba de palhetas da ASTM D2882 mede desgaste antidesgaste de fluidos hidráulicos. Entenda o que ele mede e o que ele supõe.
+description: Entenda como interpretar o ensaio de desgaste em bomba de palhetas, distinguir ASTM D7043 de referências antigas e comparar resultados com segurança.
 eyebrow: HIDRÁULICA
 summary: Comparar óleos por um número de desgaste exige saber o que o ensaio mede e quais condições ele pressupõe.
 published: 2026-10-16
+updated: 2026-10-20
 tags: hidráulica, ensaios, normas
-source: ASTM D2882 — desgaste de fluidos hidráulicos em bomba de palhetas | https://www.astm.org/d2882-00.html
+source: ASTM D7043-24 — ensaio de desgaste em bomba de palhetas | https://store.astm.org/d7043-24.html
+source: ASTM D2882-00 — método retirado em 2003 | https://store.astm.org/d2882-00.html
 source: ISO 6743-4:2015 — classificação de lubrificantes da família H | https://www.iso.org/standard/60483.html
-consulted: 2026-10-15
+source: ISO 11158:2023 — requisitos mínimos para fluidos hidráulicos minerais novos | https://www.iso.org/standard/84812.html
+consulted: 2026-10-20
 indexable: true
 ---
 
-Quando dois fluidos hidráulicos antidesgaste são comparados, é comum que a conversa recorra a um número de desgaste obtido em bomba de palhetas. Esse número vem de um ensaio de bancada normalizado e é útil — desde que se entenda o que ele mede e o que ele pressupõe.
+Um resultado de desgaste em bomba de palhetas descreve o comportamento do fluido nas condições de um ensaio. Para compará-lo com outro resultado, identifique o método, a edição, a unidade e as condições do relatório. O menor número, isoladamente, não escolhe o óleo nem prevê a vida útil da máquina.
 
 ## Para que serve o ensaio
 
-O ensaio de bomba de palhetas avalia a capacidade de um fluido hidráulico de proteger os componentes de desgaste sob carga. Ele reproduz, em laboratório e de forma controlada, uma condição em que o fluido precisa manter um filme protetor entre as superfícies da bomba.
+O ensaio usa uma bomba de palhetas para obter uma indicação das características de desgaste de um fluido hidráulico em condições controladas. Trata-se de uma avaliação específica, não de uma reprodução completa do sistema industrial.
 
-A norma ASTM D2882 descreve um procedimento em bomba de palhetas de deslocamento constante, com pressão elevada. Ao final do ensaio, mede-se o desgaste ocorrido nos componentes da bomba. O resultado é uma indicação da proteção antidesgaste do fluido nas condições do teste.
+A ASTM D7043-24, identificada como ativa no cadastro consultado, descreve um método em bomba de palhetas de deslocamento constante. O escopo público informa operação a 1.200 r/min e 13,8 MPa. Esses dois parâmetros não resumem o procedimento: os demais requisitos e a forma de apresentar o resultado precisam ser conferidos no método e no relatório.
 
-A designação HM da ISO 6743-4 exige justamente proteção antidesgaste sobre a base de um óleo mineral. Entender o que a letra M pede é o ponto de partida, discutido em [óleo hidráulico HM: o que a designação ISO exige](/conteudos/oleo-hidraulico-hm/).
+A ASTM D2882-00 aparece em documentos antigos, mas foi retirada em 2003. Seu cadastro oficial informa que não há substituição formal. A existência da D7043 ativa não permite renomear resultados antigos como se tivessem sido obtidos pelo mesmo método atual.
 
 ## O que ele mede
 
-O ensaio mede desgaste em um conjunto específico de componentes: as palhetas, o anel e o rotor da bomba usada no teste. O valor registrado descreve o quanto essas peças perderam material ao longo da condição de ensaio.
+Confira no relatório quais peças foram avaliadas, qual grandeza foi medida, a unidade e como o resultado foi calculado. Não presuma que todos os ensaios chamados de “bomba de palhetas” medem o mesmo conjunto de peças ou usam as mesmas condições.
 
-Por ser um ensaio de bomba, ele reúne de forma integrada efeitos que um teste de bancada mais simples não capta: a formação do filme entre palheta e anel, o comportamento do fluido sob pressão e a resistência do pacote de aditivos nessas condições. É essa integração que dá valor ao método.
+Um resultado favorável indica desempenho naquela avaliação. Não comprova, sozinho, resistência à oxidação, compatibilidade com vedações, controle de espuma ou atendimento a uma especificação completa.
 
-O desempenho medido depende do pacote de aditivos do fluido, e o papel de um antidesgaste como o ZDDP é tratado em [aditivo antidesgaste: o que o ZDDP faz e onde falha](/conteudos/aditivo-antidesgaste-zddp/).
+A avaliação é do fluido formulado, não da quantidade de um aditivo isolado. O papel de um antidesgaste como o ZDDP é tratado em [aditivo antidesgaste: o que o ZDDP faz e onde falha](/conteudos/aditivo-antidesgaste-zddp/).
 
-O resultado não é um número absoluto de vida útil. Ele indica o comportamento do fluido naquele aparato, naquela pressão e naquele tempo. Serve para comparar fluidos ensaiados pelo mesmo método e nas mesmas condições.
+Para uma comparação útil, confirme que os resultados seguem a mesma edição e as condições aplicáveis do método. Considere também eventuais desvios declarados e as informações de precisão disponíveis. Uma pequena diferença entre números não deve ser tratada automaticamente como vantagem comprovada.
 
 ## O que ele pressupõe
 
-Todo ensaio de bancada pressupõe condições que não são idênticas às do sistema real. No caso da bomba de palhetas, o equipamento de teste é um modelo definido, com características próprias de folga, material e geometria. Um sistema industrial pode usar outro tipo de bomba — engrenagens, pistões — e operar em temperatura, contaminação e regime diferentes.
+O equipamento e as condições do teste são definidos pelo método. A máquina real pode usar outro modelo ou tipo de bomba e operar com temperaturas, cargas e histórico de contaminação diferentes. O alcance da conclusão depende desse recorte.
 
 Consequências práticas desse recorte:
 
-- O ensaio não cobre todos os tipos de bomba, e um bom resultado não é garantia em outro tipo.
-- As condições de laboratório não incluem a contaminação real do sistema em operação.
-- O ensaio avalia o fluido novo; não projeta o resultado depois de horas de uso.
-- O método compara fluidos entre si, e não define um limite universal de aprovação.
+- Não extrapole o resultado para qualquer bomba de engrenagens ou de pistões.
+- Confira a condição e o preparo da amostra; não presuma que reproduzem o óleo em serviço.
+- Não transforme o resultado em horas de vida útil ou intervalo de troca.
+- Procure o limite de aceitação na especificação aplicável, em vez de adotar um limite universal.
 
 Por isso, o número do ensaio é uma referência comparativa, e não uma previsão do que acontecerá na máquina.
 
 ## Como usar o resultado
 
-Comparar fluidos pelo ensaio de bomba de palhetas faz sentido quando os dados vêm do mesmo método e das mesmas condições, e quando o sistema usa uma bomba da mesma família. Nas demais situações, ele informa sobre o potencial antidesgaste do fluido, mas não substitui a especificação exigida pelo fabricante.
+Solicite o relatório ou uma declaração técnica que identifique o método, a edição e o resultado. Quando houver um limite exigido pelo fabricante do equipamento ou pela especificação de desempenho, compare os dados com esse critério. Mesmo uma bomba da mesma família não torna o ensaio uma aprovação automática para a aplicação.
 
-É importante não confundir o ensaio de bomba com os ensaios de quatro esferas, que medem extrema pressão e desgaste por outro princípio. Os dois respondem a perguntas diferentes, e o de quatro esferas está detalhado em [ensaio de quatro esferas](/conteudos/ensaio-de-quatro-esferas/). Tratar os dois como equivalentes é um erro comum.
+Não compare diretamente esse número com resultados de [ensaios de quatro esferas](/conteudos/ensaio-de-quatro-esferas/). Aparatos, métodos e grandezas distintos não se tornam equivalentes apenas porque todos avaliam algum aspecto relacionado ao desgaste ou à carga.
 
 ## Do ensaio à especificação
 
-A exigência antidesgaste de um sistema hidráulico normalmente aparece no manual como uma designação — ISO HM, por exemplo — e não como um valor de ensaio. A designação resume um conjunto de requisitos, dos quais o desempenho antidesgaste é um. O ensaio de bomba é uma das formas de verificar esse requisito na formulação.
+A ISO 6743-4 classifica os fluidos da família hidráulica. A ISO 11158 estabelece requisitos mínimos para óleos hidráulicos minerais novos nas categorias que abrange. Não são a mesma função normativa, e um resultado de bancada não demonstra sozinho conformidade com todos os requisitos.
 
-Por isso, o caminho é partir da especificação do equipamento e usar os dados de ensaio como apoio, e não escolher o fluido pelo menor número de desgaste. Um número menor não compensa um fluido que não atende à designação exigida.
+Parta da especificação completa do manual e da declaração do fornecedor. Para interpretar a categoria antidesgaste, veja [óleo hidráulico HM: significado e especificação](/conteudos/oleo-hidraulico-hm/). Um número menor de desgaste não compensa viscosidade inadequada ou ausência de atendimento aos demais requisitos.
 
 ## O que informar ao consultar
 
 Para uma consulta direcionada, reúna a designação e o grau exigidos pelo manual, o tipo de bomba do sistema e o fluido em uso atualmente. A linha de [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) organiza os produtos por aplicação, e a documentação técnica indica a especificação atendida.
 
 Como o resultado de um ensaio de bancada depende do método, informe também quando houver um valor de referência a ser comparado. Com a aplicação, a especificação e a quantidade em mãos, [prepare sua solicitação](/contato/#orcamento).
+
+> **Revisão técnica — 20/10/2026.** Foram consultados os cadastros e escopos públicos das fontes abaixo, não os textos integrais pagos dos métodos e normas. A síntese não substitui o relatório de ensaio, a especificação completa ou o manual do equipamento.

@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "businessPriority": "Óleo hidráulico 68: prioridade comercial confirmada pelo responsável da FFL.",
+  "commercialUrl": "https://ffllubrificantes.com.br/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/",
+  "intent": {
+    "product68": "Consulta e orçamento da referência 68, com critérios de seleção e fornecimento.",
+    "family68to220": "Comparação e consulta das opções 68, 100, 150 e 220; preservar URL e canonical próprios.",
+    "isoArticle": "Definição e comparação de graus de viscosidade; não transformar em uma segunda página comercial do 68.",
+    "dinHmHvArticles": "Classificações e requisitos, sem presumir conformidade do produto comercial."
+  },
+  "evidence": {
+    "keywordPlanner": "outputs/keyword-planner-sp-table-20261020.png: óleo hidráulico 68 na faixa de 1 mil–10 mil pesquisas mensais, São Paulo, português, Google, outubro/2025–setembro/2026. Faixa estimada, não visitas garantidas. Concorrência refere-se a anúncios.",
+    "searchConsole": "outputs/indexacao-forense-20261020/search-console/: ISO VG 61 impressões/1 clique, DIN 28/0 no relatório preservado de 20/10; não há evidência de consulta específica 68 na tabela observada. Não atribuir CTR a título nem inferir canibalização.",
+    "productSource": "https://www.falub.com.br/lubrificantes-industriais",
+    "sourceVerified": "2026-10-20",
+    "confirmed": ["Designação HS 68 AW", "Base mineral parafínica", "Aditivação antidesgaste", "Aplicação hidráulica e de circulação industrial e veicular"],
+    "unconfirmed": ["ISO VG 68 da versão ofertada", "DIN HLP ou ISO HM da versão ofertada", "Homologações OEM", "Valores de ensaio", "Marca comercial e fotos autorizadas", "Embalagens disponíveis", "Estoque, preço e prazo"]
+  },
+  "acceptanceBeforePublication": [
+    "Página 68 HTTP 200, canonical próprio, index follow e presente no sitemap.",
+    "Link HTML direto da home para o produto, reduzindo a profundidade mínima de 2 para 1.",
+    "Links contextuais em ISO VG, DIN, HM e troca, sem recomendação automática de produto.",
+    "Orçamento e WhatsApp mantêm identificação do 68 e rastreamento existente.",
+    "Sem preço, estoque, embalagem, conformidade ou homologação inventados.",
+    "Família AW 68–220 preservada com intenção distinta e navegação para o 68.",
+    "Testes gerais, catálogo, editoriais, produtos, especialidades e óleo 68 sem falhas; verificar prévia antes da produção."
+  ],
+  "nextEvidence": [
+    "Obter ficha técnica atual do produto realmente vendido e dados comerciais confirmados.",
+    "Novo rastreamento: conferir último rastreamento e HTML recebido pelo Google após o deploy; teste ao vivo não prova atualização do índice.",
+    "Indexação: verificar status histórico e canonical escolhido separadamente; não repetir pedidos para contornar erro ou cota.",
+    "Impressões e cliques: comparar URL 68 e consultas relacionadas em períodos completos do Search Console, sem confundir com mera elegibilidade técnica.",
+    "Conversão: medir solicitações recebidas; clique no WhatsApp não comprova orçamento nem venda."
+  ]
+}

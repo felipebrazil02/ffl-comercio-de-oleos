@@ -36,6 +36,7 @@ O build gera `dist/` e relatorios em `outputs/`, ambos ignorados pelo Git. O ser
 - `src/catalog-seo.mjs`: dados resumidos dos produtos, transparência comercial e relações explícitas entre guias e produtos. Valide com `npm run test:catalog`.
 - Os caminhos contextuais para o protetivo de chassis e o óleo para limpeza de armamentos são verificados com `npm run test:specialty-links`: links no corpo dos artigos, distinção de aplicações e destinos indexáveis.
 - `src/product-search-content.mjs`: conteúdo e metadados das páginas comerciais prioritárias. Valide URLs, hierarquia e contexto dos pedidos com `npm run test:products`.
+- O óleo hidráulico 68 é prioridade comercial. Preserve a intenção própria dessa página e os limites documentais registrados em `editorial/oleo-68-prioridade-20261020.json`. Valide os caminhos, metadados e contatos com `npm run test:oil68` (ou `npm run test:oil68 -- https://ffllubrificantes.com.br` para o site publicado).
 - `src/site.js`: interacoes e formulario.
 - `src/site.css`: estilos.
 - `src/assets/` e `src/static/`: arquivos originais dos assets.

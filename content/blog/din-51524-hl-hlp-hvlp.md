@@ -4,7 +4,7 @@ description: Entenda os requisitos associados a HL, HLP e HVLP na DIN 51524 e po
 eyebrow: NORMAS
 summary: A norma que quase todo manual de sistema hidráulico cita, e o que cada designação exige do fluido.
 published: 2026-09-30
-updated: 2026-10-15
+updated: 2026-10-20
 indexable: true
 tags: hidráulica, normas, seleção
 consulted: 2026-10-13
@@ -47,6 +47,8 @@ Não deduza que característica detergente ou dispersante autorize entrada de á
 “ISO VG 46, DIN 51524 parte 2” combina dois critérios. O [ISO VG](/conteudos/como-ler-um-grau-iso-vg/) informa a faixa de viscosidade; a referência DIN informa requisitos de desempenho.
 
 Uma declaração de atendimento também não é necessariamente uma aprovação formal do fabricante da máquina. Compare os termos usados na [ficha técnica](/conteudos/ficha-tecnica-e-ficha-de-seguranca/).
+
+Por exemplo: procurar **óleo hidráulico 68 AW** não resolve sozinho uma exigência de HLP 68. AW indica a função antidesgaste; é preciso confirmar o grau e a declaração de atendimento à DIN 51524-2 no documento do produto. Para uma consulta comercial, a página do [óleo hidráulico 68 AW da FFL](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/) informa os dados publicados e o que deve ser conferido antes da compra, sem presumir essa conformidade.
 
 Antes de uma substituição, confira também a [compatibilidade do fluido com vedações e materiais do sistema](/conteudos/compatibilidade-com-vedacoes-e-tintas/).
 

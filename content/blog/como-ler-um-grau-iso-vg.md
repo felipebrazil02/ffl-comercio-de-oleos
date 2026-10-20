@@ -4,7 +4,7 @@ description: Entenda o significado de ISO VG, compare as faixas de viscosidade d
 eyebrow: FUNDAMENTOS
 summary: Veja o que o grau de viscosidade informa, as diferenças entre 32, 46 e 68 e os cuidados ao comparar óleos industriais.
 published: 2026-09-30
-updated: 2026-10-16
+updated: 2026-10-20
 indexable: true
 tags: seleção, viscosidade
 consulted: 2026-10-13
@@ -34,6 +34,8 @@ Não presuma equivalência. A 40 °C, o grau 68 corresponde a uma faixa de visco
 
 Em sistemas hidráulicos, a classe de desempenho é outra informação a verificar. Veja a diferença entre [HL, HLP e HVLP na DIN 51524](/conteudos/din-51524-hl-hlp-hvlp/): atender ao mesmo grau de viscosidade não comprova o atendimento à mesma especificação.
 
+Se você já procura uma opção 68 para cotação, consulte a página do [óleo hidráulico 68 AW](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/). Ela separa os dados publicados da referência dos requisitos que ainda precisam ser conferidos na ficha técnica, incluindo a classificação ISO VG. Leve para o atendimento o grau e a especificação do manual, a quantidade e a cidade de destino.
+
 ## Por que os graus saltam de 32 para 46
 
 A sequência de graus não é arbitrária nem linear. Cada grau é aproximadamente **50% maior que o anterior**, o que produz a escala conhecida:
@@ -42,7 +44,7 @@ A sequência de graus não é arbitrária nem linear. Cada grau é aproximadamen
 
 A série padroniza faixas que não se sobrepõem e deixa intervalos entre elas. Por exemplo, 40 mm²/s a 40 °C fica entre o limite superior de ISO VG 32 (35,2) e o inferior de ISO VG 46 (41,4). Portanto, esse valor não pertence a nenhum desses dois graus; ISO VG 40 não é um grau da série.
 
-> **A temperatura de referência é sempre 40 °C.** Um óleo não tem "um" valor de viscosidade: ele tem uma curva que cai conforme esquenta. O grau ISO fixa um ponto dessa curva para permitir comparação. O comportamento nas outras temperaturas depende do índice de viscosidade, que é outro número da ficha técnica.
+> **A temperatura de referência do ISO VG é 40 °C.** Isso não define a temperatura máxima de operação. A viscosidade do óleo varia com a temperatura; o grau fixa uma faixa nesse ponto de referência. O índice de viscosidade ajuda a comparar esse comportamento, mas não descreve sozinho toda a curva nem dispensa os dados para as condições reais de uso.
 
 ## ISO VG não é SAE nem NLGI
 
@@ -50,7 +52,7 @@ Três classificações convivem no mesmo catálogo e medem coisas diferentes:
 
 - **ISO VG** — óleos industriais. Viscosidade cinemática a 40 °C, conforme ISO 3448.
 - **SAE J300** — classificação de viscosidade de óleos de motor, com critérios a quente e, nos graus “W”, a frio. Para óleos de engrenagens automotivas, a referência é **SAE J306**. Não se aplica J300 indistintamente a toda transmissão. Um SAE 10W-40 não equivale a um grau ISO VG de mesmo número.
-- **NLGI** — graxas. Não mede viscosidade, e sim consistência, pela penetração trabalhada a 25 °C. NLGI 2 é a consistência mais comum em rolamentos.
+- **NLGI** — graxas. Não mede viscosidade, e sim consistência, pela penetração trabalhada a 25 °C. O grau exigido depende do ponto e do sistema de lubrificação; não deve ser escolhido apenas por ser comum no mercado.
 
 Comparar diretamente um número SAE com um número ISO pode levar a uma seleção incorreta. São escalas independentes, com temperaturas de referência e métodos de ensaio distintos. Para graxas, veja [como interpretar a consistência NLGI](/conteudos/nlgi-consistencia-de-graxas/); para a variação da viscosidade com a temperatura, consulte o artigo sobre [índice de viscosidade](/conteudos/indice-de-viscosidade/).
 
@@ -58,7 +60,7 @@ Comparar diretamente um número SAE com um número ISO pode levar a uma seleçã
 
 Vale um cuidado ao ler catálogos: nem todo número no nome de um produto é um grau de viscosidade. Em várias linhas, o número integra a denominação comercial e não corresponde a uma classificação ISO.
 
-Nas páginas de produto deste site, quando a fonte publica graus, eles aparecem como **"Graus publicados"**; quando o dado é de outra natureza — faixa de temperatura, teor de um aditivo, tipo de fluido — ele aparece como **"Característica publicada"**. A distinção é proposital: presumir que "68" no nome significa ISO VG 68 é uma suposição que pode custar caro.
+Nas páginas de produto deste site, quando a fonte publica graus, eles aparecem como **"Graus publicados"**; quando o dado é de outra natureza — faixa de temperatura, teor de um aditivo, tipo de fluido — ele aparece como **"Característica publicada"**. O número comercial deve ser confirmado como grau ISO VG na ficha técnica, não interpretado como comprovação por si só.
 
 ## Como usar isso na sua consulta
 

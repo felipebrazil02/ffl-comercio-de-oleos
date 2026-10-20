@@ -1,59 +1,64 @@
 ---
-title: "Óleo hidráulico HM: o que a designação ISO exige"
-description: A designação HM da ISO 6743-4 indica óleo mineral com proteção antidesgaste. Veja o que ela exige e como difere das letras HL e HV.
+title: "Óleo hidráulico HM: o que significa e como especificar"
+description: Entenda a categoria HM de óleo hidráulico, a diferença entre classificação e desempenho e o que conferir no grau, na ficha técnica e no manual.
 eyebrow: HIDRÁULICA
 summary: A letra M não descreve a viscosidade: ela sinaliza exigência de proteção antidesgaste.
 published: 2026-10-16
+updated: 2026-10-20
 tags: hidráulica, normas, seleção
 source: ISO 6743-4:2015 — classificação de lubrificantes da família H | https://www.iso.org/standard/60483.html
-source: DIN 51524 — óleos hidráulicos com base mineral | https://www.din.de/
-consulted: 2026-10-15
+source: ISO 11158:2023 — requisitos mínimos para fluidos hidráulicos minerais novos | https://www.iso.org/standard/84812.html
+source: DIN 51524-2:2017-06 — requisitos mínimos para óleos hidráulicos HLP | https://www.dinmedia.de/en/standard/din-51524-2/272262662
+source: ASTM D2882-00 — método retirado em 2003 | https://store.astm.org/d2882-00.html
+source: ASTM D7043-24 — ensaio de desgaste em bomba de palhetas | https://store.astm.org/d7043-24.html
+consulted: 2026-10-20
 indexable: true
 ---
 
-A sigla HM em um óleo hidráulico não informa a marca nem o grau de viscosidade. Ela diz que o fluido se enquadra em uma faixa específica da classificação ISO 6743-4 e que atende a um conjunto definido de requisitos de desempenho. Tratar essa sigla como se fosse apenas um rótulo comercial é o caminho mais comum para comprar o produto errado.
+A sigla HM em um óleo hidráulico identifica uma categoria associada à proteção antidesgaste. Ela não informa a marca nem o grau de viscosidade. Para selecionar um produto, confira a norma de desempenho declarada na ficha técnica e os requisitos do manual: a sigla isolada não comprova adequação ao equipamento.
 
 ## O que a classificação da família H organiza
 
-A ISO 6743-4 classifica os fluidos para sistemas hidráulicos, que formam a família H da classe L de lubrificantes industriais. Cada designação combina letras que descrevem o tipo de produto e o nível de aditivação esperado. A letra H identifica a família hidráulica; as letras seguintes são o que diferencia um produto de outro.
+A ISO 6743-4 organiza a classificação dos fluidos da família H, de sistemas hidráulicos, dentro da classe L de lubrificantes industriais. Ela não deve ser confundida com a especificação dos ensaios e limites de desempenho.
 
-Entre os óleos de base mineral, as designações mais citadas são HH, HL, HM, HV e HG. Elas não indicam viscosidade, marca nem fabricante. Indicam o que o óleo deve entregar além de transmitir potência: proteção contra oxidação, contra corrosão e, em alguns casos, contra desgaste.
+A ISO 11158:2023 estabelece requisitos mínimos para fluidos hidráulicos novos de base mineral nas categorias HH, HL, HM, HV e HG. As duas referências são complementares: uma classifica; a outra especifica requisitos. Confirme a edição exigida e a declaração de atendimento do produto.
 
-## O que a letra M exige
+## O que caracteriza um óleo hidráulico HM
 
-Um óleo classificado como HM é um óleo mineral refinado que reúne as propriedades básicas de um HL — resistência à oxidação e proteção anticorrosiva — e acrescenta aditivos antidesgaste. O requisito central é a capacidade de reduzir o desgaste em componentes como bombas, motores e válvulas quando o sistema trabalha sob carga.
+Na família de óleos minerais, HM acrescenta proteção antidesgaste às características de resistência à oxidação e proteção anticorrosiva associadas a HL. Isso não define uma formulação única nem autoriza seu uso em qualquer bomba, motor ou válvula.
 
-É esse o ponto que a letra M sinaliza. Um HL também protege contra oxidação e corrosão, mas não carrega a exigência antidesgaste no mesmo nível. Por isso, em sistemas com bombas de engrenagens, palhetas ou pistões operando sob pressão elevada, a designação HM costuma ser o mínimo que o manual do equipamento exige.
+O fabricante do equipamento define o nível de desempenho necessário. O tipo de bomba e a pressão de trabalho são dados da seleção, não uma autorização genérica para adotar HM ou mudar o lubrificante em uso.
 
-A verificação dessa exigência é feita por ensaio de bancada. O mais associado a óleos hidráulicos antidesgaste é o ensaio de bomba de palhetas, normalizado pela ASTM D2882, que mede o desgaste em condições controladas de pressão. Vale entender o que esse tipo de ensaio mede e o que ele supõe, como descrito em [ensaio de bomba de palhetas](/conteudos/ensaio-bomba-de-palhetas/).
+Ensaios de bancada ajudam a avaliar a proteção contra desgaste. A ASTM D7043-24 descreve um ensaio em bomba de palhetas de deslocamento constante. Já a ASTM D2882, encontrada em documentos antigos, foi retirada em 2003; seu cadastro informa que não há substituição formal. Um resultado de ensaio isolado não demonstra atendimento a todos os requisitos de uma especificação.
 
 ## HM, HL e HV: a diferença entre as letras
 
-As três designações partem de uma base mineral, mas atendem a níveis diferentes de exigência:
+Uma síntese das categorias ajuda a separar funções, sem substituir seus requisitos completos:
 
-- **HH** — óleo mineral sem aditivação relevante, de uso restrito a sistemas leves.
-- **HL** — óleo mineral com proteção contra oxidação, corrosão e formação de espuma.
-- **HM** — óleo HL acrescido de proteção antidesgaste, para sistemas sob carga.
-- **HV** — óleo HM com índice de viscosidade mais alto, para faixa ampla de temperatura.
+- **HL** — proteção contra oxidação e corrosão.
+- **HM** — inclui proteção antidesgaste.
+- **HV** — combina proteção antidesgaste com comportamento viscosidade-temperatura voltado a uma faixa térmica mais ampla.
 
 Quando a operação alterna partidas frias e regime quente no mesmo ciclo, é essa última designação que entra em discussão, e o critério de escolha é de faixa de temperatura, como descrito em [óleo hidráulico HV: quando o índice de viscosidade pesa](/conteudos/oleo-hidraulico-hv/).
 
-A ordem não é uma escala de qualidade. Um HL correto para um sistema leve não se torna "pior" do que um HM; ele apenas não foi formulado para a exigência antidesgaste. O erro está em usar HM onde o manual não pede, ou HL onde o manual exige HM.
+A ordem não é uma escala geral de qualidade. A escolha deve cumprir o manual; nem a presença de aditivos antidesgaste nem um índice de viscosidade maior bastam para aprovar uma substituição.
 
 ## A ponte com a norma alemã
 
-No Brasil é comum encontrar o mesmo produto descrito pela designação alemã DIN 51524. Nessa norma, o equivalente técnico da designação HM é o HLP: um óleo mineral com proteção antidesgaste e anticorrosiva. A correspondência é entre as duas normas, não entre produtos de fabricantes diferentes — o que vale é o que a documentação técnica declara.
+A DIN 51524-2 trata dos requisitos mínimos para óleos hidráulicos HLP, incluindo aplicações em que são necessários aditivos antidesgaste. HLP e HM são categorias frequentemente relacionadas em catálogos, mas isso não torna as normas ou os produtos automaticamente intercambiáveis.
 
-Vale lembrar como as letras se organizam entre as duas normas, assunto tratado em [DIN 51524: o que HL, HLP e HVLP significam](/conteudos/din-51524-hl-hlp-hvlp/). Quando o manual cita DIN 51524-2 HLP, o requisito é equivalente ao HM da ISO; quando cita ISO HM, o caminho é o mesmo.
+Se o manual exige DIN 51524-2 HLP, confira uma declaração específica para essa referência. Se exige ISO 11158 HM, confira esse atendimento separadamente. Veja a organização das partes em [DIN 51524: o que HL, HLP e HVLP significam](/conteudos/din-51524-hl-hlp-hvlp/).
 
 ## Designação e grau de viscosidade são coisas separadas
 
-Uma especificação completa traz os dois dados juntos, como "ISO HM 46" ou "ISO VG 46 HM". O HM descreve o pacote de desempenho; o número descreve a espessura do óleo a 40 °C, conforme a escala ISO VG. Dois óleos HM de graus diferentes atendem à mesma exigência antidesgaste e mesmo assim não são intercambiáveis: quem define o grau é a bomba e o regime de temperatura, não a sigla.
+Registre os critérios separadamente: por exemplo, ISO VG 68 para viscosidade e ISO 11158 HM para desempenho, se forem os requisitos do manual. O grau ISO VG identifica uma faixa de viscosidade cinemática a 40 °C; HM não define esse grau nem comprova uma aprovação formal do fabricante da máquina.
 
 Relembrar como o grau é construído ajuda a evitar essa confusão; o tema está em [como ler um grau ISO VG](/conteudos/como-ler-um-grau-iso-vg/). O grau precisa estar dentro da faixa que o fabricante especifica para o sistema.
 
 ## O que informar ao cotar
 
-Para uma proposta útil, informe a designação exigida (por exemplo, ISO HM ou DIN 51524-2 HLP), o grau de viscosidade do manual, a aplicação — bomba de palhetas, engrenagens ou pistão — e a quantidade estimada. A linha de [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) organiza os produtos por aplicação, e a página de cada produto traz as especificações declaradas na documentação técnica.
+Informe o equipamento, a especificação completa do manual, o grau, o produto atual, a quantidade e a cidade de entrega. A linha de [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) organiza as referências disponíveis para consulta.
 
-Como a designação HM exige um nível de desempenho e não apenas um grau, informe também o nome e o modelo do equipamento, quando conhecidos. Com esses dados é possível avaliar o atendimento ao requisito sem depender de suposição. Para [preparar sua solicitação](/contato/#orcamento), reúna a aplicação, a especificação e a quantidade.
+Se a sua consulta é para [óleo hidráulico 68](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/), envie também a exigência HM ou HLP, quando houver. O nome HS 68 AW, sozinho, não comprova ISO VG 68 nem atendimento a essas especificações; a ficha técnica atualizada da versão cotada precisa ser conferida antes da seleção. Reúna esses dados ao [solicitar orçamento](/contato/#orcamento).
+
+> **Revisão técnica — 20/10/2026.** Foram consultados os escopos públicos e os cadastros das fontes abaixo, não os textos completos pagos das normas. A síntese não substitui o manual nem a documentação do produto.

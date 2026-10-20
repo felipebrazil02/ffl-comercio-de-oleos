@@ -11,6 +11,7 @@
     "test:growth": "node scripts/test-growth.mjs",
     "test:catalog": "node scripts/test-catalog-seo.mjs",
     "test:products": "node scripts/test-product-search.mjs",
-    "test:specialty-links": "node scripts/test-specialty-links.mjs"
+    "test:specialty-links": "node scripts/test-specialty-links.mjs",
+    "test:oil68": "node scripts/test-hydraulic-68.mjs"
   }
 }
