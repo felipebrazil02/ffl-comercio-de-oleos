@@ -162,6 +162,28 @@
   ],
   "products": [
     {
+      "slug": "oleo-hidraulico-68",
+      "name": "Óleo hidráulico 68 AW",
+      "category": "oleos-hidraulicos",
+      "description": "Óleo hidráulico 68 antidesgaste de base mineral parafínica. Consulte a aplicação do seu equipamento e solicite uma cotação à FFL, em Salto/SP.",
+      "metaDescription": "Óleo hidráulico 68 AW para sistemas hidráulicos e de circulação. Confira os dados do produto e solicite orçamento à FFL, com atendimento em São Paulo.",
+      "applications": "Opção 68 da linha hidráulica AW, indicada para sistemas hidráulicos e de circulação industriais e veiculares que trabalham sob pressão severa e temperatura moderada. A seleção deve atender ao manual do equipamento e à ficha técnica da versão ofertada.",
+      "application": "Sistemas hidráulicos e de circulação",
+      "specRows": [
+        ["Designação", "HS 68 AW"],
+        ["Graus publicados", "68"],
+        ["Especificações declaradas", "antidesgaste AW"],
+        ["Base", "Mineral parafínica"],
+        ["Aplicação principal", "Sistemas hidráulicos e de circulação"]
+      ],
+      "specifications": ["antidesgaste AW"],
+      "note": "A referência do fabricante inclui a opção 68 na linha AW. Confirme a classificação de viscosidade, as normas e as condições de uso na ficha técnica atualizada da versão cotada.",
+      "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "sourceProduct": "HS 68, 100, 150, 220 AW — opção 68",
+      "consulted": "2026-10-20",
+      "confirmed": true
+    },
+    {
       "slug": "oleo-hidraulico-aw-68-220",
       "name": "Óleo hidráulico AW 68, 100, 150 e 220",
       "category": "oleos-hidraulicos",
@@ -358,7 +380,7 @@
       "slug": "oleo-para-compressor-de-ar",
       "name": "Óleo para compressor de ar 150",
       "category": "oleos-para-compressores",
-      "description": "Óleo para compressores de parafuso, palheta e pistão, com indicação também para circuitos hidráulicos e mancais.",
+      "description": "Óleo mineral para compressor de ar, com designação 150. Consulte a indicação para parafuso, palheta ou pistão e peça orçamento à FFL, em Salto/SP.",
       "metaDescription": "Óleo 150 para compressores de parafuso, palheta e pistão, com uso declarado também em circuitos hidráulicos e mancais de deslizamento. Peça orçamento.",
       "applications": "Indicado para compressores de ar dos tipos parafuso, palheta e pistão. A documentação de origem registra ainda uso em circuitos hidráulicos e de circulação, mancais de deslizamento e lubrificação geral sob pressão severa e temperatura moderada, inclusive em equipamentos sujeitos a contaminação por água.",
       "application": "Compressores de ar",
@@ -376,15 +398,16 @@
           "Compressores de ar"
         ]
       ],
-      "note": "O site também menciona equipamentos com contaminação por água. Não explicita grau ISO.",
+      "note": "150 faz parte da designação comercial. Confirme a classificação de viscosidade e os requisitos do modelo do compressor na ficha técnica da versão cotada.",
       "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "consulted": "2026-10-20",
       "confirmed": true
     },
     {
       "slug": "oleo-de-corte-emulsionavel",
-      "name": "Óleo de corte emulsionável",
+      "name": "Óleo de corte emulsionável para usinagem",
       "category": "oleos-de-corte-e-usinagem",
-      "description": "Óleo de corte emulsionável para usinagem em que a prioridade é o resfriamento.",
+      "description": "Óleo de corte emulsionável, também procurado como óleo solúvel para usinagem. Indicado para operações com foco no resfriamento. Solicite uma cotação à FFL.",
       "metaDescription": "Óleo de corte emulsionável para furação, torneamento, fresagem, aplainamento e alargamento, com prioridade de resfriamento. Consulte a FFL Lubrificantes.",
       "applications": "Indicado para operações de usinagem em que a prioridade é o resfriamento: furação, aplainamento, torneamento, fresagem, corte a frio e alargamento. A documentação de origem registra ainda uso em fibras, couros, sistemas hidráulicos e trocadores de calor, e exclui expressamente a aplicação em magnésio.",
       "application": "Corte e usinagem de metais",
@@ -408,6 +431,7 @@
       ],
       "note": "Exclusão expressa de magnésio na aplicação em metais.",
       "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "consulted": "2026-10-20",
       "confirmed": true
     },
     {
@@ -776,7 +800,7 @@
       "slug": "graxa-grafitada",
       "name": "Graxa grafitada",
       "category": "graxas-industriais",
-      "description": "Graxa grafitada para desgaste intenso e contato com água, com 5%, 10% ou 25% de grafite.",
+      "description": "Graxa grafitada à base de sabão de cálcio para desgaste elevado e presença de água, em temperaturas moderadas. Consulte as opções e peça orçamento à FFL.",
       "metaDescription": "Graxa grafitada para pontos de desgaste intenso e contato com água, com teor de grafite de 5%, 10% ou 25%. Solicite orçamento à FFL Lubrificantes.",
       "applications": "Indicada para pontos sujeitos a desgaste intenso, contato com água ou a ambas as condições, sob temperaturas moderadas.",
       "application": "Graxas para desgaste elevado e presença de água",
@@ -791,7 +815,11 @@
         ],
         [
           "Espessante",
-          "Óleos minerais parafínicos; sabão de cálcio; grafite; aditivos"
+          "Sabão de cálcio"
+        ],
+        [
+          "Composição declarada",
+          "Óleo mineral parafínico, sabão de cálcio, grafite e aditivos"
         ],
         [
           "Aplicação principal",
@@ -800,6 +828,7 @@
       ],
       "note": "Limite térmico não quantificado; NLGI não explicitado.",
       "source": "https://www.falub.com.br/graxas",
+      "consulted": "2026-10-20",
       "confirmed": true
     }
   ]

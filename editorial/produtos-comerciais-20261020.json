@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-20",
+  "purpose": "Página específica de óleo hidráulico 68 e otimização comercial de três produtos existentes",
+  "routes": [
+    {"path": "/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/", "action": "new", "intent": "óleo hidráulico 68 AW"},
+    {"path": "/lubrificantes-industriais/oleos-para-compressores/oleo-para-compressor-de-ar/", "action": "updated", "intent": "óleo para compressor de ar"},
+    {"path": "/lubrificantes-industriais/graxas-industriais/graxa-grafitada/", "action": "updated", "intent": "graxa grafitada"},
+    {"path": "/lubrificantes-industriais/oleos-de-corte-e-usinagem/oleo-de-corte-emulsionavel/", "action": "updated", "intent": "óleo solúvel emulsionável para usinagem"}
+  ],
+  "sources": [
+    {"url": "https://www.falub.com.br/lubrificantes-industriais", "consulted": "2026-10-20", "products": ["HS 68, 100, 150, 220 AW — opção 68", "Compressor HS 150", "Sol E 37"]},
+    {"url": "https://www.falub.com.br/graxas", "consulted": "2026-10-20", "products": ["Graxa Grafit"]}
+  ],
+  "technicalReview": [
+    "Não atribuir ISO VG, DIN ou homologações não confirmadas aos produtos HS 68 AW e Compressor HS 150.",
+    "Graxa Grafit: espessante sabão de cálcio; composição e teores de grafite separados. Sem NLGI ou limite de temperatura inventados.",
+    "Sol E 37: restrição ao magnésio preservada; diluição, fator de refratômetro e pH dependem da documentação atual do produto.",
+    "Fonte do fornecedor preservada apenas no cadastro interno, conforme o contrato editorial do projeto."
+  ],
+  "implementation": [
+    "Títulos e descrições específicos, seções de seleção e dúvidas relacionadas à intenção de busca.",
+    "Orçamento e WhatsApp contextualizados no início das quatro páginas.",
+    "Nova URL ligada pelo catálogo, categoria hidráulica, página agrupada e guias ISO VG/DIN.",
+    "Página agrupada AW 68–220 preservada com canonical próprio.",
+    "Sitemap atualizado pelo build; Organization e BreadcrumbList mantidos, sem Product incompleto."
+  ],
+  "validationCommands": [
+    "npm run build",
+    "npm run check",
+    "npm run test:products",
+    "npm run test:catalog",
+    "npm run test:growth",
+    "npm run test:editorial-links",
+    "node scripts/test-form.mjs",
+    "node scripts/test-analytics.mjs",
+    "node scripts/test-seo-prioridades.mjs",
+    "node scripts/test-portugues.mjs",
+    "node scripts/verify-live.mjs <origem-da-previa>",
+    "node scripts/verify-live.mjs https://ffllubrificantes.com.br"
+  ]
+}

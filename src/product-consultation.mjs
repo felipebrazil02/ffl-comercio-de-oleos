@@ -1,5 +1,7 @@
 // Orientações de consulta, sem criar equivalências, homologações ou dados de ensaio.
 // Fatos de produto conferidos nas fontes internas do cadastro em 2026-10-19.
+import {productSearchContent} from './product-search-content.mjs';
+
 export const productConsultation = {
   'oleo-hidraulico-aw-10-46': [
     ['Como comparar 32 e 46 na cotação?', 'Envie o grau exigido no manual e a identificação do óleo em uso. A lista 10, 22, 32 e 46 apresenta opções do cadastro, não uma autorização para substituir um grau por outro.'],
@@ -38,3 +40,9 @@ export const productConsultation = {
     ['Ela é indicada para alta temperatura?', 'O cadastro não quantifica um limite térmico. Não use a presença de grafite como comprovação de aptidão para alta temperatura; solicite limites de operação e consistência na documentação atual.']
   ]
 };
+
+// As páginas comerciais prioritárias combinam dúvidas de busca e de aplicação.
+// Preserva as orientações específicas já revisadas, como diluição e refratômetro.
+for (const [slug, content] of Object.entries(productSearchContent)) {
+  productConsultation[slug] = [...content.questions, ...(productConsultation[slug] || [])];
+}

@@ -9,6 +9,7 @@
     "check": "node scripts/check.mjs",
     "test:editorial-links": "node scripts/test-links-editoriais.mjs",
     "test:growth": "node scripts/test-growth.mjs",
-    "test:catalog": "node scripts/test-catalog-seo.mjs"
+    "test:catalog": "node scripts/test-catalog-seo.mjs",
+    "test:products": "node scripts/test-product-search.mjs"
   }
 }

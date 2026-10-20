@@ -33,3 +33,9 @@
 .article-publisher{font-size:14px;line-height:1.7}
 .article-catalog{margin-top:32px;padding-top:24px;border-top:1px solid var(--line,#dfe4ea)}
 .catalog-reference a,.company-transparency a{overflow-wrap:anywhere}
+.product-quick-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:26px}
+.page-intro .product-coverage{font-size:14px;margin-top:18px}
+.product-search-content section{margin:32px 0}
+.product-layout>.article-callout{align-self:start}
+.product-questions h3{font-size:20px;line-height:1.45;margin:26px 0 12px}
+@media(max-width:560px){.product-quick-actions{align-items:flex-start;gap:20px}.product-quick-actions .button{font-size:14px;padding:14px 18px}.product-questions h3{font-size:18px}}

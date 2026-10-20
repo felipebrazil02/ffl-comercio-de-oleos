@@ -19,6 +19,8 @@ As páginas são geradas por `node scripts/build.mjs`. O site final fica em `dis
 
 `products` aceita objetos com `confirmed`, `slug`, `category` (slug da categoria), `name`, `manufacturer`, `description`, `applications`, `viscosity`, `specifications: []`, `packaging: []`, `source` (referência documental interna obrigatória), `technicalSheet`, `safetySheet` e `metaDescription`. Os documentos devem usar URLs HTTPS oficiais ou arquivos locais publicados em `dist/`. O gerador não cria ofertas, disponibilidade, preços ou avaliações.
 
+`consulted` registra a data de conferência da fonte (AAAA-MM-DD) e controla a data da nota documental do produto. `src/product-search-content.mjs` reúne títulos, descrições, seções e perguntas das páginas comerciais prioritárias. Esses dados complementam o cadastro, sem mudar suas especificações nem publicar a referência interna do fornecedor.
+
 Os slugs aceitam apenas letras minúsculas, números e hífens simples. Não reutilize URLs. Produtos e categorias só geram páginas quando confirmados. Não há produtos fictícios de demonstração no catálogo.
 
 Ao remover uma página anteriormente publicada, remova também o HTML correspondente de `dist/` e avalie um redirecionamento 301 documentado. Não redirecione indiscriminadamente produtos retirados para a página inicial.

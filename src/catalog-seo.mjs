@@ -20,8 +20,8 @@ const productGuides = {
   'graxa-de-calcio-para-chassis': ['base-da-graxa-litio-calcio-complexo', 'nlgi-consistencia-de-graxas']
 };
 const articleProducts = {
-  'como-ler-um-grau-iso-vg': ['oleo-hidraulico-aw-10-46', 'oleo-hidraulico-aw-68-220', 'oleo-ep-para-redutores-150-680'],
-  'din-51524-hl-hlp-hvlp': ['oleo-hidraulico-aw-10-46', 'oleo-hidraulico-aw-68-220'],
+  'como-ler-um-grau-iso-vg': ['oleo-hidraulico-68', 'oleo-hidraulico-aw-10-46', 'oleo-hidraulico-aw-68-220', 'oleo-ep-para-redutores-150-680'],
+  'din-51524-hl-hlp-hvlp': ['oleo-hidraulico-68', 'oleo-hidraulico-aw-10-46', 'oleo-hidraulico-aw-68-220'],
   'oleo-hidraulico-hm': ['oleo-hidraulico-aw-10-46'],
   'oleo-de-corte-integral-ou-emulsionavel': ['oleo-de-corte-emulsionavel', 'oleo-de-corte-integral-32'],
   'oleo-de-corte-integral-familias': ['oleo-de-corte-integral-2020', 'oleo-de-corte-integral-32'],
@@ -60,6 +60,10 @@ export function enrichCatalog(pages, {company, esc}) {
     }
     if (page.product) {
       const p = page.product;
+      if (p.slug === 'oleo-hidraulico-aw-68-220') {
+        const link = '<div class="reading-note product-range-navigation"><strong>Procura especificamente o óleo hidráulico 68?</strong><p>Consulte a <a href="/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/">página do óleo hidráulico 68 AW</a>, com critérios de seleção e dados para orçamento. Esta página reúne a linha com as opções 68, 100, 150 e 220.</p></div>';
+        page.content = page.content.replace('<h2>Aplicações declaradas</h2>', link + '<h2>Aplicações declaradas</h2>');
+      }
       const questions = productConsultation[p.slug];
       if (questions) {
         const detail = `<section class="product-questions"><h2>Dúvidas para especificar este produto</h2>${questions.map(([q,a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}</section>`;
