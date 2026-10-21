@@ -34,11 +34,11 @@ for (const route of [product, family]) {
 const html = await read(product);
 assert.equal([...main(html).matchAll(/<h1\b/g)].length, 1, 'H1 único');
 assert.ok(html.includes('<h1>Óleo hidráulico 68 AW</h1>'));
-assert.ok(html.includes('<title>Óleo hidráulico 68 AW mineral: cotação em SP | FFL</title>'));
+assert.ok(html.includes('<title>Óleo hidráulico 68 AW ISO VG 68: cotação em SP | FFL</title>'));
 for (const id of ['aplicacao', 'viscosidade', 'comparacao', 'cotacao']) {
   assert.ok(html.includes(`href="#${id}"`) && html.includes(`id="${id}"`), `Navegação para ${id}`);
 }
-for (const phrase of ['Qual a diferença entre óleo hidráulico 46 e 68?', 'Qual é o preço do óleo hidráulico 68?', 'Quais embalagens posso cotar?', 'não um limite de operação', 'não comprova atendimento à DIN']) assert.ok(html.includes(phrase), `Informação necessária: ${phrase}`);
+for (const phrase of ['Qual a diferença entre óleo hidráulico 46 e 68?', 'Qual é o preço do óleo hidráulico 68?', 'Quais embalagens posso cotar?', 'não um limite de operação', 'DIN 51524 parte 2 H-LP', 'ISO-HM', 'revisão 004 de 10/06/2015', '61,2 a 74,8 cSt']) assert.ok(html.includes(phrase), `Informação necessária: ${phrase}`);
 const actions = html.match(/<div class="product-quick-actions">([\s\S]*?)<\/div>/)?.[1] || '';
 assert.ok(html.indexOf('product-quick-actions') < html.indexOf('product-layout'), 'Contato antes do conteúdo longo');
 const links = [...actions.matchAll(/href="([^"]+)"/g)].map(m => new URL(m[1].replaceAll('&amp;', '&'), origin));

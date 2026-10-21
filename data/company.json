@@ -31,7 +31,7 @@
         },
         {
           "question": "Os números 10, 22, 32, 46, 68, 100, 150 e 220 são graus ISO?",
-          "answer": "São os graus publicados pelo fabricante para cada família. A documentação de origem nem sempre os identifica expressamente como ISO VG. Confirme a correspondência na ficha técnica antes de substituir o produto em uso."
+          "answer": "A ficha técnica da linha HS AW, revisão 004 de 10/06/2015, identifica expressamente ISO VG 68, 100, 150 e 220. Essa confirmação não se estende automaticamente à família 10, 22, 32 e 46, cuja documentação deve ser conferida separadamente. Siga o grau e os requisitos do manual antes de substituir um produto."
         }
       ],
       "confirmed": true
@@ -165,30 +165,37 @@
       "slug": "oleo-hidraulico-68",
       "name": "Óleo hidráulico 68 AW",
       "category": "oleos-hidraulicos",
-      "description": "Óleo hidráulico 68 AW mineral parafínico para sistemas hidráulicos e de circulação. Solicite preço e condições de fornecimento à FFL, em Salto/SP.",
-      "metaDescription": "Óleo hidráulico 68 AW para sistemas hidráulicos e de circulação. Confira os dados do produto e solicite orçamento à FFL, com atendimento em São Paulo.",
+      "description": "Óleo hidráulico 68 AW mineral parafínico, com grau ISO VG 68 informado na ficha técnica. Consulte os dados e solicite cotação à FFL, em Salto/SP.",
+      "metaDescription": "Óleo hidráulico 68 AW mineral ISO VG 68. Consulte viscosidade, desempenho declarado na ficha técnica e cotação com a FFL em Salto/SP.",
       "applications": "Opção 68 da linha hidráulica AW, indicada para sistemas hidráulicos e de circulação industriais e veiculares que trabalham sob pressão severa e temperatura moderada. A seleção deve atender ao manual do equipamento e à ficha técnica da versão ofertada.",
       "application": "Sistemas hidráulicos e de circulação",
       "specRows": [
         ["Designação", "HS 68 AW"],
-        ["Graus publicados", "68"],
-        ["Especificações declaradas", "antidesgaste AW"],
+        ["Graus publicados", "ISO VG 68"],
+        ["Especificações declaradas", "ISO-HM; DIN 51524 parte 2 H-LP, conforme ficha técnica consultada"],
         ["Base", "Mineral parafínica"],
-        ["Aplicação principal", "Sistemas hidráulicos e de circulação"]
+        ["Aplicação principal", "Sistemas hidráulicos e de circulação"],
+        ["Viscosidade a 40 °C — ASTM D445", "61,2 a 74,8 cSt"],
+        ["Viscosidade a 100 °C — ASTM D445", "Mínimo 6,5 cSt"],
+        ["Índice de viscosidade — ASTM D2270", "Maior que 80"],
+        ["Ponto de fulgor, vaso aberto — ASTM D92", "Maior que 170 °C"],
+        ["Corrosividade ao cobre — ASTM D130", "1A, após 3 h a 100 °C"]
       ],
-      "specifications": ["antidesgaste AW"],
-      "note": "A referência do fabricante inclui a opção 68 na linha AW. Confirme a classificação de viscosidade, as normas e as condições de uso na ficha técnica atualizada da versão cotada.",
+      "specifications": ["antidesgaste AW", "ISO-HM", "DIN 51524 parte 2 H-LP"],
+      "note": "Dados conforme ficha técnica, código 001, revisão 004 de 10/06/2015, consultada em 20/10/2026. As faixas, mínimos e demais dados documentais não são um laudo do lote. A ficha apresenta análises típicas sujeitas a alteração; a declaração de atendimento não é uma homologação do fabricante da máquina. O ponto de fulgor não define a temperatura máxima de trabalho. Confirme os requisitos do equipamento e a documentação da versão ofertada na cotação.",
       "source": "https://www.falub.com.br/lubrificantes-industriais",
       "sourceProduct": "HS 68, 100, 150, 220 AW — opção 68",
+      "sourceDocument": "hs-aw-004-20150610",
       "consulted": "2026-10-20",
       "confirmed": true
     },
     {
       "slug": "oleo-hidraulico-aw-68-220",
       "name": "Óleo hidráulico AW 68, 100, 150 e 220",
+      "title": "Óleo hidráulico AW ISO VG 68, 100, 150 e 220 | FFL",
       "category": "oleos-hidraulicos",
-      "description": "Óleo hidráulico antidesgaste para sistemas circulatórios sob pressão severa e temperatura moderada.",
-      "metaDescription": "Óleo hidráulico antidesgaste nos graus 68, 100, 150 e 220, para sistemas circulatórios sob pressão severa. Veja as aplicações e peça orçamento à FFL.",
+      "description": "Linha de óleos hidráulicos minerais AW nos graus ISO VG 68, 100, 150 e 220. Compare os dados da ficha técnica e consulte a opção exigida pelo equipamento.",
+      "metaDescription": "Compare os óleos hidráulicos AW ISO VG 68, 100, 150 e 220, com dados de viscosidade e desempenho declarado na ficha. Consulte a FFL em Salto/SP.",
       "applications": "Indicado para sistemas hidráulicos e circulatórios industriais e veiculares que operam sob pressão severa, em regime de temperatura moderada.",
       "application": "Sistemas hidráulicos e circulatórios",
       "specRows": [
@@ -198,11 +205,11 @@
         ],
         [
           "Graus publicados",
-          "68, 100, 150 e 220"
+          "ISO VG 68, 100, 150 e 220"
         ],
         [
           "Especificações declaradas",
-          "antidesgaste AW"
+          "ISO-HM; DIN 51524 parte 2 H-LP, conforme ficha técnica consultada"
         ],
         [
           "Base",
@@ -214,10 +221,24 @@
         ]
       ],
       "specifications": [
-        "antidesgaste AW"
+        "antidesgaste AW",
+        "ISO-HM",
+        "DIN 51524 parte 2 H-LP"
       ],
-      "note": "O texto não identifica expressamente os números como graus ISO.",
+      "technicalTable": {
+        "heading": "Compare a viscosidade dos quatro graus ISO VG",
+        "caption": "Dados da ficha técnica HS AW, revisão 004 de 10/06/2015. A tabela reúne faixas, mínimos e limites documentais, não medições de um lote.",
+        "columns": ["Propriedade e método", "ISO VG 68", "ISO VG 100", "ISO VG 150", "ISO VG 220"],
+        "rows": [
+          ["Viscosidade a 40 °C (cSt) — ASTM D445", "61,2 a 74,8", "90 a 110", "135 a 165", "198 a 242"],
+          ["Viscosidade a 100 °C (cSt) — ASTM D445", "Mínimo 6,5", "Mínimo 11,0", "Mínimo 16,0", "Mínimo 22,0"],
+          ["Índice de viscosidade — ASTM D2270", "Maior que 80", "Maior que 80", "Maior que 80", "Maior que 80"]
+        ]
+      },
+      "note": "A ficha técnica, código 001, revisão 004 de 10/06/2015, identifica expressamente os quatro graus ISO VG e declara ISO-HM e DIN 51524 parte 2 H-LP. A declaração não é uma homologação do fabricante da máquina nem comprova equivalência entre os graus. A ficha informa que as análises típicas podem mudar sem aviso. Confira a documentação da versão ofertada e os requisitos do equipamento na cotação.",
       "source": "https://www.falub.com.br/lubrificantes-industriais",
+      "sourceDocument": "hs-aw-004-20150610",
+      "consulted": "2026-10-20",
       "confirmed": true
     },
     {

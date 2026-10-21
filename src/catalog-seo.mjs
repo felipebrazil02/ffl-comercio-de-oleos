@@ -62,6 +62,12 @@ export function enrichCatalog(pages, {company, esc}) {
     }
     if (page.product) {
       const p = page.product;
+      if (p.technicalTable) {
+        const table = p.technicalTable;
+        const headingId = `dados-${p.slug}`;
+        const comparison = `<section class="product-technical-comparison"><h2 id="${esc(headingId)}">${esc(table.heading)}</h2><p class="table-scroll-help">No celular, deslize a tabela para comparar os quatro graus.</p><div class="product-table-scroll" role="region" aria-labelledby="${esc(headingId)}" tabindex="0"><table class="product-technical-table"><caption>${esc(table.caption)}</caption><thead><tr>${table.columns.map(label => `<th scope="col">${esc(label)}</th>`).join('')}</tr></thead><tbody>${table.rows.map(row => `<tr>${row.map((value, i) => i === 0 ? `<th scope="row">${esc(value)}</th>` : `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
+        page.content = page.content.replace('<h2>Como especificar na sua solicitação</h2>', comparison + '<h2>Como especificar na sua solicitação</h2>');
+      }
       if (p.slug === 'graxa-de-calcio-para-chassis') {
         const distinction = '<div class="reading-note product-application-navigation"><strong>Proteção da superfície ou lubrificação do ponto?</strong><p>Esta graxa é apresentada para pinos de chassis e mancais de deslizamento. Se a sua necessidade é proteger chassis e superfícies metálicas contra corrosão, consulte o <a href="/lubrificantes-industriais/oleos-de-processo-e-especialidades/protetivo-anticorrosivo-para-chassis/">protetivo anticorrosivo para chassis</a> e confira a aplicação na documentação.</p><p>São finalidades distintas: não trate o protetivo como substituto automático da graxa em um ponto de lubrificação.</p></div>';
         page.content = page.content.replace('<h2>Aplicações declaradas</h2>', distinction + '<h2>Aplicações declaradas</h2>');

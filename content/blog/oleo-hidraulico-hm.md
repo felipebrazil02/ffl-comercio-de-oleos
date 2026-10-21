@@ -59,6 +59,6 @@ Relembrar como o grau é construído ajuda a evitar essa confusão; o tema está
 
 Informe o equipamento, a especificação completa do manual, o grau, o produto atual, a quantidade e a cidade de entrega. A linha de [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) organiza as referências disponíveis para consulta.
 
-Se a sua consulta é para [óleo hidráulico 68](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/), envie também a exigência HM ou HLP, quando houver. O nome HS 68 AW, sozinho, não comprova ISO VG 68 nem atendimento a essas especificações; a ficha técnica atualizada da versão cotada precisa ser conferida antes da seleção. Reúna esses dados ao [solicitar orçamento](/contato/#orcamento).
+Para o [óleo hidráulico 68](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/), a ficha técnica revisão 004, de 10/06/2015, identifica ISO VG 68 e declara atendimento à ISO-HM e à DIN 51524 parte 2 H-LP. A informação vem da ficha, não apenas da sigla AW no nome. Essa declaração não identifica uma edição normativa nem comprova homologação do fabricante do equipamento. Informe a exigência completa do manual ao [solicitar orçamento](/contato/#orcamento).
 
 > **Revisão técnica — 20/10/2026.** Foram consultados os escopos públicos e os cadastros das fontes abaixo, não os textos completos pagos das normas. A síntese não substitui o manual nem a documentação do produto.

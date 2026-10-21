@@ -8,7 +8,7 @@ export const productConsultation = {
     ['O que confirmar sobre as especificações?', 'Solicite a ficha técnica da versão ofertada. A relação publicada reúne códigos e nomes de fabricantes, mas não apresenta certificados de aprovação de cada equipamento. A referência DIN deve ser conferida no documento atualizado antes de afirmar equivalência.']
   ],
   'oleo-hidraulico-aw-68-220': [
-    ['Como informar o grau desejado?', 'Identifique qual das opções 68, 100, 150 ou 220 corresponde ao requisito do equipamento. O cadastro não explicita a classificação ISO desses números; solicite essa confirmação na ficha técnica.'],
+    ['Como informar o grau desejado?', 'A ficha técnica da linha HS AW, revisão 004 de 10/06/2015, identifica ISO VG 68, 100, 150 e 220. Informe qual desses graus e qual especificação o manual exige. A tabela compara as faixas de viscosidade publicadas; ela não autoriza substituir um grau por outro.'],
     ['Quais dados ajudam a avaliar a aplicação?', 'Informe modelo do equipamento, requisito do manual, condições de operação e óleo atual. Não escolha esta linha apenas porque o número da denominação é maior que o de outra linha hidráulica.']
   ],
   'oleo-ep-para-redutores-150-680': [

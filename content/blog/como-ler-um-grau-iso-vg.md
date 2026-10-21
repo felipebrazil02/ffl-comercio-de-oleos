@@ -34,7 +34,7 @@ Não presuma equivalência. A 40 °C, o grau 68 corresponde a uma faixa de visco
 
 Em sistemas hidráulicos, a classe de desempenho é outra informação a verificar. Veja a diferença entre [HL, HLP e HVLP na DIN 51524](/conteudos/din-51524-hl-hlp-hvlp/): atender ao mesmo grau de viscosidade não comprova o atendimento à mesma especificação.
 
-Se você já procura uma opção 68 para cotação, consulte a página do [óleo hidráulico 68 AW](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/). Ela separa os dados publicados da referência dos requisitos que ainda precisam ser conferidos na ficha técnica, incluindo a classificação ISO VG. Leve para o atendimento o grau e a especificação do manual, a quantidade e a cidade de destino.
+Para uma consulta comercial, veja o [óleo hidráulico 68 AW](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/). A ficha técnica consultada, revisão 004, de 10/06/2015, identifica essa referência como ISO VG 68 e declara atendimento à DIN 51524 parte 2 H-LP e à ISO-HM. O grau está documentado; o que deve ser comparado com o manual é o conjunto de requisitos da aplicação. Informe também o produto em uso, a quantidade e a cidade de destino.
 
 ## Por que os graus saltam de 32 para 46
 

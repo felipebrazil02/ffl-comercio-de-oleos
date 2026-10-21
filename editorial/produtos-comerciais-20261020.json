@@ -17,6 +17,16 @@
     "Sol E 37: restrição ao magnésio preservada; diluição, fator de refratômetro e pH dependem da documentação atual do produto.",
     "Fonte do fornecedor preservada apenas no cadastro interno, conforme o contrato editorial do projeto."
   ],
+  "documentaryUpdates": [
+    {
+      "date": "2026-10-20",
+      "sourceId": "hs-aw-004-20150610",
+      "revisionDate": "2015-06-10",
+      "ownerConfirmedValidForProduct": true,
+      "change": "Ficha enviada após a revisão inicial confirma expressamente ISO VG 68/100/150/220 e declara ISO-HM e DIN 51524 parte 2 H-LP para a linha HS AW. Atualizados os dois produtos e os textos de apoio, preservando a origem histórica do diagnóstico inicial.",
+      "limits": "Sem homologações OEM verificadas, edições normativas inventadas, laudo de lote ou extrapolação para outros produtos. PDF e fonte do fornecedor permanecem internos."
+    }
+  ],
   "implementation": [
     "Títulos e descrições específicos, seções de seleção e dúvidas relacionadas à intenção de busca.",
     "Orçamento e WhatsApp contextualizados no início das quatro páginas.",

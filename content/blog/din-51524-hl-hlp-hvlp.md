@@ -48,7 +48,7 @@ Não deduza que característica detergente ou dispersante autorize entrada de á
 
 Uma declaração de atendimento também não é necessariamente uma aprovação formal do fabricante da máquina. Compare os termos usados na [ficha técnica](/conteudos/ficha-tecnica-e-ficha-de-seguranca/).
 
-Por exemplo: procurar **óleo hidráulico 68 AW** não resolve sozinho uma exigência de HLP 68. AW indica a função antidesgaste; é preciso confirmar o grau e a declaração de atendimento à DIN 51524-2 no documento do produto. Para uma consulta comercial, a página do [óleo hidráulico 68 AW da FFL](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/) informa os dados publicados e o que deve ser conferido antes da compra, sem presumir essa conformidade.
+AW indica a função antidesgaste e, isoladamente, não comprova atendimento à DIN. No caso do [óleo hidráulico 68 AW da FFL](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/), há uma declaração documental: a ficha técnica revisão 004, de 10/06/2015, identifica ISO VG 68 e declara atendimento à DIN 51524 parte 2 H-LP e à ISO-HM. Essa declaração não é uma homologação de um fabricante de máquinas, e a ficha não identifica a edição da norma. Compare a declaração com a exigência específica do seu equipamento.
 
 Antes de uma substituição, confira também a [compatibilidade do fluido com vedações e materiais do sistema](/conteudos/compatibilidade-com-vedacoes-e-tintas/).
 

@@ -58,6 +58,6 @@ Também faz parte do procedimento registrar o que foi feito: data, volume adicio
 
 Reúna o grau de viscosidade e a especificação exigidos pelo manual, além do volume do sistema e do motivo da troca. Designações como ISO HM ou DIN 51524-2 HLP não definem sozinhas o grau. A linha de [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) organiza os produtos por aplicação; compare a documentação da versão ofertada com todos os requisitos da máquina.
 
-Se a consulta for para o grau 68, a página do [óleo hidráulico 68 AW](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/) reúne os dados confirmados da referência e as informações para cotação. O nome 68 AW não comprova atendimento a toda especificação do manual; confira a documentação da versão ofertada antes da troca.
+Se a consulta for para o grau 68, veja os dados do [óleo hidráulico 68 AW](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/). A ficha técnica revisão 004, de 10/06/2015, identifica ISO VG 68 e declara atendimento à DIN 51524 parte 2 H-LP e à ISO-HM. Esses dados ajudam na comparação com o manual, mas não definem o intervalo de troca nem comprovam compatibilidade com o óleo residual. A escolha do produto e o procedimento precisam ser avaliados em conjunto.
 
 Uma troca que misture produtos de especificações diferentes ou de famílias diferentes não deve ser feita por suposição. Com a aplicação, a especificação e a quantidade em mãos, [prepare sua solicitação](/contato/#orcamento) para que o produto correto seja definido junto com o procedimento.

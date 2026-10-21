@@ -2,8 +2,8 @@
 // As especificações de cada versão devem ser confirmadas na documentação atual.
 export const productSearchContent = {
   'oleo-hidraulico-68': {
-    title: 'Óleo hidráulico 68 AW mineral: cotação em SP | FFL',
-    description: 'Óleo hidráulico 68 AW mineral para sistemas hidráulicos e de circulação. Consulte preço e fornecimento com a FFL, em Salto, para todo o estado de SP.',
+    title: 'Óleo hidráulico 68 AW ISO VG 68: cotação em SP | FFL',
+    description: 'Óleo hidráulico 68 AW mineral ISO VG 68, com ISO-HM e DIN 51524 parte 2 H-LP declarados na ficha técnica. Solicite cotação à FFL em Salto/SP.',
     sections: [
       {
         id: 'aplicacao',
@@ -11,16 +11,17 @@ export const productSearchContent = {
         heading: 'Para que serve o óleo hidráulico 68 AW?',
         paragraphs: [
           'O óleo hidráulico 68 AW desta consulta é a referência HS 68 AW, de base mineral parafínica e com aditivação antidesgaste. Sua aplicação declarada é em sistemas hidráulicos e de circulação industriais e veiculares, sob pressão severa e temperatura moderada.',
-          'AW vem de antiwear, ou antidesgaste: descreve a função da aditivação, não o grau de viscosidade. A seleção para uma máquina depende também dos requisitos do manual e da ficha técnica da versão ofertada; a indicação hidráulica não é uma aprovação para todo equipamento.'
+          'AW vem de antiwear, ou antidesgaste. A ficha também descreve funções anticorrosiva, antioxidante, antiespumante e demulsificante. Essas características ajudam a interpretar a aplicação, mas não substituem os requisitos do manual nem representam uma aprovação para todo equipamento.'
         ]
       },
       {
         id: 'viscosidade',
         navLabel: '68, AW e ISO VG',
-        heading: 'Óleo 68, AW e ISO VG 68: o que conferir',
+        heading: 'ISO VG 68 e HLP: o que a ficha técnica declara',
         paragraphs: [
-          'Na classificação ISO VG, 68 identifica uma faixa de viscosidade cinemática medida a 40 °C. Essa temperatura é a referência da medição, não um limite de operação do óleo nem uma recomendação de temperatura para a máquina.',
-          'No cadastro desta referência, 68 integra a designação publicada. Confirme a classificação ISO VG na ficha técnica antes da compra. A indicação AW, sozinha, também não comprova atendimento à DIN 51524-2 HLP, à ISO HM ou a uma homologação do fabricante do equipamento.'
+          'A ficha técnica da linha HS AW, revisão 004 de 10/06/2015, identifica expressamente o grau ISO VG 68. Para a opção 68, informa viscosidade de 61,2 a 74,8 cSt a 40 °C, pelo método ASTM D445. Essa temperatura é a referência da medição, não um limite de operação do óleo.',
+          'A mesma ficha declara ISO-HM e DIN 51524 parte 2 H-LP. São declarações documentais de desempenho, distintas do grau de viscosidade e de uma homologação do fabricante da máquina. O documento não informa a edição dessas referências; não o trate como comprovação automática de uma edição posterior.',
+          'Confira abaixo os dados da opção 68, preservando a diferença entre faixa, mínimo e limite indicado. A ficha apresenta análises típicas, não um certificado de análise de cada lote. A seleção final deve respeitar os requisitos do equipamento e a versão ofertada.'
         ],
         links: [
           {url: '/conteudos/como-ler-um-grau-iso-vg/', label: 'Ver as faixas ISO VG 32, 46 e 68 a 40 °C'},
@@ -61,7 +62,8 @@ export const productSearchContent = {
       ['Qual é o preço do óleo hidráulico 68?', 'O preço é informado na proposta, com a identificação do produto, quantidade, embalagem e cidade de destino. Envie esses dados para consultar disponibilidade, prazo e condições de fornecimento. Não há preço ou estoque confirmado nesta página.'],
       ['Quais embalagens posso cotar?', 'Informe o volume e a embalagem de que precisa, inclusive se procura balde ou tambor. As opções efetivamente disponíveis e o volume de cada embalagem serão confirmados pela FFL na proposta.'],
       ['O óleo hidráulico 68 desta página é sintético?', 'A referência HS 68 AW é apresentada com base mineral parafínica. Se sua aplicação exige outra base, informe essa condição na cotação.'],
-      ['Óleo hidráulico 68 AW é a mesma coisa que HLP 68?', 'Não conclua isso apenas pela sigla AW. HLP se refere a requisitos da DIN 51524-2; o grau de viscosidade é outro critério. Confira a declaração de atendimento na ficha técnica da versão ofertada e os requisitos do equipamento.']
+      ['A ficha do óleo hidráulico 68 AW declara HLP?', 'Sim. A ficha técnica consultada, revisão 004 de 10/06/2015, declara ISO-HM e DIN 51524 parte 2 H-LP para a linha HS AW e identifica a opção ISO VG 68. Isso não significa aprovação para qualquer equipamento: compare a documentação da versão ofertada com o manual e as homologações eventualmente exigidas.'],
+      ['O ponto de fulgor acima de 170 °C é a temperatura de trabalho?', 'Não. Esse é o dado documental do ensaio de ponto de fulgor em vaso aberto, ASTM D92. Não é um limite de operação contínua, não define o intervalo de troca nem caracteriza o produto como fluido de difícil inflamabilidade.']
     ]
   },
   'oleo-para-compressor-de-ar': {

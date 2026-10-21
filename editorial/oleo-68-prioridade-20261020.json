@@ -14,7 +14,16 @@
     "productSource": "https://www.falub.com.br/lubrificantes-industriais",
     "sourceVerified": "2026-10-20",
     "confirmed": ["Designação HS 68 AW", "Base mineral parafínica", "Aditivação antidesgaste", "Aplicação hidráulica e de circulação industrial e veicular"],
-    "unconfirmed": ["ISO VG 68 da versão ofertada", "DIN HLP ou ISO HM da versão ofertada", "Homologações OEM", "Valores de ensaio", "Marca comercial e fotos autorizadas", "Embalagens disponíveis", "Estoque, preço e prazo"]
+    "technicalSheetReceived": {
+      "sourceId": "hs-aw-004-20150610",
+      "reviewedOn": "2026-10-20",
+      "revision": "004",
+      "revisionDate": "2015-06-10",
+      "ownerConfirmedValidForProduct": true,
+      "documented": ["ISO VG 68, 100, 150 e 220", "Faixas de viscosidade a 40 °C e mínimos a 100 °C", "Índice de viscosidade maior que 80", "ISO-HM e DIN 51524 parte 2 H-LP declarados, sem edição especificada"],
+      "notEvidenceOf": ["Homologação OEM", "Atendimento a edição normativa posterior", "Laudo de um lote", "Limite de operação derivado de ponto de fulgor"]
+    },
+    "unconfirmed": ["Homologações OEM", "Ponto de fluidez: notação Min-6 ambígua", "Fotos autorizadas", "Embalagens disponíveis", "Estoque, preço e prazo"]
   },
   "acceptanceBeforePublication": [
     "Página 68 HTTP 200, canonical próprio, index follow e presente no sitemap.",
@@ -26,7 +35,7 @@
     "Testes gerais, catálogo, editoriais, produtos, especialidades e óleo 68 sem falhas; verificar prévia antes da produção."
   ],
   "nextEvidence": [
-    "Obter ficha técnica atual do produto realmente vendido e dados comerciais confirmados.",
+    "Ficha recebida e validade confirmada pelo responsável; esclarecer ponto de fluidez e obter fotos, embalagens e dados comerciais reais. Não expor o PDF nem os contatos do fornecedor.",
     "Novo rastreamento: conferir último rastreamento e HTML recebido pelo Google após o deploy; teste ao vivo não prova atualização do índice.",
     "Indexação: verificar status histórico e canonical escolhido separadamente; não repetir pedidos para contornar erro ou cota.",
     "Impressões e cliques: comparar URL 68 e consultas relacionadas em períodos completos do Search Console, sem confundir com mera elegibilidade técnica.",

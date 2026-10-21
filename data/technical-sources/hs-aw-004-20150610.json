@@ -1,0 +1,39 @@
+{
+  "id": "hs-aw-004-20150610",
+  "kind": "user-provided-manufacturer-technical-sheet",
+  "internalOnly": true,
+  "issuer": "Falub",
+  "title": "FALUB HS 68, 100, 150, 220 AW",
+  "filename": "FICHA TECNICA FALUB  HS AW 68 100 150 e 220 (3).pdf",
+  "sha256": "8369A07EBC64C1BEBA18B8DE1B680741BF68F5927EB901FFDB13B7D372537466",
+  "pages": 1,
+  "documentCode": "001",
+  "revision": "004",
+  "revisionDate": "2015-06-10",
+  "reviewedOn": "2026-10-20",
+  "reviewMethod": "Texto extraído e página integral renderizada, com conferência visual do cabeçalho, colunas, métodos, operadores e notas.",
+  "ownerConfirmation": {"date": "2026-10-20", "validForSuppliedProduct": true, "basis": "Responsável da FFL confirmou que esta é a edição válida para o produto a vender; não equivale a validação independente do fabricante."},
+  "basis": "Mineral parafínica",
+  "declaredPerformance": ["ISO-HM", "DIN 51524 parte 2 H-LP"],
+  "standardEditionSpecified": false,
+  "oemApprovalsVerified": false,
+  "grades": {
+    "68": {"isoVg": 68, "kinematic40C": {"unit": "cSt", "method": "ASTM D445", "min": 61.2, "max": 74.8}, "kinematic100C": {"unit": "cSt", "method": "ASTM D445", "min": 6.5}},
+    "100": {"isoVg": 100, "kinematic40C": {"unit": "cSt", "method": "ASTM D445", "min": 90, "max": 110}, "kinematic100C": {"unit": "cSt", "method": "ASTM D445", "min": 11}},
+    "150": {"isoVg": 150, "kinematic40C": {"unit": "cSt", "method": "ASTM D445", "min": 135, "max": 165}, "kinematic100C": {"unit": "cSt", "method": "ASTM D445", "min": 16}},
+    "220": {"isoVg": 220, "kinematic40C": {"unit": "cSt", "method": "ASTM D445", "min": 198, "max": 242}, "kinematic100C": {"unit": "cSt", "method": "ASTM D445", "min": 22}}
+  },
+  "sharedProperties": {
+    "viscosityIndex": {"method": "ASTM D2270", "operator": ">", "value": 80},
+    "openCupFlashPoint": {"method": "ASTM D92", "unit": "°C", "operator": ">", "value": 170},
+    "copperCorrosion": {"method": "ASTM D130", "durationHours": 3, "temperatureC": 100, "value": "1A"}
+  },
+  "excludedFromSimplifiedPublicData": [
+    {"field": "Ponto de fluidez", "raw": "Min-6", "reason": "Notação ambígua. Não inferir mínimo/máximo nem temperatura de partida; pedir esclarecimento ao fabricante."},
+    {"field": "Densidade a 20/4 °C", "raw": "0,82 - 0,89", "reason": "A tabela não explicita unidade; não acrescentar unidade ou tratar como resultado medido de lote por inferência."},
+    {"field": "Cor ASTM D1500", "rawByGrade": {"68": "Máx. 4,0", "100": "Máx. 4,5", "150": "Máx. 5,0", "220": "Máx. 5,0"}, "reason": "Não é critério suficiente de seleção ou qualidade; não necessário na tabela comercial simplificada."},
+    {"field": "NAS 10 e lista de fabricantes/referências", "reason": "Lista compacta sem comprovantes de homologação, referências completas e correspondência por grau; não publicar como aprovações atuais."},
+    {"field": "Selos ISO e contatos no rodapé", "reason": "Não representam certificações, instalações ou contatos da FFL; fornecedor permanece como fonte interna."}
+  ],
+  "limits": ["Documento informativo; as análises típicas podem ser alteradas sem aviso.", "Não é laudo de lote.", "Não atribuir ISO 11158:2023 ou DIN 51524-2:2017, que não constam na ficha.", "Faixa de viscosidade ISO VG não comprova intercambialidade, compatibilidade de mistura ou homologação OEM."]
+}
