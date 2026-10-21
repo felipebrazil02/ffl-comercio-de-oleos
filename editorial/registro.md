@@ -148,14 +148,87 @@ Pendentes no início da execução: 2 na fila (A33, A34). Aprovados e publicados
 | URL inexistente | 404 real |
 | Home, catálogo, sobre, contato, 2 categorias | HTTP 200 |
 
+## Lote 6 — 2026-10-21 (Dia 9)
+
+Observação de fila: o lote do dia 8 (A35, A36) foi redigido por uma execução
+anterior que não chegou a validar nem publicar — os dois arquivos estavam na pasta
+`content/blog/` sem versionamento e sem deploy. Esta execução retomou e concluiu
+**esse** lote. Nenhum artigo além dele foi criado.
+
+Pendentes no início da execução: 2 (A35, A36, redigidos e não publicados).
+Aprovados e publicados: 2.
+
+| ID | Slug | Fontes | URL |
+|---|---|---|---|
+| A35 | usinagem-de-aluminio-fluido | ISO 6743-7 · HSE COSHH MW5 · FUCHS Cutting Fluids Manual · Rhenus Lub | `/conteudos/usinagem-de-aluminio-fluido/` |
+| A36 | usinagem-de-inox-fluido | ISO 6743-7 · HSE COSHH MW5 · FUCHS Cutting Fluids Manual · Outokumpu (via Penn Stainless) | `/conteudos/usinagem-de-inox-fluido/` |
+
+### Alterações do lote 6
+
+1. `published` dos dois artigos ajustado para 2026-10-21 (data efetiva de
+   publicação); `consulted` mantido em 2026-10-20, quando o conteúdo foi apurado.
+2. `content/blog/oleo-de-corte-integral-ou-emulsionavel.md`: parágrafo novo com link
+   contextual para os dois artigos. O teste de links editoriais exige pelo menos um
+   link de entrada para cada artigo, e sem esse ajuste os dois novos ficariam órfãos.
+3. Nenhuma URL existente foi alterada, nenhum produto ou categoria foi tocado.
+
+Nota: `origin/master` estava 10 commits à frente (trabalho comercial paralelo:
+páginas de produto, busca e links contextuais). A sincronização foi feita por
+`git pull --ff-only` antes do lote, sem conflito.
+
+### Testes do lote 6 (build local)
+
+- `npm run build` → 94 páginas geradas.
+- `npm run check` → 0 erros · 3.482 links/ativos locais.
+- `node scripts/test-form.mjs` → 7 cenários aprovados.
+- `node scripts/test-links-editoriais.mjs` → OK (0 artigos órfãos).
+- `test-growth`, `test-catalog-seo`, `test-product-search`, `test-specialty-links`,
+  `test-hydraulic-68`, `test-hs-aw-sheet` → OK, 0 erros.
+- Títulos: 54 e 53 caracteres (limite 62). Palavras: 1.113 e 1.119 (faixa 600–1200).
+- Fontes externas verificadas por HTTP: HSE MW5, FUCHS e Rhenus Lub (200);
+  Penn Stainless/Outokumpu (200, `application/pdf`); ISO 13216 responde 403 a
+  requisições automatizadas, mas a página existe.
+
+### Publicação do lote 6
+
+- **Commit dos artigos:** `6555d57` — "Blog: lote 6 usinagem (A35, A36) e link contextual de material"
+- **Branch:** `master` (commit direto, push `a1d4832..6555d57`)
+- **Deploy de preview (Netlify):** `6ad89c718e3dc0ef36bd02c4`
+- **Deploy de produção (Netlify):** `6ad89c8f5d60b3138a7d2c29`
+
+### Verificação em produção (2026-10-21)
+
+| Verificação | Resultado |
+|---|---|
+| A35 e A36 | HTTP 200 |
+| `meta robots` | `index, follow` nos dois |
+| `X-Robots-Tag` | ausente nos dois |
+| Canonical | absoluto em `https://ffllubrificantes.com.br` |
+| Schema | `Article` + `BreadcrumbList` presentes nos dois |
+| Sitemap | 91 URLs · ambos os artigos presentes · nenhuma URL que já estava publicada saiu do sitemap |
+| URLs comerciais | 36 não-`/conteudos/` (as 33 anteriores preservadas + 3 páginas comerciais novas do trabalho paralelo) |
+| URL inexistente | 404 real |
+| Home, catálogo, sobre, contato, 2 categorias | HTTP 200 |
+
+Observação: em deploy de preview o Netlify aplica `X-Robots-Tag: noindex` em todo o
+site (confirmado no preview `6ad89c718e3dc0ef36bd02c4`). A verificação de indexação
+acima foi feita no domínio de produção, onde esse cabeçalho não existe.
+
 ## Pendências
 
-1. **7 artigos anteriores a 2026-10-13 permanecem noindex.** Não foram liberados
-   automaticamente. Promover cada um exige revisão e `indexable: true`.
+1. **Artigos anteriores a 2026-10-13.** O registro e o README descrevem 7 artigos
+   como noindex. Na verificação de 2026-10-21 em produção, os 7 (`como-ler-um-grau-iso-vg`,
+   `din-51524-hl-hlp-hvlp`, `ficha-tecnica-e-ficha-de-seguranca`,
+   `informacoes-para-cotar-lubrificante`, `nlgi-consistencia-de-graxas`,
+   `oleo-de-corte-integral-ou-emulsionavel`, `oleo-para-compressor-de-parafuso`)
+   respondem `index, follow` e constam do sitemap — foram liberados por commit
+   anterior (`0894062`), não por esta execução. A documentação precisa ser
+   reconciliada com esse estado.
 2. **Agendamento.** O Hermes só executa cron com o aplicativo aberto; com ele
    fechado, o dia é pulado. Alternativa durável: Windows Task Scheduler.
 3. **Integração GitHub ↔ Netlify não configurada** (deploy manual). Configurar
    exigiria alterar ajustes do projeto Netlify — não feito nesta execução.
 4. **Search Console** não verificado nesta execução; nenhum dado de impressões,
    cliques ou indexação foi lido.
-5. **A35 a A100** planejados no calendário, ainda não escritos (66 pautas pendentes).
+5. **A37 a A100** planejados no calendário, ainda não escritos (64 pautas pendentes).
+   Publicados até 2026-10-21: A01–A36.
