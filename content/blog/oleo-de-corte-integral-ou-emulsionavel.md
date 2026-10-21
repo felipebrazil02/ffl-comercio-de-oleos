@@ -25,6 +25,8 @@ O **emulsionável** forma uma emulsão com água. A água contribui para a refri
 
 Semissintéticos e sintéticos miscíveis em água ampliam as opções. A classificação, por si, não garante transparência, estabilidade ou desempenho superior.
 
+A ênfase entre lubricidade e refrigeração também muda com o material usinado. O caso do [alumínio](/conteudos/usinagem-de-aluminio-fluido/) e o do [inox](/conteudos/usinagem-de-inox-fluido/) são tratados em artigos próprios, porque as exigências de cada um não se transferem de um para o outro.
+
 ## Não há concentração universal
 
 Use a faixa recomendada para o produto e a operação. Evite adotar 5% ou 10% como receita geral, ou presumir um rendimento fixo para todo concentrado.
