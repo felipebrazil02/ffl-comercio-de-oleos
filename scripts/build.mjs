@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import {createPages} from '../src/content.mjs';
 import {improveCommercialPages} from '../src/seo.mjs';
 import {enrichCatalog} from '../src/catalog-seo.mjs';
+import {improveQuoteJourney} from '../src/quote-journey.mjs';
 import {render,parseFrontmatter,slugify} from '../src/markdown.mjs';
 const company=JSON.parse(await fs.readFile('data/company.json','utf8'));
 const previewOrigin='https://ffl-lubrificantes.netlify.app';
@@ -105,7 +106,7 @@ const tags=[...new Map(posts.flatMap(p=>p.tags).map(t=>[t.slug,t])).values()]
 const temasComPagina=new Set(tags.map(t=>t.slug));
 for(const p of posts)p.tagLinks=p.tags.filter(t=>temasComPagina.has(t.slug));
 
-const pages=enrichCatalog(improveCommercialPages(createPages({company,esc,arrow,button,home,posts,tags,fmtDate}),{company,esc,arrow,button}),{company,esc});
+const pages=improveQuoteJourney(enrichCatalog(improveCommercialPages(createPages({company,esc,arrow,button,home,posts,tags,fmtDate}),{company,esc,arrow,button}),{company,esc}),{company,esc,arrow});
 const canIndex=page=>company.publicIndexing&&!page.noindex&&(!page.url.startsWith('/conteudos/')||page.blogIndexable===true);
 if(new Set(pages.map(p=>p.url)).size!==pages.length)throw new Error('URLs duplicadas no catálogo.');
 
@@ -190,7 +191,13 @@ for(const page of pages){
     `<script src="${A('site.js')}" defer></script>`,
     `<script src="${A('analytics.js')}" defer></script>`,
   ].filter(Boolean).join('');
-  const html=`<!doctype html><html lang="pt-BR"><head>${head}</head><body>${header(page.url)}<main id="conteudo">${breadcrumb}${page.content}</main>${actualFooter}</body></html>`;
+  let actualHeader=header(page.url);
+  if(page.quoteContext){
+    const contextAttrs=`href="${esc(page.quoteContext.url)}" data-product-id="${esc(page.quoteContext.id)}" data-cta-position="header"`;
+    actualHeader=actualHeader.replace('href="/contato/#orcamento"',contextAttrs);
+    actualFooter=actualFooter.replace('href="/contato/#orcamento"',contextAttrs.replace('"header"','"product_end"'));
+  }
+  const html=`<!doctype html><html lang="pt-BR"><head>${head}</head><body>${actualHeader}<main id="conteudo">${breadcrumb}${page.content}</main>${actualFooter}</body></html>`;
   const file=page.url==='/404.html'?'dist/404.html':path.join('dist',page.url,'index.html');await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,html);
 }
 // Feed RSS dos posts. Publicado sempre; anunciado no <head> só quando indexável.

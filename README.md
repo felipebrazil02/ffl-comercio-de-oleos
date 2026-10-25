@@ -39,6 +39,7 @@ O build gera `dist/` e relatorios em `outputs/`, ambos ignorados pelo Git. O ser
 - O óleo hidráulico 68 é prioridade comercial. Preserve a intenção própria dessa página e os limites documentais registrados em `editorial/oleo-68-prioridade-20261020.json`. Valide os caminhos, metadados e contatos com `npm run test:oil68` (ou `npm run test:oil68 -- https://ffllubrificantes.com.br` para o site publicado).
 - `data/technical-sources/hs-aw-004-20150610.json`: rastreabilidade interna da ficha HS AW, revisão 004 de 10/06/2015, cuja validade para o produto foi confirmada pelo responsável em 20/10/2026. `npm run test:sheet` confere as quatro colunas e a publicação; use `-- --base https://ffllubrificantes.com.br` para validar em produção. Não publique o PDF, contatos ou selos do fornecedor como informações da FFL.
 - `src/site.js`: interacoes e formulario.
+- `src/quote-journey.mjs`: percurso contextual dos artigos ISO VG e DIN 51524 para o óleo 68 e orçamento, sem recomendar o produto automaticamente a todos os leitores. `npm run test:journey` valida navegação, prefill, consentimento e eventos usando simulações locais, sem enviar orçamentos reais.
 - `src/site.css`: estilos.
 - `src/assets/` e `src/static/`: arquivos originais dos assets.
 - `data/README.md`: orientacoes adicionais de edicao.

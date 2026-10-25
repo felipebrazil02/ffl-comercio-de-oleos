@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
+import {parseFrontmatter} from '../src/markdown.mjs';
 
 const audit = JSON.parse(await fs.readFile('editorial/revisao-tecnica-restante-20261013.json', 'utf8'));
 const checks = {
@@ -23,7 +24,10 @@ assert.equal(new Set(audit.artigos.map(x => x.slug)).size, 14);
 for (const {slug} of audit.artigos) {
   const source = await fs.readFile('content/blog/' + slug + '.md', 'utf8');
   const html = await fs.readFile('dist/conteudos/' + slug + '/index.html', 'utf8');
-  assert.ok(source.includes('updated: 2026-10-13'), slug);
+  const {meta}=parseFrontmatter(source);
+  assert.match(meta.updated, /^\d{4}-\d{2}-\d{2}$/, `${slug}: data de atualização válida`);
+  assert.ok(meta.updated >= '2026-10-13', `${slug}: preservar a revisão e aceitar atualizações posteriores`);
+  assert.ok(html.includes(`datetime="${meta.updated}"`), `${slug}: data publicada coerente com a fonte`);
   assert.ok(html.includes('Revisão técnica — 13/10/2026'), slug);
   const indexable = /^indexable: true$/m.test(source);
   assert.ok(html.includes('name="robots" content="' + (indexable ? 'index, follow' : 'noindex, nofollow') + '"'), slug);

@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-25",
+  "baseCommit": "29061768aef39cd8fe46f880fb70cef2d32cc117",
+  "scope": ["como-ler-um-grau-iso-vg", "din-51524-hl-hlp-hvlp", "oleo-hidraulico-68", "contato"],
+  "observedFriction": [
+    "Sidebar de ISO VG encaminhava ao catálogo genérico; DIN encaminhava à categoria.",
+    "Orçamento do sidebar dos artigos preenchia o título do artigo no campo produto.",
+    "No celular, o sidebar vinha depois de todo o artigo e suas fontes.",
+    "Na chegada ao formulário, o produto estava no textarea, sem resumo visível antes dos campos."
+  ],
+  "limits": [
+    "Os dados do Search Console não comprovam abandono de funil ou sua causa.",
+    "Cliques, início de formulário, aceite técnico e venda são etapas distintas.",
+    "Nenhuma alteração em preços, estoque, embalagens disponíveis, prazos ou especificações técnicas."
+  ],
+  "releaseCriteria": [
+    "Os dois artigos apresentam CTA HTML no corpo para a URL canônica do óleo 68, antes das fontes e sem depender do sidebar.",
+    "CTA de orçamento transporta produto conhecido e item=oleo-hidraulico-68; formulário mostra contexto, permite editar e não envia automaticamente.",
+    "Página do óleo 68 preserva o contexto nos CTAs do corpo, cabeçalho e rodapé; a navegação Contato continua genérica.",
+    "Sem overflow horizontal em 360, 390 e 1280 pixels; ações utilizáveis por teclado e sem nova camada fixa.",
+    "Sem consentimento, em localhost ou preview, nenhum evento Google; nenhum texto preenchido, query ou mensagem WhatsApp em metadados.",
+    "generate_lead somente após confirmação do endpoint; falhas, clique, prefill e visita a obrigado não contam como lead.",
+    "Manter os 22 produtos, 91 URLs do sitemap, fontes, canonicals e os dois artigos recentes existentes no remoto."
+  ],
+  "measurement": {
+    "product_link_click": "Seleção da página 68 nos dois artigos; não é visualização confirmada nem pedido.",
+    "quote_cta_click": "Seleção de CTA de orçamento com contexto 68; não é pedido.",
+    "quote_form_start": "Primeiro input humano em campo visível; preenchimento programático não dispara.",
+    "whatsapp_click": "Abertura pretendida do canal; não comprova mensagem enviada ou conversa.",
+    "generate_lead": "Aceite técnico do formulário pelo endpoint; não comprova entrega de e-mail, qualificação ou venda.",
+    "allowedParameters": ["product_slug: oleo-hidraulico-68", "article_slug: ISO ou DIN conhecidos", "cta_position: enumeração fechada", "form_id: orcamento", "contact_method: canal conhecido", "page_location: origem e caminho sem parâmetros"],
+    "product_slugMeaning": "Contexto comercial do CTA; não é derivado do texto livre nem comprova produto ou volume efetivamente negociado.",
+    "reportingLimit": "Entrega real no GA4 não é comprovada por testes locais. Relatórios por product_slug/article_slug/cta_position podem exigir dimensões personalizadas de escopo evento; não foram criadas nem alteradas nesta tarefa.",
+    "privacy": "Preservar medição otimizada automática de formulários, cliques externos e pesquisa desativada para não expor dados em URLs ou duplicar eventos."
+  },
+  "businessValidation": {
+    "baseline": "Coletar uma janela pós-publicação com dados completos; não calcular taxa usando cliques do Search Console como denominador dos eventos consentidos do Analytics.",
+    "compare": "Comparar usuários consentidos nos artigos, visitas ao produto, início de formulário e pedidos aceitos em períodos equivalentes; separar WhatsApp de formulários.",
+    "success": "Observar pedidos reais relacionados ao 68 e a proporção de visitas consentidas que chega ao produto e ao aceite, sem prometer aumento com base apenas em cliques.",
+    "limitations": "Base inicial pequena, consentimento e bloqueadores limitam as contagens; não há atribuição causal ou promessa de conversão."
+  }
+}

@@ -3,12 +3,39 @@ const nav=document.querySelector('#main-nav');
 toggle?.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');nav.classList.toggle('is-open',open);});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toggle?.getAttribute('aria-expanded')==='true'){toggle.click();toggle.focus();}});
 nav?.addEventListener('click',e=>{if(e.target.closest('a')&&toggle?.getAttribute('aria-expanded')==='true')toggle.click();});
-const track=(event,channel)=>{
-  const payload={event,channel,page:location.pathname};
-  window.dispatchEvent(new CustomEvent('ffl:analytics',{detail:payload}));
-  if(Array.isArray(window.dataLayer))window.dataLayer.push(payload);
+// Only catalog identifiers are used for measurement. Query text and form values
+// stay in the form; analytics.js applies consent and its own metadata allowlist.
+const oil68={id:'oleo-hidraulico-68',name:'Óleo hidráulico 68 AW',path:'/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/'};
+const journeyQuery=new URLSearchParams(location.search);
+const currentProduct=location.pathname===oil68.path||journeyQuery.get('item')===oil68.id?oil68.id:null;
+const articleIds=new Set(['como-ler-um-grau-iso-vg','din-51524-hl-hlp-hvlp']);
+const articleCandidate=location.pathname.match(/^\/conteudos\/([^/]+)\/$/)?.[1];
+const currentArticle=articleIds.has(articleCandidate)?articleCandidate:null;
+const ctaPositions=new Set(['article_body','article_sidebar','article_related','product_top','product_body','product_sidebar','product_end','header']);
+const track=(event,metadata={})=>window.dispatchEvent(new CustomEvent('ffl:analytics',{detail:{event,...metadata}}));
+const positionFor=link=>{
+  if(ctaPositions.has(link.dataset.ctaPosition))return link.dataset.ctaPosition;
+  if(link.closest('header'))return 'header';
+  if(currentArticle){
+    if(link.closest('.article-callout'))return 'article_sidebar';
+    if(link.closest('.article-catalog'))return 'article_related';
+    if(link.closest('.article-body'))return 'article_body';
+  }
+  return undefined;
 };
-document.querySelectorAll('a[href^="https://wa.me/"]').forEach(a=>a.addEventListener('click',()=>track('whatsapp_click','whatsapp')));
+document.querySelectorAll('a[href]').forEach(link=>link.addEventListener('click',()=>{
+  let destination;
+  try{destination=new URL(link.getAttribute('href'),location.origin);}catch{return;}
+  const internal=destination.origin===location.origin;
+  const knownTarget=internal&&(destination.pathname===oil68.path||destination.pathname==='/contato/'&&destination.searchParams.get('item')===oil68.id);
+  const declaredProduct=link.dataset.productId===oil68.id?oil68.id:null;
+  const product=knownTarget?oil68.id:currentProduct||declaredProduct;
+  const position=positionFor(link);
+  const metadata={...(product?{product_slug:product}:{}),...(currentArticle?{article_slug:currentArticle}:{}),...(position?{cta_position:position}:{})};
+  if(internal&&destination.pathname===oil68.path&&currentArticle)track('product_link_click',metadata);
+  else if(internal&&destination.pathname==='/contato/'&&destination.hash==='#orcamento'&&product)track('quote_cta_click',metadata);
+  else if(destination.protocol==='https:'&&destination.hostname==='wa.me')track('whatsapp_click',metadata);
+}));
 const form=document.querySelector('#quote-form');
 if(form){
   const fields=['name','company','contact','product','location'];
@@ -17,8 +44,18 @@ if(form){
   const result=document.querySelector('#quote-result');
   let busy=false;
   const named=name=>form.elements.namedItem(name);
-  const prefill=new URLSearchParams(location.search).get('produto');
+  const prefill=journeyQuery.get('produto');
   if(prefill)named('product').value=prefill.slice(0,2500);
+  const formMetadata={form_id:'orcamento',...(currentProduct?{product_slug:currentProduct}:{})};
+  if(currentProduct===oil68.id){
+    const productContext=document.querySelector('#quote-product-context');
+    const productName=document.querySelector('#quote-product-name');
+    const heading=document.querySelector('#quote-heading');
+    if(productContext&&productName){productName.textContent=oil68.name;productContext.hidden=false;}
+    if(heading)heading.textContent='Orçamento de óleo hidráulico 68 AW';
+    if(!prefill)named('product').value=oil68.name;
+  }
+  let formStarted=false;
   const context=document.modelContext;
   if(context?.registerTool){
     const lifecycle=new AbortController();
@@ -49,7 +86,12 @@ if(form){
     return !error;
   }
   fields.forEach(name=>named(name).addEventListener('blur',()=>{if(named(name).value)validateField(name);}));
-  form.addEventListener('input',()=>{result.hidden=true;status.textContent='';});
+  form.addEventListener('input',event=>{
+    result.hidden=true;status.textContent='';
+    if(!formStarted&&event.isTrusted&&['name','company','contact','product','quantity','location'].includes(event.target?.name)){
+      formStarted=true;track('quote_form_start',formMetadata);
+    }
+  });
   form.addEventListener('submit',async e=>{
     e.preventDefault();if(busy)return;
     if(named('website').value){status.textContent='Não foi possível processar esta solicitação. Recarregue a página e tente novamente.';return;}
@@ -79,7 +121,8 @@ if(form){
         if(accepted?.accepted!==true)throw new Error('not_accepted');
       }
       status.textContent='Sua solicitação foi recebida. Aguarde o retorno pelo contato informado.';
-      track('quote_accepted','form');form.reset();
+      track('quote_accepted',formMetadata);form.reset();
+      if(currentProduct===oil68.id)named('product').value=oil68.name;
     }catch(error){status.textContent=error.name==='AbortError'?'Não foi possível confirmar o recebimento no tempo esperado. Confira com o atendimento antes de reenviar.':'O recebimento não foi confirmado. Seus dados foram mantidos; tente novamente mais tarde.';}
     finally{clearTimeout(timeout);busy=false;submit.disabled=false;submit.removeAttribute('aria-busy');}
   });
