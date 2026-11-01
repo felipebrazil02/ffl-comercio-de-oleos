@@ -56,7 +56,7 @@
     if(methods[event])params.contact_method=methods[event];
     if(detail.product_slug==='oleo-hidraulico-68')params.product_slug=detail.product_slug;
     if(['article_body','article_sidebar','article_related','product_top','product_body','product_sidebar','product_end','header'].includes(detail.cta_position))params.cta_position=detail.cta_position;
-    if(['como-ler-um-grau-iso-vg','din-51524-hl-hlp-hvlp'].includes(detail.article_slug))params.article_slug=detail.article_slug;
+    if(['como-ler-um-grau-iso-vg','din-51524-hl-hlp-hvlp','oleo-hidraulico-hm','troca-de-oleo-hidraulico','indice-de-viscosidade','informacoes-para-cotar-lubrificante'].includes(detail.article_slug))params.article_slug=detail.article_slug;
     if(detail.form_id==='orcamento')params.form_id=detail.form_id;
     gtag('event',event,params);
   });

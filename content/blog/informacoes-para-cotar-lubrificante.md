@@ -4,7 +4,7 @@ description: Veja quais dados do equipamento, especificações e informações c
 eyebrow: GUIA DE COTAÇÃO
 summary: Um roteiro prático para organizar a aplicação, as especificações e a quantidade desejada.
 published: 2026-09-10
-updated: 2026-10-20
+updated: 2026-11-01
 indexable: true
 tags: cotação, seleção
 consulted: 2026-10-13
@@ -42,6 +42,8 @@ Para compressores de parafuso, consulte o roteiro de [seleção do óleo pelo mo
 - Se é uma necessidade pontual ou recorrente, quando isso for relevante.
 
 Esses dados organizam a consulta; a disponibilidade de produtos, embalagens e atendimento precisa ser confirmada na cotação.
+
+Se você já procura [óleo hidráulico 68 AW](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/), consulte os dados da referência antes de comparar propostas. O [formulário de orçamento do óleo 68](/contato/?produto=%C3%93leo%20hidr%C3%A1ulico%2068%20AW&item=oleo-hidraulico-68#orcamento) já identifica esse produto; acrescente o volume estimado, a embalagem desejada e a cidade de destino. A quantidade é opcional no formulário, e a solicitação não confirma uma compra.
 
 ## 4. Quando a especificação não está disponível
 

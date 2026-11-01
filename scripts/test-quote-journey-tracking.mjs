@@ -90,6 +90,15 @@ const dinLink=anchor(productPath,{},['.article-catalog']);
 const din=boot({url:origin+'/conteudos/din-51524-hl-hlp-hvlp/',links:[dinLink]});await dinLink.fire('click');
 assert.equal(din.events()[0][2].article_slug,'din-51524-hl-hlp-hvlp');assert.equal(din.events()[0][2].cta_position,'article_related');
 
+for(const slug of ['oleo-hidraulico-hm','troca-de-oleo-hidraulico','indice-de-viscosidade','informacoes-para-cotar-lubrificante']){
+  const link=anchor(productPath+'#viscosidade',{},['.article-body']);
+  const visit=boot({url:origin+'/conteudos/'+slug+'/',links:[link]});await link.fire('click');
+  assert.equal(visit.events().length,1,'Um clique de produto por ação');
+  assert.equal(visit.events()[0][1],'product_link_click');
+  assert.equal(visit.events()[0][2].article_slug,slug,'Origem editorial reconhecida pela allowlist');
+  assert.equal(visit.events()[0][2].product_slug,item);
+}
+
 const badLink=anchor('/contato/?item=private&produto=private#orcamento',{productId:'private',ctaPosition:'private'});
 const bad=boot({url:origin+'/conteudos/private/',links:[badLink],withForm:true});await badLink.fire('click');
 assert.equal(bad.events().length,0);assert.equal(bad.ids['quote-product-context'].hidden,true);assert.equal(bad.ids['quote-heading'].textContent,'Descreva sua necessidade');

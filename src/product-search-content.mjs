@@ -15,6 +15,23 @@ export const productSearchContent = {
         ]
       },
       {
+        id: 'cotacao',
+        navLabel: 'Preço e orçamento',
+        heading: 'Preço e orçamento de óleo hidráulico 68 em São Paulo',
+        paragraphs: [
+          'A FFL comercializa e distribui o óleo hidráulico HS 68 AW, de base mineral parafínica e grau ISO VG 68. Estamos em Salto/SP e atendemos todo o estado de São Paulo. O preço depende da quantidade, da embalagem solicitada e do destino; essas condições são confirmadas na proposta.',
+          'Já sabe o produto de que precisa? Comece pela quantidade estimada e pela cidade de entrega. Se ainda precisa conferir a especificação, inclua o nome do óleo atual e os requisitos do manual. Para preparar a consulta, reúna:'
+        ],
+        items: [
+          'Quantidade em litros e embalagem desejada.',
+          'Cidade de entrega e identificação da empresa.',
+          'Fabricante e modelo do equipamento, requisito do manual e nome do óleo em uso, quando disponíveis.'
+        ],
+        links: [
+          {url: '/contato/?produto=%C3%93leo%20hidr%C3%A1ulico%2068%20AW#orcamento', label: 'Pedir preço e condições para óleo hidráulico 68 AW'}
+        ]
+      },
+      {
         id: 'viscosidade',
         navLabel: '68, AW e ISO VG',
         heading: 'ISO VG 68 e HLP: o que a ficha técnica declara',
@@ -40,27 +57,12 @@ export const productSearchContent = {
           {url: '/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-aw-10-46/', label: 'Consultar as opções hidráulicas AW 10, 22, 32 e 46'},
           {url: '/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-aw-68-220/', label: 'Comparar as opções da linha AW 68, 100, 150 e 220'}
         ]
-      },
-      {
-        id: 'cotacao',
-        navLabel: 'Preço e orçamento',
-        heading: 'Preço e orçamento de óleo hidráulico 68 em São Paulo',
-        paragraphs: [
-          'Solicite à FFL uma cotação da referência desejada. Atendemos em Salto/SP e em todo o estado de São Paulo. Para preparar a proposta, envie:'
-        ],
-        items: [
-          'Quantidade em litros e embalagem desejada.',
-          'Cidade de entrega e identificação da empresa.',
-          'Fabricante e modelo do equipamento, requisito do manual e nome do óleo em uso, quando disponíveis.'
-        ],
-        links: [
-          {url: '/contato/?produto=%C3%93leo%20hidr%C3%A1ulico%2068%20AW#orcamento', label: 'Pedir preço e condições para óleo hidráulico 68 AW'}
-        ]
       }
     ],
     questions: [
       ['Qual é o preço do óleo hidráulico 68?', 'O preço é informado na proposta, com a identificação do produto, quantidade, embalagem e cidade de destino. Envie esses dados para consultar disponibilidade, prazo e condições de fornecimento. Não há preço ou estoque confirmado nesta página.'],
       ['Quais embalagens posso cotar?', 'Informe o volume e a embalagem de que precisa, inclusive se procura balde ou tambor. As opções efetivamente disponíveis e o volume de cada embalagem serão confirmados pela FFL na proposta.'],
+      ['Posso solicitar orçamento sem saber todos os dados técnicos?', 'Sim. Comece com as informações disponíveis sobre o produto ou equipamento, sua empresa, um contato para retorno e a cidade de destino. A quantidade é opcional no formulário e pode ser estimada. A solicitação abre a consulta; a seleção do óleo deve ser confirmada antes da aplicação.'],
       ['O óleo hidráulico 68 desta página é sintético?', 'A referência HS 68 AW é apresentada com base mineral parafínica. Se sua aplicação exige outra base, informe essa condição na cotação.'],
       ['A ficha do óleo hidráulico 68 AW declara HLP?', 'Sim. A ficha técnica consultada, revisão 004 de 10/06/2015, declara ISO-HM e DIN 51524 parte 2 H-LP para a linha HS AW e identifica a opção ISO VG 68. Isso não significa aprovação para qualquer equipamento: compare a documentação da versão ofertada com o manual e as homologações eventualmente exigidas.'],
       ['O ponto de fulgor acima de 170 °C é a temperatura de trabalho?', 'Não. Esse é o dado documental do ensaio de ponto de fulgor em vaso aberto, ASTM D92. Não é um limite de operação contínua, não define o intervalo de troca nem caracteriza o produto como fluido de difícil inflamabilidade.']

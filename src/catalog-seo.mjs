@@ -24,7 +24,7 @@ const productGuides = {
 const articleProducts = {
   'como-ler-um-grau-iso-vg': ['oleo-hidraulico-68', 'oleo-hidraulico-aw-10-46', 'oleo-hidraulico-aw-68-220', 'oleo-ep-para-redutores-150-680'],
   'din-51524-hl-hlp-hvlp': ['oleo-hidraulico-68', 'oleo-hidraulico-aw-10-46', 'oleo-hidraulico-aw-68-220'],
-  'oleo-hidraulico-hm': ['oleo-hidraulico-aw-10-46'],
+  'oleo-hidraulico-hm': ['oleo-hidraulico-68', 'oleo-hidraulico-aw-10-46'],
   'oleo-de-corte-integral-ou-emulsionavel': ['oleo-de-corte-emulsionavel', 'oleo-de-corte-integral-32'],
   'oleo-de-corte-integral-familias': ['oleo-de-corte-integral-2020', 'oleo-de-corte-integral-32'],
   'concentracao-e-ph-do-fluido-de-corte': ['oleo-de-corte-emulsionavel'],

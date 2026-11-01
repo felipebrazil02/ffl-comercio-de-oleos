@@ -4,7 +4,7 @@ description: A troca de óleo hidráulico vai além de drenar e completar. Veja 
 eyebrow: HIDRÁULICA
 summary: A troca exige avaliar o óleo residual, a limpeza e os requisitos do equipamento, não apenas o volume do reservatório.
 published: 2026-10-16
-updated: 2026-10-20
+updated: 2026-11-01
 tags: hidráulica, manutenção, contaminação
 source: ISO 4406:2021 — código para o nível de contaminação por partículas sólidas | https://www.iso.org/standard/79716.html
 source: Parker HY18-0008 — limpeza após falha e abastecimento do sistema, página 31 | https://www.parker.com/content/dam/Parker-com/Literature/Mobile-Cylinder/hy18-0008-service.pdf

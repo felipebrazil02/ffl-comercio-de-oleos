@@ -4,7 +4,7 @@ description: Entenda a categoria HM de óleo hidráulico, a diferença entre cla
 eyebrow: HIDRÁULICA
 summary: A letra M não descreve a viscosidade: ela sinaliza exigência de proteção antidesgaste.
 published: 2026-10-16
-updated: 2026-10-20
+updated: 2026-11-01
 tags: hidráulica, normas, seleção
 source: ISO 6743-4:2015 — classificação de lubrificantes da família H | https://www.iso.org/standard/60483.html
 source: ISO 11158:2023 — requisitos mínimos para fluidos hidráulicos minerais novos | https://www.iso.org/standard/84812.html

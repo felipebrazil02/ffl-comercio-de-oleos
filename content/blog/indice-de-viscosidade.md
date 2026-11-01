@@ -4,7 +4,7 @@ description: O que o índice de viscosidade descreve, como é calculado pela AST
 eyebrow: FUNDAMENTOS
 summary: O IV descreve a relação viscosidade-temperatura, sem substituir os requisitos da aplicação.
 published: 2026-10-13
-updated: 2026-10-15
+updated: 2026-11-01
 tags: fundamentos, viscosidade
 consulted: 2026-10-13
 indexable: true
@@ -25,6 +25,8 @@ Valores acima de 100 são possíveis. Em termos gerais, um IV maior representa m
 O [grau ISO VG](/conteudos/como-ler-um-grau-iso-vg/) identifica uma faixa de viscosidade a 40 °C. O IV usa também a medição a 100 °C. Assim, dois produtos ISO VG 46 podem ter valores diferentes a 100 °C e índices distintos.
 
 Para comparar candidatos, anote separadamente o grau, as duas viscosidades publicadas e o IV. Não conclua que um óleo é sempre mais viscoso que outro apenas porque seu IV é maior.
+
+Um exemplo documental é o [óleo hidráulico 68 AW: viscosidade e dados da ficha técnica](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/#viscosidade). A página separa o grau ISO VG, as viscosidades publicadas e o índice de viscosidade. Use esses dados para comparar com o manual, sem interpretar um limite mínimo como valor exato do produto.
 
 ## O que precisa ser conferido à parte
 

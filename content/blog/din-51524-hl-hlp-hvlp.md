@@ -4,7 +4,7 @@ description: Entenda os requisitos associados a HL, HLP e HVLP na DIN 51524 e po
 eyebrow: NORMAS
 summary: A norma que quase todo manual de sistema hidráulico cita, e o que cada designação exige do fluido.
 published: 2026-09-30
-updated: 2026-10-20
+updated: 2026-11-01
 indexable: true
 tags: hidráulica, normas, seleção
 consulted: 2026-10-13

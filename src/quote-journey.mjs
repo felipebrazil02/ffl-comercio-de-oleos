@@ -7,19 +7,25 @@ export function improveQuoteJourney(pages, {company, esc, arrow}) {
   const productUrl = `/lubrificantes-industriais/${product.category}/${product.slug}/`;
   const quoteUrl = `/contato/?produto=${encodeURIComponent(product.name)}&item=${productId}#orcamento`;
   const categoryUrl = `/lubrificantes-industriais/${product.category}/`;
-  const articles = new Set(['como-ler-um-grau-iso-vg', 'din-51524-hl-hlp-hvlp']);
+  const articles = new Map([
+    ['como-ler-um-grau-iso-vg', {heading:'O manual do seu equipamento pede ISO VG 68?', text:'Consulte o óleo hidráulico 68 AW com faixa de viscosidade documentada e confira também a especificação de desempenho. Se já confirmou esses requisitos, siga para o orçamento.', early:true}],
+    ['din-51524-hl-hlp-hvlp', {heading:'Procura óleo hidráulico 68 com declaração HLP?', text:'A ficha do HS 68 AW declara ISO VG 68, ISO-HM e DIN 51524 parte 2 H-LP. Confira os dados e a revisão na página do produto antes de comparar com o manual.', early:true}],
+    ['oleo-hidraulico-hm', {heading:'Precisa cotar óleo hidráulico HM no grau 68?', text:'Consulte a referência HS 68 AW, cuja ficha declara ISO VG 68 e ISO-HM. Compare a declaração documental com a especificação completa do equipamento antes de solicitar uma alternativa.'}],
+    ['troca-de-oleo-hidraulico', {heading:'Já definiu o óleo e a quantidade para a reposição?', text:'Se a especificação conferida é a do óleo hidráulico 68 AW, consulte os dados do produto e envie a quantidade e a cidade de destino. A FFL comercializa lubrificantes; não executa a troca nem a manutenção do equipamento.'}]
+  ]);
   const link = (label, href, position, primary = true) => `<a class="${primary ? 'button dark-button' : 'text-link'}" href="${esc(href)}" data-product-id="${productId}" data-cta-position="${position}">${esc(label)} ${arrow}</a>`;
-  const bridge = `<section class="article-product-bridge" aria-labelledby="consulta-oleo-68"><span class="small-label">DA ESPECIFICAÇÃO À COTAÇÃO</span><h3 id="consulta-oleo-68">Precisa de óleo hidráulico 68?</h3><p>Se o manual exige ISO VG 68, confira os dados antes de cotar. Já confirmou a especificação? O formulário abre com o produto preenchido.</p><div class="journey-actions">${link('Ver dados do óleo 68 AW', productUrl, 'article_body')}${link('Já sei o produto: pedir cotação', quoteUrl, 'article_body', false)}</div><p class="journey-note">O mesmo grau não comprova equivalência. Disponibilidade e embalagens são confirmadas na proposta.</p></section>`;
+  const bridge = context => `<section class="article-product-bridge" aria-labelledby="consulta-oleo-68"><span class="small-label">DA ESPECIFICAÇÃO À COTAÇÃO</span><h3 id="consulta-oleo-68">${esc(context.heading)}</h3><p>${esc(context.text)}</p><div class="journey-actions">${link('Ver dados do óleo 68 AW', productUrl, 'article_body')}${link('Já confirmei o produto: solicitar orçamento', quoteUrl, 'article_body', false)}</div><p class="journey-note">O mesmo grau não comprova equivalência. O formulário abre com o produto preenchido; a quantidade pode ser estimada. Disponibilidade e embalagens são confirmadas na proposta.</p></section>`;
   for (const page of pages) {
     if (page.article && articles.has(page.article.slug)) {
       const body = page.article.html;
-      // Depois da primeira seção explicativa; aparece no fluxo de leitura móvel,
-      // sem depender de uma barra fixa ou de chegar às fontes no fim do artigo.
+      // ISO/DIN: depois da primeira explicação. HM/troca: junto da preparação
+      // da consulta, após os critérios técnicos, sem oferecer manutenção.
       const headings = [...body.matchAll(/<h2\b/g)];
       if (headings.length < 2 || !page.content.includes(body)) throw new Error(`Não foi possível inserir o percurso em ${page.article.slug}.`);
-      const index = headings[1].index;
-      page.content = page.content.replace(body, body.slice(0, index) + bridge + body.slice(index));
-      page.content = page.content.replace(/<aside class="article-callout">[\s\S]*?<\/aside>/, `<aside class="article-callout oil68-article-callout"><span class="small-label">PRÓXIMO PASSO</span><h3>Da leitura à consulta do óleo 68</h3><p>Se o requisito é ISO VG 68, confira os dados do produto antes de solicitar preço. Não escolha o grau somente por este artigo.</p>${link('Ver óleo hidráulico 68 AW', productUrl, 'article_sidebar')}${link('Pedir cotação do óleo 68', quoteUrl, 'article_sidebar', false)}<a class="text-link journey-alternative" href="${categoryUrl}">Consultar a linha: outros graus ${arrow}</a></aside>`);
+      const context = articles.get(page.article.slug);
+      const index = context.early ? headings[1].index : headings.at(-1).index;
+      page.content = page.content.replace(body, body.slice(0, index) + bridge(context) + body.slice(index));
+      page.content = page.content.replace(/<aside class="article-callout">[\s\S]*?<\/aside>/, `<aside class="article-callout oil68-article-callout"><span class="small-label">PRÓXIMO PASSO</span><h3>Consultar o óleo 68 AW</h3><p>Veja aplicação, faixa de viscosidade e especificações declaradas. Para o orçamento, informe quantidade e cidade de destino.</p>${link('Ver óleo hidráulico 68 AW', productUrl, 'article_sidebar')}${link('Pedir cotação do óleo 68', quoteUrl, 'article_sidebar', false)}<a class="text-link journey-alternative" href="${categoryUrl}">Consultar a linha: outros graus ${arrow}</a></aside>`);
     }
     if (page.product?.slug === productId) {
       page.quoteContext = {id:productId, url:quoteUrl};

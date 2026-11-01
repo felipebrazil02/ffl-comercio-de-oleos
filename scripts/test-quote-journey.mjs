@@ -20,7 +20,7 @@ const validateQuote = a => {
   assert.equal(a.url.hash, '#orcamento');
 };
 
-for (const slug of ['como-ler-um-grau-iso-vg','din-51524-hl-hlp-hvlp']) {
+for (const slug of ['como-ler-um-grau-iso-vg','din-51524-hl-hlp-hvlp','oleo-hidraulico-hm','troca-de-oleo-hidraulico']) {
   const html = await read(`/conteudos/${slug}/`);
   const bridge = html.match(/<section class="article-product-bridge"[\s\S]*?<\/section>/)?.[0];
   assert.ok(bridge, `${slug}: chamada no fluxo da leitura`);
@@ -29,7 +29,8 @@ for (const slug of ['como-ler-um-grau-iso-vg','din-51524-hl-hlp-hvlp']) {
   assert.ok(bodyPosition < html.indexOf('class="post-sources"'), `${slug}: CTA antes das fontes`);
   const article = html.match(/<article class="article-body">([\s\S]*?)<\/article>/)?.[1] || '';
   const before = article.slice(0, article.indexOf('class="article-product-bridge"')).replace(/<nav[\s\S]*?<\/nav>/,'');
-  assert.ok(before.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length < 400, `${slug}: acesso cedo sem depender do fim do texto`);
+  if(['como-ler-um-grau-iso-vg','din-51524-hl-hlp-hvlp'].includes(slug))assert.ok(before.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length < 400, `${slug}: acesso cedo sem depender do fim do texto`);
+  if(slug==='troca-de-oleo-hidraulico')assert.ok(bridge.includes('não executa a troca nem a manutenção'), 'Consulta não oferece serviço que a empresa não presta.');
   const links = anchors(bridge);
   assert.equal(links[0].url.pathname,product);
   assert.ok(links[0].tag.includes('class="button dark-button"'));
@@ -45,6 +46,7 @@ const unrelated = await read('/conteudos/nlgi-consistencia-de-graxas/');
 assert.ok(!unrelated.includes('article-product-bridge'), 'Não forçar óleo 68 em intenção não relacionada.');
 
 const oil = await read(product);
+assert.ok(oil.indexOf('id="cotacao"') < oil.indexOf('id="viscosidade"'), 'Cotação acessível antes dos detalhes normativos longos.');
 for (const a of anchors(main(oil)).filter(a=>a.url.pathname==='/contato/')) {
   assert.equal(a.url.searchParams.get('item'), 'oleo-hidraulico-68', 'Contexto preservado em todo CTA do corpo do produto.');
   assert.ok(a.tag.includes('data-product-id="oleo-hidraulico-68"'));
@@ -69,4 +71,4 @@ assert.match(formTag[0], /action=['"]\/obrigado\/['"]/);
 assert.match(formTag[0], /data-form-mode=['"]netlify['"]/);
 assert.ok(contact.includes('name="form-name" value="orcamento"'));
 for (const slug of ['usinagem-de-aluminio-fluido','usinagem-de-inox-fluido']) assert.ok((await read(`/conteudos/${slug}/`)).includes('name="robots" content="index, follow"'), 'Preservar os artigos recentes do GitHub.');
-console.log(`Percurso aprovado (${base||'dist'}): 2 artigos → óleo 68 ou cotação contextual → formulário; demais intenções e fontes preservadas.`);
+console.log(`Percurso aprovado (${base||'dist'}): 4 artigos → óleo 68 ou cotação contextual → formulário; demais intenções e fontes preservadas.`);

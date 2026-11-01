@@ -4,7 +4,7 @@ description: Entenda o significado de ISO VG, compare as faixas de viscosidade d
 eyebrow: FUNDAMENTOS
 summary: Veja o que o grau de viscosidade informa, as diferenças entre 32, 46 e 68 e os cuidados ao comparar óleos industriais.
 published: 2026-09-30
-updated: 2026-10-20
+updated: 2026-11-01
 indexable: true
 tags: seleção, viscosidade
 consulted: 2026-10-13
