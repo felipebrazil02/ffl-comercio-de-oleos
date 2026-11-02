@@ -5,7 +5,7 @@ import {productSearchContent} from './product-search-content.mjs';
 export const productConsultation = {
   'oleo-hidraulico-aw-10-46': [
     ['Como comparar 32 e 46 na cotação?', 'Envie o grau exigido no manual e a identificação do óleo em uso. A lista 10, 22, 32 e 46 apresenta opções do cadastro, não uma autorização para substituir um grau por outro.'],
-    ['O que confirmar sobre as especificações?', 'Solicite a ficha técnica da versão ofertada. A relação publicada reúne códigos e nomes de fabricantes, mas não apresenta certificados de aprovação de cada equipamento. A referência DIN deve ser conferida no documento atualizado antes de afirmar equivalência.']
+    ['O que confirmar sobre as especificações?', 'Peça a ficha técnica atualizada pelo WhatsApp e informe o grau desejado. A origem combina DIN 51524 parte 3 com H-LPD, uma referência que precisa ser esclarecida pelo fornecedor. Não tratamos essa combinação como atendimento comprovado nem a substituímos por HVLP por suposição. Nomes de fabricantes sem códigos de aprovação também não comprovam homologação.']
   ],
   'oleo-hidraulico-aw-68-220': [
     ['Como informar o grau desejado?', 'A ficha técnica da linha HS AW, revisão 004 de 10/06/2015, identifica ISO VG 68, 100, 150 e 220. Informe qual desses graus e qual especificação o manual exige. A tabela compara as faixas de viscosidade publicadas; ela não autoriza substituir um grau por outro.'],

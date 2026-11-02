@@ -88,7 +88,7 @@ export function enrichCatalog(pages, {company, esc}) {
       }).join('');
       // A fonte fica no cadastro interno, conforme a política comercial do projeto.
       const reference = `<div class="reading-note catalog-reference"><h3>O que conferir na documentação</h3><p>Confira nome e grau do produto, revisão do documento, aplicações e especificações declaradas. Esta página comercial não substitui a ficha técnica nem a ficha de segurança atualizadas.</p><p>A FFL comercializa e distribui lubrificantes. As informações do catálogo não representam uma declaração de fabricação própria ou de distribuição exclusiva.</p></div>`;
-      page.content = page.content.replace('<h2>Documentação para sua consulta</h2>', '<h2>Documentação para sua consulta</h2>' + reference);
+      page.content = page.content.replace('<h2>Peça a ficha técnica pelo WhatsApp</h2>', '<h2>Peça a ficha técnica pelo WhatsApp</h2>' + reference);
       page.content += `<section class="container section article-body product-selection"><h2>Antes de cotar ${esc(p.name)}</h2><ul><li>Informe o nome completo e ${row(p, 'Graus publicados') ? 'o grau desejado entre os publicados: ' + esc(row(p, 'Graus publicados')) : 'a versão desejada, quando aplicável'}.</li><li>Inclua o equipamento ou processo, o produto em uso e a especificação exigida no manual.</li><li>Informe quantidade, unidade, embalagem desejada e cidade de destino. Embalagens, estoque e prazo serão confirmados na proposta.</li></ul><h2>Guias relacionados a esta consulta</h2><ul>${links}</ul><p>Os guias explicam critérios de seleção; não comprovam a adequação deste produto ao seu equipamento.</p></section>`;
     }
     if (page.url === '/sobre/') {
