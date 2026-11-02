@@ -24,6 +24,8 @@ Também diferencie propriedades típicas, atendimento declarado e aprovação fo
 
 Na consulta à FFL, veja os dados publicados do [óleo hidráulico 68 AW](/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/). Solicite pelo WhatsApp a ficha técnica da versão ofertada e informe os requisitos do seu equipamento. Dados ausentes devem ficar marcados como pendentes, em vez de serem presumidos como atendidos.
 
+Quando as propostas forem de fabricantes diferentes, organize primeiro o confronto documental com o roteiro de [como avaliar um óleo hidráulico 68 de outra marca](/conteudos/oleo-hidraulico-68-avaliar-alternativa/). A comparação de preços vem depois da avaliação técnica.
+
 ## 2. Confira litros por embalagem e volume total
 
 Anote separadamente a quantidade de embalagens, o conteúdo líquido de cada uma e o volume total da proposta. Por exemplo, cinco unidades de 20 litros somam 100 litros. Esse é apenas um exemplo de cálculo, não uma declaração das embalagens disponíveis na FFL.

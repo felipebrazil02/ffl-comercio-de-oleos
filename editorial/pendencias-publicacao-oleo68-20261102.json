@@ -4,8 +4,8 @@
   "preparedOn": "2026-11-02",
   "article": "content/blog/oleo-hidraulico-68-comparar-orcamentos.md",
   "publicationChecklist": [
-    "Ajustar published nos dois artigos para as datas reais de primeira publicação se o lote for publicado depois de 02/11/2026; não alterar consulted sem nova consulta às fontes.",
-    "Executar build, check, test:editorial-links e os testes test-oil68-quotation-article.mjs e test-oil68-volume-article.mjs antes do deploy do lote.",
+    "Ajustar published nos três artigos para as datas reais de primeira publicação se o lote for publicado depois de 02/11/2026; não alterar consulted sem nova consulta às fontes.",
+    "Executar build, check, test:editorial-links e os testes test-oil68-quotation-article.mjs, test-oil68-volume-article.mjs e test-oil68-alternative-article.mjs antes do deploy do lote.",
     "Após autorização e publicação, verificar rota, sitemap, links e assets no domínio público."
   ],
   "publicDeployToPreserve": "6ae84c642152ef8f67a79cbe",
@@ -27,7 +27,8 @@
   },
   "articles": [
     "content/blog/oleo-hidraulico-68-comparar-orcamentos.md",
-    "content/blog/oleo-hidraulico-68-quantidade-embalagem-cotacao.md"
+    "content/blog/oleo-hidraulico-68-quantidade-embalagem-cotacao.md",
+    "content/blog/oleo-hidraulico-68-avaliar-alternativa.md"
   ],
   "volumeExample": {
     "fictional": true,

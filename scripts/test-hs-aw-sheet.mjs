@@ -65,7 +65,9 @@ assert.ok(category.includes('não se estende automaticamente à família 10, 22,
 const lowerGrades = company.products.find(p => p.slug === 'oleo-hidraulico-aw-10-46');
 assert.equal(lowerGrades.sourceDocument, undefined, 'Não extrapolar a ficha para graus não contemplados');
 const css = await fs.readFile('src/site.css', 'utf8');
-assert.ok(css.includes('.product-layout>.article-body{min-width:0}') && css.includes('overflow-x:auto'));
+const bodyWidthRule = [...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)].some(([, selectors, declarations]) =>
+  selectors.split(',').map(selector => selector.trim()).includes('.product-layout>.article-body') && /(?:^|;)\s*min-width\s*:\s*0\s*(?:;|$)/.test(declarations));
+assert.ok(bodyWidthRule && css.includes('overflow-x:auto'));
 for (const slug of ['como-ler-um-grau-iso-vg', 'din-51524-hl-hlp-hvlp', 'oleo-hidraulico-hm', 'troca-de-oleo-hidraulico']) {
   const html = await read(`/conteudos/${slug}/`);
   assert.ok(html.includes('10/06/2015') && html.includes('ISO VG 68') && html.includes('ISO-HM') && html.includes('DIN 51524 parte 2 H-LP'), `${slug}: ficha reconhecida`);
