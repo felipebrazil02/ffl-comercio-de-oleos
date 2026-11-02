@@ -4,7 +4,7 @@ description: A troca de óleo hidráulico vai além de drenar e completar. Veja 
 eyebrow: HIDRÁULICA
 summary: A troca exige avaliar o óleo residual, a limpeza e os requisitos do equipamento, não apenas o volume do reservatório.
 published: 2026-10-16
-updated: 2026-11-01
+updated: 2026-11-02
 tags: hidráulica, manutenção, contaminação
 source: ISO 4406:2021 — código para o nível de contaminação por partículas sólidas | https://www.iso.org/standard/79716.html
 source: Parker HY18-0008 — limpeza após falha e abastecimento do sistema, página 31 | https://www.parker.com/content/dam/Parker-com/Literature/Mobile-Cylinder/hy18-0008-service.pdf
@@ -55,6 +55,8 @@ O óleo usado da drenagem é resíduo e precisa de destinação adequada, seguin
 Também faz parte do procedimento registrar o que foi feito: data, volume adicionado, produto utilizado e o motivo da troca. Esse registro é o que permite, mais tarde, decidir com base em histórico e não em memória.
 
 ## Ao preparar a troca
+
+Depois de a manutenção validar a necessidade, organize o pedido de fornecimento com o roteiro de [quantidade e embalagem para comprar óleo hidráulico 68](/conteudos/oleo-hidraulico-68-quantidade-embalagem-cotacao/), se esse for o produto especificado. O roteiro trata da compra, sem definir o volume de enchimento ou o procedimento da máquina.
 
 Reúna o grau de viscosidade e a especificação exigidos pelo manual, além do volume do sistema e do motivo da troca. Designações como ISO HM ou DIN 51524-2 HLP não definem sozinhas o grau. A linha de [óleos hidráulicos](/lubrificantes-industriais/oleos-hidraulicos/) organiza os produtos por aplicação; compare a documentação da versão ofertada com todos os requisitos da máquina.
 

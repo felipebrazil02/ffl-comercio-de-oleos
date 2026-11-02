@@ -32,6 +32,8 @@ Não confunda litros com quilogramas nem compare somente o preço de uma embalag
 
 Compare propostas para a quantidade de que sua operação realmente precisa. Um pedido maior pode alterar o preço unitário, mas também muda o desembolso e o volume que será armazenado. Os cuidados de conservação estão no artigo sobre [armazenamento de lubrificantes](/conteudos/armazenamento-de-lubrificantes/).
 
+Se ainda precisa organizar o volume do pedido, veja [quanto óleo hidráulico 68 comprar e como comparar as embalagens na cotação](/conteudos/oleo-hidraulico-68-quantidade-embalagem-cotacao/). Esse planejamento vem antes de comparar os valores das propostas.
+
 ## 3. Calcule o custo da compra por litro com frete
 
 Use os valores finais confirmados na proposta, evitando somar duas vezes um encargo já incluído. Para uma comparação simples entre pedidos do mesmo volume:

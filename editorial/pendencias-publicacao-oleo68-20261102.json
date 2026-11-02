@@ -4,15 +4,50 @@
   "preparedOn": "2026-11-02",
   "article": "content/blog/oleo-hidraulico-68-comparar-orcamentos.md",
   "publicationChecklist": [
-    "Ajustar published no artigo para a data real da primeira publicação se o lote for publicado depois de 02/11/2026; não alterar consulted sem nova consulta às fontes.",
-    "Executar build, check, test:editorial-links e scripts/test-oil68-quotation-article.mjs antes do deploy do lote.",
+    "Ajustar published nos dois artigos para as datas reais de primeira publicação se o lote for publicado depois de 02/11/2026; não alterar consulted sem nova consulta às fontes.",
+    "Executar build, check, test:editorial-links e os testes test-oil68-quotation-article.mjs e test-oil68-volume-article.mjs antes do deploy do lote.",
     "Após autorização e publicação, verificar rota, sitemap, links e assets no domínio público."
   ],
   "publicDeployToPreserve": "6ae84c642152ef8f67a79cbe",
   "fictionalExample": {
     "notAnOffer": true,
     "volumeLiters": 100,
-    "A": {"productsBRL":1600,"freightBRL":200,"totalBRL":1800,"deliveredPerLiterBRL":18},
-    "B": {"productsBRL":1700,"freightBRL":0,"totalBRL":1700,"deliveredPerLiterBRL":17}
+    "A": {
+      "productsBRL": 1600,
+      "freightBRL": 200,
+      "totalBRL": 1800,
+      "deliveredPerLiterBRL": 18
+    },
+    "B": {
+      "productsBRL": 1700,
+      "freightBRL": 0,
+      "totalBRL": 1700,
+      "deliveredPerLiterBRL": 17
+    }
+  },
+  "articles": [
+    "content/blog/oleo-hidraulico-68-comparar-orcamentos.md",
+    "content/blog/oleo-hidraulico-68-quantidade-embalagem-cotacao.md"
+  ],
+  "volumeExample": {
+    "fictional": true,
+    "validatedNeedLiters": 70,
+    "usableStockLiters": 10,
+    "purchaseNeedLiters": 60,
+    "options": [
+      {
+        "units": 3,
+        "litersPerUnit": 20,
+        "purchasedLiters": 60,
+        "remainderLiters": 0
+      },
+      {
+        "units": 1,
+        "litersPerUnit": 200,
+        "purchasedLiters": 200,
+        "remainderLiters": 140
+      }
+    ],
+    "notFflAvailability": true
   }
 }
