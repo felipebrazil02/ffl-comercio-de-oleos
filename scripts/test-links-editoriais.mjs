@@ -20,12 +20,14 @@ for (const file of files) {
   assert.ok(links.some(([, , url]) => url.startsWith('/lubrificantes-industriais/')), `${file}: falta caminho editorial para o catálogo`);
   assert.ok(links.some(([, , url]) => inbound.has(url) && url !== ownUrl), `${file}: falta artigo complementar`);
   for (const [, label, href] of links) {
-    const [url, fragment] = href.split('#');
+    const destination = new URL(href, 'https://ffllubrificantes.com.br');
+    const url = destination.pathname, fragment = destination.hash.slice(1);
     const route = byUrl.get(url);
     assert.ok(route && !route.noindex && !route.utility, `${file}: destino inexistente ou não indexável: ${url}`);
     assert.notEqual(url, ownUrl, `${file}: link para si mesmo`);
     assert.ok(label.trim().length > 3, `${file}: texto de link pouco descritivo`);
-    assert.ok(article.includes(`href="${href}"`), `${file}: link ausente do HTML: ${href}`);
+    const renderedHrefs = [...article.matchAll(/href="([^"]+)"/g)].map(m => m[1].replaceAll('&amp;', '&'));
+    assert.ok(renderedHrefs.includes(href), `${file}: link ausente do HTML: ${href}`);
     if (fragment) {
       const target = await fs.readFile(path.join('dist', url, 'index.html'), 'utf8');
       assert.ok(target.includes(`id="${fragment}"`), `${file}: âncora inexistente: ${href}`);

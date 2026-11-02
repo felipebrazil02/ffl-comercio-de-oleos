@@ -16,6 +16,9 @@ export function improveQuoteJourney(pages, {company, esc, arrow}) {
   const link = (label, href, position, primary = true) => `<a class="${primary ? 'button dark-button' : 'text-link'}" href="${esc(href)}" data-product-id="${productId}" data-cta-position="${position}">${esc(label)} ${arrow}</a>`;
   const bridge = context => `<section class="article-product-bridge" aria-labelledby="consulta-oleo-68"><span class="small-label">DA ESPECIFICAÇÃO À COTAÇÃO</span><h3 id="consulta-oleo-68">${esc(context.heading)}</h3><p>${esc(context.text)}</p><div class="journey-actions">${link('Ver dados do óleo 68 AW', productUrl, 'article_body')}${link('Já confirmei o produto: solicitar orçamento', quoteUrl, 'article_body', false)}</div><p class="journey-note">O mesmo grau não comprova equivalência. O formulário abre com o produto preenchido; a quantidade pode ser estimada. Disponibilidade e embalagens são confirmadas na proposta.</p></section>`;
   for (const page of pages) {
+    if (page.article?.slug === 'oleo-hidraulico-68-comparar-orcamentos') {
+      page.content = page.content.replace(/<aside class="article-callout">[\s\S]*?<\/aside>/, `<aside class="article-callout oil68-article-callout"><span class="small-label">SUA PROPOSTA</span><h3>Cote óleo hidráulico 68 AW</h3><p>Consulte os dados do produto e informe quantidade e cidade de destino. As condições são confirmadas na proposta.</p>${link('Ver óleo hidráulico 68 AW', productUrl, 'article_sidebar')}${link('Solicitar cotação do óleo 68', quoteUrl, 'article_sidebar', false)}</aside>`);
+    }
     if (page.article && articles.has(page.article.slug)) {
       const body = page.article.html;
       // ISO/DIN: depois da primeira explicação. HM/troca: junto da preparação

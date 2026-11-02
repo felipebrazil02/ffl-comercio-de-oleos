@@ -8,7 +8,7 @@ nav?.addEventListener('click',e=>{if(e.target.closest('a')&&toggle?.getAttribute
 const oil68={id:'oleo-hidraulico-68',name:'Óleo hidráulico 68 AW',path:'/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/'};
 const journeyQuery=new URLSearchParams(location.search);
 const currentProduct=location.pathname===oil68.path||journeyQuery.get('item')===oil68.id?oil68.id:null;
-const articleIds=new Set(['como-ler-um-grau-iso-vg','din-51524-hl-hlp-hvlp','oleo-hidraulico-hm','troca-de-oleo-hidraulico','indice-de-viscosidade','informacoes-para-cotar-lubrificante']);
+const articleIds=new Set(['como-ler-um-grau-iso-vg','din-51524-hl-hlp-hvlp','oleo-hidraulico-hm','troca-de-oleo-hidraulico','indice-de-viscosidade','informacoes-para-cotar-lubrificante','oleo-hidraulico-68-comparar-orcamentos']);
 const articleCandidate=location.pathname.match(/^\/conteudos\/([^/]+)\/$/)?.[1];
 const currentArticle=articleIds.has(articleCandidate)?articleCandidate:null;
 const ctaPositions=new Set(['article_body','article_sidebar','article_related','product_top','product_body','product_sidebar','product_end','header']);
