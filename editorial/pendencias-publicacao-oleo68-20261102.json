@@ -1,6 +1,6 @@
 {
-  "status": "ready-for-batch-deploy-not-published",
-  "requestedByUser": "Atualizar GitHub; não publicar na Netlify até o lote de outras mudanças.",
+  "status": "published-and-verified",
+  "requestedByUser": "Publicar os três artigos e as outras mudanças pendentes na Netlify, com verificação posterior; autorização recebida em 02/11/2026.",
   "preparedOn": "2026-11-02",
   "article": "content/blog/oleo-hidraulico-68-comparar-orcamentos.md",
   "publicationChecklist": [
@@ -50,5 +50,18 @@
       }
     ],
     "notFflAvailability": true
+  },
+  "previousInstruction": "Atualizar GitHub; não publicar na Netlify até o lote de outras mudanças.",
+  "publication": {
+    "publishedOn": "2026-11-02",
+    "publishedAt": "2026-11-03T01:18:58.398Z",
+    "deployId": "6ae9367aaa417986032b3d80",
+    "sourceCommit": "03fabfad1af4d91ddca0b1fd64fd5c22dd960c16",
+    "verifiedAt": "2026-11-03T01:20:04.594Z",
+    "pagesChecked": 98,
+    "assetsCompared": 7,
+    "articlesChecked": 3,
+    "supportingArticlesChecked": 3,
+    "realFormSubmission": false
   }
 }
