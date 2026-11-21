@@ -1,5 +1,5 @@
 ---
-title: "Ensaio de quatro esferas: EP, desgaste e carga de solda"
+title: "Ensaio de 4 esferas: EP, desgaste e carga de solda"
 description: Como os ensaios de quatro esferas medem carga de solda e diâmetro de cicatriz, e por que o resultado não se transfere automaticamente para o equipamento.
 eyebrow: ENSAIOS
 summary: Os números que costumam aparecer na ficha de um óleo EP — e o limite deles.
