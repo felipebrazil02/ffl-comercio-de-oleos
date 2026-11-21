@@ -13,6 +13,13 @@ const blogFiles=(await fs.readdir('content/blog')).filter(file=>file.endsWith('.
 for(const file of blogFiles){
   const slug=file.replace(/\.md$/,'');
   const html=await fs.readFile(`dist/conteudos/${slug}/index.html`,'utf8');
+  // Os guias do óleo 68 trocam o CTA genérico ("PRÓXIMO PASSO" + linha) por um
+  // bloco próprio que leva direto ao produto e à cotação (src/quote-journey.mjs).
+  const oil68=html.includes('oil68-article-callout')&&html.includes('SUA PROPOSTA');
+  if(oil68){
+    assert.ok(html.includes('data-cta-position="article_sidebar"')&&html.includes('/lubrificantes-industriais/oleos-hidraulicos/oleo-hidraulico-68/'),`${slug}: destino comercial do óleo 68 ausente`);
+    continue;
+  }
   assert.ok(html.includes('PRÓXIMO PASSO'),`${slug}: CTA contextual ausente`);
   assert.ok(html.includes('Consultar a linha'),`${slug}: destino comercial ausente`);
 }
