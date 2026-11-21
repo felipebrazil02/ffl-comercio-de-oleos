@@ -1,5 +1,5 @@
 ---
-title: "Ponto de fluidez e ponto de névoa: quando eles importam"
+title: "Ponto de fluidez e de névoa: quando eles importam"
 description: Como ponto de fluidez e ponto de névoa são medidos e em quais situações práticas eles passam a pesar na escolha de um lubrificante industrial.
 eyebrow: FUNDAMENTOS
 summary: Duas temperaturas medidas em laboratório que só mudam a decisão em aplicações específicas.

@@ -1,5 +1,5 @@
 ---
-title: "Óleo hidráulico HV: quando o índice de viscosidade pesa"
+title: "Óleo hidráulico HV: quando o IV alto faz diferença"
 description: Óleo HV reúne proteção antidesgaste e índice de viscosidade alto. Veja em que situações a faixa ampla de temperatura justifica a escolha.
 eyebrow: HIDRÁULICA
 summary: Entenda o papel do índice de viscosidade na seleção de fluidos hidráulicos para diferentes temperaturas.

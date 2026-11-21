@@ -1,5 +1,5 @@
 ---
-title: "Análise de óleo: como interpretar a tendência dos laudos"
+title: "Análise de óleo: como ler a tendência dos laudos"
 description: Um resultado de análise de óleo ganha sentido quando comparado ao histórico do mesmo equipamento. Veja o que os ensaios mais comuns indicam.
 eyebrow: MANUTENÇÃO
 summary: Histórico, limites e condições de coleta devem ser avaliados em conjunto.

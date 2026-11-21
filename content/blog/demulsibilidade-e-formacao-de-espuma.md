@@ -1,5 +1,5 @@
 ---
-title: "Demulsibilidade e espuma: o que a ficha técnica informa"
+title: "Demulsibilidade e espuma: o que a ficha técnica diz"
 description: Entenda a diferença entre separação de água, espuma superficial e liberação de ar, e quais ensaios avaliam cada propriedade.
 eyebrow: ENSAIOS
 summary: Separar água, controlar espuma e liberar ar disperso são propriedades diferentes do lubrificante.

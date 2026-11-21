@@ -1,5 +1,5 @@
 ---
-title: "Ponto de gota da graxa: o que ele informa e não informa"
+title: "Ponto de gota da graxa: o que informa e o que não diz"
 description: "O ponto de gota mede a temperatura em que a graxa perde estrutura em ensaio. Ele não é a temperatura máxima de operação contínua do rolamento."
 eyebrow: GRAXAS
 summary: "Ponto de gota descreve uma condição de laboratório; temperatura de serviço é outro dado."

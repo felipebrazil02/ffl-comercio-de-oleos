@@ -44,6 +44,8 @@ for(const f of fontFiles)await emit(f,await fs.readFile(path.join('src/assets',f
 for(const f of ['manrope-OFL.txt','barlowcondensed-OFL.txt'])await passthrough(path.join('src/assets',f),f);
 for(const f of ['industrial-oil-1536.webp','industrial-oil-960.webp'])await emit(f,await fs.readFile(path.join('src/assets',f)));
 await emit('og-default.jpg',await fs.readFile('src/static/og-default.jpg'));
+// Logo raster para o schema Organization: o Google não aceita SVG como logo.
+await emit('logo-512.png',await fs.readFile('src/static/logo-512.png'));
 let css=await fs.readFile('src/site.css','utf8');
 for(const f of fontFiles)css=css.replaceAll(`/assets/${f}`,assetMap[f]);
 await emit('site.css',Buffer.from(css));
@@ -115,7 +117,7 @@ if(new Set(pages.map(p=>p.url)).size!==pages.length)throw new Error('URLs duplic
 // ---------------------------------------------------------------------------
 const postalAddress=company.address||company.city?{'@type':'PostalAddress',...(company.address?{streetAddress:company.address}:{}),...(company.city?{addressLocality:company.city}:{}),...(company.state?{addressRegion:company.state}:{}),addressCountry:'BR'}:null;
 const organization={'@context':'https://schema.org','@type':'Organization','@id':origin+'/#organization',name:company.name,url:origin,
-  logo:{'@type':'ImageObject',url:origin+A('favicon.svg')},image:ogImage,
+  logo:{'@type':'ImageObject',url:origin+A('logo-512.png'),width:512,height:512},image:ogImage,
   description:'Óleos e lubrificantes industriais: orientação técnica e pedidos de orçamento.',
   ...(company.email?{email:company.email}:{}),...(company.phone?{telephone:company.phone}:{}),
   ...(postalAddress?{address:postalAddress}:{}),
@@ -216,12 +218,24 @@ ${posts.map(p=>`<item><title>${esc(p.title)}</title><link>${origin+p.url}</link>
 </rss>
 `);
 const indexable=pages.filter(canIndex);
+// <lastmod> só com data real de edição: artigos usam updated/published; o índice
+// de conteúdos e as páginas de tema usam o artigo indexável mais recente que listam.
+// Páginas comerciais ficam sem lastmod, porque não há data de edição confiável.
+const postDate=p=>p.updated||p.published;
+const lastmod=page=>{
+  if(page.article)return postDate(page.article);
+  const lista=posts.filter(p=>p.indexable===true);
+  if(page.url==='/conteudos/')return lista.map(postDate).sort().at(-1);
+  const tema=page.url.match(/^\/conteudos\/tema\/([^/]+)\/$/)?.[1];
+  if(tema)return lista.filter(p=>p.tags.some(t=>t.slug===tema)).map(postDate).sort().at(-1);
+  return null;
+};
 // Blog: o noindex por cabeçalho passa a ser por URL. Só os artigos aprovados
 // (e os índices que os reúnem) deixam de receber X-Robots-Tag; o restante
 // continua bloqueado também no HTTP, além do <meta name="robots">.
 const blogNoindexUrls=pages.filter(p=>p.url.startsWith('/conteudos/')&&!canIndex(p)).map(p=>p.url);
 const blogNoindexRules=blogNoindexUrls.flatMap(u=>[u,'  X-Robots-Tag: noindex, nofollow',u+'*','  X-Robots-Tag: noindex, nofollow']);
-await fs.writeFile('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${indexable.map(p=>`<url><loc>${esc(origin+p.url)}</loc></url>`).join('')}</urlset>`);
+await fs.writeFile('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${indexable.map(p=>{const m=lastmod(p);return `<url><loc>${esc(origin+p.url)}</loc>${m?`<lastmod>${m}</lastmod>`:''}</url>`}).join('')}</urlset>`);
 await fs.writeFile('dist/robots.txt',`User-agent: *\nAllow: /\n${company.publicIndexing?`\nSitemap: ${origin}/sitemap.xml\n`:'# Ambiente de revisão: todas as páginas têm noindex; nenhum sitemap público é anunciado.\n'}`);
 // Assets com hash no nome podem ser imutáveis; favicon e licenças não têm hash.
 await fs.writeFile('dist/_headers',['/*','  X-Content-Type-Options: nosniff','  Referrer-Policy: strict-origin-when-cross-origin','  Permissions-Policy: camera=(), microphone=(), geolocation=()',...(!company.publicIndexing?['  X-Robots-Tag: noindex, nofollow']:[]),'/404.html','  X-Robots-Tag: noindex','/obrigado/*','  X-Robots-Tag: noindex, nofollow','/privacidade/*','  X-Robots-Tag: noindex, nofollow',...blogNoindexRules,'/assets/*','  Cache-Control: public, max-age=31536000, immutable','/assets/favicon.svg','  Cache-Control: public, max-age=86400'].join(String.fromCharCode(10))+String.fromCharCode(10));
@@ -260,7 +274,9 @@ const editorialRedirects = [
   ['/post/a-importância-da-análise-de-óleo-para-a-manutenção-preditiva-de-equipamentos-industriais', '/conteudos/analise-de-oleo-em-tendencia/'],
 ].flatMap(([oldPath, target]) => [...new Set([oldPath, encodeURI(oldPath)])]
   .flatMap(path => [`${path} ${target} 301!`, `${path}/ ${target} 301!`])).join('\n');
-await fs.writeFile('dist/_redirects',`https://ffl-lubrificantes.netlify.app/* ${origin}/:splat 301!\nhttp://ffl-lubrificantes.netlify.app/* ${origin}/:splat 301!\n/index.html / 301!\n# Conteúdo editorial equivalente da arquitetura anterior.\n${editorialRedirects}\n# Slugs antigos, de quando o nome do fornecedor compunha a URL.\n${redirects}\n`);
+await fs.writeFile('dist/_redirects',`http://www.${new URL(origin).host}/* ${origin}/:splat 301!
+https://www.${new URL(origin).host}/* ${origin}/:splat 301!
+https://ffl-lubrificantes.netlify.app/* ${origin}/:splat 301!\nhttp://ffl-lubrificantes.netlify.app/* ${origin}/:splat 301!\n/index.html / 301!\n# Conteúdo editorial equivalente da arquitetura anterior.\n${editorialRedirects}\n# Slugs antigos, de quando o nome do fornecedor compunha a URL.\n${redirects}\n`);
 await fs.mkdir('outputs',{recursive:true});
 await fs.writeFile('outputs/mapa-seo.csv','\ufeffURL;Palavra-chave (hipótese);Title;Meta description;Indexação\n'+indexable.map(p=>[p.url,p.keyword,p.title,p.description,company.publicIndexing?'indexável':'noindex — revisão privada'].map(s=>'"'+String(s).replace(/"/g,'""')+'"').join(';')).join('\n'));
 await fs.writeFile('outputs/rotas.json',JSON.stringify(pages.map(p=>({url:p.url,title:p.title,description:p.description,noindex:!canIndex(p),utility:!!p.noindex})),null,2));
