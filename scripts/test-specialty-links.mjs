@@ -59,7 +59,10 @@ let newContextualLinks = 0;
 for (const guide of [quoteGuide, documentsGuide]) {
   const slug = guide.split('/').filter(Boolean).at(-1);
   const {meta} = parseFrontmatter(await fs.readFile(`content/blog/${slug}.md`, 'utf8'));
-  assert.equal(meta.updated, '2026-10-20', `${slug}: registrar revisão editorial real`);
+  // A revisão dos links de especialidades é de 2026-10-20; revisões editoriais
+  // posteriores podem avançar a data, mas ela nunca pode ser anterior.
+  assert.match(meta.updated || '', /^\d{4}-\d{2}-\d{2}$/, `${slug}: data de revisão ausente`);
+  assert.ok(meta.updated >= '2026-10-20', `${slug}: registrar revisão editorial real (updated ${meta.updated} anterior a 2026-10-20)`);
   assert.equal(meta.consulted, '2026-10-13', `${slug}: não alterar a data da consulta técnica`);
   const html = pages.get(guide);
   const article = main(html).match(/<article\b[^>]*class="article-body"[^>]*>([\s\S]*?)<\/article>/i)?.[1];
